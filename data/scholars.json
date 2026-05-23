@@ -1,0 +1,224 @@
+{
+  "T": {
+    "mainTitle": { "en": "Scholars of the Islamic World", "bn": "ইসলামি বিশ্বের মনীষীবৃন্দ" },
+    "mainSub": { "en": "A journey through the lives of the intellectual giants who shaped human knowledge.", "bn": "মানবজ্ঞানকে সমৃদ্ধ করা মহাজ্ঞানীদের জীবনযাত্রা।" },
+    "tabTl": { "en": "Timeline", "bn": "সময়রেখা" },
+    "tabAll": { "en": "Scholars", "bn": "মনীষী" },
+    "back": { "en": "Back", "bn": "ফিরুন" },
+    "born": { "en": "Born", "bn": "জন্ম" },
+    "activeIn": { "en": "Active", "bn": "কর্মক্ষেত্র" },
+    "fields": { "en": "Fields", "bn": "বিষয়" },
+    "lifespan": { "en": "Lifespan", "bn": "জীবনকাল" },
+    "years": { "en": "years", "bn": "বছর" },
+    "notableWorks": { "en": "Notable works", "bn": "উল্লেখযোগ্য রচনা" },
+    "journeys": { "en": "Life journeys & travels", "bn": "জীবনপথ ও ভ্রমণ" },
+    "connections": { "en": "Intellectual connections", "bn": "জ্ঞানগত সম্পর্ক" }
+  },
+  "scholars": [
+    {
+      "id": "abuhanifa", "initials": "AH", "color": "#4B5563", "colorBg": "#F3F4F6", "colorText": "#1F2937", "born": 699, "died": 767,
+      "name": { "en": "Imam Abu Hanifa", "bn": "ইমাম আবু হানিফা" }, "arabic": "أبو حنيفة النعمان بن ثابت",
+      "birthplace": { "en": "Kufa, Iraq", "bn": "কুফা, ইরাক" }, "active": { "en": "Iraq", "bn": "ইরাক" },
+      "title": { "en": "The Greatest Imam", "bn": "ইমামে আজম" },
+      "field": { "en": "Jurisprudence (Fiqh) · Theology", "bn": "আইনতত্ত্ব · ধর্মতত্ত্ব" },
+      "summary": { "en": "Founder of the Hanafi school of jurisprudence, known for his emphasis on reason and systematic legal thinking.", "bn": "হানাফি মাযহাবের প্রতিষ্ঠাতা, যুক্তি এবং সুশৃঙ্খল আইনি চিন্তার জন্য পরিচিত।" },
+      "works": [
+        { "title": { "en": "Al-Fiqh al-Akbar", "bn": "আল-ফিকহুল আকবার" }, "desc": { "en": "A foundational text on Islamic creed and theology.", "bn": "ইসলামি আকিদা ও ধর্মতত্ত্বের একটি মৌলিক গ্রন্থ।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Kufa", "bn": "কুফা" }, "note": { "en": "Born 699 CE; started as a cloth merchant before turning to study.", "bn": "৬৯৯ খ্রি. জন্ম; প্রথমে কাপড় ব্যবসায়ী ছিলেন পরে শিক্ষায় মনোযোগ দেন।" } }
+      ], "connections": ["Imam Malik"]
+    },
+    {
+      "id": "malik", "initials": "MI", "color": "#10B981", "colorBg": "#D1FAE5", "colorText": "#065F46", "born": 711, "died": 795,
+      "name": { "en": "Imam Malik", "bn": "ইমাম মালিক" }, "arabic": "مالك بن أنس",
+      "birthplace": { "en": "Medina", "bn": "মদিনা" }, "active": { "en": "Medina", "bn": "মদিনা" },
+      "title": { "en": "Imam of Medina", "bn": "মদিনার ইমাম" },
+      "field": { "en": "Hadith · Jurisprudence", "bn": "হাদিস · আইনতত্ত্ব" },
+      "summary": { "en": "Founder of the Maliki school and author of Al-Muwatta, the first major collection of Hadith and legal principles.", "bn": "মালিকি মাযহাবের প্রতিষ্ঠাতা এবং আল-মুয়াত্তা গ্রন্থের রচয়িতা।" },
+      "works": [
+        { "title": { "en": "Al-Muwatta", "bn": "আল-মুয়াত্তা" }, "desc": { "en": "One of the earliest and most authoritative collections of Hadith and Law.", "bn": "হাদিস ও আইনের অন্যতম প্রাচীন এবং নির্ভরযোগ্য সংকলন।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Medina", "bn": "মদিনা" }, "note": { "en": "Spent his entire life in Medina, the city of the Prophet.", "bn": "পুরো জীবন নবির শহর মদিনায় অতিবাহিত করেছেন।" } }
+      ], "connections": ["Imam Abu Hanifa", "Imam al-Shafi'i"]
+    },
+    {
+      "id": "shafii", "initials": "MS", "color": "#3B82F6", "colorBg": "#DBEAFE", "colorText": "#1E40AF", "born": 767, "died": 820,
+      "name": { "en": "Imam al-Shafi'i", "bn": "ইমাম আল-শাফিঈ" }, "arabic": "محمد بن إدريس الشافعي",
+      "birthplace": { "en": "Gaza, Palestine", "bn": "গাজা, ফিলিস্তিন" }, "active": { "en": "Medina · Baghdad · Cairo", "bn": "মদিনা · বাগদাদ · কায়রো" },
+      "title": { "en": "Architect of Jurisprudence", "bn": "আইনতত্ত্বের স্থপতি" },
+      "field": { "en": "Jurisprudence · Hadith · Poetry", "bn": "আইনতত্ত্ব · হাদিস · কবিতা" },
+      "summary": { "en": "Founder of the Shafi'i school; he systematized Islamic jurisprudence through his seminal work, Al-Risala.", "bn": "শাফিঈ মাযহাবের প্রতিষ্ঠাতা; তিনি আল-রিসালা গ্রন্থের মাধ্যমে ইসলামি আইনতত্ত্বকে সুশৃঙ্খল করেন।" },
+      "works": [
+        { "title": { "en": "Al-Risala", "bn": "আল-রিসালা" }, "desc": { "en": "The first book on the principles of Islamic jurisprudence (Usul al-Fiqh).", "bn": "ইসলামি আইনতত্ত্বের মূলনীতির (উসুল আল-ফিকহ) ওপর প্রথম গ্রন্থ।" } },
+        { "title": { "en": "Al-Umm", "bn": "আল-উম্ম" }, "desc": { "en": "A comprehensive 7-volume legal encyclopedia of his final positions.", "bn": "তাঁর জীবনের শেষ পর্যায়ের আইনি মতামতের ৭ খণ্ডের এক বিশাল বিশ্বকোষ।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Gaza", "bn": "গাজা" }, "note": { "en": "Born 767 CE; moved to Mecca as a young boy.", "bn": "৭৬৭ খ্রি. জন্ম; শিশু বয়সেই মক্কায় চলে যান।" } },
+        { "place": { "en": "Cairo", "bn": "কায়রো" }, "note": { "en": "Died in 820 CE after spending his final productive years here.", "bn": "৮২০ খ্রি. কায়রোতে মৃত্যুবরণ করেন।" } }
+      ], "connections": ["Imam Malik", "Imam Ahmad ibn Hanbal"]
+    },
+    {
+      "id": "hanbal", "initials": "AH", "color": "#EF4444", "colorBg": "#FEE2E2", "colorText": "#991B1B", "born": 780, "died": 855,
+      "name": { "en": "Imam Ahmad ibn Hanbal", "bn": "ইমাম আহমদ ইবন হাম্বল" }, "arabic": "أحمد بن حنبل",
+      "birthplace": { "en": "Baghdad", "bn": "বাগদাদ" }, "active": { "en": "Baghdad", "bn": "বাগদাদ" },
+      "title": { "en": "Champion of the Sunnah", "bn": "সুন্নাহর চ্যাম্পিয়ন" },
+      "field": { "en": "Hadith · Jurisprudence", "bn": "হাদিস · আইনতত্ত্ব" },
+      "summary": { "en": "Founder of the Hanbali school and a major traditionalist who defended Orthodox creed against rationalist trends.", "bn": "হাম্বলি মাযহাবের প্রতিষ্ঠাতা এবং একজন প্রধান ঐতিহ্যবাদী পন্ডিত।" },
+      "works": [
+        { "title": { "en": "Musnad Ahmad", "bn": "মুসনাদে আহমদ" }, "desc": { "en": "One of the largest collections of Hadith containing nearly 28,000 reports.", "bn": "প্রায় ২৮,০০০ হাদিস সম্বলিত অন্যতম বৃহৎ হাদিস সংকলন।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Baghdad", "bn": "বাগদাদ" }, "note": { "en": "Endured persecution during the 'Mihna' (Inquisition) for his beliefs.", "bn": "নিজের বিশ্বাসের জন্য 'মিহনা' বা ধর্মীয় পরীক্ষার সময় নিপীড়ন সহ্য করেছেন।" } }
+      ], "connections": ["Imam al-Shafi'i"]
+    },
+    {
+      "id": "alkhwarizmi", "initials": "AK", "color": "#B45309", "colorBg": "#FEF3C7", "colorText": "#92400E", "born": 780, "died": 850,
+      "name": { "en": "Al-Khwarizmi", "bn": "আল-খোয়ারিজমি" }, "arabic": "محمد بن موسى الخوارزمي",
+      "birthplace": { "en": "Khwarezm", "bn": "খোয়ারিজম" }, "active": { "en": "Baghdad", "bn": "বাগদাদ" },
+      "title": { "en": "Father of Algebra", "bn": "বীজগণিতের জনক" },
+      "field": { "en": "Mathematics · Astronomy", "bn": "গণিত · জ্যোতির্বিদ্যা" },
+      "summary": { "en": "Introduced the concepts of algebra and Hindu-Arabic numerals, shaping the foundation of modern mathematics.", "bn": "বীজগণিত এবং হিন্দু-আরবি সংখ্যাতত্ত্বের ধারণা পরিচিত করে আধুনিক গণিতের ভিত্তি স্থাপন করেন।" },
+      "works": [
+        { "title": { "en": "Al-Jabr wal-Muqabala", "bn": "আল-জাবর ওয়াল-মুকাবিলা" }, "desc": { "en": "The foundational text of algebra, introducing systematic solving methods.", "bn": "বীজগণিতের ভিত্তিপ্রস্তর স্থাপনকারী গ্রন্থ, যা পদ্ধতিগত সমাধানের নিয়ম শিখিয়েছে।" } },
+        { "title": { "en": "On Hindu Calculation", "bn": "হিন্দু গণনা প্রসঙ্গে" }, "desc": { "en": "Introduced decimal positional notation and zero to the world.", "bn": "দশমিক পদ্ধতি এবং শূন্যের ব্যবহার বিশ্বের কাছে তুলে ধরেন।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Baghdad", "bn": "বাগদাদ" }, "note": { "en": "Key polymath at the House of Wisdom.", "bn": "বায়তুল হিকমার অন্যতম প্রধান পন্ডিত।" } }
+      ], "connections": ["Al-Kindi"]
+    },
+    {
+      "id": "alkindi", "initials": "AK", "color": "#534AB7", "colorBg": "#EEEDFE", "colorText": "#3C3489", "born": 801, "died": 873,
+      "name": { "en": "Al-Kindi", "bn": "আল-কিন্দি" }, "arabic": "أبو يوسف يعقوب بن إسحاق الكِنْدي",
+      "birthplace": { "en": "Kufa, Iraq", "bn": "কুফা, ইরাক" }, "active": { "en": "Baghdad", "bn": "বাগদাদ" },
+      "title": { "en": "Father of Arab Philosophy", "bn": "আরব দর্শনের জনক" },
+      "field": { "en": "Philosophy · Math · Optics", "bn": "দর্শন · গণিত · আলোকবিজ্ঞান" },
+      "summary": { "en": "Synthesized Greek philosophy with Islamic thought and pioneered cryptography and optics.", "bn": "গ্রিক দর্শনের সাথে ইসলামি চিন্তার সমন্বয় ঘটান এবং আলোকবিজ্ঞানে পথপ্রদর্শক ছিলেন।" },
+      "works": [
+        { "title": { "en": "On First Philosophy", "bn": "প্রথম দর্শন প্রসঙ্গে" }, "desc": { "en": "Defines the First Cause and reconciles reason with revelation.", "bn": "প্রথম কারণ সংজ্ঞায়িত করে এবং যুক্তির সাথে ওহির সমন্বয় ঘটায়।" } },
+        { "title": { "en": "De Aspectibus", "bn": "আলোকবিজ্ঞান" }, "desc": { "en": "A fundamental text on geometric vision used by later European scholars.", "bn": "দৃষ্টির জ্যামিতিক তত্ত্বের ওপর একটি মৌলিক গ্রন্থ।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Baghdad", "bn": "বাগদাদ" }, "note": { "en": "Served at the House of Wisdom under multiple caliphs.", "bn": "বিভিন্ন খলিফার অধীনে বায়তুল হিকমায় কর্মরত ছিলেন।" } }
+      ], "connections": ["Al-Farabi", "Ibn Sina"]
+    },
+    {
+      "id": "alrazi", "initials": "AR", "color": "#0F6E56", "colorBg": "#E1F5EE", "colorText": "#085041", "born": 854, "died": 925,
+      "name": { "en": "Al-Razi", "bn": "আল-রাযি" }, "arabic": "أبو بكر محمد بن زكريا الرازي",
+      "birthplace": { "en": "Ray, Persia", "bn": "রায়, পারস্য" }, "active": { "en": "Ray · Baghdad", "bn": "রায় · বাগদাদ" },
+      "title": { "en": "Father of Medicine", "bn": "চিকিৎসার জনক" },
+      "field": { "en": "Medicine · Chemistry", "bn": "চিকিৎসা · রসায়ন" },
+      "summary": { "en": "A legendary physician who distinguished smallpox from measles and compiled a massive medical encyclopedia.", "bn": "কিংবদন্তি চিকিৎসক যিনি প্রথম গুটিবসন্ত ও হামের পার্থক্য নির্ণয় করেন।" },
+      "works": [
+        { "title": { "en": "Kitab al-Hawi", "bn": "কিতাব আল-হাউয়ি" }, "desc": { "en": "A 23-volume medical encyclopedia synthesizing global medical knowledge.", "bn": "২৩ খণ্ডের চিকিৎসা বিশ্বকোষ যা বিশ্বব্যাপী চিকিৎসা জ্ঞানকে সংকলিত করেছে।" } },
+        { "title": { "en": "On Smallpox and Measles", "bn": "গুটিবসন্ত ও হাম" }, "desc": { "en": "The first clinical differentiation between the two diseases.", "bn": "এই দুটি রোগের প্রথম ক্লিনিক্যাল পার্থক্য নির্ণয়।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Baghdad", "bn": "বাগদাদ" }, "note": { "en": "Chief physician at the Baghdad hospital.", "bn": "বাগদাদ হাসপাতালের প্রধান চিকিৎসক।" } }
+      ], "connections": ["Al-Kindi", "Ibn Sina"]
+    },
+    {
+      "id": "alfarabi", "initials": "AF", "color": "#993C1D", "colorBg": "#FAECE7", "colorText": "#712B13", "born": 872, "died": 950,
+      "name": { "en": "Al-Farabi", "bn": "আল-ফারাবি" }, "arabic": "أبو نصر محمد الفارابي",
+      "birthplace": { "en": "Farab, Central Asia", "bn": "ফারাব, মধ্য এশিয়া" }, "active": { "en": "Baghdad · Aleppo", "bn": "বাগদাদ · আলেপ্পো" },
+      "title": { "en": "The Second Teacher", "bn": "দ্বিতীয় শিক্ষক" },
+      "field": { "en": "Logic · Political Theory · Music", "bn": "যুক্তিবিদ্যা · রাজনৈতিক তত্ত্ব · সঙ্গীত" },
+      "summary": { "en": "Known as the 'Second Teacher' after Aristotle, he synthesized Platonic ideals with Islamic politics.", "bn": "এরিস্টটলের পর 'দ্বিতীয় শিক্ষক' হিসেবে পরিচিত, তিনি প্লেটোর আদর্শের সাথে ইসলামি রাজনীতির সমন্বয় ঘটান।" },
+      "works": [
+        { "title": { "en": "The Virtuous City", "bn": "আদর্শ নগর" }, "desc": { "en": "A masterpiece blending Greek and Islamic political philosophy.", "bn": "গ্রিক ও ইসলামি রাজনৈতিক দর্শনের এক অপূর্ব সমন্বয়।" } },
+        { "title": { "en": "Great Book of Music", "bn": "সঙ্গীতের মহাগ্রন্থ" }, "desc": { "en": "The most systematic medieval work on music theory and acoustics.", "bn": "সঙ্গীততত্ত্বের ওপর মধ্যযুগের সবচেয়ে ব্যাপক ও সুশৃঙ্খল গ্রন্থ।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Baghdad", "bn": "বাগদাদ" }, "note": { "en": "Studied logic and philosophy at the heart of the empire.", "bn": "সাম্রাজ্যের প্রাণকেন্দ্রে যুক্তিবিদ্যা ও দর্শন অধ্যয়ন করেছেন।" } }
+      ], "connections": ["Ibn Sina", "Al-Kindi"]
+    },
+    {
+      "id": "alhaytham", "initials": "IH", "color": "#1D4ED8", "colorBg": "#DBEAFE", "colorText": "#1E40AF", "born": 965, "died": 1040,
+      "name": { "en": "Ibn al-Haytham", "bn": "ইবন আল-হাইসাম" }, "arabic": "الحسن بن الهيثم",
+      "birthplace": { "en": "Basra, Iraq", "bn": "বসরা, ইরাক" }, "active": { "en": "Cairo, Egypt", "bn": "কায়রো, মিশর" },
+      "title": { "en": "Father of Modern Optics", "bn": "আধুনিক আলোকবিজ্ঞানের জনক" },
+      "field": { "en": "Optics · Physics · Astronomy", "bn": "আলোকবিজ্ঞান · পদার্থবিদ্যা · জ্যোতির্বিদ্যা" },
+      "summary": { "en": "Revolutionized our understanding of light and optics through the experimental scientific method.", "bn": "পরীক্ষামূলক বৈজ্ঞানিক পদ্ধতির মাধ্যমে আলো ও আলোকবিজ্ঞানে বিপ্লব ঘটিয়েছেন।" },
+      "works": [
+        { "title": { "en": "Book of Optics", "bn": "কিতাব আল-মানাযির" }, "desc": { "en": "Seminal work defining vision and experimental science.", "bn": "দৃষ্টি ও পরীক্ষামূলক বিজ্ঞানের সংজ্ঞা নির্ধারণকারী একটি যুগান্তকারী গ্রন্থ।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Cairo", "bn": "কায়রো" }, "note": { "en": "Conceived his major optics works while under house arrest in Cairo.", "bn": "কায়রোতে গৃহবন্দী থাকাকালীন তাঁর প্রধান কাজগুলো সম্পন্ন করেন।" } }
+      ], "connections": ["Ibn Sina"]
+    },
+    {
+      "id": "albiruni", "initials": "AB", "color": "#047857", "colorBg": "#D1FAE5", "colorText": "#065F46", "born": 973, "died": 1048,
+      "name": { "en": "Al-Biruni", "bn": "আল-বিরুনী" }, "arabic": "أبو الريحان البيروني",
+      "birthplace": { "en": "Khwarezm", "bn": "খোয়ারিজম" }, "active": { "en": "Ghazni", "bn": "গজনি" },
+      "title": { "en": "Father of Geodesy", "bn": "ভূগণিতের জনক" },
+      "field": { "en": "Astronomy · History · Indology", "bn": "জ্যোতির্বিদ্যা · ইতিহাস · ভারততত্ত্ব" },
+      "summary": { "en": "A polymath who accurately calculated the Earth's circumference and pioneered Indology.", "bn": "এক মহাজ্ঞানী পন্ডিত যিনি পৃথিবীর পরিধি নিখুঁতভাবে পরিমাপ করেছিলেন এবং ভারততত্ত্বের পথপ্রদর্শক ছিলেন।" },
+      "works": [
+        { "title": { "en": "Kitab al-Hind", "bn": "কিতাব আল-হিন্দ" }, "desc": { "en": "The most comprehensive scientific study of Indian society and science in his time.", "bn": "ভারতীয় সমাজ ও বিজ্ঞানের ওপর সে সময়ের সবচেয়ে নির্ভরযোগ্য ও বিস্তারিত গবেষণা।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Ghazni", "bn": "গজনি" }, "note": { "en": "Traveled with Sultan Mahmud to India, conducting his research.", "bn": "সুলতান মাহমুদের সাথে ভারত ভ্রমণ করে তাঁর গবেষণা চালিয়েছেন।" } }
+      ], "connections": ["Ibn Sina"]
+    },
+    {
+      "id": "ibnsina", "initials": "IS", "color": "#185FA5", "colorBg": "#E6F1FB", "colorText": "#0C447C", "born": 980, "died": 1037,
+      "name": { "en": "Ibn Sina", "bn": "ইবন সিনা" }, "arabic": "أبو علي الحسين بن عبد الله بن سينا",
+      "birthplace": { "en": "Bukhara", "bn": "বুখারা" }, "active": { "en": "Persia", "bn": "পারস্য" },
+      "title": { "en": "Prince of Physicians", "bn": "চিকিৎসাবিদ্যার রাজকুমার" },
+      "field": { "en": "Medicine · Philosophy · Logic", "bn": "চিকিৎসা · দর্শন · যুক্তিবিদ্যা" },
+      "summary": { "en": "A titan of the Golden Age whose medical and philosophical texts dominated both East and West for centuries.", "bn": "স্বর্ণযুগের এক মহানায়ক যার চিকিৎসা ও দার্শনিক গ্রন্থগুলো শত শত বছর ধরে প্রাচ্য ও পাশ্চাত্যে রাজত্ব করেছে।" },
+      "works": [
+        { "title": { "en": "Canon of Medicine", "bn": "চিকিৎসার নীতিমালা" }, "desc": { "en": "The definitive medical textbook in the Islamic world and Europe for over 600 years.", "bn": "৬০০ বছরেরও বেশি সময় ধরে ইসলামি বিশ্ব ও ইউরোপের সেরা চিকিৎসা পাঠ্যবই।" } },
+        { "title": { "en": "Book of Healing", "bn": "আরোগ্যের গ্রন্থ" }, "desc": { "en": "A massive scientific encyclopedia covering all major knowledge branches.", "bn": "সব প্রধান জ্ঞানশাখা সম্বলিত একটি বিশাল বৈজ্ঞানিক বিশ্বকোষ।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Hamadan", "bn": "হামাদান" }, "note": { "en": "Served as a vizier and physician while continuing his prolific writing.", "bn": "উজির ও চিকিৎসক হিসেবে দায়িত্ব পালনের পাশাপাশি প্রচুর লিখেছেন।" } }
+      ], "connections": ["Al-Farabi", "Al-Razi", "Al-Ghazali"]
+    },
+    {
+      "id": "alghazali", "initials": "AG", "color": "#3B6D11", "colorBg": "#EAF3DE", "colorText": "#27500A", "born": 1058, "died": 1111,
+      "name": { "en": "Al-Ghazali", "bn": "আল-গাজ্জালি" }, "arabic": "أبو حامد محمد بن محمد الغزالي",
+      "birthplace": { "en": "Tus, Iran", "bn": "তুস, ইরান" }, "active": { "en": "Baghdad · Tus", "bn": "বাগদাদ · তুস" },
+      "title": { "en": "Proof of Islam", "bn": "ইসলামের প্রমাণ" },
+      "field": { "en": "Theology · Sufism · Philosophy", "bn": "ধর্মতত্ত্ব · সুফিবাদ · দর্শন" },
+      "summary": { "en": "Synthesized legal, theological, and mystical traditions, profoundly influencing the spiritual course of Islam.", "bn": "আইনি, ধর্মতাত্ত্বিক ও মরমি ঐতিহ্যের সমন্বয় ঘটিয়ে ইসলামের আধ্যাত্মিক পথকে গভীরভাবে প্রভাবিত করেন।" },
+      "works": [
+        { "title": { "en": "Ihya Ulum al-Din", "bn": "ধর্মীয় জ্ঞানের পুনরুজ্জীবন" }, "desc": { "en": "A 40-volume synthesis of Islamic law, theology, and Sufi spirituality.", "bn": "ইসলামি আইন, ধর্মতত্ত্ব ও সুফি আধ্যাত্মিকতার এক বিশাল সংকলন।" } },
+        { "title": { "en": "Tahafut al-Falasifa", "bn": "দার্শনিকদের অসংগতি" }, "desc": { "en": "A landmark critique of Neoplatonic philosophy.", "bn": "নব্য-প্লেটোবাদী দর্শনের ওপর একটি ঐতিহাসিক ও বৈপ্লবিক সমালোচনা।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Jerusalem", "bn": "জেরুজালেম" }, "note": { "en": "Lived an ascetic life here during his spiritual crisis and wandering.", "bn": "আধ্যাত্মিক সংকটের সময় এখানে নির্জন ও কঠোর জীবনযাপন করেছেন।" } }
+      ], "connections": ["Ibn Sina", "Ibn Rushd"]
+    },
+    {
+      "id": "ibnrushd", "initials": "IR", "color": "#854F0B", "colorBg": "#FAEEDA", "colorText": "#633806", "born": 1126, "died": 1198,
+      "name": { "en": "Ibn Rushd", "bn": "ইবন রুশদ" }, "arabic": "أبو الوليد محمد بن أحمد ابن رشد",
+      "birthplace": { "en": "Córdoba, Spain", "bn": "কর্ডোভা, স্পেন" }, "active": { "en": "Al-Andalus", "bn": "আল-আন্দালুস" },
+      "title": { "en": "The Commentator", "bn": "মহা-ভাষ্যকার" },
+      "field": { "en": "Philosophy · Law · Medicine", "bn": "দর্শন · আইন · চিকিৎসা" },
+      "summary": { "en": "Known in the West as Averroës, he was the master of Aristotelian thought and a bold defender of philosophy.", "bn": "পশ্চিমে এভেরোস নামে পরিচিত, তিনি এরিস্টটলীয় চিন্তাধারার মাস্টার এবং দর্শনের এক সাহসী রক্ষক ছিলেন।" },
+      "works": [
+        { "title": { "en": "Tahafut al-Tahafut", "bn": "অসংগতির অসংগতি" }, "desc": { "en": "A systematic rebuttal of Al-Ghazali's critique and a robust defense of philosophy.", "bn": "আল-গাজ্জালির সমালোচনার পদ্ধতিগত জবাব এবং দর্শনের পক্ষে এক শক্তিশালী অবস্থান।" } },
+        { "title": { "en": "Fasl al-Maqal", "bn": "নিষ্পত্তিমূলক গ্রন্থ" }, "desc": { "en": "Argues for the compatibility of religious law and philosophy.", "bn": "ধর্মীয় আইন এবং দর্শনের সামঞ্জস্যের পক্ষে যুক্তি প্রদর্শন করে।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Córdoba", "bn": "কর্ডোভা" }, "note": { "en": "Served as a chief judge while writing his famous commentaries.", "bn": "প্রধান বিচারপতি হিসেবে দায়িত্ব পালনকালে তাঁর বিখ্যাত ভাষ্যগুলো লিখেছেন।" } }
+      ], "connections": ["Al-Ghazali", "Ibn Sina"]
+    },
+    {
+      "id": "taymiyya", "initials": "IT", "color": "#7C2D12", "colorBg": "#FFEDD5", "colorText": "#7C2D12", "born": 1263, "died": 1328,
+      "name": { "en": "Ibn Taymiyya", "bn": "ইবন তাইমিয়াহ" }, "arabic": "تقی الدین ابن تیمیة",
+      "birthplace": { "en": "Harran", "bn": "হাররান" }, "active": { "en": "Damascus · Cairo", "bn": "দামেস্ক · কায়রো" },
+      "title": { "en": "Sheikh ul-Islam", "bn": "শেখ উল-ইসলাম" },
+      "field": { "en": "Theology · Jurisprudence", "bn": "ধর্মতত্ত্ব · আইনতত্ত্ব" },
+      "summary": { "en": "An influential scholar who advocated for a return to the Quran and Sunnah as the primary sources of knowledge.", "bn": "একজন প্রভাবশালী পন্ডিত যিনি জ্ঞানের প্রাথমিক উৎস হিসেবে কুরআন ও সুন্নাহতে ফিরে যাওয়ার আহ্বান জানিয়েছিলেন।" },
+      "works": [
+        { "title": { "en": "Majmu al-Fatawa", "bn": "মাজমু আল-ফাতাওয়া" }, "desc": { "en": "A massive collection of legal and theological rulings.", "bn": "আইনি ও ধর্মতাত্ত্বিক ফতোয়ার এক বিশাল ও প্রভাবশালী সংকলন।" } }
+      ],
+      "journeys": [
+        { "place": { "en": "Damascus", "bn": "দামেস্ক" }, "note": { "en": "Spent much of his life in Damascus, where he taught and was often imprisoned for his views.", "bn": "জীবনের বেশিরভাগ সময় দামেস্কে কাটিয়েছেন, যেখানে তিনি শিক্ষকতা করেছেন এবং প্রায়ই কারাবরণ করেছেন।" } }
+      ], "connections": ["Al-Ghazali"]
+    }
+  ]
+}

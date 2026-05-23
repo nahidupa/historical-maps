@@ -428,17 +428,53 @@
 
             <!-- RIGHT: SIDEBAR -->
             <aside class="sidebar">
-                <div class="sidebar-header">
-                    📜 Historical Milestones
+                <div class="sidebar-tabs">
+                    <button class="tab-btn active" data-tab="events">📜 Milestones</button>
+                    <button class="tab-btn" data-tab="scholars">🎓 Scholars</button>
                 </div>
                 <div class="sidebar-content" id="sidebarContent">
                     <!-- Loaded dynamically -->
-                    <div style="text-align: center; color: #7a6f62; margin-top: 2rem;">
-                        Select an era to see details...
-                    </div>
                 </div>
             </aside>
         </div>
+
+        <style>
+            .sidebar-tabs {
+                display: flex;
+                background: #e0d6c8;
+                padding: 0.3rem;
+                gap: 0.2rem;
+            }
+            .tab-btn {
+                flex: 1;
+                padding: 0.6rem;
+                border: none;
+                background: transparent;
+                cursor: pointer;
+                font-weight: 600;
+                color: #5d554a;
+                border-radius: 0.8rem;
+                transition: 0.2s;
+            }
+            .tab-btn.active {
+                background: #b6977a;
+                color: white;
+            }
+            .scholar-card {
+                padding: 1rem;
+                border-bottom: 1px solid #eee;
+                margin-bottom: 0.5rem;
+            }
+            .scholar-name {
+                font-weight: 700;
+                display: block;
+                color: #3d3a35;
+            }
+            .scholar-field {
+                font-size: 0.8rem;
+                color: #7a6f62;
+            }
+        </style>
 
         <!-- FOOTER -->
         <div class="card-footer">
@@ -491,21 +527,9 @@
 
             let geojsonLayer = null;
             let subEventsData = null;
-            const info = L.control();
-
-            info.onAdd = function (map) {
-                this._div = L.DomUtil.create('div', 'info');
-                this.update();
-                return this._div;
-            };
-
-            info.update = function (props) {
-                this._div.innerHTML = props ? 
-                    `<b>${props.name}</b><br/>${props.description}` : 
-                    'Hover over a region';
-            };
-
-            info.addTo(map);
+            let scholarsData = null;
+            let currentEraIndex = 0;
+            let currentTab = 'events';
 
             // ============================================================
             //  2. DATA FETCHING
@@ -518,14 +542,79 @@
 
             async function init() {
                 try {
-                    subEventsData = await fetchData('data/sub_events.json');
+                    const [events, scholars] = await Promise.all([
+                        fetchData('data/sub_events.json'),
+                        fetchData('data/scholars.json')
+                    ]);
+                    subEventsData = events;
+                    scholarsData = scholars.scholars;
                     loadEra(0);
                 } catch (e) {
                     console.error("Initialization failed", e);
                 }
             }
 
+            const info = L.control();
+
+            info.onAdd = function (map) {
+                this._div = L.DomUtil.create('div', 'info');
+                this.update();
+                return this._div;
+            };
+
+            info.update = function (props) {
+                this._div.innerHTML = '<h4>Historical Region</h4>' +  (props ?
+                    '<b>' + props.name + '</b><br />' + props.description
+                    : 'Hover over a region');
+            };
+
+            info.addTo(map);
+
+            // Tabs UI logic
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    currentTab = e.target.dataset.tab;
+                    updateSidebar();
+                });
+            });
+
+            function updateSidebar() {
+                const content = document.getElementById('sidebarContent');
+                content.innerHTML = '';
+                
+                if (currentTab === 'events') {
+                    const events = subEventsData[currentEraIndex] || [];
+                    events.forEach(ev => {
+                        const div = document.createElement('div');
+                        div.className = 'sub-event';
+                        div.innerHTML = `<span class="se-year">${ev.year}</span><span class="se-title">${ev.title}</span><p class="se-desc">${ev.desc}</p>`;
+                        content.appendChild(div);
+                    });
+                } else {
+                    const eraYears = [
+                        [570, 632], [632, 661], [661, 1258], [900, 1600], [1400, 1922], [1900, 2026]
+                    ];
+                    const [start, end] = eraYears[currentEraIndex];
+                    const relevantScholars = scholarsData.filter(s => s.born <= end && s.died >= start);
+                    
+                    if (relevantScholars.length === 0) {
+                        content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No major scholars recorded for this era.</div>';
+                    } else {
+                        relevantScholars.forEach(s => {
+                            const div = document.createElement('div');
+                            div.className = 'scholar-card';
+                            div.innerHTML = `<span class="scholar-name">${s.name.en}</span><span class="scholar-field">${s.field.en}</span>`;
+                            content.appendChild(div);
+                        });
+                    }
+                }
+                content.scrollTop = 0;
+            }
+
             async function loadEra(index) {
+                currentEraIndex = index;
                 const items = document.querySelectorAll('.tl-item');
                 const title = items[index].querySelector('.tl-section-label').textContent;
                 const period = items[index].querySelector('.tl-period').textContent;
@@ -559,7 +648,7 @@
                     }).addTo(map);
 
                     updateLegend(data.features);
-                    updateSidebar(index);
+                    updateSidebar();
                     map.flyTo(eraViews[index].center, eraViews[index].zoom, { duration: 1.2 });
 
                 } catch (e) {
@@ -569,24 +658,6 @@
 
             function getEraSlug(index) {
                 return ['prophet', 'rashidun', 'umayyad', 'regional', 'gunpowder', 'modern'][index];
-            }
-
-            function updateSidebar(index) {
-                const content = document.getElementById('sidebarContent');
-                content.innerHTML = '';
-                
-                const events = subEventsData[index] || [];
-                events.forEach(ev => {
-                    const div = document.createElement('div');
-                    div.className = 'sub-event';
-                    div.innerHTML = `
-                        <span class="se-year">${ev.year}</span>
-                        <span class="se-title">${ev.title}</span>
-                        <p class="se-desc">${ev.desc}</p>
-                    `;
-                    content.appendChild(div);
-                });
-                content.scrollTop = 0;
             }
 
             function updateLegend(features) {

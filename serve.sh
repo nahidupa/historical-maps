@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Navigate to the maps directory
+# Navigate to the historical-maps directory
 cd "$(dirname "$0")"
 
 # Check if Python 3 is installed
