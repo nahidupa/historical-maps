@@ -378,7 +378,7 @@
             </h1>
             <div class="controls">
                 <button id="resetMapBtn">⟲ Reset View</button>
-                <button id="exportPngBtn" class="primary">🖼 Save Map</button>
+                <button id="exportPngBtn">🖼 Save Map</button>
             </div>
         </div>
 
@@ -563,6 +563,10 @@
                 }
             }
 
+            // ============================================================
+            //  2. DATA FETCHING
+            // ============================================================
+
             const info = L.control();
 
             info.onAdd = function (map) {
@@ -578,6 +582,21 @@
             };
 
             info.addTo(map);
+
+            function updateLegend(features) {
+                const container = document.getElementById('mapLegend');
+                container.innerHTML = '';
+                const seen = new Set();
+                features.forEach(f => {
+                    if (!seen.has(f.properties.name)) {
+                        seen.add(f.properties.name);
+                        const div = document.createElement('div');
+                        div.className = 'legend-item';
+                        div.innerHTML = `<span class="color-box" style="background:${f.properties.color}"></span><span>${f.properties.name}</span>`;
+                        container.appendChild(div);
+                    }
+                });
+            }
 
             // Tabs UI logic
             document.querySelectorAll('.tab-btn').forEach(btn => {

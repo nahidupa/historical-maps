@@ -4,37 +4,17 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Fatimid Caliphate",
-        "era": "3",
-        "color": "#5d8c5d",
-        "description": "Shia caliphate centered in Egypt, controlling parts of North Africa and the Levant."
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [10.0, 30.0], [20.0, 32.0], [30.0, 32.0], [35.0, 35.0], [35.0, 25.0], 
-            [25.0, 20.0], [15.0, 22.0], [10.0, 30.0]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Seljuk Empire",
-        "era": "3",
+        "name": "Fatimid & Seljuk Realms",
+        "era": 4,
         "color": "#8a8a5a",
-        "description": "Turko-Persian Sunni empire controlling Central Asia, Persia, and Anatolia."
+        "description": "The divided regional powers of the middle period, from Egypt to Anatolia."
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [30.0, 40.0], [40.0, 42.0], [50.0, 45.0], [60.0, 45.0], [70.0, 40.0], 
-            [65.0, 30.0], [55.0, 28.0], [45.0, 30.0], [35.0, 32.0], [30.0, 40.0]
-          ]
-        ]
+        "coordinates": [[
+          [10.0, 30.0], [20.0, 32.0], [30.0, 32.0], [35.0, 35.0], [35.0, 25.0], 
+          [25.0, 20.0], [15.0, 22.0], [10.0, 30.0]
+        ]]
       }
     }
   ]

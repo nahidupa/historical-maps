@@ -4,20 +4,18 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rashidun Caliphate",
-        "era": "1",
+        "name": "Bilad al-Sham & Egypt",
+        "era": 2,
         "color": "#5d8c5d",
-        "description": "Rapid expansion across the Levant, Egypt, and the Persian Empire."
+        "description": "Expanded provinces including the Levant (Sham) and Egypt (Misr)."
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [25.0, 30.0], [35.0, 31.0], [40.0, 36.0], [45.0, 40.0], [55.0, 42.0], 
-            [65.0, 38.0], [70.0, 30.0], [60.0, 20.0], [45.0, 15.0], [30.0, 15.0], 
-            [20.0, 25.0], [25.0, 30.0]
-          ]
-        ]
+        "coordinates": [[
+          [25.0, 30.0], [35.0, 31.0], [40.0, 36.0], [45.0, 40.0], [55.0, 42.0], 
+          [65.0, 38.0], [70.0, 30.0], [60.0, 20.0], [45.0, 15.0], [30.0, 15.0], 
+          [20.0, 25.0], [25.0, 30.0]
+        ]]
       }
     }
   ]
