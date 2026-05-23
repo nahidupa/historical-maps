@@ -1,0 +1,39 @@
+{
+  "philosophers": [
+    {
+      "id": "socrates",
+      "name": { "en": "Socrates" },
+      "lifespan": "470–399 BCE",
+      "summary": { "en": "Foundational figure in Western philosophy; his method focused on questioning." },
+      "era": 0
+    },
+    {
+      "id": "plato",
+      "name": { "en": "Plato" },
+      "lifespan": "427–347 BCE",
+      "summary": { "en": "Student of Socrates; founded the Academy; highly influential on Al-Farabi." },
+      "era": 0
+    },
+    {
+      "id": "aristotle",
+      "name": { "en": "Aristotle" },
+      "lifespan": "384–322 BCE",
+      "summary": { "en": "Known as 'The First Teacher'; his works on logic and metaphysics formed the core of the Islamic Golden Age translations." },
+      "era": 0
+    },
+    {
+      "id": "galen",
+      "name": { "en": "Galen" },
+      "lifespan": "129–216 CE",
+      "summary": { "en": "His medical texts were the gold standard for Islamic physicians like Al-Razi and Ibn Sina." },
+      "era": 0
+    },
+    {
+      "id": "ptolemy",
+      "name": { "en": "Ptolemy" },
+      "lifespan": "100–170 CE",
+      "summary": { "en": "His 'Almagest' provided the astronomical foundation for Islamic science." },
+      "era": 0
+    }
+  ]
+}

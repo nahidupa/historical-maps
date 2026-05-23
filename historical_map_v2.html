@@ -398,26 +398,30 @@
                     <div class="pan-element" id="panElement">
                         <div class="timeline" id="timelineContainer">
                             <div class="tl-item active" data-era="0">
+                                <span class="tl-section-label">Pre-Prophet Era (Classical)</span>
+                                <span class="tl-period">500 BCE – 500 CE</span>
+                            </div>
+                            <div class="tl-item" data-era="1">
                                 <span class="tl-section-label">Era of Prophet Muhammad</span>
                                 <span class="tl-period">570–632 CE</span>
                             </div>
-                            <div class="tl-item" data-era="1">
+                            <div class="tl-item" data-era="2">
                                 <span class="tl-section-label">Rashidun Caliphs</span>
                                 <span class="tl-period">632–661 CE</span>
                             </div>
-                            <div class="tl-item" data-era="2">
+                            <div class="tl-item" data-era="3">
                                 <span class="tl-section-label">Early Major Caliphates</span>
                                 <span class="tl-period">661–1258 CE</span>
                             </div>
-                            <div class="tl-item" data-era="3">
+                            <div class="tl-item" data-era="4">
                                 <span class="tl-section-label">Medieval Regional Empires</span>
                                 <span class="tl-period">10th–16th Cent.</span>
                             </div>
-                            <div class="tl-item" data-era="4">
+                            <div class="tl-item" data-era="5">
                                 <span class="tl-section-label">Gunpowder Empires</span>
                                 <span class="tl-period">14th–20th Cent.</span>
                             </div>
-                            <div class="tl-item" data-era="5">
+                            <div class="tl-item" data-era="6">
                                 <span class="tl-section-label">Modern Era</span>
                                 <span class="tl-period">20th Cent. – Pres.</span>
                             </div>
@@ -431,6 +435,7 @@
                 <div class="sidebar-tabs">
                     <button class="tab-btn active" data-tab="events">📜 Milestones</button>
                     <button class="tab-btn" data-tab="scholars">🎓 Scholars</button>
+                    <button class="tab-btn" data-tab="greek">🏛 Greeks</button>
                 </div>
                 <div class="sidebar-content" id="sidebarContent">
                     <!-- Loaded dynamically -->
@@ -517,6 +522,7 @@
             L.control.zoom({ position: 'topright' }).addTo(map);
 
             const eraViews = [
+                { center: [35, 20], zoom: 4 },
                 { center: [24, 45], zoom: 5 },
                 { center: [30, 45], zoom: 4 },
                 { center: [30, 40], zoom: 3 },
@@ -528,6 +534,7 @@
             let geojsonLayer = null;
             let subEventsData = null;
             let scholarsData = null;
+            let greekData = null;
             let currentEraIndex = 0;
             let currentTab = 'events';
 
@@ -542,12 +549,14 @@
 
             async function init() {
                 try {
-                    const [events, scholars] = await Promise.all([
+                    const [events, scholars, greek] = await Promise.all([
                         fetchData('data/sub_events.json'),
-                        fetchData('data/scholars.json')
+                        fetchData('data/scholars.json'),
+                        fetchData('data/greek_philosophers.json')
                     ]);
                     subEventsData = events;
                     scholarsData = scholars.scholars;
+                    greekData = greek.philosophers;
                     loadEra(0);
                 } catch (e) {
                     console.error("Initialization failed", e);
@@ -592,9 +601,9 @@
                         div.innerHTML = `<span class="se-year">${ev.year}</span><span class="se-title">${ev.title}</span><p class="se-desc">${ev.desc}</p>`;
                         content.appendChild(div);
                     });
-                } else {
+                } else if (currentTab === 'scholars') {
                     const eraYears = [
-                        [570, 632], [632, 661], [661, 1258], [900, 1600], [1400, 1922], [1900, 2026]
+                        [-500, 500], [570, 632], [632, 661], [661, 1258], [900, 1600], [1400, 1922], [1900, 2026]
                     ];
                     const [start, end] = eraYears[currentEraIndex];
                     const relevantScholars = scholarsData.filter(s => s.born <= end && s.died >= start);
@@ -605,7 +614,21 @@
                         relevantScholars.forEach(s => {
                             const div = document.createElement('div');
                             div.className = 'scholar-card';
-                            div.innerHTML = `<span class="scholar-name">${s.name.en}</span><span class="scholar-field">${s.field.en}</span>`;
+                            div.innerHTML = `<span class="scholar-name">${s.name.en}</span>
+                                             <span class="scholar-field">${s.born}–${s.died} CE</span>
+                                             <div class="scholar-field">${s.field.en}</div>`;
+                            content.appendChild(div);
+                        });
+                    }
+                } else if (currentTab === 'greek') {
+                    const relevantGreeks = greekData.filter(g => g.era === currentEraIndex);
+                    if (relevantGreeks.length === 0) {
+                        content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No notable Greek influences identified for this era.</div>';
+                    } else {
+                        relevantGreeks.forEach(g => {
+                            const div = document.createElement('div');
+                            div.className = 'scholar-card';
+                            div.innerHTML = `<span class="scholar-name">${g.name.en}</span><span class="scholar-field">${g.lifespan}</span><p class="se-desc">${g.summary.en}</p>`;
                             content.appendChild(div);
                         });
                     }
@@ -657,7 +680,7 @@
             }
 
             function getEraSlug(index) {
-                return ['prophet', 'rashidun', 'umayyad', 'regional', 'gunpowder', 'modern'][index];
+                return ['classical', 'prophet', 'rashidun', 'umayyad', 'regional', 'gunpowder', 'modern'][index];
             }
 
             function updateLegend(features) {

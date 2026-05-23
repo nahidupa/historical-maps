@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greco-Roman World",
+        "era": 0,
+        "color": "#a8c5d8",
+        "description": "The Classical Antiquity period encompassing the Mediterranean world and the peak of Greek philosophical influence."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [10.0, 30.0], [10.0, 45.0], [30.0, 45.0], [45.0, 40.0], [45.0, 30.0], 
+            [35.0, 25.0], [20.0, 25.0], [10.0, 30.0]
+          ]
+        ]
+      }
+    }
+  ]
+}
