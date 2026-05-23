@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Umayyad Caliphate (Peak)",
+        "era": "2",
+        "color": "#5d8c5d",
+        "description": "The largest extent of the early caliphates, stretching from Spain to the Indus Valley."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-10.0, 35.0], [0.0, 40.0], [10.0, 38.0], [20.0, 32.0], [30.0, 32.0], 
+            [40.0, 45.0], [50.0, 48.0], [60.0, 45.0], [75.0, 35.0], [70.0, 25.0], 
+            [60.0, 20.0], [45.0, 10.0], [30.0, 10.0], [15.0, 25.0], [0.0, 30.0], 
+            [-10.0, 35.0]
+          ]
+        ]
+      }
+    }
+  ]
+}

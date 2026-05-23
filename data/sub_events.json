@@ -1,0 +1,53 @@
+{
+  "0": [
+    {"year": "570 CE", "title": "Birth of Muhammad", "desc": "Born in Mecca into the Hashim clan of the Quraysh tribe."},
+    {"year": "610 CE", "title": "First Revelation", "desc": "Receives the first verses of the Quran at Mount Hira near Mecca."},
+    {"year": "622 CE", "title": "The Hijrah", "desc": "Migration from Mecca to Medina; marks the beginning of the Islamic (Hijri) calendar."},
+    {"year": "624 CE", "title": "Battle of Badr", "desc": "The first major military victory for the early Muslim community."},
+    {"year": "628 CE", "title": "Treaty of Hudaybiyyah", "desc": "A pivotal 10-year peace treaty between Muslims and the Quraysh."},
+    {"year": "630 CE", "title": "Conquest of Mecca", "desc": "The city is peacefully integrated; the Kaaba is rededicated to monotheism."},
+    {"year": "632 CE", "title": "Farewell Pilgrimage", "desc": "The Prophet's final pilgrimage and sermon; he passes away shortly after."}
+  ],
+  "1": [
+    {"year": "632 CE", "title": "Election of Abu Bakr", "desc": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia."},
+    {"year": "634-644 CE", "title": "Caliphate of Umar", "desc": "Rapid expansion into Persia, Egypt, and the Levant; Battle of Yarmouk (636)."},
+    {"year": "639 CE", "title": "Hijri Calendar established", "desc": "Caliph Umar formalizes the Islamic calendar starting from the Hijrah."},
+    {"year": "650 CE", "title": "Uthmanic Codex", "desc": "The third Caliph Uthman standardizes the written text of the Quran."},
+    {"year": "656 CE", "title": "Battle of the Camel", "desc": "First civil war (Fitna) in Islamic history; Ali ibn Abi Talib moves the capital to Kufa."},
+    {"year": "661 CE", "title": "Assassination of Ali", "desc": "Marks the end of the Rashidun era and the rise of the Umayyad dynasty."}
+  ],
+  "2": [
+    {"year": "661 CE", "title": "Umayyad Dynasty begins", "desc": "Capital moves to Damascus; Muawiyah I establishes hereditary rule."},
+    {"year": "691 CE", "title": "Dome of the Rock", "desc": "Completed in Jerusalem under Caliph Abd al-Malik."},
+    {"year": "711 CE", "title": "Spain & India Expansion", "desc": "Tariq ibn Ziyad enters Iberia; Muhammad ibn Qasim reaches the Indus."},
+    {"year": "750 CE", "title": "Abbasid Revolution", "desc": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad."},
+    {"year": "762 CE", "title": "Founding of Baghdad", "desc": "The 'Round City' becomes the world's premier center of learning."},
+    {"year": "830 CE", "title": "House of Wisdom", "desc": "Al-Ma'mun expands the Bayt al-Hikma for scientific and philosophical translation."},
+    {"year": "1258 CE", "title": "Siege of Baghdad", "desc": "Mongols under Hulagu Khan sack the city, ending the Abbasid Golden Age."}
+  ],
+  "3": [
+    {"year": "909-1171 CE", "title": "Fatimid Caliphate", "desc": "A Shia caliphate centered in Cairo; built the Al-Azhar University."},
+    {"year": "1071 CE", "title": "Battle of Manzikert", "desc": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement."},
+    {"year": "1095 CE", "title": "Start of the Crusades", "desc": "Pope Urban II calls for the First Crusade to capture Jerusalem."},
+    {"year": "1187 CE", "title": "Saladin's Victory", "desc": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin."},
+    {"year": "1260 CE", "title": "Battle of Ain Jalut", "desc": "The Mamluks of Egypt decisively stop the Mongol westward advance."},
+    {"year": "1354 CE", "title": "Ibn Battuta's Travels", "desc": "The world-renowned explorer completes his journeys across Africa, Asia, and Europe."}
+  ],
+  "4": [
+    {"year": "1453 CE", "title": "Fall of Constantinople", "desc": "Mehmed the Conqueror takes the city, making it the Ottoman capital, Istanbul."},
+    {"year": "1501 CE", "title": "Safavid State founded", "desc": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism as the state religion."},
+    {"year": "1526 CE", "title": "Mughal Empire founded", "desc": "Babur defeats the Delhi Sultanate at the First Battle of Panipat."},
+    {"year": "1520-1566", "title": "Suleiman the Magnificent", "desc": "The Ottoman Empire reaches its peak in law, administration, and territory."},
+    {"year": "1648 CE", "title": "Completion of Taj Mahal", "desc": "Built by Mughal Emperor Shah Jahan as a tomb for his wife Mumtaz Mahal."},
+    {"year": "1683 CE", "title": "Second Siege of Vienna", "desc": "A major turning point marking the beginning of Ottoman territorial stagnation in Europe."},
+    {"year": "1924 CE", "title": "Abolition of the Caliphate", "desc": "The Turkish Grand National Assembly formally ends the Ottoman Caliphate."}
+  ],
+  "5": [
+    {"year": "1947 CE", "title": "Independence of Pakistan", "desc": "The creation of a sovereign state for Muslims in South Asia."},
+    {"year": "1969 CE", "title": "Formation of the OIC", "desc": "The Organization of Islamic Cooperation is established to represent the collective voice of Muslims."},
+    {"year": "1973 CE", "title": "Islamic Solidarity Fund", "desc": "Established to support educational and cultural projects worldwide."},
+    {"year": "1979 CE", "title": "Iranian Revolution", "desc": "The establishment of the Islamic Republic of Iran under Ayatollah Khomeini."},
+    {"year": "1980s-Present", "title": "Technological Growth", "desc": "Rapid modernization in the Gulf states and technological shifts across the Muslim world."},
+    {"year": "2020s", "title": "Global Population", "desc": "Muslims reach over 1.9 billion worldwide, living in over 50 majority nations."}
+  ]
+}

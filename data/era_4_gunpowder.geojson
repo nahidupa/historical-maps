@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ottoman Empire (Peak)",
+        "era": "4",
+        "color": "#5d8c5d",
+        "description": "Controlled Southeast Europe, Western Asia, and North Africa."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [15.0, 45.0], [30.0, 48.0], [45.0, 45.0], [40.0, 35.0], [48.0, 30.0], 
+            [40.0, 20.0], [30.0, 25.0], [10.0, 30.0], [15.0, 45.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safavid Empire",
+        "era": "4",
+        "color": "#c48a4a",
+        "description": "Established Shia Islam as the official religion of Persia."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [45.0, 35.0], [50.0, 40.0], [60.0, 40.0], [65.0, 35.0], [65.0, 25.0], 
+            [55.0, 25.0], [45.0, 35.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mughal Empire",
+        "era": "4",
+        "color": "#8a8a5a",
+        "description": "Controlled most of the Indian subcontinent."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [65.0, 35.0], [75.0, 38.0], [85.0, 30.0], [80.0, 15.0], [70.0, 20.0], 
+            [65.0, 35.0]
+          ]
+        ]
+      }
+    }
+  ]
+}
