@@ -106,6 +106,19 @@
         document.getElementById('loadingOverlay')?.classList.remove('active');
     }
 
+    async function loadAppVersion() {
+        try {
+            const response = await fetch('VERSION', { cache: 'no-store' });
+            if (!response.ok) return;
+            const version = (await response.text()).trim();
+            if (version) {
+                document.getElementById('appVersion').textContent = `v${version}`;
+            }
+        } catch (e) {
+            console.warn('Version file could not be loaded', e);
+        }
+    }
+
     function updateLanguageUI() {
         document.documentElement.lang = currentLang === 'bn' ? 'bn' : 'en';
         document.body.classList.toggle('lang-bn', currentLang === 'bn');
@@ -904,6 +917,7 @@
     //  INITIALIZE
     // ============================================================
 
+    loadAppVersion();
     init();
 
 })();
