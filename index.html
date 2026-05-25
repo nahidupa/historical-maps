@@ -18,22 +18,35 @@
                     <button class="basemap-btn" data-map="neutral">🌍 Neutral</button>
                     <button class="basemap-btn" data-map="modern">📍 Modern</button>
                 </div>
-                <button class="primary" onclick="captureMap()">📸 Screenshot</button>
+                <button class="primary screenshot-btn" onclick="captureMap()">📸 Screenshot</button>
             </div>
         </div>
 
+        <div class="mobile-era-control" id="eraSelector">
+            <label for="mobileEraSelect">Era</label>
+            <select id="mobileEraSelect">
+                <option value="0">Classical Period (-500 to 500 CE)</option>
+                <option value="1">Prophet Muhammad (570-632 CE)</option>
+                <option value="2">Rashidun Caliphate (632-661 CE)</option>
+                <option value="3">Umayyad & Abbasid (661-1258 CE)</option>
+                <option value="4">Regional Dynasties (900-1600 CE)</option>
+                <option value="5">Gunpowder Empires (1400-1922 CE)</option>
+                <option value="6">Modern Era (1900-2026 CE)</option>
+            </select>
+        </div>
+
         <div class="card-body">
-            <div class="map-section">
+            <div class="map-section" id="mapSection">
                 <div class="map-title" id="mapTitle">Classical Period (-500 to 500 CE)</div>
                 <div class="map-wrapper">
                     <div id="historyMap"></div>
                 </div>
-                <div id="mapLegend" class="legend" style="display:none;">
+                <div id="mapLegend" class="legend">
                     <h4>Regions</h4>
                 </div>
             </div>
 
-            <div class="sidebar">
+            <div class="sidebar" id="contextPanel">
                 <div class="sidebar-header">
                     <span>📚 Historical Context</span>
                 </div>
@@ -48,7 +61,7 @@
             </div>
         </div>
 
-        <div class="viewport">
+        <div class="viewport" id="timelinePanel">
             <div class="timeline" id="timelineContainer">
                     <div class="tl-item active" onclick="loadEra(0)">
                         <span class="tl-section-label">Classical Period <span class="accuracy-badge accuracy-medium">Medium Accuracy</span></span>
@@ -89,6 +102,11 @@
             </div>
         </div>
     </div>
+    <nav class="mobile-dock" aria-label="Mobile sections">
+        <a href="#eraSelector">Eras</a>
+        <a href="#mapSection">Map</a>
+        <a href="#contextPanel">Context</a>
+    </nav>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 

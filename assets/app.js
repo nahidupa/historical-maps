@@ -47,6 +47,25 @@
         });
     });
 
+    const mobileEraSelect = document.getElementById('mobileEraSelect');
+    mobileEraSelect?.addEventListener('change', (e) => {
+        loadEra(Number(e.target.value));
+    });
+
+    function isSmallScreen() {
+        return window.matchMedia('(max-width: 720px)').matches;
+    }
+
+    function keepActiveEraVisible() {
+        if (!isSmallScreen()) return;
+
+        document.querySelector('.tl-item.active')?.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest',
+            inline: 'center'
+        });
+    }
+
     L.control.zoom({ position: 'topright' }).addTo(map);
 
     const eraViews = [
@@ -114,7 +133,7 @@
     function updateLegend(features) {
         const container = document.getElementById('mapLegend');
         container.innerHTML = '<h4>Regions</h4>';
-        container.style.display = 'block';
+        container.classList.add('is-visible');
         const seen = new Set();
         features.forEach(f => {
             if (!seen.has(f.properties.name)) {
@@ -201,6 +220,10 @@
         const items = document.querySelectorAll('.tl-item');
         items.forEach(i => i.classList.remove('active'));
         items[index].classList.add('active');
+        if (mobileEraSelect) {
+            mobileEraSelect.value = String(index);
+        }
+        keepActiveEraVisible();
         
         const title = items[index].querySelector('.tl-section-label').textContent;
         const period = items[index].querySelector('.tl-period').textContent;
@@ -228,6 +251,10 @@
                         mouseout: (e) => {
                             geojsonLayer.resetStyle(e.target);
                             info.update();
+                        },
+                        click: (e) => {
+                            const description = f.properties.description || '';
+                            l.bindPopup(`<strong>${f.properties.name}</strong><br>${description}`).openPopup(e.latlng);
                         }
                     });
                 }
@@ -241,6 +268,11 @@
             console.error("Era load failed", e);
         }
     };
+
+    window.addEventListener('resize', () => {
+        map.invalidateSize();
+        keepActiveEraVisible();
+    });
 
     // ============================================================
     //  6. SCREENSHOT
