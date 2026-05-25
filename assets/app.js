@@ -110,7 +110,8 @@
     let greekData = null;
     let currentEraIndex = 0;
     let selectedScholarId = null;
-    let scholarLayers = L.layerGroup();
+    let highlightedRegionLayer = null;
+    let scholarLayers = L.layerGroup().addTo(map);
     let currentTab = 'events';
 
     // ============================================================
@@ -274,6 +275,58 @@
         });
     }
 
+    function clearMapHighlights() {
+        scholarLayers.clearLayers();
+        if (highlightedRegionLayer && geojsonLayer) {
+            geojsonLayer.resetStyle(highlightedRegionLayer);
+        }
+        highlightedRegionLayer = null;
+    }
+
+    function highlightRegionNear(coords) {
+        if (!geojsonLayer || !coords) return;
+
+        if (highlightedRegionLayer) {
+            geojsonLayer.resetStyle(highlightedRegionLayer);
+            highlightedRegionLayer = null;
+        }
+
+        const latLng = L.latLng(coords[0], coords[1]);
+        geojsonLayer.eachLayer(layer => {
+            if (!highlightedRegionLayer && layer.getBounds().contains(latLng)) {
+                highlightedRegionLayer = layer;
+                layer.setStyle({
+                    weight: 5,
+                    color: '#111827',
+                    dashArray: '',
+                    fillOpacity: 0.88
+                });
+                layer.bringToFront();
+            }
+        });
+    }
+
+    function makeEventPopup(ev) {
+        return `
+            <div class="map-popup">
+                <strong>${ev.title}</strong>
+                <span>${ev.year}</span>
+                <p>${ev.desc}</p>
+            </div>
+        `;
+    }
+
+    function makeScholarPopup(s, label, note) {
+        return `
+            <div class="map-popup">
+                <strong>${s.name.en}</strong>
+                <span>${label}</span>
+                <p>${note || s.summary?.en || ''}</p>
+                <small>${s.born}-${s.died} CE · ${s.field?.en || ''}</small>
+            </div>
+        `;
+    }
+
     // ============================================================
     //  4. TABS & SIDEBAR
     // ============================================================
@@ -288,7 +341,7 @@
             e.target.setAttribute('aria-selected', 'true');
             currentTab = e.target.dataset.tab;
             selectedScholarId = null;
-            scholarLayers.clearLayers();
+            clearMapHighlights();
 
             // Update tabpanel labelledby
             const content = document.getElementById('sidebarContent');
@@ -345,9 +398,21 @@
             div.innerHTML = `<span class="se-year">${ev.year}</span><span class="se-title">${ev.title}</span><p class="se-desc">${ev.desc}</p>`;
             if (ev.coords) {
                 div.addEventListener('click', () => {
-                    scholarLayers.clearLayers();
-                    const marker = L.marker(ev.coords).addTo(scholarLayers);
-                    marker.bindPopup(`<strong>${ev.title}</strong><br>${ev.year}<br>${ev.desc}`).openPopup();
+                    clearMapHighlights();
+                    document.querySelectorAll('.sub-event.selected').forEach(item => item.classList.remove('selected'));
+                    div.classList.add('selected');
+                    highlightRegionNear(ev.coords);
+                    const marker = L.circleMarker(ev.coords, {
+                        radius: 9,
+                        fillColor: '#b45309',
+                        color: '#ffffff',
+                        weight: 3,
+                        opacity: 1,
+                        fillOpacity: 0.95,
+                        className: 'selected-map-node'
+                    }).addTo(scholarLayers);
+                    marker.bindPopup(makeEventPopup(ev)).openPopup();
+                    marker.on('click', () => marker.openPopup());
                     map.flyTo(ev.coords, 5, { duration: 1.5 });
                 });
             }
@@ -357,7 +422,7 @@
 
 
     function renderScholarsList(content) {
-        scholarLayers.clearLayers();
+        clearMapHighlights();
         const eraYears = [
             [-500, 500], [570, 632], [632, 661], [661, 1258], [900, 1600], [1400, 1922], [1900, 2026]
         ];
@@ -497,7 +562,7 @@
 
         document.getElementById('backToScholars').addEventListener('click', () => {
             selectedScholarId = null;
-            scholarLayers.clearLayers();
+            clearMapHighlights();
             updateSidebar();
         });
     }
@@ -517,32 +582,39 @@
     }
 
     function showScholarOnMap(s) {
-        scholarLayers.clearLayers();
+        clearMapHighlights();
         const points = [];
+        let primaryMarker = null;
 
         if (s.birthplace && s.birthplace.coords) {
             const marker = L.circleMarker(s.birthplace.coords, {
-                radius: 8,
+                radius: 10,
                 fillColor: s.color,
                 color: "#fff",
-                weight: 2,
+                weight: 3,
                 opacity: 1,
-                fillOpacity: 0.8
-            }).bindPopup(`<strong>Birthplace: ${s.birthplace.en}</strong>`).addTo(scholarLayers);
+                fillOpacity: 0.95,
+                className: 'selected-map-node'
+            }).bindPopup(makeScholarPopup(s, `Birthplace: ${s.birthplace.en}`, s.summary?.en)).addTo(scholarLayers);
+            marker.on('click', () => marker.openPopup());
+            primaryMarker = marker;
             points.push(s.birthplace.coords);
+            highlightRegionNear(s.birthplace.coords);
         }
 
         if (s.journeys) {
             s.journeys.forEach(j => {
                 if (j.place && j.place.coords) {
-                    L.circleMarker(j.place.coords, {
+                    const marker = L.circleMarker(j.place.coords, {
                         radius: 6,
                         fillColor: s.color,
                         color: "#fff",
                         weight: 1,
                         opacity: 1,
-                        fillOpacity: 0.6
-                    }).bindPopup(`<strong>Journey: ${j.place.en}</strong><br>${j.note.en}`).addTo(scholarLayers);
+                        fillOpacity: 0.7
+                    }).bindPopup(makeScholarPopup(s, `Journey: ${j.place.en}`, j.note.en)).addTo(scholarLayers);
+                    marker.on('click', () => marker.openPopup());
+                    if (!primaryMarker) primaryMarker = marker;
                     points.push(j.place.coords);
                 }
             });
@@ -559,6 +631,8 @@
         } else if (points.length === 1) {
             map.flyTo(points[0], 5, { duration: 1.5 });
         }
+
+        primaryMarker?.openPopup();
     }
 
     // ============================================================
@@ -588,7 +662,7 @@
 
     window.loadEra = async function(index) {
         selectedScholarId = null;
-        scholarLayers.clearLayers();
+        clearMapHighlights();
         showLoading();
         currentEraIndex = index;
         const items = document.querySelectorAll('.tl-item');
@@ -626,7 +700,9 @@
                             info.update(f.properties);
                         },
                         mouseout: (e) => {
-                            geojsonLayer.resetStyle(e.target);
+                            if (e.target !== highlightedRegionLayer) {
+                                geojsonLayer.resetStyle(e.target);
+                            }
                             info.update();
                         },
                         click: (e) => {
