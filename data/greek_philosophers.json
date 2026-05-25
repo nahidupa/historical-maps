@@ -3,79 +3,161 @@
     {
       "id": "socrates",
       "name": {
-        "en": "Socrates"
+        "en": "Socrates",
+        "bn": "সক্রেটিস"
       },
       "lifespan": "470–399 BCE",
       "summary": {
-        "en": "Foundational figure in Western philosophy; his method focused on questioning."
+        "en": "Foundational figure in Western philosophy; his method focused on questioning.",
+        "bn": "পাশ্চাত্য দর্শনের ভিত্তিপ্রস্তর স্থাপনকারী; তার পদ্ধতি ছিল প্রশ্নোত্তরের মাধ্যমে সত্য অনুসন্ধান।"
       },
-      "era": 0
+      "eras": [
+        0,
+        3
+      ]
     },
     {
       "id": "plato",
       "name": {
-        "en": "Plato"
+        "en": "Plato",
+        "bn": "প্লেটো"
       },
       "lifespan": "427–347 BCE",
       "summary": {
-        "en": "Student of Socrates; founded the Academy; highly influential on Al-Farabi."
+        "en": "Student of Socrates; founded the Academy; highly influential on Al-Farabi.",
+        "bn": "সক্রেটিসের ছাত্র; একাডেমি প্রতিষ্ঠা করেন; আল-ফারাবীর ওপর তার ব্যাপক প্রভাব ছিল।"
       },
-      "era": 0
+      "eras": [
+        0,
+        3
+      ]
     },
     {
       "id": "aristotle",
       "name": {
-        "en": "Aristotle"
+        "en": "Aristotle",
+        "bn": "অ্যারিস্টটল"
       },
       "lifespan": "384–322 BCE",
       "summary": {
-        "en": "Known as 'The First Teacher'; his works on logic and metaphysics formed the core of the Islamic Golden Age translations."
+        "en": "Known as 'The First Teacher'; his works on logic and metaphysics formed the core of the Islamic Golden Age translations.",
+        "bn": "'প্রথম শিক্ষক' হিসেবে পরিচিত; যুক্তিবিদ্যা ও অধিবিদ্যার ওপর তার কাজগুলো ইসলামী স্বর্ণযুগের অনুবাদের মূল ভিত্তি ছিল।"
       },
-      "era": 0
+      "eras": [
+        0,
+        3
+      ]
     },
     {
       "id": "galen",
       "name": {
-        "en": "Galen"
+        "en": "Galen",
+        "bn": "গ্যালেন"
       },
       "lifespan": "129–216 CE",
       "summary": {
-        "en": "His medical texts were the gold standard for Islamic physicians like Al-Razi and Ibn Sina."
+        "en": "His medical texts were the gold standard for Islamic physicians like Al-Razi and Ibn Sina.",
+        "bn": "তার চিকিৎসা শাস্ত্রের গ্রন্থগুলো আল-রাজি এবং ইবনে সিনার মতো ইসলামী চিকিৎসকদের জন্য আদর্শ ছিল।"
       },
-      "era": 0
+      "eras": [
+        0,
+        3
+      ]
     },
     {
       "id": "ptolemy",
       "name": {
-        "en": "Ptolemy"
+        "en": "Ptolemy",
+        "bn": "টলেমি"
       },
       "lifespan": "100–170 CE",
       "summary": {
-        "en": "His 'Almagest' provided the astronomical foundation for Islamic science."
+        "en": "His 'Almagest' provided the astronomical foundation for Islamic science.",
+        "bn": "তার 'আলমাজেস্ট' ইসলামী বিজ্ঞানের জ্যোতির্বিদ্যার ভিত্তি প্রদান করেছিল।"
       },
-      "era": 0
+      "eras": [
+        0,
+        3
+      ]
     },
     {
       "id": "euclid",
       "name": {
-        "en": "Euclid"
+        "en": "Euclid",
+        "bn": "ইউক্লিড"
       },
       "lifespan": "fl. 300 BCE",
       "summary": {
-        "en": "Father of Geometry; his 'Elements' was fundamental to Islamic mathematical progress."
+        "en": "Father of Geometry; his 'Elements' was fundamental to Islamic mathematical progress.",
+        "bn": "জ্যামিতির জনক; তার 'এলিমেন্টস' ইসলামী গণিত শাস্ত্রের অগ্রগতির জন্য মৌলিক ছিল।"
       },
-      "era": 0
+      "eras": [
+        0,
+        3
+      ]
     },
     {
       "id": "archimedes",
       "name": {
-        "en": "Archimedes"
+        "en": "Archimedes",
+        "bn": "আর্কিমিডিস"
       },
       "lifespan": "287–212 BCE",
       "summary": {
-        "en": "Greek mathematician and engineer whose works on spheres and cylinders were translated into Arabic."
+        "en": "Greek mathematician and engineer whose works on spheres and cylinders were translated into Arabic.",
+        "bn": "গ্রিক গণিতবিদ ও প্রকৌশলী যার গোলক এবং সিলিন্ডারের ওপর কাজগুলো আরবিতে অনূদিত হয়েছিল।"
       },
-      "era": 0
+      "eras": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": "hippocrates",
+      "name": {
+        "en": "Hippocrates",
+        "bn": "হিপোক্রেটিস"
+      },
+      "lifespan": "460–370 BCE",
+      "summary": {
+        "en": "Father of Medicine; the Hippocratic Oath remains a standard for medical ethics.",
+        "bn": "চিকিৎসা বিজ্ঞানের জনক; হিপোক্রেটিক শপথ আজও চিকিৎসা নীতিশাস্ত্রের মানদণ্ড।"
+      },
+      "eras": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": "herodotus",
+      "name": {
+        "en": "Herodotus",
+        "bn": "হেরোডোটাস"
+      },
+      "lifespan": "484–425 BCE",
+      "summary": {
+        "en": "Father of History; known for his systematic collection of materials and historical narratives.",
+        "bn": "ইতিহাসের জনক; ঐতিহাসিক বর্ণনা ও তথ্য সংগ্রহের জন্য সুপরিচিত।"
+      },
+      "eras": [
+        0
+      ]
+    },
+    {
+      "id": "pythagoras",
+      "name": {
+        "en": "Pythagoras",
+        "bn": "পিথাগোরাস"
+      },
+      "lifespan": "570–495 BCE",
+      "summary": {
+        "en": "Famous for the Pythagorean theorem; his work influenced both math and music theory.",
+        "bn": "পিথাগোরাসের উপপাদ্যের জন্য বিখ্যাত; তার কাজ গণিত এবং সঙ্গীত তত্ত্ব উভয়কেই প্রভাবিত করেছিল।"
+      },
+      "eras": [
+        0,
+        3
+      ]
     }
   ]
 }

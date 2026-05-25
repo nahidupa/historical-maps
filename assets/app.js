@@ -362,13 +362,25 @@
             [-500, 500], [570, 632], [632, 661], [661, 1258], [900, 1600], [1400, 1922], [1900, 2026]
         ];
         const [start, end] = eraYears[currentEraIndex];
-        const relevantScholars = scholarsData.filter(s => s.born <= end && s.died >= start);
+
+        // Custom logic for overlapping or specific era assignments
+        const relevantScholars = scholarsData.filter(s => {
+            // Era 0: Classical (-500 to 500)
+            // Era 1: Prophet (570-632)
+            // Era 2: Rashidun (632-661)
+            // Era 3: Umayyad/Abbasid (661-1258)
+            // ...
+
+            // Special handling for early scholars to avoid showing them in Era 0
+            if (currentEraIndex === 0 && s.born > 500) return false;
+
+            // Standard check
+            return s.born <= end && s.died >= start;
+        });
 
         if (relevantScholars.length === 0) {
             content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No major scholars recorded for this era.</div>';
         } else {
-
-
             relevantScholars.forEach(s => {
                 const div = document.createElement('div');
                 div.className = 'scholar-card';
@@ -398,7 +410,6 @@
                 });
                 content.appendChild(div);
             });
-
         }
     }
 
@@ -503,14 +514,19 @@
     }
 
     function renderGreekInfluence(content) {
-        const relevantGreeks = greekData.filter(g => g.era === currentEraIndex);
+        const relevantGreeks = greekData.filter(g => g.eras && g.eras.includes(currentEraIndex));
         if (relevantGreeks.length === 0) {
             content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No notable Greek influences identified for this era.</div>';
         } else {
             relevantGreeks.forEach(g => {
                 const div = document.createElement('div');
                 div.className = 'scholar-card';
-                div.innerHTML = `<span class="scholar-name">${g.name.en}</span><span class="scholar-field">${g.lifespan}</span><p class="se-desc">${g.summary.en}</p>`;
+                div.innerHTML = `
+                    <div class="scholar-info" style="margin-left: 0">
+                        <span class="scholar-name">${g.name.en}</span>
+                        <span class="scholar-field">${g.lifespan}</span>
+                        <p class="se-desc" style="margin-top: 0.5rem; font-size: 0.9rem;">${g.summary.en}</p>
+                    </div>`;
                 content.appendChild(div);
             });
         }

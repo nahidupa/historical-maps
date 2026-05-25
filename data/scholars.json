@@ -1312,6 +1312,660 @@
       ],
       "connections": [],
       "lifespan_years": 61
+    },
+    {
+      "id": "ibnabbas",
+      "initials": "IA",
+      "color": "#1E3A8A",
+      "colorBg": "#1E3A8A22",
+      "colorText": "#1E3A8A",
+      "born": 619,
+      "died": 687,
+      "name": {
+        "en": "Abdullah ibn Abbas",
+        "bn": "আবদুল্লাহ ইবনে আব্বাস"
+      },
+      "arabic": "عبد الله بن عباس",
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.3891,
+          39.8579
+        ]
+      },
+      "active": {
+        "en": "Ta'if",
+        "bn": "তায়েফ",
+        "coords": [
+          21.2703,
+          40.4158
+        ]
+      },
+      "title": {
+        "en": "Interpreter of the Quran",
+        "bn": "তরজুমানুল কুরআন"
+      },
+      "field": {
+        "en": "Tafsir · Jurisprudence",
+        "bn": "তাফসীর · ফিকহ"
+      },
+      "summary": {
+        "en": "A cousin of the Prophet known as the greatest early authority on Quranic interpretation.",
+        "bn": "রাসূলুল্লাহর (সা.) চাচাতো ভাই, যিনি কুরআনের ব্যাখ্যার ক্ষেত্রে প্রাথমিক যুগের শ্রেষ্ঠ পণ্ডিত হিসেবে পরিচিত।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Tanwir al-Miqbas",
+            "bn": "তানভীর আল-মিকবাস"
+          },
+          "desc": {
+            "en": "A collection of his Quranic commentaries.",
+            "bn": "তার কুরআনের তাফসীরের একটি সংগ্রহ।"
+          }
+        }
+      ],
+      "journeys": [
+        {
+          "place": {
+            "en": "Mecca",
+            "bn": "মক্কা",
+            "coords": [
+              21.3891,
+              39.8579
+            ]
+          },
+          "note": {
+            "en": "Born in Mecca during the early days of Islam.",
+            "bn": "ইসলামের প্রাথমিক যুগে মক্কায় জন্ম।"
+          }
+        },
+        {
+          "place": {
+            "en": "Ta'if",
+            "bn": "তায়েফ",
+            "coords": [
+              21.2703,
+              40.4158
+            ]
+          },
+          "note": {
+            "en": "Spent his later years teaching and died in Ta'if.",
+            "bn": "জীবনের শেষ বছরগুলো শিক্ষকতায় কাটান এবং তায়েফে মারা যান।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aisha",
+      "initials": "AB",
+      "color": "#BE185D",
+      "colorBg": "#BE185D22",
+      "colorText": "#BE185D",
+      "born": 613,
+      "died": 678,
+      "name": {
+        "en": "Aisha bint Abi Bakr",
+        "bn": "আয়েশা বিনতে আবু বকর"
+      },
+      "arabic": "عائشة بنت أبي بكر",
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.3891,
+          39.8579
+        ]
+      },
+      "active": {
+        "en": "Medina",
+        "bn": "মদিনা",
+        "coords": [
+          24.4672,
+          39.6061
+        ]
+      },
+      "title": {
+        "en": "Mother of the Believers",
+        "bn": "উম্মুল মুমিনীন"
+      },
+      "field": {
+        "en": "Hadith · Jurisprudence · Medicine",
+        "bn": "হাদিস · ফিকহ · চিকিৎসা"
+      },
+      "summary": {
+        "en": "The wife of the Prophet and one of the most prolific narrators of Hadith and legal experts.",
+        "bn": "রাসূলুল্লাহর (সা.) স্ত্রী এবং হাদিস ও আইনি বিষয়ের অন্যতম বিশেষজ্ঞ এবং বর্ণনাকারী।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Hadith Narrations",
+            "bn": "হাদিস বর্ণনা"
+          },
+          "desc": {
+            "en": "Transmitted over 2,200 traditions from the Prophet.",
+            "bn": "রাসূলুল্লাহর (সা.) থেকে ২,২০০-এর বেশি হাদিস বর্ণনা করেছেন।"
+          }
+        }
+      ],
+      "journeys": [
+        {
+          "place": {
+            "en": "Medina",
+            "bn": "মদিনা",
+            "coords": [
+              24.4672,
+              39.6061
+            ]
+          },
+          "note": {
+            "en": "A leading intellectual figure in Medina for decades.",
+            "bn": "দশক ধরে মদিনার অন্যতম প্রধান বুদ্ধিজীবী ব্যক্তিত্ব ছিলেন।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "abuhuraira",
+      "initials": "AH",
+      "color": "#065F46",
+      "colorBg": "#065F4622",
+      "colorText": "#065F46",
+      "born": 603,
+      "died": 681,
+      "name": {
+        "en": "Abu Huraira",
+        "bn": "আবু হুরায়রা"
+      },
+      "arabic": "أبو هريرة",
+      "birthplace": {
+        "en": "Baha, Yemen",
+        "bn": "বাহা, ইয়েমেন",
+        "coords": [
+          20.0129,
+          41.4677
+        ]
+      },
+      "active": {
+        "en": "Medina",
+        "bn": "মদিনা",
+        "coords": [
+          24.4672,
+          39.6061
+        ]
+      },
+      "title": {
+        "en": "The Great Narrator",
+        "bn": "শ্রেষ্ঠ হাদিস বর্ণনাকারী"
+      },
+      "field": {
+        "en": "Hadith",
+        "bn": "হাদিস"
+      },
+      "summary": {
+        "en": "The most prolific narrator of Hadith, spending years in close company with the Prophet.",
+        "bn": "হাদিসের সবচেয়ে বেশি বর্ণনাকারী, যিনি রাসূলুল্লাহর (সা.) সান্নিধ্যে অনেক বছর কাটিয়েছেন।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Musnad Abu Huraira",
+            "bn": "মুসনাদে আবু হুরায়রা"
+          },
+          "desc": {
+            "en": "The collection of thousands of hadiths attributed to him.",
+            "bn": "তার নামে প্রচলিত হাজার হাজার হাদিসের সংকলন।"
+          }
+        }
+      ],
+      "journeys": [
+        {
+          "place": {
+            "en": "Medina",
+            "bn": "মদিনা",
+            "coords": [
+              24.4672,
+              39.6061
+            ]
+          },
+          "note": {
+            "en": "Member of Suffah and later governor of Medina.",
+            "bn": "সুফফার সদস্য এবং পরবর্তীতে মদিনার গভর্নর ছিলেন।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alitalib",
+      "initials": "AT",
+      "color": "#4338CA",
+      "colorBg": "#4338CA22",
+      "colorText": "#4338CA",
+      "born": 601,
+      "died": 661,
+      "name": {
+        "en": "Ali ibn Abi Talib",
+        "bn": "আলী ইবনে আবু তালিব"
+      },
+      "arabic": "علي بن أبي طالب",
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.3891,
+          39.8579
+        ]
+      },
+      "active": {
+        "en": "Kufa, Iraq",
+        "bn": "কুফা, ইরাক",
+        "coords": [
+          32.0333,
+          44.4
+        ]
+      },
+      "title": {
+        "en": "The Gate of Knowledge",
+        "bn": "জ্ঞানের শহর"
+      },
+      "field": {
+        "en": "Eloquence · Law · Philosophy",
+        "bn": "বাগ্মিতা · আইন · দর্শন"
+      },
+      "summary": {
+        "en": "The fourth Caliph known for his unparalleled wisdom, bravery, and foundational contributions to Islamic thought.",
+        "bn": "চতুর্থ খলিফা, যিনি তার অতুলনীয় প্রজ্ঞা, বীরত্ব এবং ইসলামী চিন্তাধারায় মৌলিক অবদানের জন্য পরিচিত।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Nahj al-Balagha",
+            "bn": "নাহজুল বালাগা"
+          },
+          "desc": {
+            "en": "A collection of his sermons, letters, and sayings.",
+            "bn": "তার খুতবা, পত্র এবং বাণীর একটি সংকলন।"
+          }
+        }
+      ],
+      "journeys": [
+        {
+          "place": {
+            "en": "Kufa",
+            "bn": "কুফা",
+            "coords": [
+              32.0333,
+              44.4
+            ]
+          },
+          "note": {
+            "en": "Established Kufa as the capital and a center of learning.",
+            "bn": "কুফাকে রাজধানী এবং শিক্ষার কেন্দ্র হিসেবে প্রতিষ্ঠা করেন।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shahwaliullah",
+      "initials": "SW",
+      "color": "#92400E",
+      "colorBg": "#92400E22",
+      "colorText": "#92400E",
+      "born": 1703,
+      "died": 1762,
+      "name": {
+        "en": "Shah Waliullah",
+        "bn": "শাহ ওয়ালিউল্লাহ"
+      },
+      "arabic": "شاه ولي الله الدهلوي",
+      "birthplace": {
+        "en": "Delhi, India",
+        "bn": "দিল্লি, ভারত",
+        "coords": [
+          28.6139,
+          77.209
+        ]
+      },
+      "active": {
+        "en": "Delhi",
+        "bn": "দিল্লি",
+        "coords": [
+          28.6139,
+          77.209
+        ]
+      },
+      "title": {
+        "en": "The Renewer of the Age",
+        "bn": "যুগের সংস্কারক"
+      },
+      "field": {
+        "en": "Theology · Hadith · Sociology",
+        "bn": "ধর্মতত্ত্ব · হাদিস · সমাজবিজ্ঞান"
+      },
+      "summary": {
+        "en": "A monumental figure in Indian Islam who sought to reform religious thought and unite the community.",
+        "bn": "ভারতীয় ইসলামের এক অবিস্মরণীয় ব্যক্তিত্ব যিনি ধর্মীয় চিন্তাধারার সংস্কার এবং ঐক্য সাধনের চেষ্টা করেছিলেন।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Hujjat Allah al-Baligha",
+            "bn": "হুজ্জাতুল্লাহিল বালিগাহ"
+          },
+          "desc": {
+            "en": "A profound work on the secrets of the Shariah and theology.",
+            "bn": "শরীয়ত ও ধর্মতত্ত্বের রহস্যের ওপর একটি গভীর গবেষণা।"
+          }
+        }
+      ],
+      "journeys": [
+        {
+          "place": {
+            "en": "Mecca",
+            "bn": "মক্কা",
+            "coords": [
+              21.3891,
+              39.8579
+            ]
+          },
+          "note": {
+            "en": "Performed Hajj and studied under great scholars of the Hejaz.",
+            "bn": "হজ পালন করেন এবং হিজাজের মহান পণ্ডিতদের কাছে পড়াশোনা করেন।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "katipcelebi",
+      "initials": "KC",
+      "color": "#111827",
+      "colorBg": "#11182722",
+      "colorText": "#111827",
+      "born": 1609,
+      "died": 1657,
+      "name": {
+        "en": "Katip Celebi",
+        "bn": "কাতিব চেলেবি"
+      },
+      "arabic": "كاتب جلبي",
+      "birthplace": {
+        "en": "Istanbul",
+        "bn": "ইস্তাম্বুল",
+        "coords": [
+          41.0082,
+          28.9784
+        ]
+      },
+      "active": {
+        "en": "Istanbul",
+        "bn": "ইস্তাম্বুল",
+        "coords": [
+          41.0082,
+          28.9784
+        ]
+      },
+      "title": {
+        "en": "The Scholar of the World",
+        "bn": "বিশ্বের পণ্ডিত"
+      },
+      "field": {
+        "en": "Geography · History · Bibliography",
+        "bn": "ভূগোল · ইতিহাস · গ্রন্থপঞ্জি"
+      },
+      "summary": {
+        "en": "A leading Ottoman polymath who compiled one of the greatest bibliographical encyclopedias.",
+        "bn": "উসমানীয় সাম্রাজ্যের এক প্রধান বহুভাষী পণ্ডিত যিনি অন্যতম শ্রেষ্ঠ গ্রন্থপঞ্জি বিশ্বকোষ সংকলন করেছিলেন।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Kashf al-Zunun",
+            "bn": "কাশফ আল-জুনুন"
+          },
+          "desc": {
+            "en": "A massive bibliographic encyclopedia of Islamic books.",
+            "bn": "ইসলামী বইয়ের একটি বিশাল গ্রন্থপঞ্জি বিশ্বকোষ।"
+          }
+        }
+      ],
+      "journeys": [
+        {
+          "place": {
+            "en": "Istanbul",
+            "bn": "ইস্তাম্বুল",
+            "coords": [
+              41.0082,
+              28.9784
+            ]
+          },
+          "note": {
+            "en": "Spent his life in the Ottoman bureaucracy and libraries.",
+            "bn": "উসমানীয় আমলাতন্ত্র এবং গ্রন্থাগারে জীবন কাটিয়েছেন।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mullasadra",
+      "initials": "MS",
+      "color": "#7F1D1D",
+      "colorBg": "#7F1D1D22",
+      "colorText": "#7F1D1D",
+      "born": 1571,
+      "died": 1640,
+      "name": {
+        "en": "Mulla Sadra",
+        "bn": "মোল্লা সদরা"
+      },
+      "arabic": "صدر الدين الشيرازي",
+      "birthplace": {
+        "en": "Shiraz, Persia",
+        "bn": "শিরাজ, পারস্য",
+        "coords": [
+          29.5918,
+          52.5837
+        ]
+      },
+      "active": {
+        "en": "Isfahan · Shiraz",
+        "bn": "ইসফাহান · শিরাজ",
+        "coords": [
+          32.6546,
+          51.668
+        ]
+      },
+      "title": {
+        "en": "The Master of Theosophists",
+        "bn": "জ্ঞানী শ্রেষ্ঠ"
+      },
+      "field": {
+        "en": "Philosophy · Metaphysics",
+        "bn": "দর্শন · অধিবিদ্যা"
+      },
+      "summary": {
+        "en": "The most influential philosopher in late Islamic history, founder of the Transcendent Theosophy school.",
+        "bn": "ইসলামী ইতিহাসের শেষভাগের সবচেয়ে প্রভাবশালী দার্শনিক, 'ট্রান্সেন্ডেন্ট থিওসফি' স্কুলের প্রতিষ্ঠাতা।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "The Four Journeys",
+            "bn": "আল-আসফার আল-আরবা"
+          },
+          "desc": {
+            "en": "His magnum opus on metaphysics and the journey of the soul.",
+            "bn": "অধিবিদ্যা এবং আত্মার ভ্রমণের ওপর তার শ্রেষ্ঠ রচনা।"
+          }
+        }
+      ],
+      "journeys": [
+        {
+          "place": {
+            "en": "Isfahan",
+            "bn": "ইসফাহান",
+            "coords": [
+              32.6546,
+              51.668
+            ]
+          },
+          "note": {
+            "en": "Studied under Mir Damad in the Safavid capital.",
+            "bn": "সাফাভী রাজধানী ইসফাহানে মীর দামাদের কাছে পড়াশোনা করেন।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fazlurrahman",
+      "initials": "FR",
+      "color": "#312E81",
+      "colorBg": "#312E8122",
+      "colorText": "#312E81",
+      "born": 1919,
+      "died": 1988,
+      "name": {
+        "en": "Fazlur Rahman",
+        "bn": "ফজলুর রহমান"
+      },
+      "arabic": "فضل الرحمن",
+      "birthplace": {
+        "en": "Hazara, Pakistan",
+        "bn": "হাজারা, পাকিস্তান",
+        "coords": [
+          34.1688,
+          73.2215
+        ]
+      },
+      "active": {
+        "en": "Chicago, USA",
+        "bn": "শিকাগো, যুক্তরাষ্ট্র",
+        "coords": [
+          41.8781,
+          -87.6298
+        ]
+      },
+      "title": {
+        "en": "Modernist Reformer",
+        "bn": "আধুনিক সংস্কারক"
+      },
+      "field": {
+        "en": "Philosophy · Ethics · Quranic Studies",
+        "bn": "দর্শন · নীতিশাস্ত্র · কুরআন অধ্যয়ন"
+      },
+      "summary": {
+        "en": "A leading modern thinker who advocated for a historical and ethical re-reading of Islamic sources.",
+        "bn": "এক শীর্ষস্থানীয় আধুনিক চিন্তাবিদ যিনি ইসলামী উৎসের ঐতিহাসিক ও নৈতিক পুনঃপাঠের পক্ষে সওয়াল করেছিলেন।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Islam",
+            "bn": "ইসলাম"
+          },
+          "desc": {
+            "en": "A major analytical work on the history and spirit of Islam.",
+            "bn": "ইসলামের ইতিহাস এবং স্পিরিটের ওপর একটি প্রধান বিশ্লেষণমূলক কাজ।"
+          }
+        },
+        {
+          "title": {
+            "en": "Major Themes of the Quran",
+            "bn": "কুরআনের প্রধান বিষয়বস্তু"
+          },
+          "desc": {
+            "en": "A thematic study of Quranic philosophy.",
+            "bn": "কুরআনের দর্শনের একটি বিষয়ভিত্তিক অধ্যয়ন।"
+          }
+        }
+      ],
+      "journeys": [
+        {
+          "place": {
+            "en": "Chicago",
+            "bn": "শিকাগো",
+            "coords": [
+              41.8781,
+              -87.6298
+            ]
+          },
+          "note": {
+            "en": "Taught at the University of Chicago, influencing generations of scholars.",
+            "bn": "শিকাগো বিশ্ববিদ্যালয়ে অধ্যাপনা করেছেন এবং বহু পণ্ডিতকে প্রভাবিত করেছেন।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "malekbennabi",
+      "initials": "MB",
+      "color": "#064E3B",
+      "colorBg": "#064E3B22",
+      "colorText": "#064E3B",
+      "born": 1905,
+      "died": 1973,
+      "name": {
+        "en": "Malek Bennabi",
+        "bn": "মালেক বেন্নাবি"
+      },
+      "arabic": "مالك بن نبي",
+      "birthplace": {
+        "en": "Constantine, Algeria",
+        "bn": "কনস্টানটাইন, আলজেরিয়া",
+        "coords": [
+          36.365,
+          6.6147
+        ]
+      },
+      "active": {
+        "en": "Algiers · Cairo",
+        "bn": "আলজিয়ার্স · কায়রো",
+        "coords": [
+          36.7528,
+          3.042
+        ]
+      },
+      "title": {
+        "en": "Philosopher of Civilization",
+        "bn": "সভ্যতার দার্শনিক"
+      },
+      "field": {
+        "en": "Sociology · History · Philosophy",
+        "bn": "সমাজবিজ্ঞান · ইতিহাস · দর্শন"
+      },
+      "summary": {
+        "en": "An Algerian thinker focused on the conditions of civilization and the renaissance of the Muslim world.",
+        "bn": "একজন আলজেরীয় চিন্তাবিদ যিনি সভ্যতার শর্তাবলী এবং মুসলিম বিশ্বের রেনেসাঁর ওপর দৃষ্টি নিবদ্ধ করেছিলেন।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "The Conditions of Renaissance",
+            "bn": "রেনেসাঁর শর্তাবলী"
+          },
+          "desc": {
+            "en": "His seminal work on the rebirth of Islamic civilization.",
+            "bn": "ইসলামী সভ্যতার পুনর্জন্মের ওপর তার মৌলিক কাজ।"
+          }
+        }
+      ],
+      "journeys": [
+        {
+          "place": {
+            "en": "Paris",
+            "bn": "প্যারিস",
+            "coords": [
+              48.8566,
+              2.3522
+            ]
+          },
+          "note": {
+            "en": "Studied engineering and developed his sociological theories in France.",
+            "bn": "ফ্রান্সে প্রকৌশল বিদ্যা অধ্যয়ন করেন এবং তার সমাজতাত্ত্বিক তত্ত্বগুলি বিকাশ করেন।"
+          }
+        }
+      ]
     }
   ]
 }
