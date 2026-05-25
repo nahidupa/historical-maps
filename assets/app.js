@@ -571,7 +571,7 @@
                         radius: 9,
                         fillColor: '#b45309',
                         color: '#ffffff',
-                        weight: 3,
+                        weight: 2,
                         opacity: 1,
                         fillOpacity: 0.95,
                         className: 'selected-map-node'
@@ -859,7 +859,7 @@
                 radius: 10,
                 fillColor: '#3b82f6',
                 color: '#ffffff',
-                weight: 3,
+                weight: 2,
                 opacity: 1,
                 fillOpacity: 0.95,
                 className: 'selected-map-node'
@@ -886,9 +886,9 @@
 
         if (points.length > 1) {
             L.polyline(points, {
-                color: '#3b82f6',
-                weight: 3,
-                opacity: 0.55,
+                color: '#2563eb',
+                weight: 2,
+                opacity: 0.4,
                 dashArray: '5, 10'
             }).addTo(scholarLayers);
             map.flyToBounds(points, { padding: [50, 50], duration: 1.5 });
@@ -909,7 +909,7 @@
                 radius: 10,
                 fillColor: s.color,
                 color: "#fff",
-                weight: 3,
+                weight: 2,
                 opacity: 1,
                 fillOpacity: 0.95,
                 className: 'selected-map-node'
@@ -941,8 +941,8 @@
         if (points.length > 1) {
             L.polyline(points, {
                 color: s.color,
-                weight: 3,
-                opacity: 0.6,
+                weight: 2,
+                opacity: 0.4,
                 dashArray: '5, 10'
             }).addTo(scholarLayers);
             map.flyToBounds(points, { padding: [50, 50], duration: 1.5 });
