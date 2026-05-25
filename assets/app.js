@@ -9,6 +9,89 @@
     let sidebarExpanded = false;
     let touchStartY = 0;
     let touchStartX = 0;
+    let currentLang = 'en';
+
+    const uiText = {
+        appTitle: { en: 'Islamic History', bn: 'ইসলামের ইতিহাস' },
+        appSubtitle: { en: 'Interactive Choropleth & Timeline', bn: 'ইন্টারঅ্যাকটিভ মানচিত্র ও সময়রেখা' },
+        historicalMap: { en: 'Historical', bn: 'ঐতিহাসিক' },
+        neutralMap: { en: 'Neutral', bn: 'নিরপেক্ষ' },
+        modernMap: { en: 'Modern', bn: 'আধুনিক' },
+        era: { en: 'Era', bn: 'যুগ' },
+        historicalContext: { en: 'Historical Context', bn: 'ঐতিহাসিক প্রেক্ষাপট' },
+        events: { en: 'Events', bn: 'ঘটনা' },
+        scholars: { en: 'Scholars', bn: 'মনীষী' },
+        greekInfluence: { en: 'Greek Influence', bn: 'গ্রিক প্রভাব' },
+        noEvents: { en: 'No major events recorded for this era.', bn: 'এই যুগের জন্য বড় কোনো ঘটনা যুক্ত করা হয়নি।' },
+        noScholars: { en: 'No major scholars recorded for this era.', bn: 'এই যুগের জন্য বড় কোনো মনীষী যুক্ত করা হয়নি।' },
+        noGreek: { en: 'No notable Greek influences identified for this era.', bn: 'এই যুগের জন্য উল্লেখযোগ্য গ্রিক প্রভাব যুক্ত করা হয়নি।' },
+        backToList: { en: 'Back to List', bn: 'তালিকায় ফিরুন' },
+        years: { en: 'years', bn: 'বছর' },
+        fields: { en: 'Fields', bn: 'বিষয়' },
+        born: { en: 'Born', bn: 'জন্ম' },
+        active: { en: 'Active', bn: 'কর্মক্ষেত্র' },
+        notableWorks: { en: 'Notable Works', bn: 'উল্লেখযোগ্য রচনা' },
+        lifeJourneys: { en: 'Life Journeys', bn: 'জীবনপথ' },
+        intellectualConnections: { en: 'Intellectual Connections', bn: 'জ্ঞানগত সম্পর্ক' },
+        noWorks: { en: 'No works recorded.', bn: 'কোনো রচনা যুক্ত করা হয়নি।' },
+        noJourneys: { en: 'No major journeys recorded.', bn: 'কোনো প্রধান জীবনপথ যুক্ত করা হয়নি।' },
+        noneRecorded: { en: 'None recorded', bn: 'কিছু যুক্ত করা হয়নি' },
+        birthplace: { en: 'Birthplace', bn: 'জন্মস্থান' },
+        journey: { en: 'Journey', bn: 'জীবনপথ' },
+        viewDetails: { en: 'View details for', bn: 'বিস্তারিত দেখুন' },
+        accuracyHigh: { en: 'High Accuracy', bn: 'উচ্চ নির্ভুলতা' },
+        accuracyMedium: { en: 'Medium Accuracy', bn: 'মাঝারি নির্ভুলতা' },
+        accuracyLow: { en: 'Low Accuracy', bn: 'কম নির্ভুলতা' },
+        historicalRegion: { en: 'Historical Region', bn: 'ঐতিহাসিক অঞ্চল' },
+        hoverRegion: { en: 'Hover over a region', bn: 'অঞ্চলের ওপর স্পর্শ করুন' }
+    };
+
+    const eraMeta = [
+        {
+            name: { en: 'Classical Period', bn: 'ধ্রুপদী যুগ' },
+            period: '-500 to 500 CE',
+            summary: { en: 'Greek philosophy, Roman expansion, rise of Christianity', bn: 'গ্রিক দর্শন, রোমান বিস্তার ও খ্রিস্টধর্মের উত্থান' }
+        },
+        {
+            name: { en: 'Prophet Muhammad', bn: 'নবী মুহাম্মদ' },
+            period: '570-632 CE',
+            summary: { en: 'Birth of Islam, revelation of the Quran, unification of Arabia', bn: 'ইসলামের জন্ম, কুরআন অবতরণ ও আরবের ঐক্য' }
+        },
+        {
+            name: { en: 'Rashidun Caliphate', bn: 'রাশিদুন খিলাফত' },
+            period: '632-661 CE',
+            summary: { en: 'First four Caliphs, rapid expansion into Persia and Byzantium', bn: 'প্রথম চার খলিফা এবং পারস্য ও বাইজেন্টাইনে দ্রুত বিস্তার' }
+        },
+        {
+            name: { en: 'Umayyad & Abbasid', bn: 'উমাইয়া ও আব্বাসীয়' },
+            period: '661-1258 CE',
+            summary: { en: 'Golden Age, House of Wisdom, scientific revolution', bn: 'স্বর্ণযুগ, বাইতুল হিকমা ও বৈজ্ঞানিক অগ্রগতি' }
+        },
+        {
+            name: { en: 'Regional Dynasties', bn: 'আঞ্চলিক রাজবংশ' },
+            period: '900-1600 CE',
+            summary: { en: 'Fragmentation, Crusades, Mongol invasions, scholarly excellence', bn: 'আঞ্চলিক শক্তি, ক্রুসেড, মঙ্গোল আক্রমণ ও জ্ঞানচর্চা' }
+        },
+        {
+            name: { en: 'Gunpowder Empires', bn: 'গানপাউডার সাম্রাজ্য' },
+            period: '1400-1922 CE',
+            summary: { en: 'Ottoman, Safavid, Mughal empires at their height', bn: 'অটোমান, সাফাভি ও মুঘল সাম্রাজ্যের উৎকর্ষ' }
+        },
+        {
+            name: { en: 'Modern Era', bn: 'আধুনিক যুগ' },
+            period: '1900-2026 CE',
+            summary: { en: 'Colonial independence, nation-states, contemporary Islam', bn: 'উপনিবেশ-পরবর্তী স্বাধীনতা, জাতিরাষ্ট্র ও সমকালীন ইসলাম' }
+        }
+    ];
+
+    function t(key) {
+        return uiText[key]?.[currentLang] || uiText[key]?.en || key;
+    }
+
+    function localize(value) {
+        if (!value || typeof value !== 'object') return value || '';
+        return value[currentLang] || value.en || value.bn || '';
+    }
     
     function checkMobile() {
         isMobile = window.matchMedia('(max-width: 720px)').matches;
@@ -21,6 +104,57 @@
 
     function hideLoading() {
         document.getElementById('loadingOverlay')?.classList.remove('active');
+    }
+
+    function updateLanguageUI() {
+        document.documentElement.lang = currentLang === 'bn' ? 'bn' : 'en';
+        document.body.classList.toggle('lang-bn', currentLang === 'bn');
+
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            el.textContent = t(el.dataset.i18n);
+        });
+
+        const languageToggle = document.getElementById('languageToggle');
+        if (languageToggle) {
+            languageToggle.textContent = currentLang === 'en' ? 'বাংলা' : 'English';
+            languageToggle.setAttribute('aria-label', currentLang === 'en' ? 'Switch to Bengali' : 'Switch to English');
+        }
+
+        const mobileEraSelect = document.getElementById('mobileEraSelect');
+        if (mobileEraSelect) {
+            eraMeta.forEach((era, index) => {
+                const option = mobileEraSelect.options[index];
+                if (option) option.textContent = `${localize(era.name)} (${era.period})`;
+            });
+        }
+
+        document.querySelectorAll('.tl-item').forEach((item, index) => {
+            const era = eraMeta[index];
+            if (!era) return;
+            const label = item.querySelector('.tl-section-label');
+            const badge = label?.querySelector('.accuracy-badge');
+            if (label) {
+                label.textContent = localize(era.name) + ' ';
+                if (badge) {
+                    if (badge.classList.contains('accuracy-high')) badge.textContent = t('accuracyHigh');
+                    if (badge.classList.contains('accuracy-medium')) badge.textContent = t('accuracyMedium');
+                    if (badge.classList.contains('accuracy-low')) badge.textContent = t('accuracyLow');
+                    label.appendChild(badge);
+                }
+            }
+            const period = item.querySelector('.tl-period');
+            if (period) period.textContent = era.period;
+            const summary = item.querySelector('.tl-summary');
+            if (summary) summary.textContent = localize(era.summary);
+        });
+
+        updateMapTitle();
+    }
+
+    function updateMapTitle() {
+        const era = eraMeta[currentEraIndex];
+        if (!era) return;
+        document.getElementById('mapTitle').textContent = `${localize(era.name)} (${era.period})`;
     }
 
     // ============================================================
@@ -78,6 +212,14 @@
         loadEra(Number(e.target.value));
     });
 
+    document.getElementById('languageToggle')?.addEventListener('click', () => {
+        currentLang = currentLang === 'en' ? 'bn' : 'en';
+        updateLanguageUI();
+        if (subEventsData && scholarsData && greekData) {
+            updateSidebar();
+        }
+    });
+
     function isSmallScreen() {
         return window.matchMedia('(max-width: 720px)').matches;
     }
@@ -110,7 +252,8 @@
     let greekData = null;
     let currentEraIndex = 0;
     let selectedScholarId = null;
-    let scholarLayers = L.layerGroup();
+    let highlightedRegionLayer = null;
+    let scholarLayers = L.layerGroup().addTo(map);
     let currentTab = 'events';
 
     // ============================================================
@@ -133,6 +276,7 @@
             subEventsData = events;
             scholarsData = scholars.scholars;
             greekData = greek.philosophers;
+            updateLanguageUI();
             
             // Initialize mobile sidebar behavior
             if (checkMobile()) {
@@ -251,9 +395,9 @@
     };
 
     info.update = function (props) {
-        this._div.innerHTML = '<h4>Historical Region</h4>' +  (props ?
+        this._div.innerHTML = `<h4>${t('historicalRegion')}</h4>` +  (props ?
             '<b>' + props.name + '</b><br />' + props.description
-            : 'Hover over a region');
+            : t('hoverRegion'));
     };
 
     info.addTo(map);
@@ -274,6 +418,58 @@
         });
     }
 
+    function clearMapHighlights() {
+        scholarLayers.clearLayers();
+        if (highlightedRegionLayer && geojsonLayer) {
+            geojsonLayer.resetStyle(highlightedRegionLayer);
+        }
+        highlightedRegionLayer = null;
+    }
+
+    function highlightRegionNear(coords) {
+        if (!geojsonLayer || !coords) return;
+
+        if (highlightedRegionLayer) {
+            geojsonLayer.resetStyle(highlightedRegionLayer);
+            highlightedRegionLayer = null;
+        }
+
+        const latLng = L.latLng(coords[0], coords[1]);
+        geojsonLayer.eachLayer(layer => {
+            if (!highlightedRegionLayer && layer.getBounds().contains(latLng)) {
+                highlightedRegionLayer = layer;
+                layer.setStyle({
+                    weight: 5,
+                    color: '#111827',
+                    dashArray: '',
+                    fillOpacity: 0.88
+                });
+                layer.bringToFront();
+            }
+        });
+    }
+
+    function makeEventPopup(ev) {
+        return `
+            <div class="map-popup">
+                <strong>${ev.title}</strong>
+                <span>${ev.year}</span>
+                <p>${ev.desc}</p>
+            </div>
+        `;
+    }
+
+    function makeScholarPopup(s, label, note) {
+        return `
+            <div class="map-popup">
+                <strong>${localize(s.name)}</strong>
+                <span>${label}</span>
+                <p>${note || localize(s.summary)}</p>
+                <small>${s.born}-${s.died} CE · ${localize(s.field)}</small>
+            </div>
+        `;
+    }
+
     // ============================================================
     //  4. TABS & SIDEBAR
     // ============================================================
@@ -288,7 +484,7 @@
             e.target.setAttribute('aria-selected', 'true');
             currentTab = e.target.dataset.tab;
             selectedScholarId = null;
-            scholarLayers.clearLayers();
+            clearMapHighlights();
 
             // Update tabpanel labelledby
             const content = document.getElementById('sidebarContent');
@@ -335,7 +531,7 @@
     function renderEvents(content) {
         const events = subEventsData[currentEraIndex] || [];
         if (events.length === 0) {
-            content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No major events recorded for this era.</div>';
+            content.innerHTML = `<div style="padding:1rem;color:#7a6f62;">${t('noEvents')}</div>`;
             return;
         }
         events.forEach(ev => {
@@ -345,9 +541,21 @@
             div.innerHTML = `<span class="se-year">${ev.year}</span><span class="se-title">${ev.title}</span><p class="se-desc">${ev.desc}</p>`;
             if (ev.coords) {
                 div.addEventListener('click', () => {
-                    scholarLayers.clearLayers();
-                    const marker = L.marker(ev.coords).addTo(scholarLayers);
-                    marker.bindPopup(`<strong>${ev.title}</strong><br>${ev.year}<br>${ev.desc}`).openPopup();
+                    clearMapHighlights();
+                    document.querySelectorAll('.sub-event.selected').forEach(item => item.classList.remove('selected'));
+                    div.classList.add('selected');
+                    highlightRegionNear(ev.coords);
+                    const marker = L.circleMarker(ev.coords, {
+                        radius: 9,
+                        fillColor: '#b45309',
+                        color: '#ffffff',
+                        weight: 3,
+                        opacity: 1,
+                        fillOpacity: 0.95,
+                        className: 'selected-map-node'
+                    }).addTo(scholarLayers);
+                    marker.bindPopup(makeEventPopup(ev)).openPopup();
+                    marker.on('click', () => marker.openPopup());
                     map.flyTo(ev.coords, 5, { duration: 1.5 });
                 });
             }
@@ -357,7 +565,7 @@
 
 
     function renderScholarsList(content) {
-        scholarLayers.clearLayers();
+        clearMapHighlights();
         const eraYears = [
             [-500, 500], [570, 632], [632, 661], [661, 1258], [900, 1600], [1400, 1922], [1900, 2026]
         ];
@@ -365,7 +573,7 @@
         const relevantScholars = scholarsData.filter(s => s.born <= end && s.died >= start);
 
         if (relevantScholars.length === 0) {
-            content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No major scholars recorded for this era.</div>';
+            content.innerHTML = `<div style="padding:1rem;color:#7a6f62;">${t('noScholars')}</div>`;
         } else {
 
 
@@ -374,13 +582,13 @@
                 div.className = 'scholar-card';
                 div.setAttribute('role', 'button');
                 div.setAttribute('tabindex', '0');
-                div.setAttribute('aria-label', `View details for ${s.name.en}`);
+                div.setAttribute('aria-label', `${t('viewDetails')} ${localize(s.name)}`);
                 div.innerHTML = `
                     <div class="scholar-initials" style="background:${s.colorBg}; color:${s.colorText}">${s.initials}</div>
                     <div class="scholar-info">
-                        <span class="scholar-name">${s.name.en}</span>
+                        <span class="scholar-name">${localize(s.name)}</span>
                         <span class="scholar-field">${s.born}–${s.died} CE</span>
-                        <div class="scholar-field">${s.field.en}</div>
+                        <div class="scholar-field">${localize(s.field)}</div>
                     </div>`;
 
                 const selectHandler = () => {
@@ -411,60 +619,60 @@
         
         let worksHtml = s.works ? s.works.map(w => `
             <div class="detail-work">
-                <strong>${w.title.en}</strong>
-                <p>${w.desc.en}</p>
+                <strong>${localize(w.title)}</strong>
+                <p>${localize(w.desc)}</p>
             </div>
         `).join('') : '';
 
         let journeysHtml = s.journeys ? s.journeys.map(j => `
             <div class="detail-journey">
-                <strong>${j.place.en}</strong>
-                <p>${j.note.en}</p>
+                <strong>${localize(j.place)}</strong>
+                <p>${localize(j.note)}</p>
             </div>
         `).join('') : '';
 
         
         detailDiv.innerHTML = `
-            <button class="back-btn" id="backToScholars">← Back to List</button>
+            <button class="back-btn" id="backToScholars">← ${t('backToList')}</button>
             <div class="detail-header">
                 <div class="detail-avatar" style="background:${s.colorBg}; color:${s.colorText}">${s.initials}</div>
                 <div>
-                    <h2 class="detail-name">${s.name.en}</h2>
+                    <h2 class="detail-name">${localize(s.name)}</h2>
                     <div class="detail-arabic">${s.arabic || ''}</div>
                 </div>
             </div>
 
             <div class="detail-meta">
                 <span>📅 ${s.born}–${s.died} CE</span>
-                <span>⏳ ${s.lifespan_years || (s.died - s.born)} years</span>
-                <span>🎓 ${s.title?.en || ''}</span>
+                <span>⏳ ${s.lifespan_years || (s.died - s.born)} ${t('years')}</span>
+                <span>🎓 ${localize(s.title)}</span>
             </div>
             <div class="detail-meta" style="margin-top: -1rem; background: none; border: 1px solid #e9dfd3;">
-                <span>📚 Fields: ${s.field?.en || ''}</span>
+                <span>📚 ${t('fields')}: ${localize(s.field)}</span>
             </div>
             <div class="detail-meta" style="margin-top: -1rem; background: none; border: 1px solid #e9dfd3;">
 
-                <span>📍 Born: ${s.birthplace?.en || ''}</span>
-                <span>🌍 Active: ${s.active?.en || ''}</span>
+                <span>📍 ${t('born')}: ${localize(s.birthplace)}</span>
+                <span>🌍 ${t('active')}: ${localize(s.active)}</span>
             </div>
-            <p class="detail-summary">${s.summary.en}</p>
+            <p class="detail-summary">${localize(s.summary)}</p>
 
-            <h3>Notable Works</h3>
-            ${worksHtml || '<p>No works recorded.</p>'}
+            <h3>${t('notableWorks')}</h3>
+            ${worksHtml || `<p>${t('noWorks')}</p>`}
 
-            <h3>Life Journeys</h3>
-            ${journeysHtml || '<p>No major journeys recorded.</p>'}
+            <h3>${t('lifeJourneys')}</h3>
+            ${journeysHtml || `<p>${t('noJourneys')}</p>`}
 
 
-            <h3>Intellectual Connections</h3>
+            <h3>${t('intellectualConnections')}</h3>
             <div class="detail-connections">
                 ${s.connections ? s.connections.map(connId => {
                     const conn = scholarsData.find(cs => cs.id === connId);
                     if (conn) {
-                        return `<span class="connection-tag interactive" data-id="${conn.id}">${conn.name.en}</span>`;
+                        return `<span class="connection-tag interactive" data-id="${conn.id}">${localize(conn.name)}</span>`;
                     }
                     return `<span class="connection-tag">${connId}</span>`;
-                }).join('') : 'None recorded'}
+                }).join('') : t('noneRecorded')}
             </div>
         `;
 
@@ -497,7 +705,7 @@
 
         document.getElementById('backToScholars').addEventListener('click', () => {
             selectedScholarId = null;
-            scholarLayers.clearLayers();
+            clearMapHighlights();
             updateSidebar();
         });
     }
@@ -505,44 +713,51 @@
     function renderGreekInfluence(content) {
         const relevantGreeks = greekData.filter(g => g.era === currentEraIndex);
         if (relevantGreeks.length === 0) {
-            content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No notable Greek influences identified for this era.</div>';
+            content.innerHTML = `<div style="padding:1rem;color:#7a6f62;">${t('noGreek')}</div>`;
         } else {
             relevantGreeks.forEach(g => {
                 const div = document.createElement('div');
                 div.className = 'scholar-card';
-                div.innerHTML = `<span class="scholar-name">${g.name.en}</span><span class="scholar-field">${g.lifespan}</span><p class="se-desc">${g.summary.en}</p>`;
+                div.innerHTML = `<span class="scholar-name">${localize(g.name)}</span><span class="scholar-field">${g.lifespan}</span><p class="se-desc">${localize(g.summary)}</p>`;
                 content.appendChild(div);
             });
         }
     }
 
     function showScholarOnMap(s) {
-        scholarLayers.clearLayers();
+        clearMapHighlights();
         const points = [];
+        let primaryMarker = null;
 
         if (s.birthplace && s.birthplace.coords) {
             const marker = L.circleMarker(s.birthplace.coords, {
-                radius: 8,
+                radius: 10,
                 fillColor: s.color,
                 color: "#fff",
-                weight: 2,
+                weight: 3,
                 opacity: 1,
-                fillOpacity: 0.8
-            }).bindPopup(`<strong>Birthplace: ${s.birthplace.en}</strong>`).addTo(scholarLayers);
+                fillOpacity: 0.95,
+                className: 'selected-map-node'
+            }).bindPopup(makeScholarPopup(s, `${t('birthplace')}: ${localize(s.birthplace)}`, localize(s.summary))).addTo(scholarLayers);
+            marker.on('click', () => marker.openPopup());
+            primaryMarker = marker;
             points.push(s.birthplace.coords);
+            highlightRegionNear(s.birthplace.coords);
         }
 
         if (s.journeys) {
             s.journeys.forEach(j => {
                 if (j.place && j.place.coords) {
-                    L.circleMarker(j.place.coords, {
+                    const marker = L.circleMarker(j.place.coords, {
                         radius: 6,
                         fillColor: s.color,
                         color: "#fff",
                         weight: 1,
                         opacity: 1,
-                        fillOpacity: 0.6
-                    }).bindPopup(`<strong>Journey: ${j.place.en}</strong><br>${j.note.en}`).addTo(scholarLayers);
+                        fillOpacity: 0.7
+                    }).bindPopup(makeScholarPopup(s, `${t('journey')}: ${localize(j.place)}`, localize(j.note))).addTo(scholarLayers);
+                    marker.on('click', () => marker.openPopup());
+                    if (!primaryMarker) primaryMarker = marker;
                     points.push(j.place.coords);
                 }
             });
@@ -559,6 +774,8 @@
         } else if (points.length === 1) {
             map.flyTo(points[0], 5, { duration: 1.5 });
         }
+
+        primaryMarker?.openPopup();
     }
 
     // ============================================================
@@ -588,7 +805,7 @@
 
     window.loadEra = async function(index) {
         selectedScholarId = null;
-        scholarLayers.clearLayers();
+        clearMapHighlights();
         showLoading();
         currentEraIndex = index;
         const items = document.querySelectorAll('.tl-item');
@@ -602,9 +819,7 @@
         }
         keepActiveEraVisible();
         
-        const title = items[index].querySelector('.tl-section-label').textContent;
-        const period = items[index].querySelector('.tl-period').textContent;
-        document.getElementById('mapTitle').textContent = `${title.replace(/High Accuracy|Medium Accuracy|Low Accuracy/g, '').trim()} (${period})`;
+        updateMapTitle();
 
         if (geojsonLayer) map.removeLayer(geojsonLayer);
 
@@ -626,7 +841,9 @@
                             info.update(f.properties);
                         },
                         mouseout: (e) => {
-                            geojsonLayer.resetStyle(e.target);
+                            if (e.target !== highlightedRegionLayer) {
+                                geojsonLayer.resetStyle(e.target);
+                            }
                             info.update();
                         },
                         click: (e) => {

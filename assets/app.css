@@ -118,9 +118,19 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+.language-toggle {
+    background: #3d3a35;
+    border-color: #3d3a35;
+    color: #ffffff;
+}
+
 .controls button:hover {
     background: #e3d7c9;
     transform: translateY(-1px);
+}
+
+.language-toggle:hover {
+    background: #2d2a26;
 }
 
 .controls button.primary {
@@ -345,6 +355,16 @@ body {
     animation: slideInLeft 0.3s ease-out;
 }
 
+.sub-event.selected,
+.scholar-card.selected {
+    border-left-color: #3d3a35;
+    background: #ede5db;
+    border-radius: 0.6rem;
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+    padding-right: 0.65rem;
+}
+
 @keyframes slideInLeft {
     from {
         opacity: 0;
@@ -564,7 +584,50 @@ html {
 }
 
 /* Prevent scroll chaining */
-body {\n    overscroll-behavior: none;\n}\n\n/* Leaflet popup customization */
+body {
+    overscroll-behavior: none;
+}
+
+.lang-bn {
+    font-family: 'Noto Sans Bengali', 'Segoe UI', Roboto, system-ui, sans-serif;
+}
+
+.selected-map-node {
+    filter: drop-shadow(0 0 7px rgba(180, 83, 9, 0.8));
+}
+
+.map-popup {
+    max-width: 240px;
+}
+
+.map-popup strong,
+.map-popup span,
+.map-popup small {
+    display: block;
+}
+
+.map-popup strong {
+    color: #3d3a35;
+    margin-bottom: 0.25rem;
+}
+
+.map-popup span {
+    color: #a68465;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+}
+
+.map-popup p {
+    margin: 0 0 0.35rem;
+    color: #5d554a;
+    line-height: 1.35;
+}
+
+.map-popup small {
+    color: #7a6f62;
+}
+
+/* Leaflet popup customization */
 .leaflet-popup-content-wrapper {
     border-radius: 0.8rem;
     padding: 0.5rem;
@@ -705,7 +768,7 @@ body {\n    overscroll-behavior: none;\n}\n\n/* Leaflet popup customization */
     }
 
     .controls {
-        gap: 0;
+        gap: 0.45rem;
     }
 
     .map-toggle {
@@ -715,6 +778,10 @@ body {\n    overscroll-behavior: none;\n}\n\n/* Leaflet popup customization */
         overflow-x: auto;
         padding: 0.35rem;
         border-radius: 0.75rem;
+    }
+
+    .language-toggle {
+        width: 100%;
     }
 
     .controls button {
