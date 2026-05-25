@@ -98,7 +98,7 @@
     }
     
     function checkMobile() {
-        isMobile = window.matchMedia('(max-width: 720px)').matches;
+        isMobile = window.matchMedia('(max-width: 767px)').matches;
         return isMobile;
     }
 
@@ -238,7 +238,7 @@
     });
 
     function isSmallScreen() {
-        return window.matchMedia('(max-width: 720px)').matches;
+        return window.matchMedia('(max-width: 767px)').matches;
     }
 
     function keepActiveEraVisible() {
@@ -283,6 +283,27 @@
         return await response.json();
     }
 
+
+    // Mobile Menu Toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const headerControls = document.getElementById('headerControls');
+
+    if (menuToggle && headerControls) {
+        menuToggle.addEventListener('click', () => {
+            const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', !isExpanded);
+            headerControls.classList.toggle('active');
+        });
+    }
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (menuToggle && !menuToggle.contains(e.target) && !headerControls.contains(e.target)) {
+            menuToggle.setAttribute('aria-expanded', 'false');
+            headerControls.classList.remove('active');
+        }
+    });
+
     async function init() {
         showLoading();
         try {
@@ -315,7 +336,7 @@
 
     function initMobileSidebar() {
         const sidebar = document.getElementById('contextPanel');
-        const sidebarHeader = sidebar?.querySelector('.sidebar-header');
+        const sidebarHeader = sidebar?.querySelector('.sidebar-handle');
         const backdrop = document.getElementById('sidebarBackdrop');
         
         if (!sidebar || !sidebarHeader) return;

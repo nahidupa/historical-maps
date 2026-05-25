@@ -1,0 +1,25 @@
+Starting local server at http://localhost:8000/
+127.0.0.1 - - [25/May/2026 20:58:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:00] "GET /assets/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:00] "GET /assets/app.css HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:00] "GET /VERSION HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:00] "GET /data/greek_philosophers.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:00] "GET /data/scholars.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:00] "GET /data/sub_events.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:01] "GET /data/era_0_classical.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:04] "GET /assets/app.css HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:04] "GET /assets/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:05] "GET /VERSION HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:05] "GET /data/sub_events.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:05] "GET /data/scholars.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:05] "GET /data/greek_philosophers.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:05] "GET /data/era_0_classical.geojson HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:07] "GET /assets/app.css HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:07] "GET /assets/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:07] "GET /data/sub_events.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:07] "GET /VERSION HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:07] "GET /data/greek_philosophers.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:07] "GET /data/scholars.json HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 20:59:07] "GET /data/era_0_classical.geojson HTTP/1.1" 200 -
