@@ -326,6 +326,7 @@ body {
     padding: 1.2rem;
     overflow-y: auto;
     flex: 1;
+    transition: opacity 0.2s ease;
 }
 
 .sub-event, .scholar-card {
@@ -547,11 +548,17 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Leaflet popup customization */
+/* Prevent scroll chaining */
+body {\n    overscroll-behavior: none;\n}\n\n/* Leaflet popup customization */
 .leaflet-popup-content-wrapper {
     border-radius: 0.8rem;
     padding: 0.5rem;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    z-index: 200;
+}
+
+.leaflet-popup {
+    z-index: 200 !important;
 }
 
 .leaflet-popup-content {
@@ -569,6 +576,13 @@ html {
 
 .leaflet-popup-tip {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure popups close when sidebar opens on mobile */
+@media (max-width: 720px) {
+    body.sidebar-open .leaflet-popup {
+        display: none;
+    }
 }
 
 /* Mobile bottom sheet for sidebar */
@@ -599,6 +613,27 @@ html {
     background: #3d3a35;
 }
 
+/* Backdrop overlay for expanded sidebar */
+.sidebar-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1050;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.sidebar-backdrop.active {
+    display: block;
+    opacity: 1;
+}
+
 .mobile-era-control {
     display: none;
 }
@@ -610,7 +645,7 @@ html {
 
     body {
         padding: 0;
-        padding-bottom: calc(4.25rem + env(safe-area-inset-bottom));
+        padding-bottom: 0;
         background: #ffffff;
     }
 
@@ -621,13 +656,14 @@ html {
         padding: 0;
         box-shadow: none;
         gap: 0;
+        padding-bottom: 80px;
     }
 
     .card-header {
         order: 1;
         position: sticky;
         top: 0;
-        z-index: 600;
+        z-index: 800;
         align-items: flex-start;
         gap: 0.65rem;
         padding: 0.75rem 0.85rem;
@@ -677,7 +713,7 @@ html {
         order: 2;
         position: sticky;
         top: 96px;
-        z-index: 550;
+        z-index: 750;
         display: grid;
         grid-template-columns: auto minmax(0, 1fr);
         align-items: center;
@@ -799,8 +835,8 @@ html {
     }
 
     .map-wrapper {
-        height: calc(100vh - 440px);
-        min-height: 320px;
+        height: 50vh;
+        min-height: 300px;
         max-height: 500px;
         border-radius: 0.8rem;
         touch-action: pan-x pan-y;
@@ -847,8 +883,8 @@ html {
         left: 0;
         right: 0;
         bottom: 0;
-        z-index: 700;
-        max-height: 75vh;
+        z-index: 1100;
+        max-height: 85vh;
         height: auto;
         margin: 0;
         border-radius: 1.5rem 1.5rem 0 0;
@@ -856,10 +892,16 @@ html {
         transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.15);
         touch-action: pan-y;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        padding-bottom: max(env(safe-area-inset-bottom), 16px);
+        background: #fdfbf8;
     }
 
     .sidebar.expanded {
         transform: translateY(0);
+        box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.25);
     }
 
     .sidebar::before {
@@ -892,30 +934,73 @@ html {
     }
 
     .sidebar-header {
+        flex-shrink: 0;
         padding: 1.5rem 0.85rem 0.75rem;
         cursor: pointer;
         touch-action: manipulation;
+        user-select: none;
+        -webkit-user-select: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+    }
+
+    .sidebar-header::after {
+        content: '▲';
+        font-size: 0.9rem;
+        opacity: 0.7;
+        transition: transform 0.3s;
+    }
+
+    .sidebar.expanded .sidebar-header::after {
+        transform: rotate(180deg);
     }
 
     .tabs {
-        position: relative;
-        z-index: 1;
+        position: sticky;
+        top: 0;
+        z-index: 10;
         background: #f0ebe3;
+        flex-shrink: 0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
 
     .tab-btn {
-        min-height: 48px;
-        padding: 0.75rem 0.5rem;
-        font-size: 0.82rem;
+        min-height: 50px;
+        padding: 0.8rem 0.5rem;
+        font-size: 0.85rem;
         touch-action: manipulation;
         -webkit-tap-highlight-color: transparent;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .tab-btn:active {
+        background: rgba(182, 151, 122, 0.1);
     }
 
     .sidebar-content {
+        flex: 1;
         padding: 1rem;
-        max-height: calc(75vh - 160px);
         overflow-y: auto;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
+        min-height: 0;
+    }
+
+    .sub-event, .scholar-card {
+        padding: 0.75rem;
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+        transition: background 0.2s;
+    }
+    
+    .sub-event:active, .scholar-card:active {
+        background: rgba(182, 151, 122, 0.08);
     }
 
     .tl-section-label {
@@ -939,6 +1024,15 @@ html {
         display: none;
     }
 
+    /* Lower z-index of Leaflet attribution on mobile */
+    .leaflet-bottom {
+        z-index: 1 !important;
+    }
+
+    .leaflet-control-attribution {
+        display: none !important;
+    }
+
     .leaflet-control-zoom a {
         width: 44px;
         height: 44px;
@@ -950,6 +1044,29 @@ html {
 
     .leaflet-control-zoom {
         border-radius: 8px !important;
+        z-index: 100 !important;
+        transition: opacity 0.3s;
+    }
+    
+    /* Lower opacity of zoom controls when sidebar expanded */
+    body.sidebar-open .leaflet-control-zoom {
+        opacity: 0.3;
+        pointer-events: none;
+    }
+    
+    /* Ensure all leaflet controls stay below sidebar */
+    .leaflet-top,
+    .leaflet-bottom {
+        z-index: 100 !important;
+    }
+    
+    .leaflet-pane {
+        z-index: 50 !important;
+    }
+    
+    .leaflet-overlay-pane,
+    .leaflet-marker-pane {
+        z-index: 90 !important;
     }
 }
 

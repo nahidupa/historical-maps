@@ -148,11 +148,19 @@
     function initMobileSidebar() {
         const sidebar = document.getElementById('contextPanel');
         const sidebarHeader = sidebar?.querySelector('.sidebar-header');
+        const backdrop = document.getElementById('sidebarBackdrop');
         
         if (!sidebar || !sidebarHeader) return;
 
         // Toggle sidebar on header tap
         sidebarHeader.addEventListener('click', toggleSidebar);
+        
+        // Close sidebar when clicking backdrop
+        backdrop?.addEventListener('click', () => {
+            if (sidebarExpanded) {
+                toggleSidebar();
+            }
+        });
         
         // Swipe to close/open
         let startY = 0;
@@ -190,27 +198,27 @@
                 toggleSidebar();
             }
         }, { passive: true });
-
-        // Close sidebar when tapping outside (on map)
-        document.getElementById('mapSection')?.addEventListener('click', () => {
-            if (sidebarExpanded) {
-                toggleSidebar();
-            }
-        });
     }
 
     function toggleSidebar() {
         const sidebar = document.getElementById('contextPanel');
-        const header = sidebar?.querySelector('.sidebar-header span');
+        const backdrop = document.getElementById('sidebarBackdrop');
         if (!sidebar) return;
         
         sidebarExpanded = !sidebarExpanded;
+        
         if (sidebarExpanded) {
             sidebar.classList.add('expanded');
-            if (header) header.textContent = '📚 Historical Context ▼';
+            backdrop?.classList.add('active');
+            document.body.classList.add('sidebar-open');
+            // Prevent body scroll when sidebar is open
+            document.body.style.overflow = 'hidden';
         } else {
             sidebar.classList.remove('expanded');
-            if (header) header.textContent = '📚 Historical Context ▲';
+            backdrop?.classList.remove('active');
+            document.body.classList.remove('sidebar-open');
+            // Restore body scroll
+            document.body.style.overflow = '';
         }
     }
 
@@ -265,9 +273,14 @@
 
     function updateSidebar() {
         const content = document.getElementById('sidebarContent');
-        content.innerHTML = '';
         
-        if (currentTab === 'events') {
+        // Fade out
+        content.style.opacity = '0';
+        
+        setTimeout(() => {
+            content.innerHTML = '';
+            
+            if (currentTab === 'events') {
             const events = subEventsData[currentEraIndex] || [];
             events.forEach(ev => {
                 const div = document.createElement('div');
@@ -308,6 +321,13 @@
             }
         }
         content.scrollTop = 0;
+        
+        // Fade in
+        setTimeout(() => {
+            content.style.opacity = '1';
+        }, 50);
+        
+        }, 100);
     }
 
     // ============================================================
