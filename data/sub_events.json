@@ -30,36 +30,36 @@
   ],
   "1": [
     {
-      "year": "570 CE",
-      "title": "Birth of Muhammad",
-      "desc": "Born in Mecca into the Hashim clan of the Quraysh tribe.",
+      "year": { "en": "570 CE", "bn": "৫৭০ খ্রিষ্টাব্দ" },
+      "title": { "en": "Birth of Muhammad", "bn": "নবী মুহাম্মদ (সা.)-এর জন্ম" },
+      "desc": { "en": "Born in Mecca into the Hashim clan of the Quraysh tribe.", "bn": "কুরাইশ বংশের হাশেমী গোত্রে মক্কায় জন্ম গ্রহণ করেন।" },
       "coords": [
         21.4167,
         39.8167
       ]
     },
     {
-      "year": "610 CE",
-      "title": "First Revelation",
-      "desc": "Receives the first verses of the Quran at Mount Hira near Mecca.",
+      "year": { "en": "610 CE", "bn": "৬১০ খ্রিষ্টাব্দ" },
+      "title": { "en": "First Revelation", "bn": "প্রথম ওহি লাভ" },
+      "desc": { "en": "Receives the first verses of the Quran at Mount Hira near Mecca.", "bn": "মক্কার অদূরে হেরা গুহায় পবিত্র কুরআনের প্রথম বাণী লাভ করেন।" },
       "coords": [
         21.4167,
         39.8167
       ]
     },
     {
-      "year": "622 CE",
-      "title": "The Hijrah",
-      "desc": "Migration from Mecca to Medina; marks the beginning of the Islamic (Hijri) calendar.",
+      "year": { "en": "622 CE", "bn": "৬২২ খ্রিষ্টাব্দ" },
+      "title": { "en": "The Hijrah", "bn": "হিজরত" },
+      "desc": { "en": "Migration from Mecca to Medina; marks the beginning of the Islamic (Hijri) calendar.", "bn": "মক্কা থেকে মদিনায় হিজরত; যা ইসলামি হিজরি ক্যালেন্ডারের সূচনা করে।" },
       "coords": [
         24.4667,
         39.6
       ]
     },
     {
-      "year": "632 CE",
-      "title": "Farewell Pilgrimage",
-      "desc": "The Prophet's final pilgrimage and sermon; he passes away shortly after.",
+      "year": { "en": "632 CE", "bn": "৬৩২ খ্রিষ্টাব্দ" },
+      "title": { "en": "Farewell Pilgrimage", "bn": "বিদায় হজ" },
+      "desc": { "en": "The Prophet's final pilgrimage and sermon; he passes away shortly after.", "bn": "নবীজি (সা.)-এর শেষ হজ ও ভাষণ; এর অল্পকাল পরেই তিনি ইন্তেকাল করেন।" },
       "coords": [
         21.4167,
         39.8167

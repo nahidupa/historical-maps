@@ -46,43 +46,44 @@
         accuracyMedium: { en: 'Medium Accuracy', bn: 'মাঝারি নির্ভুলতা' },
         accuracyLow: { en: 'Low Accuracy', bn: 'কম নির্ভুলতা' },
         historicalRegion: { en: 'Historical Region', bn: 'ঐতিহাসিক অঞ্চল' },
-        hoverRegion: { en: 'Hover over a region', bn: 'অঞ্চলের ওপর স্পর্শ করুন' }
+        hoverRegion: { en: 'Hover over a region', bn: 'অঞ্চলের ওপর স্পর্শ করুন' },
+        regions: { en: 'Regions', bn: 'অঞ্চল' }
     };
 
     const eraMeta = [
         {
             name: { en: 'Classical Period', bn: 'ধ্রুপদী যুগ' },
-            period: '-500 to 500 CE',
+            period: { en: '-500 to 500 CE', bn: '৫০০ খ্রিষ্টপূর্বাব্দ - ৫০০ খ্রিষ্টাব্দ' },
             summary: { en: 'Greek philosophy, Roman expansion, rise of Christianity', bn: 'গ্রিক দর্শন, রোমান বিস্তার ও খ্রিস্টধর্মের উত্থান' }
         },
         {
             name: { en: 'Prophet Muhammad', bn: 'নবী মুহাম্মদ' },
-            period: '570-632 CE',
+            period: { en: '570-632 CE', bn: '৫৭০-৬৩২ খ্রিষ্টাব্দ' },
             summary: { en: 'Birth of Islam, revelation of the Quran, unification of Arabia', bn: 'ইসলামের জন্ম, কুরআন অবতরণ ও আরবের ঐক্য' }
         },
         {
             name: { en: 'Rashidun Caliphate', bn: 'রাশিদুন খিলাফত' },
-            period: '632-661 CE',
+            period: { en: '632-661 CE', bn: '৬৩২-৬৬১ খ্রিষ্টাব্দ' },
             summary: { en: 'First four Caliphs, rapid expansion into Persia and Byzantium', bn: 'প্রথম চার খলিফা এবং পারস্য ও বাইজেন্টাইনে দ্রুত বিস্তার' }
         },
         {
             name: { en: 'Umayyad & Abbasid', bn: 'উমাইয়া ও আব্বাসীয়' },
-            period: '661-1258 CE',
+            period: { en: '661-1258 CE', bn: '৬৬১-১২৫৮ খ্রিষ্টাব্দ' },
             summary: { en: 'Golden Age, House of Wisdom, scientific revolution', bn: 'স্বর্ণযুগ, বাইতুল হিকমা ও বৈজ্ঞানিক অগ্রগতি' }
         },
         {
             name: { en: 'Regional Dynasties', bn: 'আঞ্চলিক রাজবংশ' },
-            period: '900-1600 CE',
+            period: { en: '900-1600 CE', bn: '৯০০-১৬০০ খ্রিষ্টাব্দ' },
             summary: { en: 'Fragmentation, Crusades, Mongol invasions, scholarly excellence', bn: 'আঞ্চলিক শক্তি, ক্রুসেড, মঙ্গোল আক্রমণ ও জ্ঞানচর্চা' }
         },
         {
             name: { en: 'Gunpowder Empires', bn: 'গানপাউডার সাম্রাজ্য' },
-            period: '1400-1922 CE',
+            period: { en: '1400-1922 CE', bn: '১৪০০-১৯২২ খ্রিষ্টাব্দ' },
             summary: { en: 'Ottoman, Safavid, Mughal empires at their height', bn: 'অটোমান, সাফাভি ও মুঘল সাম্রাজ্যের উৎকর্ষ' }
         },
         {
             name: { en: 'Modern Era', bn: 'আধুনিক যুগ' },
-            period: '1900-2026 CE',
+            period: { en: '1900-2026 CE', bn: '১৯০০-২০২৬ খ্রিষ্টাব্দ' },
             summary: { en: 'Colonial independence, nation-states, contemporary Islam', bn: 'উপনিবেশ-পরবর্তী স্বাধীনতা, জাতিরাষ্ট্র ও সমকালীন ইসলাম' }
         }
     ];
@@ -140,7 +141,7 @@
         if (mobileEraSelect) {
             eraMeta.forEach((era, index) => {
                 const option = mobileEraSelect.options[index];
-                if (option) option.textContent = `${localize(era.name)} (${era.period})`;
+                if (option) option.textContent = `${localize(era.name)} (${localize(era.period)})`;
             });
         }
 
@@ -159,7 +160,7 @@
                 }
             }
             const period = item.querySelector('.tl-period');
-            if (period) period.textContent = era.period;
+            if (period) period.textContent = localize(era.period);
             const summary = item.querySelector('.tl-summary');
             if (summary) summary.textContent = localize(era.summary);
         });
@@ -170,7 +171,7 @@
     function updateMapTitle() {
         const era = eraMeta[currentEraIndex];
         if (!era) return;
-        document.getElementById('mapTitle').textContent = `${localize(era.name)} (${era.period})`;
+        document.getElementById('mapTitle').textContent = `${localize(era.name)} (${localize(era.period)})`;
     }
 
     // ============================================================
@@ -413,7 +414,7 @@
 
     info.update = function (props) {
         this._div.innerHTML = `<h4>${t('historicalRegion')}</h4>` +  (props ?
-            '<b>' + props.name + '</b><br />' + props.description
+            '<b>' + localize(props.name) + '</b><br />' + localize(props.description)
             : t('hoverRegion'));
     };
 
@@ -421,15 +422,16 @@
 
     function updateLegend(features) {
         const container = document.getElementById('mapLegend');
-        container.innerHTML = '<h4>Regions</h4>';
+        container.innerHTML = `<h4>${t('regions')}</h4>`;
         container.classList.add('is-visible');
         const seen = new Set();
         features.forEach(f => {
-            if (!seen.has(f.properties.name)) {
-                seen.add(f.properties.name);
+            const regionName = localize(f.properties.name);
+            if (!seen.has(regionName)) {
+                seen.add(regionName);
                 const div = document.createElement('div');
                 div.className = 'legend-item';
-                div.innerHTML = `<span class="color-box" style="background:${f.properties.color}"></span><span>${f.properties.name}</span>`;
+                div.innerHTML = `<span class="color-box" style="background:${f.properties.color}"></span><span>${regionName}</span>`;
                 container.appendChild(div);
             }
         });
@@ -469,9 +471,9 @@
     function makeEventPopup(ev) {
         return `
             <div class="map-popup">
-                <strong>${ev.title}</strong>
-                <span>${ev.year}</span>
-                <p>${ev.desc}</p>
+                <strong>${localize(ev.title)}</strong>
+                <span>${localize(ev.year)}</span>
+                <p>${localize(ev.desc)}</p>
             </div>
         `;
     }
@@ -558,7 +560,7 @@
             const div = document.createElement('div');
             div.className = 'sub-event';
             div.style.cursor = ev.coords ? 'pointer' : 'default';
-            div.innerHTML = `<span class="se-year">${ev.year}</span><span class="se-title">${ev.title}</span><p class="se-desc">${ev.desc}</p>`;
+            div.innerHTML = `<span class="se-year">${localize(ev.year)}</span><span class="se-title">${localize(ev.title)}</span><p class="se-desc">${localize(ev.desc)}</p>`;
             if (ev.coords) {
                 div.addEventListener('click', () => {
                     clearMapHighlights();
@@ -666,7 +668,7 @@
         detailDiv.innerHTML = `
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
                 <button class="back-btn" id="backToScholars">← ${t('backToList')}</button>
-                <button class="back-btn" id="viewScholarOnMap" style="background: ${s.color}; flex: 1;">🗺️ ${t('viewOnMap')}</button>
+                <button class="map-action-btn" id="viewScholarOnMap" style="background: ${s.color}; flex: 1;">🗺️ ${t('viewOnMap')}</button>
             </div>
             <div class="detail-header">
                 <div class="detail-avatar" style="background:${s.colorBg}; color:${s.colorText}">${s.initials}</div>
@@ -802,7 +804,7 @@
         detailDiv.innerHTML = `
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
                 <button class="back-btn" id="backToGreeks">← ${t('backToList')}</button>
-                <button class="back-btn" id="viewGreekOnMap" style="background: #2563eb; flex: 1;">🗺️ ${t('viewOnMap')}</button>
+                <button class="map-action-btn" id="viewGreekOnMap" style="background: #3b82f6; flex: 1;">🗺️ ${t('viewOnMap')}</button>
             </div>
             <div class="detail-header">
                 <div>
@@ -855,7 +857,7 @@
         if (g.birthplace?.coords) {
             const marker = L.circleMarker(g.birthplace.coords, {
                 radius: 10,
-                fillColor: '#2563eb',
+                fillColor: '#3b82f6',
                 color: '#ffffff',
                 weight: 2,
                 opacity: 1,
