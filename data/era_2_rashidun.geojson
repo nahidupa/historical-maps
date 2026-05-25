@@ -1,20 +1,160 @@
 {
   "type": "FeatureCollection",
+  "info": {
+    "era": 2,
+    "name": "Rashidun Caliphate",
+    "period": "632-661 CE",
+    "accuracy": "High - Well documented in early Islamic and Byzantine sources"
+  },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "name": "Bilad al-Sham & Egypt",
+        "name": "Arabian Peninsula",
         "era": 2,
         "color": "#5d8c5d",
-        "description": "Expanded provinces including the Levant (Sham) and Egypt (Misr)."
+        "description": "The heartland of the Caliphate, fully unified under Islam.",
+        "status": "Core territory",
+        "capital": "Medina"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [[
-          [25.0, 30.0], [35.0, 31.0], [40.0, 36.0], [45.0, 40.0], [55.0, 42.0], 
-          [65.0, 38.0], [70.0, 30.0], [60.0, 20.0], [45.0, 15.0], [30.0, 15.0], 
-          [20.0, 25.0], [25.0, 30.0]
+          [34.5, 29.5], [35.5, 28.5], [37.0, 27.0], [39.0, 25.0], [39.8, 21.0], 
+          [39.0, 19.0], [38.5, 17.0], [40.0, 15.5], [43.0, 14.0], [48.0, 13.5], 
+          [52.0, 16.0], [56.0, 20.0], [59.0, 24.5], [59.0, 26.5], [55.0, 28.5], 
+          [50.0, 29.3], [45.0, 28.5], [40.0, 29.7], [35.0, 29.8], [34.5, 29.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bilad al-Sham (Levant)",
+        "era": 2,
+        "color": "#6b9b6b",
+        "description": "Conquered from the Byzantine Empire (636-640 CE). Includes Syria, Palestine, Lebanon, and Jordan.",
+        "conquest": "636-640 CE",
+        "key_battles": "Yarmouk (636), Jerusalem (637)",
+        "major_cities": "Damascus, Jerusalem, Antioch, Aleppo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [34.5, 29.5], [35.0, 30.0], [35.5, 31.0], [35.8, 32.0], [36.0, 33.0], 
+          [36.5, 34.0], [36.8, 35.0], [37.0, 36.0], [37.5, 36.5], [38.0, 36.8], 
+          [39.0, 37.0], [40.0, 37.2], [41.0, 37.3], [42.0, 37.0], [41.5, 36.5], 
+          [41.0, 36.0], [40.5, 35.5], [40.0, 35.0], [39.5, 34.5], [39.0, 34.0], 
+          [38.5, 33.5], [38.0, 33.0], [37.5, 32.5], [37.0, 32.0], [36.5, 31.5], 
+          [36.0, 31.0], [35.5, 30.5], [35.0, 30.0], [34.5, 29.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Egypt (Misr)",
+        "era": 2,
+        "color": "#7aaa7a",
+        "description": "Conquered from Byzantine Empire (639-642 CE). Vital grain-producing province.",
+        "conquest": "639-642 CE",
+        "capital": "Fustat (new Islamic capital)",
+        "former_capital": "Alexandria",
+        "importance": "Grain supply, Mediterranean access"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [24.7, 31.5], [25.0, 31.7], [26.0, 31.8], [27.0, 31.8], [28.0, 31.7], 
+          [29.0, 31.6], [30.0, 31.5], [31.0, 31.3], [32.0, 31.2], [33.0, 31.0], 
+          [34.0, 30.5], [34.5, 30.0], [34.8, 29.5], [34.9, 29.0], [34.8, 28.5], 
+          [34.5, 28.0], [34.0, 27.5], [33.5, 27.0], [33.0, 26.5], [32.5, 26.0], 
+          [32.0, 25.5], [31.5, 25.0], [31.0, 24.5], [30.5, 24.2], [30.0, 24.0], 
+          [29.5, 24.0], [29.0, 24.2], [28.5, 24.5], [28.0, 25.0], [27.5, 25.5], 
+          [27.0, 26.0], [26.5, 26.5], [26.0, 27.0], [25.5, 27.5], [25.2, 28.0], 
+          [25.0, 28.5], [24.9, 29.0], [24.8, 29.5], [24.8, 30.0], [24.7, 30.5], 
+          [24.7, 31.0], [24.7, 31.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iraq & Mesopotamia",
+        "era": 2,
+        "color": "#89b989",
+        "description": "Heart of former Sassanid Empire. Conquered 633-638 CE. Includes ancient cities of Mesopotamia.",
+        "conquest": "633-638 CE",
+        "major_cities": "Kufa, Basra, Baghdad (future), Ctesiphon",
+        "former_empire": "Sassanid Persia",
+        "key_battles": "Qadisiyyah (636), Ctesiphon (637)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [42.0, 37.3], [43.0, 37.5], [44.0, 37.8], [45.0, 38.0], [46.0, 37.8], 
+          [47.0, 37.5], [48.0, 37.0], [48.5, 36.5], [49.0, 36.0], [49.5, 35.5], 
+          [50.0, 35.0], [50.0, 34.5], [50.0, 34.0], [50.0, 33.5], [49.8, 33.0], 
+          [49.5, 32.5], [49.0, 32.0], [48.5, 31.5], [48.0, 31.0], [47.5, 30.5], 
+          [47.0, 30.0], [46.5, 29.8], [46.0, 29.7], [45.5, 29.7], [45.0, 29.8], 
+          [44.5, 30.0], [44.0, 30.2], [43.5, 30.5], [43.0, 31.0], [42.5, 31.5], 
+          [42.0, 32.0], [41.5, 32.5], [41.2, 33.0], [41.0, 33.5], [41.0, 34.0], 
+          [41.0, 34.5], [41.2, 35.0], [41.5, 35.5], [41.8, 36.0], [42.0, 36.5], 
+          [42.0, 37.0], [42.0, 37.3]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Persia (Fars, Khuzestan, Azerbaijan)",
+        "era": 2,
+        "color": "#98c898",
+        "description": "Western and central Persia conquered by 642 CE. Complete conquest of Sassanid Empire by 651 CE.",
+        "conquest": "642-651 CE",
+        "major_cities": "Ctesiphon, Isfahan, Ray, Nishapur",
+        "battle": "Nahavand (642 CE) - decisive victory",
+        "significance": "End of Sassanid Dynasty"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [48.0, 37.0], [49.0, 37.5], [50.0, 38.0], [51.0, 38.5], [52.0, 39.0], 
+          [53.0, 39.5], [54.0, 40.0], [55.0, 40.0], [56.0, 39.8], [57.0, 39.5], 
+          [58.0, 39.0], [59.0, 38.5], [60.0, 38.0], [61.0, 37.5], [62.0, 37.0], 
+          [63.0, 36.5], [63.5, 36.0], [64.0, 35.5], [64.0, 35.0], [63.8, 34.5], 
+          [63.5, 34.0], [63.0, 33.5], [62.5, 33.0], [62.0, 32.5], [61.5, 32.0], 
+          [61.0, 31.5], [60.5, 31.0], [60.0, 30.5], [59.5, 30.0], [59.0, 29.5], 
+          [58.5, 29.2], [58.0, 29.0], [57.5, 28.8], [57.0, 28.7], [56.5, 28.6], 
+          [56.0, 28.5], [55.5, 28.6], [55.0, 28.7], [54.5, 28.8], [54.0, 29.0], 
+          [53.0, 29.2], [52.0, 29.3], [51.0, 29.3], [50.0, 29.3], [49.0, 29.2], 
+          [48.5, 29.5], [48.0, 30.0], [47.8, 30.5], [47.8, 31.0], [48.0, 31.5], 
+          [48.5, 32.0], [49.0, 32.5], [49.5, 33.0], [50.0, 33.5], [50.0, 34.0], 
+          [50.0, 34.5], [50.0, 35.0], [49.5, 35.5], [49.0, 36.0], [48.5, 36.5], 
+          [48.0, 37.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cyrenaica & Tripolitania (Libya)",
+        "era": 2,
+        "color": "#a7d7a7",
+        "description": "Eastern Libya conquered from Byzantines starting 642 CE.",
+        "conquest": "642-645 CE",
+        "status": "Early conquest, ongoing expansion"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [24.7, 31.5], [24.0, 31.8], [23.0, 32.0], [22.0, 32.3], [21.0, 32.5], 
+          [20.0, 32.7], [19.0, 32.8], [18.0, 32.8], [17.0, 32.7], [16.0, 32.5], 
+          [15.5, 32.3], [15.0, 32.0], [15.0, 31.5], [15.2, 31.0], [15.5, 30.5], 
+          [16.0, 30.0], [17.0, 29.5], [18.0, 29.0], [19.0, 28.5], [20.0, 28.0], 
+          [21.0, 27.5], [22.0, 27.2], [23.0, 27.0], [24.0, 27.0], [24.5, 27.5], 
+          [24.8, 28.0], [24.9, 28.5], [24.9, 29.0], [24.8, 29.5], [24.8, 30.0], 
+          [24.7, 30.5], [24.7, 31.0], [24.7, 31.5]
         ]]
       }
     }

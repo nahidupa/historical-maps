@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0ebe3;
+    font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.card {
+    max-width: 1400px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.07);
+    border: 1px solid #e0d6c8;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.card-header h1 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #3d3a35;
+    letter-spacing: 0.3px;
+}
+.card-header h1 small {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #7a6f62;
+    margin-left: 0.6rem;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.controls button {
+    background: #f0ebe3;
+    border: 1px solid #ddd0c0;
+    border-radius: 2rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #3d3a35;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    white-space: nowrap;
+}
+
+.controls button:hover {
+    background: #e3d7c9;
+    transform: translateY(-1px);
+}
+
+.controls button.primary {
+    background: #b6977a;
+    color: #ffffff;
+    border-color: #a8896c;
+}
+
+.controls button.active {
+    background: #a68465;
+    color: #ffffff;
+    border-color: #8a6f52;
+}
+
+/* Base Map Toggle */
+.map-toggle {
+    background: #fdfbf8;
+    border: 1px solid #e0d6c8;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.map-toggle button {
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd0c0;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: all 0.2s;
+}
+
+.map-toggle button.active {
+    background: #b6977a;
+    color: white;
+    border-color: #a8896c;
+}
+
+/* ----- MAIN CONTENT LAYOUT ----- */
+.card-body {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 1.2rem;
+}
+
+@media (max-width: 1024px) {
+    .card-body {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ----- MAP SECTION ----- */
+.map-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.map-section .map-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #5d554a;
+    text-align: center;
+    letter-spacing: 0.2px;
+    background: #fdfbf8;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid #e0d6c8;
+}
+
+.map-wrapper {
+    width: 100%;
+    height: 500px;
+    border-radius: 1.4rem;
+    overflow: hidden;
+    background: #dce6f0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    position: relative;
+    border: 1px solid #e0d6c8;
+}
+
+#historyMap {
+    width: 100%;
+    height: 100%;
+}
+
+/* Info control styling */
+.info {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+    background: white;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 0.8rem;
+    border: 1px solid #e0d6c8;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #5d554a;
+    font-size: 1rem;
+}
+
+.legend {
+    background: white;
+    background: rgba(255,255,255,0.95);
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border: 1px solid #e0d6c8;
+}
+.legend h4 {
+    margin: 0 0 0.5rem;
+    font-size: 0.9rem;
+    color: #5d554a;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+}
+.color-box {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+/* ----- SIDEBAR ----- */
+.sidebar {
+    background: #fdfbf8;
+    border-radius: 1.4rem;
+    border: 1px solid #e0d6c8;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    max-height: 800px;
+}
+
+.sidebar-header {
+    background: #b6977a;
+    color: white;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tabs {
+    display: flex;
+    background: #f0ebe3;
+    border-bottom: 1px solid #e0d6c8;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #7a6f62;
+    transition: all 0.2s;
+}
+
+.tab-btn.active {
+    background: #fdfbf8;
+    color: #3d3a35;
+    font-weight: 600;
+}
+
+.sidebar-content {
+    padding: 1.2rem;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.sub-event, .scholar-card {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    border-left: 2px solid #e0d6c8;
+    position: relative;
+}
+
+.sub-event:last-child, .scholar-card:last-child {
+    margin-bottom: 0.5rem;
+}
+
+.sub-event::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 0.3rem;
+    width: 8px;
+    height: 8px;
+    background: #b6977a;
+    border-radius: 50%;
+}
+
+.se-year {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: #a68465;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.se-title, .scholar-name {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #3d3a35;
+    margin-bottom: 0.3rem;
+    display: block;
+}
+
+.se-desc, .scholar-field {
+    font-size: 0.9rem;
+    color: #5d554a;
+    line-height: 1.4;
+}
+
+/* ----- TIMELINE VIEWPORT ----- */
+.viewport {
+    width: 100%;
+    height: 280px;
+    background: #fdfbf8;
+    border-radius: 1.4rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    border: 1px solid #e0d6c8;
+    padding: 1.2rem;
+}
+
+/* Custom scrollbar - hidden by default, shows on hover */
+.viewport::-webkit-scrollbar {
+    width: 8px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.viewport:hover::-webkit-scrollbar {
+    opacity: 1;
+}
+
+.viewport::-webkit-scrollbar-track {
+    background: #f0ebe3;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.viewport::-webkit-scrollbar-thumb {
+    background: #b6977a;
+    border-radius: 10px;
+    border: 2px solid #f0ebe3;
+}
+
+.viewport::-webkit-scrollbar-thumb:hover {
+    background: #a68465;
+}
+
+/* Firefox scrollbar */
+.viewport {
+    scrollbar-width: thin;
+    scrollbar-color: #b6977a #f0ebe3;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0.6rem;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #dccfc0;
+}
+
+.tl-item {
+    padding-bottom: 1rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    padding-left: 0.5rem;
+    transition: all 0.2s;
+}
+
+.tl-item.active {
+    background: #ede5db;
+}
+
+.tl-item::before {
+    content: '';
+    position: absolute;
+    left: -1.8rem;
+    top: 0.3rem;
+    width: 12px;
+    height: 12px;
+    background: #b6977a;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px #dccfc0;
+    z-index: 2;
+}
+
+.tl-item.active::before {
+    background: #a68465;
+    transform: scale(1.2);
+}
+
+.tl-section-label {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #5d554a;
+}
+
+.tl-period {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #a68465;
+    display: block;
+    margin-top: 0.2rem;
+}
+
+.tl-summary {
+    font-size: 0.85rem;
+    color: #7a6f62;
+    margin-top: 0.3rem;
+    line-height: 1.3;
+}
+
+/* Data accuracy indicator */
+.accuracy-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.accuracy-high {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.accuracy-medium {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.accuracy-low {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+@media (max-width: 720px) {
+    body {
+        padding: 0;
+    }
+
+    .card {
+        min-height: 100vh;
+        border: 0;
+        border-radius: 0;
+        padding: 0.75rem;
+        box-shadow: none;
+    }
+
+    .card-header {
+        align-items: flex-start;
+    }
+
+    .card-header h1 {
+        font-size: 1.35rem;
+    }
+
+    .card-header h1 small {
+        display: block;
+        margin: 0.2rem 0 0;
+        font-size: 0.85rem;
+    }
+
+    .controls,
+    .map-toggle {
+        width: 100%;
+    }
+
+    .map-toggle {
+        overflow-x: auto;
+    }
+
+    .controls button {
+        min-height: 40px;
+        justify-content: center;
+    }
+
+    .controls button.primary {
+        width: 100%;
+    }
+
+    .map-section .map-title {
+        font-size: 0.95rem;
+        border-radius: 0.6rem;
+    }
+
+    .map-wrapper {
+        height: 58vh;
+        min-height: 360px;
+        border-radius: 0.75rem;
+    }
+
+    .sidebar {
+        max-height: 360px;
+        border-radius: 0.75rem;
+    }
+
+    .sidebar-header {
+        padding: 0.8rem;
+    }
+
+    .tab-btn {
+        padding: 0.7rem 0.4rem;
+        font-size: 0.78rem;
+    }
+
+    .viewport {
+        height: 300px;
+        border-radius: 0.75rem;
+        padding: 1rem;
+    }
+
+    .tl-section-label {
+        font-size: 1rem;
+    }
+
+    .accuracy-badge {
+        display: table;
+        margin: 0.25rem 0 0;
+    }
+
+    .leaflet-control-container .info {
+        max-width: 220px;
+        font-size: 0.8rem;
+    }
+}
