@@ -1270,6 +1270,28 @@ body {
     text-decoration: underline;
 }
 
+.map-action-btn {
+    border-radius: 0.5rem;
+    padding: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.map-action-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    text-decoration: none !important;
+}
+
 .detail-header {
     display: flex;
     align-items: center;

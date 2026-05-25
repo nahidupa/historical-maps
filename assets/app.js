@@ -668,7 +668,7 @@
         detailDiv.innerHTML = `
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
                 <button class="back-btn" id="backToScholars">← ${t('backToList')}</button>
-                <button class="back-btn" id="viewScholarOnMap" style="background: ${s.color}; flex: 1;">🗺️ ${t('viewOnMap')}</button>
+                <button class="map-action-btn" id="viewScholarOnMap" style="background: ${s.color}; flex: 1;">🗺️ ${t('viewOnMap')}</button>
             </div>
             <div class="detail-header">
                 <div class="detail-avatar" style="background:${s.colorBg}; color:${s.colorText}">${s.initials}</div>
@@ -804,7 +804,7 @@
         detailDiv.innerHTML = `
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
                 <button class="back-btn" id="backToGreeks">← ${t('backToList')}</button>
-                <button class="back-btn" id="viewGreekOnMap" style="background: #2563eb; flex: 1;">🗺️ ${t('viewOnMap')}</button>
+                <button class="map-action-btn" id="viewGreekOnMap" style="background: #3b82f6; flex: 1;">🗺️ ${t('viewOnMap')}</button>
             </div>
             <div class="detail-header">
                 <div>
@@ -857,7 +857,7 @@
         if (g.birthplace?.coords) {
             const marker = L.circleMarker(g.birthplace.coords, {
                 radius: 10,
-                fillColor: '#2563eb',
+                fillColor: '#3b82f6',
                 color: '#ffffff',
                 weight: 3,
                 opacity: 1,
@@ -886,7 +886,7 @@
 
         if (points.length > 1) {
             L.polyline(points, {
-                color: '#2563eb',
+                color: '#3b82f6',
                 weight: 3,
                 opacity: 0.55,
                 dashArray: '5, 10'
