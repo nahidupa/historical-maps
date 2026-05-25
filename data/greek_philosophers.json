@@ -11,6 +11,42 @@
         "en": "Foundational figure in Western philosophy; his method focused on questioning.",
         "bn": "পাশ্চাত্য দর্শনের ভিত্তিপ্রস্তর স্থাপনকারী; তার পদ্ধতি ছিল প্রশ্নোত্তরের মাধ্যমে সত্য অনুসন্ধান।"
       },
+      "field": {
+        "en": "Ethics · Dialectic",
+        "bn": "নৈতিকতা · প্রশ্নপদ্ধতি"
+      },
+      "birthplace": {
+        "en": "Athens, Greece",
+        "bn": "এথেন্স, গ্রিস",
+        "coords": [
+          37.9838,
+          23.7275
+        ]
+      },
+      "active": {
+        "en": "Athens",
+        "bn": "এথেন্স",
+        "coords": [
+          37.9838,
+          23.7275
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Socratic Method",
+            "bn": "সক্রেটীয় পদ্ধতি"
+          },
+          "desc": {
+            "en": "A questioning method preserved through Plato's dialogues; influential for logic, ethics, and theological debate.",
+            "bn": "প্লেটোর সংলাপের মাধ্যমে সংরক্ষিত প্রশ্নভিত্তিক পদ্ধতি; যুক্তি, নৈতিকতা ও ধর্মতাত্ত্বিক বিতর্কে প্রভাবশালী।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "His method of structured questioning shaped later philosophical teaching and debate traditions.",
+        "bn": "তার সুশৃঙ্খল প্রশ্নপদ্ধতি পরবর্তী দার্শনিক শিক্ষা ও বিতর্কের ঐতিহ্যকে প্রভাবিত করে।"
+      },
       "eras": [
         0,
         3
@@ -26,6 +62,52 @@
       "summary": {
         "en": "Student of Socrates; founded the Academy; highly influential on Al-Farabi.",
         "bn": "সক্রেটিসের ছাত্র; একাডেমি প্রতিষ্ঠা করেন; আল-ফারাবীর ওপর তার ব্যাপক প্রভাব ছিল।"
+      },
+      "field": {
+        "en": "Metaphysics · Political Philosophy",
+        "bn": "অধিবিদ্যা · রাজনৈতিক দর্শন"
+      },
+      "birthplace": {
+        "en": "Athens, Greece",
+        "bn": "এথেন্স, গ্রিস",
+        "coords": [
+          37.9838,
+          23.7275
+        ]
+      },
+      "active": {
+        "en": "Academy of Athens",
+        "bn": "এথেন্সের একাডেমি",
+        "coords": [
+          37.9944,
+          23.7083
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Republic",
+            "bn": "রিপাবলিক"
+          },
+          "desc": {
+            "en": "A foundational text on justice, education, and the ideal city.",
+            "bn": "ন্যায়, শিক্ষা ও আদর্শ নগর নিয়ে একটি মৌলিক গ্রন্থ।"
+          }
+        },
+        {
+          "title": {
+            "en": "Timaeus",
+            "bn": "টাইমিয়াস"
+          },
+          "desc": {
+            "en": "A cosmological dialogue that influenced late antique and medieval philosophical traditions.",
+            "bn": "বিশ্বতত্ত্বভিত্তিক সংলাপ, যা প্রাচীন-উত্তর ও মধ্যযুগীয় দর্শনে প্রভাব ফেলে।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Plato's ideal city and metaphysics shaped Al-Farabi's political philosophy.",
+        "bn": "প্লেটোর আদর্শ নগর ও অধিবিদ্যা আল-ফারাবীর রাজনৈতিক দর্শনকে প্রভাবিত করে।"
       },
       "eras": [
         0,
@@ -43,6 +125,52 @@
         "en": "Known as 'The First Teacher'; his works on logic and metaphysics formed the core of the Islamic Golden Age translations.",
         "bn": "'প্রথম শিক্ষক' হিসেবে পরিচিত; যুক্তিবিদ্যা ও অধিবিদ্যার ওপর তার কাজগুলো ইসলামী স্বর্ণযুগের অনুবাদের মূল ভিত্তি ছিল।"
       },
+      "field": {
+        "en": "Logic · Metaphysics · Natural Philosophy",
+        "bn": "যুক্তিবিদ্যা · অধিবিদ্যা · প্রাকৃতিক দর্শন"
+      },
+      "birthplace": {
+        "en": "Stagira, Greece",
+        "bn": "স্তাগিরা, গ্রিস",
+        "coords": [
+          40.5917,
+          23.7936
+        ]
+      },
+      "active": {
+        "en": "Lyceum, Athens",
+        "bn": "লাইসিয়াম, এথেন্স",
+        "coords": [
+          37.9755,
+          23.7404
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Organon",
+            "bn": "অর্গানন"
+          },
+          "desc": {
+            "en": "Logical works that became core texts for Arabic philosophy and theology.",
+            "bn": "যুক্তিবিদ্যার গ্রন্থসমূহ, যা আরবি দর্শন ও ধর্মতত্ত্বের মূল পাঠ্য হয়ে ওঠে।"
+          }
+        },
+        {
+          "title": {
+            "en": "Metaphysics",
+            "bn": "মেটাফিজিক্স"
+          },
+          "desc": {
+            "en": "A major text on being, causality, and first principles.",
+            "bn": "সত্তা, কার্যকারণ ও প্রথম নীতিমালা নিয়ে একটি প্রধান গ্রন্থ।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Arabic commentators called him the First Teacher; Al-Farabi, Ibn Sina, and Ibn Rushd built major systems around his works.",
+        "bn": "আরবি ভাষ্যকাররা তাকে প্রথম শিক্ষক বলতেন; আল-ফারাবী, ইবন সিনা ও ইবন রুশদ তার কাজকে কেন্দ্র করে বড় দার্শনিক পদ্ধতি নির্মাণ করেন।"
+      },
       "eras": [
         0,
         3
@@ -58,6 +186,42 @@
       "summary": {
         "en": "His medical texts were the gold standard for Islamic physicians like Al-Razi and Ibn Sina.",
         "bn": "তার চিকিৎসা শাস্ত্রের গ্রন্থগুলো আল-রাজি এবং ইবনে সিনার মতো ইসলামী চিকিৎসকদের জন্য আদর্শ ছিল।"
+      },
+      "field": {
+        "en": "Medicine · Anatomy · Pharmacology",
+        "bn": "চিকিৎসা · অঙ্গসংস্থান · ঔষধবিদ্যা"
+      },
+      "birthplace": {
+        "en": "Pergamon, Anatolia",
+        "bn": "পারগামন, আনাতোলিয়া",
+        "coords": [
+          39.1205,
+          27.1809
+        ]
+      },
+      "active": {
+        "en": "Rome and Pergamon",
+        "bn": "রোম ও পারগামন",
+        "coords": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "On the Usefulness of the Parts",
+            "bn": "অঙ্গের উপযোগিতা প্রসঙ্গে"
+          },
+          "desc": {
+            "en": "A major anatomical and physiological work translated and studied in Arabic medicine.",
+            "bn": "অঙ্গসংস্থান ও শারীরবিদ্যার প্রধান গ্রন্থ, যা আরবি চিকিৎসাশাস্ত্রে অনূদিত ও অধ্যয়ন করা হয়।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Galenic medicine shaped hospital practice and medical curricula across the medieval Islamic world.",
+        "bn": "গ্যালেনীয় চিকিৎসা মধ্যযুগীয় ইসলামী বিশ্বের হাসপাতাল ও চিকিৎসা শিক্ষাক্রমকে প্রভাবিত করে।"
       },
       "eras": [
         0,
@@ -75,6 +239,52 @@
         "en": "His 'Almagest' provided the astronomical foundation for Islamic science.",
         "bn": "তার 'আলমাজেস্ট' ইসলামী বিজ্ঞানের জ্যোতির্বিদ্যার ভিত্তি প্রদান করেছিল।"
       },
+      "field": {
+        "en": "Astronomy · Geography · Mathematics",
+        "bn": "জ্যোতির্বিদ্যা · ভূগোল · গণিত"
+      },
+      "birthplace": {
+        "en": "Alexandria, Egypt",
+        "bn": "আলেকজান্দ্রিয়া, মিশর",
+        "coords": [
+          31.2001,
+          29.9187
+        ]
+      },
+      "active": {
+        "en": "Alexandria",
+        "bn": "আলেকজান্দ্রিয়া",
+        "coords": [
+          31.2001,
+          29.9187
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Almagest",
+            "bn": "আলমাজেস্ট"
+          },
+          "desc": {
+            "en": "A mathematical astronomy text translated into Arabic and used by Islamic astronomers.",
+            "bn": "গাণিতিক জ্যোতির্বিদ্যার গ্রন্থ, যা আরবিতে অনূদিত হয়ে ইসলামী জ্যোতির্বিদদের কাজে ব্যবহৃত হয়।"
+          }
+        },
+        {
+          "title": {
+            "en": "Geography",
+            "bn": "জিওগ্রাফি"
+          },
+          "desc": {
+            "en": "A coordinate-based geographical work influential for mapping traditions.",
+            "bn": "স্থানাঙ্কভিত্তিক ভূগোল গ্রন্থ, যা মানচিত্র নির্মাণের ঐতিহ্যে প্রভাব ফেলে।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Islamic astronomers preserved, critiqued, and improved Ptolemaic astronomy.",
+        "bn": "ইসলামী জ্যোতির্বিদরা টলেমীয় জ্যোতির্বিদ্যাকে সংরক্ষণ, সমালোচনা ও উন্নত করেন।"
+      },
       "eras": [
         0,
         3
@@ -90,6 +300,42 @@
       "summary": {
         "en": "Father of Geometry; his 'Elements' was fundamental to Islamic mathematical progress.",
         "bn": "জ্যামিতির জনক; তার 'এলিমেন্টস' ইসলামী গণিত শাস্ত্রের অগ্রগতির জন্য মৌলিক ছিল।"
+      },
+      "field": {
+        "en": "Geometry · Mathematics",
+        "bn": "জ্যামিতি · গণিত"
+      },
+      "birthplace": {
+        "en": "Alexandria, Egypt",
+        "bn": "আলেকজান্দ্রিয়া, মিশর",
+        "coords": [
+          31.2001,
+          29.9187
+        ]
+      },
+      "active": {
+        "en": "Alexandria",
+        "bn": "আলেকজান্দ্রিয়া",
+        "coords": [
+          31.2001,
+          29.9187
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Elements",
+            "bn": "এলিমেন্টস"
+          },
+          "desc": {
+            "en": "The foundational geometry text studied and expanded by Arabic mathematicians.",
+            "bn": "জ্যামিতির মৌলিক গ্রন্থ, যা আরবি গণিতবিদরা অধ্যয়ন ও সম্প্রসারণ করেন।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Euclidean geometry became essential for astronomy, optics, architecture, and mathematical proof.",
+        "bn": "ইউক্লিডীয় জ্যামিতি জ্যোতির্বিদ্যা, আলোকবিজ্ঞান, স্থাপত্য ও গাণিতিক প্রমাণে অপরিহার্য হয়ে ওঠে।"
       },
       "eras": [
         0,
@@ -107,6 +353,52 @@
         "en": "Greek mathematician and engineer whose works on spheres and cylinders were translated into Arabic.",
         "bn": "গ্রিক গণিতবিদ ও প্রকৌশলী যার গোলক এবং সিলিন্ডারের ওপর কাজগুলো আরবিতে অনূদিত হয়েছিল।"
       },
+      "field": {
+        "en": "Mathematics · Mechanics · Engineering",
+        "bn": "গণিত · বলবিদ্যা · প্রকৌশল"
+      },
+      "birthplace": {
+        "en": "Syracuse, Sicily",
+        "bn": "সিরাকিউস, সিসিলি",
+        "coords": [
+          37.0755,
+          15.2866
+        ]
+      },
+      "active": {
+        "en": "Syracuse",
+        "bn": "সিরাকিউস",
+        "coords": [
+          37.0755,
+          15.2866
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "On the Sphere and Cylinder",
+            "bn": "গোলক ও সিলিন্ডার প্রসঙ্গে"
+          },
+          "desc": {
+            "en": "A mathematical work translated into Arabic and used in geometry.",
+            "bn": "আরবিতে অনূদিত গাণিতিক গ্রন্থ, যা জ্যামিতিতে ব্যবহৃত হয়।"
+          }
+        },
+        {
+          "title": {
+            "en": "On Floating Bodies",
+            "bn": "ভাসমান বস্তু প্রসঙ্গে"
+          },
+          "desc": {
+            "en": "A foundational work in hydrostatics.",
+            "bn": "জলস্থিতিবিদ্যার একটি মৌলিক গ্রন্থ।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "His mathematical physics influenced Arabic mechanics and engineering traditions.",
+        "bn": "তার গাণিতিক পদার্থবিদ্যা আরবি বলবিদ্যা ও প্রকৌশল ঐতিহ্যে প্রভাব ফেলে।"
+      },
       "eras": [
         0,
         3
@@ -122,6 +414,42 @@
       "summary": {
         "en": "Father of Medicine; the Hippocratic Oath remains a standard for medical ethics.",
         "bn": "চিকিৎসা বিজ্ঞানের জনক; হিপোক্রেটিক শপথ আজও চিকিৎসা নীতিশাস্ত্রের মানদণ্ড।"
+      },
+      "field": {
+        "en": "Medicine · Medical Ethics",
+        "bn": "চিকিৎসা · চিকিৎসা নীতিশাস্ত্র"
+      },
+      "birthplace": {
+        "en": "Kos, Greece",
+        "bn": "কস, গ্রিস",
+        "coords": [
+          36.8926,
+          27.2878
+        ]
+      },
+      "active": {
+        "en": "Kos",
+        "bn": "কস",
+        "coords": [
+          36.8926,
+          27.2878
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Hippocratic Corpus",
+            "bn": "হিপোক্রেটিক কর্পাস"
+          },
+          "desc": {
+            "en": "Medical writings that shaped clinical observation and medical ethics.",
+            "bn": "চিকিৎসা পর্যবেক্ষণ ও চিকিৎসা নীতিশাস্ত্রকে প্রভাবিত করা গ্রন্থসমূহ।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Hippocratic medicine informed Arabic medical classifications and clinical observation.",
+        "bn": "হিপোক্রেটীয় চিকিৎসা আরবি চিকিৎসা শ্রেণিবিভাগ ও রোগ পর্যবেক্ষণে প্রভাব ফেলে।"
       },
       "eras": [
         0,
@@ -139,6 +467,42 @@
         "en": "Father of History; known for his systematic collection of materials and historical narratives.",
         "bn": "ইতিহাসের জনক; ঐতিহাসিক বর্ণনা ও তথ্য সংগ্রহের জন্য সুপরিচিত।"
       },
+      "field": {
+        "en": "History · Ethnography",
+        "bn": "ইতিহাস · জাতিবর্ণনা"
+      },
+      "birthplace": {
+        "en": "Halicarnassus, Anatolia",
+        "bn": "হ্যালিকারনাসাস, আনাতোলিয়া",
+        "coords": [
+          37.0344,
+          27.4305
+        ]
+      },
+      "active": {
+        "en": "Eastern Mediterranean",
+        "bn": "পূর্ব ভূমধ্যসাগর",
+        "coords": [
+          37.0344,
+          27.4305
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Histories",
+            "bn": "হিস্টরিজ"
+          },
+          "desc": {
+            "en": "A major historical narrative of peoples, places, and conflict around the Mediterranean and Near East.",
+            "bn": "ভূমধ্যসাগর ও নিকটপ্রাচ্যের মানুষ, স্থান ও সংঘাত নিয়ে বড় ঐতিহাসিক বর্ণনা।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "His geographical-historical style anticipated later universal history and travel writing.",
+        "bn": "তার ভূগোলভিত্তিক ইতিহাসরীতি পরবর্তী বিশ্বইতিহাস ও ভ্রমণসাহিত্যের পূর্বসূরি।"
+      },
       "eras": [
         0
       ]
@@ -153,6 +517,52 @@
       "summary": {
         "en": "Famous for the Pythagorean theorem; his work influenced both math and music theory.",
         "bn": "পিথাগোরাসের উপপাদ্যের জন্য বিখ্যাত; তার কাজ গণিত এবং সঙ্গীত তত্ত্ব উভয়কেই প্রভাবিত করেছিল।"
+      },
+      "field": {
+        "en": "Mathematics · Music Theory",
+        "bn": "গণিত · সঙ্গীততত্ত্ব"
+      },
+      "birthplace": {
+        "en": "Samos, Greece",
+        "bn": "সামোস, গ্রিস",
+        "coords": [
+          37.7548,
+          26.9778
+        ]
+      },
+      "active": {
+        "en": "Croton, Magna Graecia",
+        "bn": "ক্রোটন, ম্যাগনা গ্রেসিয়া",
+        "coords": [
+          39.0808,
+          17.1271
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Pythagorean Theorem",
+            "bn": "পিথাগোরাসের উপপাদ্য"
+          },
+          "desc": {
+            "en": "A geometric relationship central to mathematics, astronomy, and architecture.",
+            "bn": "গণিত, জ্যোতির্বিদ্যা ও স্থাপত্যে কেন্দ্রীয় একটি জ্যামিতিক সম্পর্ক।"
+          }
+        },
+        {
+          "title": {
+            "en": "Number and Harmony",
+            "bn": "সংখ্যা ও সুরের সামঞ্জস্য"
+          },
+          "desc": {
+            "en": "Ideas connecting numerical ratios with musical harmony.",
+            "bn": "সংখ্যার অনুপাত ও সঙ্গীতের সুরের সম্পর্ক নিয়ে ধারণা।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Pythagorean mathematics influenced geometry, music theory, and philosophical number symbolism.",
+        "bn": "পিথাগোরীয় গণিত জ্যামিতি, সঙ্গীততত্ত্ব ও সংখ্যাতাত্ত্বিক দর্শনে প্রভাব ফেলে।"
       },
       "eras": [
         0,

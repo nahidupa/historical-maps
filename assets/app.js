@@ -38,6 +38,8 @@
         noneRecorded: { en: 'None recorded', bn: 'কিছু যুক্ত করা হয়নি' },
         birthplace: { en: 'Birthplace', bn: 'জন্মস্থান' },
         journey: { en: 'Journey', bn: 'জীবনপথ' },
+        activePlace: { en: 'Active', bn: 'কর্মক্ষেত্র' },
+        influence: { en: 'Influence', bn: 'প্রভাব' },
         viewDetails: { en: 'View details for', bn: 'বিস্তারিত দেখুন' },
         accuracyHigh: { en: 'High Accuracy', bn: 'উচ্চ নির্ভুলতা' },
         accuracyMedium: { en: 'Medium Accuracy', bn: 'মাঝারি নির্ভুলতা' },
@@ -265,6 +267,7 @@
     let greekData = null;
     let currentEraIndex = 0;
     let selectedScholarId = null;
+    let selectedGreekId = null;
     let highlightedRegionLayer = null;
     let scholarLayers = L.layerGroup().addTo(map);
     let currentTab = 'events';
@@ -497,6 +500,7 @@
             e.target.setAttribute('aria-selected', 'true');
             currentTab = e.target.dataset.tab;
             selectedScholarId = null;
+            selectedGreekId = null;
             clearMapHighlights();
 
             // Update tabpanel labelledby
@@ -522,6 +526,8 @@
             
             if (selectedScholarId && currentTab === 'scholars') {
                 renderScholarDetail(content);
+            } else if (selectedGreekId && currentTab === 'greek') {
+                renderGreekDetail(content);
             } else if (currentTab === 'events') {
                 renderEvents(content);
             } else if (currentTab === 'scholars') {
@@ -739,19 +745,137 @@
         if (relevantGreeks.length === 0) {
             content.innerHTML = `<div style="padding:1rem;color:#7a6f62;">${t('noGreek')}</div>`;
         } else {
+            clearMapHighlights();
             relevantGreeks.forEach(g => {
                 const div = document.createElement('div');
                 div.className = 'scholar-card';
+                div.setAttribute('role', 'button');
+                div.setAttribute('tabindex', '0');
+                div.setAttribute('aria-label', `${t('viewDetails')} ${localize(g.name)}`);
                 div.innerHTML = `
                     <div class="scholar-info" style="margin-left: 0">
                         <span class="scholar-name">${localize(g.name)}</span>
                         <span class="scholar-field">${g.lifespan}</span>
+                        <div class="scholar-field">${localize(g.field)}</div>
                         <p class="se-desc" style="margin-top: 0.5rem; font-size: 0.9rem;">${localize(g.summary)}</p>
                     </div>`;
-                //div.innerHTML = `<span class="scholar-name">${localize(g.name)}</span><span class="scholar-field">${g.lifespan}</span><p class="se-desc">${localize(g.summary)}</p>`;
+                const selectHandler = () => {
+                    selectedGreekId = g.id;
+                    updateSidebar();
+                    showGreekOnMap(g);
+                };
+                div.addEventListener('click', selectHandler);
+                div.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        selectHandler();
+                    }
+                });
                 content.appendChild(div);
             });
         }
+    }
+
+    function renderGreekDetail(content) {
+        const g = greekData.find(item => item.id === selectedGreekId);
+        if (!g) return;
+
+        const worksHtml = g.works ? g.works.map(w => `
+            <div class="detail-work">
+                <strong>${localize(w.title)}</strong>
+                <p>${localize(w.desc)}</p>
+            </div>
+        `).join('') : '';
+
+        const detailDiv = document.createElement('div');
+        detailDiv.className = 'scholar-detail-view';
+        detailDiv.innerHTML = `
+            <button class="back-btn" id="backToGreeks">← ${t('backToList')}</button>
+            <div class="detail-header">
+                <div>
+                    <h2 class="detail-name">${localize(g.name)}</h2>
+                    <div class="detail-arabic">${g.lifespan}</div>
+                </div>
+            </div>
+            <div class="detail-meta">
+                <span>📚 ${localize(g.field)}</span>
+                <span>📍 ${t('birthplace')}: ${localize(g.birthplace)}</span>
+                <span>🌍 ${t('activePlace')}: ${localize(g.active)}</span>
+            </div>
+            <p class="detail-summary">${localize(g.summary)}</p>
+            <h3>${t('notableWorks')}</h3>
+            ${worksHtml || `<p>${t('noWorks')}</p>`}
+            <h3>${t('influence')}</h3>
+            <p>${localize(g.influence)}</p>
+        `;
+
+        content.appendChild(detailDiv);
+        document.getElementById('backToGreeks').addEventListener('click', () => {
+            selectedGreekId = null;
+            clearMapHighlights();
+            updateSidebar();
+        });
+    }
+
+    function makeGreekPopup(g, label, note) {
+        return `
+            <div class="map-popup">
+                <strong>${localize(g.name)}</strong>
+                <span>${label}</span>
+                <p>${note || localize(g.summary)}</p>
+                <small>${g.lifespan} · ${localize(g.field)}</small>
+            </div>
+        `;
+    }
+
+    function showGreekOnMap(g) {
+        clearMapHighlights();
+        const points = [];
+        let primaryMarker = null;
+
+        if (g.birthplace?.coords) {
+            const marker = L.circleMarker(g.birthplace.coords, {
+                radius: 10,
+                fillColor: '#2563eb',
+                color: '#ffffff',
+                weight: 3,
+                opacity: 1,
+                fillOpacity: 0.95,
+                className: 'selected-map-node'
+            }).bindPopup(makeGreekPopup(g, `${t('birthplace')}: ${localize(g.birthplace)}`, localize(g.summary))).addTo(scholarLayers);
+            marker.on('click', () => marker.openPopup());
+            primaryMarker = marker;
+            points.push(g.birthplace.coords);
+            highlightRegionNear(g.birthplace.coords);
+        }
+
+        if (g.active?.coords) {
+            const marker = L.circleMarker(g.active.coords, {
+                radius: 7,
+                fillColor: '#1d4ed8',
+                color: '#ffffff',
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.75
+            }).bindPopup(makeGreekPopup(g, `${t('activePlace')}: ${localize(g.active)}`, localize(g.influence))).addTo(scholarLayers);
+            marker.on('click', () => marker.openPopup());
+            if (!primaryMarker) primaryMarker = marker;
+            points.push(g.active.coords);
+        }
+
+        if (points.length > 1) {
+            L.polyline(points, {
+                color: '#2563eb',
+                weight: 3,
+                opacity: 0.55,
+                dashArray: '5, 10'
+            }).addTo(scholarLayers);
+            map.flyToBounds(points, { padding: [50, 50], duration: 1.5 });
+        } else if (points.length === 1) {
+            map.flyTo(points[0], 5, { duration: 1.5 });
+        }
+
+        primaryMarker?.openPopup();
     }
 
     function showScholarOnMap(s) {
@@ -835,6 +959,7 @@
 
     window.loadEra = async function(index) {
         selectedScholarId = null;
+        selectedGreekId = null;
         clearMapHighlights();
         showLoading();
         currentEraIndex = index;
