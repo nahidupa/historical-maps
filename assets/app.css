@@ -110,9 +110,19 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+.language-toggle {
+    background: #3d3a35;
+    border-color: #3d3a35;
+    color: #ffffff;
+}
+
 .controls button:hover {
     background: #e3d7c9;
     transform: translateY(-1px);
+}
+
+.language-toggle:hover {
+    background: #2d2a26;
 }
 
 .controls button.primary {
@@ -570,6 +580,10 @@ body {
     overscroll-behavior: none;
 }
 
+.lang-bn {
+    font-family: 'Noto Sans Bengali', 'Segoe UI', Roboto, system-ui, sans-serif;
+}
+
 .selected-map-node {
     filter: drop-shadow(0 0 7px rgba(180, 83, 9, 0.8));
 }
@@ -746,7 +760,7 @@ body {
     }
 
     .controls {
-        gap: 0;
+        gap: 0.45rem;
     }
 
     .map-toggle {
@@ -756,6 +770,10 @@ body {
         overflow-x: auto;
         padding: 0.35rem;
         border-radius: 0.75rem;
+    }
+
+    .language-toggle {
+        width: 100%;
     }
 
     .controls button {
