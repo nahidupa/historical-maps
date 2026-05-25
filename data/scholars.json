@@ -1966,6 +1966,116 @@
           }
         }
       ]
+    },
+    {
+      "id": "fazlurrahman",
+      "initials": "FR",
+      "color": "#7C3AED",
+      "colorBg": "#7C3AED22",
+      "colorText": "#7C3AED",
+      "born": 1919,
+      "died": 1988,
+      "name": {
+        "en": "Fazlur Rahman",
+        "bn": "ফজলুর রহমান"
+      },
+      "arabic": "فضل الرحمن",
+      "birthplace": {
+        "en": "Hazara, British India",
+        "bn": "হাজারা, ব্রিটিশ ভারত",
+        "coords": [
+          34.0,
+          73.0
+        ]
+      },
+      "active": {
+        "en": "Chicago · Lahore",
+        "bn": "শিকাগো · লাহোর",
+        "coords": [
+          41.8781,
+          -87.6298
+        ]
+      },
+      "title": {
+        "en": "Islamic Modernist",
+        "bn": "ইসলামী আধুনিকতাবাদী"
+      },
+      "field": {
+        "en": "Islamic Philosophy · Theology · Quranic Studies",
+        "bn": "ইসলামী দর্শন · ধর্মতত্ত্ব · কুরআন অধ্যয়ন"
+      },
+      "summary": {
+        "en": "A leading Islamic modernist who sought to reinterpret Islamic tradition in light of contemporary thought.",
+        "bn": "একজন প্রধান ইসলামী আধুনিকতাবাদী যিনি সমসাময়িক চিন্তার আলোকে ইসলামী ঐতিহ্যের পুনর্ব্যাখ্যা করতে চেয়েছিলেন।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Islam and Modernity",
+            "bn": "ইসলাম ও আধুনিকতা"
+          },
+          "desc": {
+            "en": "His major work on transforming Islamic thought.",
+            "bn": "ইসলামী চিন্তার রূপান্তর নিয়ে তার প্রধান কাজ।"
+          }
+        }
+      ],
+      "journeys": []
+    },
+    {
+      "id": "ismailalfaruqi",
+      "initials": "IF",
+      "color": "#0891B2",
+      "colorBg": "#0891B222",
+      "colorText": "#0891B2",
+      "born": 1921,
+      "died": 1986,
+      "name": {
+        "en": "Ismail al-Faruqi",
+        "bn": "ইসমাইল আল-ফারুকি"
+      },
+      "arabic": "إسماعيل الفاروقي",
+      "birthplace": {
+        "en": "Jaffa, Palestine",
+        "bn": "জাফা, ফিলিস্তিন",
+        "coords": [
+          32.0543,
+          34.7516
+        ]
+      },
+      "active": {
+        "en": "Philadelphia · Damascus",
+        "bn": "ফিলাডেলফিয়া · দামেস্ক",
+        "coords": [
+          39.9526,
+          -75.1652
+        ]
+      },
+      "title": {
+        "en": "Scholar of Comparative Religion",
+        "bn": "তুলনামূলক ধর্ম বিশেষজ্ঞ"
+      },
+      "field": {
+        "en": "Islamic Studies · Comparative Religion · Philosophy",
+        "bn": "ইসলামী অধ্যয়ন · তুলনামূলক ধর্ম · দর্শন"
+      },
+      "summary": {
+        "en": "A Palestinian-American philosopher who pioneered the Islamization of knowledge movement.",
+        "bn": "একজন ফিলিস্তিনি-আমেরিকান দার্শনিক যিনি জ্ঞানের ইসলামীকরণ আন্দোলনের পথপ্রদর্শক ছিলেন।"
+      },
+      "works": [
+        {
+          "title": {
+            "en": "The Islamization of Knowledge",
+            "bn": "জ্ঞানের ইসলামীকরণ"
+          },
+          "desc": {
+            "en": "A framework for integrating Islamic values with modern knowledge.",
+            "bn": "আধুনিক জ্ঞানের সাথে ইসলামী মূল্যবোধের সমন্বয়ের কাঠামো।"
+          }
+        }
+      ],
+      "journeys": []
     }
   ]
 }

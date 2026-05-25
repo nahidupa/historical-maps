@@ -49,7 +49,8 @@
       },
       "eras": [
         0,
-        3
+        3,
+        4
       ]
     },
     {
@@ -111,7 +112,8 @@
       },
       "eras": [
         0,
-        3
+        3,
+        4
       ]
     },
     {
@@ -173,7 +175,9 @@
       },
       "eras": [
         0,
-        3
+        3,
+        4,
+        5
       ]
     },
     {
@@ -225,7 +229,11 @@
       },
       "eras": [
         0,
-        3
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     },
     {
@@ -287,7 +295,9 @@
       },
       "eras": [
         0,
-        3
+        3,
+        4,
+        5
       ]
     },
     {
@@ -339,7 +349,9 @@
       },
       "eras": [
         0,
-        3
+        3,
+        4,
+        5
       ]
     },
     {
@@ -401,7 +413,8 @@
       },
       "eras": [
         0,
-        3
+        3,
+        4
       ]
     },
     {
@@ -453,7 +466,11 @@
       },
       "eras": [
         0,
-        3
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     },
     {
@@ -566,7 +583,277 @@
       },
       "eras": [
         0,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "john_philoponus",
+      "name": {
+        "en": "John Philoponus",
+        "bn": "জন ফিলোপোনাস"
+      },
+      "lifespan": "490–570 CE",
+      "summary": {
+        "en": "Late antique Christian philosopher who challenged Aristotelian physics; his critique influenced Islamic philosophy.",
+        "bn": "প্রাচীন-উত্তর খ্রিস্টান দার্শনিক যিনি অ্যারিস্টটলীয় পদার্থবিদ্যাকে চ্যালেঞ্জ করেছিলেন; তার সমালোচনা ইসলামী দর্শনকে প্রভাবিত করে।"
+      },
+      "field": {
+        "en": "Physics · Theology · Logic",
+        "bn": "পদার্থবিদ্যা · ধর্মতত্ত্ব · যুক্তিবিদ্যা"
+      },
+      "birthplace": {
+        "en": "Alexandria, Egypt",
+        "bn": "আলেকজান্দ্রিয়া, মিশর",
+        "coords": [
+          31.2001,
+          29.9187
+        ]
+      },
+      "active": {
+        "en": "Alexandria",
+        "bn": "আলেকজান্দ্রিয়া",
+        "coords": [
+          31.2001,
+          29.9187
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Against Aristotle on the Eternity of the World",
+            "bn": "বিশ্বের চিরন্তনতা প্রসঙ্গে অ্যারিস্টটলের বিরুদ্ধে"
+          },
+          "desc": {
+            "en": "A critique arguing for creation in time, influencing Islamic theological debates.",
+            "bn": "সময়ে সৃষ্টির পক্ষে যুক্তি, যা ইসলামী ধর্মতাত্ত্বিক বিতর্ককে প্রভাবিত করে।"
+          }
+        },
+        {
+          "title": {
+            "en": "Commentary on Aristotle's Physics",
+            "bn": "অ্যারিস্টটলের পদার্থবিদ্যার ওপর ভাষ্য"
+          },
+          "desc": {
+            "en": "Challenged Aristotelian ideas about motion and impetus.",
+            "bn": "গতি ও চালকশক্তি নিয়ে অ্যারিস্টটলীয় ধারণাকে চ্যালেঞ্জ করে।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "His critiques of Aristotle provided tools for Islamic philosophers like Al-Ghazali to challenge peripatetic philosophy.",
+        "bn": "অ্যারিস্টটলের তার সমালোচনা আল-গাজালীর মতো ইসলামী দার্শনিকদের জন্য প্রত্যাশিত দর্শনকে চ্যালেঞ্জ করার হাতিয়ার প্রদান করে।"
+      },
+      "eras": [
+        1,
+        2,
         3
+      ]
+    },
+    {
+      "id": "plotinus",
+      "name": {
+        "en": "Plotinus",
+        "bn": "প্লোটিনাস"
+      },
+      "lifespan": "204–270 CE",
+      "summary": {
+        "en": "Founder of Neoplatonism; his ideas on emanation influenced Islamic mysticism and philosophy.",
+        "bn": "নব্যপ্লেটোবাদের প্রতিষ্ঠাতা; নির্গমন সম্পর্কে তার ধারণা ইসলামী তাসাউফ ও দর্শনকে প্রভাবিত করে।"
+      },
+      "field": {
+        "en": "Metaphysics · Mysticism · Neoplatonism",
+        "bn": "অধিবিদ্যা · মরমিবাদ · নব্যপ্লেটোবাদ"
+      },
+      "birthplace": {
+        "en": "Lycopolis, Egypt",
+        "bn": "লাইকোপোলিস, মিশর",
+        "coords": [
+          27.1809,
+          31.1656
+        ]
+      },
+      "active": {
+        "en": "Rome",
+        "bn": "রোম",
+        "coords": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Enneads",
+            "bn": "এনিয়াডস"
+          },
+          "desc": {
+            "en": "A philosophical text on the One, emanation, and mystical union.",
+            "bn": "একত্ব, নির্গমন এবং মরমি ঐক্য সম্পর্কে দার্শনিক গ্রন্থ।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Neoplatonic concepts of emanation shaped Islamic philosophical cosmology and Sufi thought.",
+        "bn": "নির্গমনের নব্যপ্লেটোনীয় ধারণা ইসলামী দার্শনিক বিশ্বতত্ত্ব ও সুফি চিন্তাকে প্রভাবিত করে।"
+      },
+      "eras": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "werner_jaeger",
+      "name": {
+        "en": "Werner Jaeger",
+        "bn": "ভার্নার ইয়েগার"
+      },
+      "lifespan": "1888–1961",
+      "summary": {
+        "en": "German-American classicist who studied Greek philosophy's influence on Western civilization.",
+        "bn": "জার্মান-আমেরিকান ধ্রুপদী পণ্ডিত যিনি পাশ্চাত্য সভ্যতার ওপর গ্রিক দর্শনের প্রভাব অধ্যয়ন করেছিলেন।"
+      },
+      "field": {
+        "en": "Classical Philology · History of Philosophy",
+        "bn": "ধ্রুপদী ভাষাতত্ত্ব · দর্শনের ইতিহাস"
+      },
+      "birthplace": {
+        "en": "Lobberich, Germany",
+        "bn": "লবেরিশ, জার্মানি",
+        "coords": [
+          51.2667,
+          6.3667
+        ]
+      },
+      "active": {
+        "en": "Harvard · Berlin",
+        "bn": "হার্ভার্ড · বার্লিন",
+        "coords": [
+          42.377,
+          -71.1167
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Paideia: The Ideals of Greek Culture",
+            "bn": "পাইডেইয়া: গ্রিক সংস্কৃতির আদর্শ"
+          },
+          "desc": {
+            "en": "A comprehensive study of Greek educational ideals.",
+            "bn": "গ্রিক শিক্ষা আদর্শের ব্যাপক অধ্যয়ন।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Revived scholarly interest in Greek philosophy's continuing relevance to modern thought.",
+        "bn": "আধুনিক চিন্তার সাথে গ্রিক দর্শনের ক্রমাগত প্রাসঙ্গিকতার বৈজ্ঞানিক আগ্রহ পুনরুজ্জীবিত করেন।"
+      },
+      "eras": [
+        6
+      ]
+    },
+    {
+      "id": "eric_voegelin",
+      "name": {
+        "en": "Eric Voegelin",
+        "bn": "এরিক ভয়েগেলিন"
+      },
+      "lifespan": "1901–1985",
+      "summary": {
+        "en": "German-American political philosopher who studied the influence of Greek philosophy on political order.",
+        "bn": "জার্মান-আমেরিকান রাজনৈতিক দার্শনিক যিনি রাজনৈতিক শৃঙ্খলায় গ্রিক দর্শনের প্রভাব অধ্যয়ন করেছিলেন।"
+      },
+      "field": {
+        "en": "Political Philosophy · History of Ideas",
+        "bn": "রাজনৈতিক দর্শন · ধারণার ইতিহাস"
+      },
+      "birthplace": {
+        "en": "Cologne, Germany",
+        "bn": "কোলন, জার্মানি",
+        "coords": [
+          50.9375,
+          6.9603
+        ]
+      },
+      "active": {
+        "en": "Stanford · Munich",
+        "bn": "স্ট্যানফোর্ড · মিউনিখ",
+        "coords": [
+          37.4275,
+          -122.1697
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Order and History",
+            "bn": "শৃঙ্খলা ও ইতিহাস"
+          },
+          "desc": {
+            "en": "A multi-volume study tracing Greek philosophical concepts through history.",
+            "bn": "ইতিহাসের মধ্য দিয়ে গ্রিক দার্শনিক ধারণার বহু-খণ্ড অধ্যয়ন।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Demonstrated the continuing influence of Plato and Aristotle on modern political thought.",
+        "bn": "আধুনিক রাজনৈতিক চিন্তায় প্লেটো এবং অ্যারিস্টটলের ক্রমাগত প্রভাব প্রদর্শন করেন।"
+      },
+      "eras": [
+        6
+      ]
+    },
+    {
+      "id": "pierre_hadot",
+      "name": {
+        "en": "Pierre Hadot",
+        "bn": "পিয়ের আদো"
+      },
+      "lifespan": "1922–2010",
+      "summary": {
+        "en": "French historian of philosophy who studied ancient Greek philosophy as a way of life.",
+        "bn": "দর্শনের ফরাসি ইতিহাসবিদ যিনি প্রাচীন গ্রিক দর্শনকে জীবনযাপনের উপায় হিসেবে অধ্যয়ন করেছিলেন।"
+      },
+      "field": {
+        "en": "History of Philosophy · Ancient Philosophy",
+        "bn": "দর্শনের ইতিহাস · প্রাচীন দর্শন"
+      },
+      "birthplace": {
+        "en": "Paris, France",
+        "bn": "প্যারিস, ফ্রান্স",
+        "coords": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "active": {
+        "en": "Collège de France",
+        "bn": "কলেজ দ্য ফ্রান্স",
+        "coords": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "works": [
+        {
+          "title": {
+            "en": "Philosophy as a Way of Life",
+            "bn": "জীবনযাপনের উপায় হিসেবে দর্শন"
+          },
+          "desc": {
+            "en": "Explored Greek philosophy as spiritual exercises.",
+            "bn": "আধ্যাত্মিক অনুশীলন হিসেবে গ্রিক দর্শন অন্বেষণ করেন।"
+          }
+        }
+      ],
+      "influence": {
+        "en": "Renewed interest in the practical and transformative aspects of ancient Greek philosophy.",
+        "bn": "প্রাচীন গ্রিক দর্শনের ব্যবহারিক এবং রূপান্তরকারী দিকগুলিতে নবীন আগ্রহ।"
+      },
+      "eras": [
+        6
       ]
     }
   ]

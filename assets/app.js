@@ -41,6 +41,7 @@
         activePlace: { en: 'Active', bn: 'কর্মক্ষেত্র' },
         influence: { en: 'Influence', bn: 'প্রভাব' },
         viewDetails: { en: 'View details for', bn: 'বিস্তারিত দেখুন' },
+        viewOnMap: { en: 'View on Map', bn: 'মানচিত্রে দেখুন' },
         accuracyHigh: { en: 'High Accuracy', bn: 'উচ্চ নির্ভুলতা' },
         accuracyMedium: { en: 'Medium Accuracy', bn: 'মাঝারি নির্ভুলতা' },
         accuracyLow: { en: 'Low Accuracy', bn: 'কম নির্ভুলতা' },
@@ -663,7 +664,10 @@
 
         
         detailDiv.innerHTML = `
-            <button class="back-btn" id="backToScholars">← ${t('backToList')}</button>
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                <button class="back-btn" id="backToScholars">← ${t('backToList')}</button>
+                <button class="back-btn" id="viewScholarOnMap" style="background: ${s.color}; flex: 1;">🗺️ ${t('viewOnMap')}</button>
+            </div>
             <div class="detail-header">
                 <div class="detail-avatar" style="background:${s.colorBg}; color:${s.colorText}">${s.initials}</div>
                 <div>
@@ -738,6 +742,12 @@
             clearMapHighlights();
             updateSidebar();
         });
+        document.getElementById('viewScholarOnMap').addEventListener('click', () => {
+            if (isMobile && sidebarExpanded) {
+                toggleSidebar();
+            }
+            showScholarOnMap(s);
+        });
     }
 
     function renderGreekInfluence(content) {
@@ -790,7 +800,10 @@
         const detailDiv = document.createElement('div');
         detailDiv.className = 'scholar-detail-view';
         detailDiv.innerHTML = `
-            <button class="back-btn" id="backToGreeks">← ${t('backToList')}</button>
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                <button class="back-btn" id="backToGreeks">← ${t('backToList')}</button>
+                <button class="back-btn" id="viewGreekOnMap" style="background: #2563eb; flex: 1;">🗺️ ${t('viewOnMap')}</button>
+            </div>
             <div class="detail-header">
                 <div>
                     <h2 class="detail-name">${localize(g.name)}</h2>
@@ -814,6 +827,12 @@
             selectedGreekId = null;
             clearMapHighlights();
             updateSidebar();
+        });
+        document.getElementById('viewGreekOnMap').addEventListener('click', () => {
+            if (isMobile && sidebarExpanded) {
+                toggleSidebar();
+            }
+            showGreekOnMap(g);
         });
     }
 
