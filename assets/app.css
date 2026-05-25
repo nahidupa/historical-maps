@@ -538,9 +538,16 @@ body {
 
 /* Focus styles for accessibility */
 button:focus-visible,
-select:focus-visible {
-    outline: 3px solid #b6977a;
-    outline-offset: 2px;
+select:focus-visible,
+[tabindex="0"]:focus-visible {
+    outline: 3px solid #3d3a35;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px rgba(182, 151, 122, 0.3);
+}
+
+.tl-item:focus-visible {
+    outline-color: #a68465;
+    border-radius: 0.6rem;
 }
 
 /* Smooth scrolling */

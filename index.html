@@ -21,10 +21,10 @@
         <div class="card-header">
             <h1>Islamic History <small>Interactive Choropleth & Timeline</small></h1>
             <div class="controls">
-                <div class="map-toggle">
-                    <button class="basemap-btn active" data-map="historical">🗺️ Historical</button>
-                    <button class="basemap-btn" data-map="neutral">🌍 Neutral</button>
-                    <button class="basemap-btn" data-map="modern">📍 Modern</button>
+                <div class="map-toggle" role="group" aria-label="Base map selection">
+                    <button class="basemap-btn active" data-map="historical" aria-pressed="true">🗺️ Historical</button>
+                    <button class="basemap-btn" data-map="neutral" aria-pressed="false">🌍 Neutral</button>
+                    <button class="basemap-btn" data-map="modern" aria-pressed="false">📍 Modern</button>
                 </div>
             </div>
         </div>
@@ -54,53 +54,53 @@
             </div>
 
             <div class="sidebar" id="contextPanel">
-                <div class="sidebar-header">
+                <div class="sidebar-header" id="sidebarHeader" role="button" aria-expanded="false" aria-controls="sidebarContent" tabindex="0">
                     <span>📚 Historical Context</span>
                 </div>
-                <div class="tabs">
-                    <button class="tab-btn active" data-tab="events">Events</button>
-                    <button class="tab-btn" data-tab="scholars">Scholars</button>
-                    <button class="tab-btn" data-tab="greek">Greek Influence</button>
+                <div class="tabs" role="tablist" aria-label="Historical context categories">
+                    <button class="tab-btn active" data-tab="events" role="tab" aria-selected="true" aria-controls="sidebarContent" id="tab-events">Events</button>
+                    <button class="tab-btn" data-tab="scholars" role="tab" aria-selected="false" aria-controls="sidebarContent" id="tab-scholars">Scholars</button>
+                    <button class="tab-btn" data-tab="greek" role="tab" aria-selected="false" aria-controls="sidebarContent" id="tab-greek">Greek Influence</button>
                 </div>
-                <div class="sidebar-content" id="sidebarContent">
+                <div class="sidebar-content" id="sidebarContent" role="tabpanel" aria-labelledby="tab-events">
                     <!-- Dynamic content -->
                 </div>
             </div>
         </div>
 
         <div class="viewport" id="timelinePanel">
-            <div class="timeline" id="timelineContainer">
-                    <div class="tl-item active" onclick="loadEra(0)">
+            <div class="timeline" id="timelineContainer" role="tablist" aria-label="Historical Eras" aria-orientation="vertical">
+                    <div class="tl-item active" data-era="0" role="tab" aria-selected="true" tabindex="0" id="era-0" aria-controls="mapSection">
                         <span class="tl-section-label">Classical Period <span class="accuracy-badge accuracy-medium">Medium Accuracy</span></span>
                         <span class="tl-period">-500 to 500 CE</span>
                         <span class="tl-summary">Greek philosophy, Roman expansion, rise of Christianity</span>
                     </div>
-                    <div class="tl-item" onclick="loadEra(1)">
+                    <div class="tl-item" data-era="1" role="tab" aria-selected="false" tabindex="0" id="era-1" aria-controls="mapSection">
                         <span class="tl-section-label">Prophet Muhammad <span class="accuracy-badge accuracy-high">High Accuracy</span></span>
                         <span class="tl-period">570–632 CE</span>
                         <span class="tl-summary">Birth of Islam, revelation of the Quran, unification of Arabia</span>
                     </div>
-                    <div class="tl-item" onclick="loadEra(2)">
+                    <div class="tl-item" data-era="2" role="tab" aria-selected="false" tabindex="0" id="era-2" aria-controls="mapSection">
                         <span class="tl-section-label">Rashidun Caliphate <span class="accuracy-badge accuracy-high">High Accuracy</span></span>
                         <span class="tl-period">632–661 CE</span>
                         <span class="tl-summary">First four Caliphs, rapid expansion into Persia and Byzantium</span>
                     </div>
-                    <div class="tl-item" onclick="loadEra(3)">
+                    <div class="tl-item" data-era="3" role="tab" aria-selected="false" tabindex="0" id="era-3" aria-controls="mapSection">
                         <span class="tl-section-label">Umayyad & Abbasid <span class="accuracy-badge accuracy-high">High Accuracy</span></span>
                         <span class="tl-period">661–1258 CE</span>
                         <span class="tl-summary">Golden Age, House of Wisdom, scientific revolution</span>
                     </div>
-                    <div class="tl-item" onclick="loadEra(4)">
+                    <div class="tl-item" data-era="4" role="tab" aria-selected="false" tabindex="0" id="era-4" aria-controls="mapSection">
                         <span class="tl-section-label">Regional Dynasties <span class="accuracy-badge accuracy-medium">Medium Accuracy</span></span>
                         <span class="tl-period">900–1600 CE</span>
                         <span class="tl-summary">Fragmentation, Crusades, Mongol invasions, scholarly excellence</span>
                     </div>
-                    <div class="tl-item" onclick="loadEra(5)">
+                    <div class="tl-item" data-era="5" role="tab" aria-selected="false" tabindex="0" id="era-5" aria-controls="mapSection">
                         <span class="tl-section-label">Gunpowder Empires <span class="accuracy-badge accuracy-high">High Accuracy</span></span>
                         <span class="tl-period">1400–1922 CE</span>
                         <span class="tl-summary">Ottoman, Safavid, Mughal empires at their height</span>
                     </div>
-                    <div class="tl-item" onclick="loadEra(6)">
+                    <div class="tl-item" data-era="6" role="tab" aria-selected="false" tabindex="0" id="era-6" aria-controls="mapSection">
                         <span class="tl-section-label">Modern Era <span class="accuracy-badge accuracy-high">High Accuracy</span></span>
                         <span class="tl-period">1900–2026 CE</span>
                         <span class="tl-summary">Colonial independence, nation-states, contemporary Islam</span>
