@@ -56,8 +56,12 @@
     // Base layer switcher
     document.querySelectorAll('.basemap-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
-            document.querySelectorAll('.basemap-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.basemap-btn').forEach(b => {
+                b.classList.remove('active');
+                b.setAttribute('aria-pressed', 'false');
+            });
             e.target.classList.add('active');
+            e.target.setAttribute('aria-pressed', 'true');
             const mapType = e.target.dataset.map;
             map.removeLayer(currentBaseLayer);
             currentBaseLayer = baseLayers[mapType];
@@ -154,6 +158,14 @@
 
         // Toggle sidebar on header tap
         sidebarHeader.addEventListener('click', toggleSidebar);
+
+        // Keyboard support for sidebar header
+        sidebarHeader.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleSidebar();
+            }
+        });
         
         // Close sidebar when clicking backdrop
         backdrop?.addEventListener('click', () => {
@@ -202,10 +214,12 @@
 
     function toggleSidebar() {
         const sidebar = document.getElementById('contextPanel');
+        const sidebarHeader = document.getElementById('sidebarHeader');
         const backdrop = document.getElementById('sidebarBackdrop');
         if (!sidebar) return;
         
         sidebarExpanded = !sidebarExpanded;
+        sidebarHeader?.setAttribute('aria-expanded', sidebarExpanded);
         
         if (sidebarExpanded) {
             sidebar.classList.add('expanded');
@@ -264,9 +278,20 @@
 
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
-            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => {
+                b.classList.remove('active');
+                b.setAttribute('aria-selected', 'false');
+            });
             e.target.classList.add('active');
+            e.target.setAttribute('aria-selected', 'true');
             currentTab = e.target.dataset.tab;
+
+            // Update tabpanel labelledby
+            const content = document.getElementById('sidebarContent');
+            if (content) {
+                content.setAttribute('aria-labelledby', e.target.id);
+            }
+
             updateSidebar();
         });
     });
@@ -278,6 +303,7 @@
         content.style.opacity = '0';
         
         setTimeout(() => {
+            if (!content) return;
             content.innerHTML = '';
             
             if (currentTab === 'events') {
@@ -334,6 +360,22 @@
     //  5. LOAD ERA
     // ============================================================
 
+    // Timeline item click/keyboard listeners
+    document.querySelectorAll('.tl-item').forEach(item => {
+        const loadHandler = () => {
+            const eraIndex = Number(item.dataset.era);
+            loadEra(eraIndex);
+        };
+
+        item.addEventListener('click', loadHandler);
+        item.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                loadHandler();
+            }
+        });
+    });
+
     function getEraSlug(index) {
         const slugs = ['classical', 'prophet', 'rashidun', 'umayyad', 'regional', 'gunpowder', 'modern'];
         return slugs[index];
@@ -343,7 +385,10 @@
         showLoading();
         currentEraIndex = index;
         const items = document.querySelectorAll('.tl-item');
-        items.forEach(i => i.classList.remove('active'));
+        items.forEach((i, idx) => {
+            i.classList.remove('active');
+            i.setAttribute('aria-selected', idx === index ? 'true' : 'false');
+        });
         items[index].classList.add('active');
         if (mobileEraSelect) {
             mobileEraSelect.value = String(index);
