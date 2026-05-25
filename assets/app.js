@@ -2,6 +2,28 @@
     'use strict';
 
     // ============================================================
+    //  MOBILE UX ENHANCEMENTS
+    // ============================================================
+
+    let isMobile = false;
+    let sidebarExpanded = false;
+    let touchStartY = 0;
+    let touchStartX = 0;
+    
+    function checkMobile() {
+        isMobile = window.matchMedia('(max-width: 720px)').matches;
+        return isMobile;
+    }
+
+    function showLoading() {
+        document.getElementById('loadingOverlay')?.classList.add('active');
+    }
+
+    function hideLoading() {
+        document.getElementById('loadingOverlay')?.classList.remove('active');
+    }
+
+    // ============================================================
     //  1. MAP SETUP WITH MULTIPLE BASE LAYERS
     // ============================================================
 
@@ -95,6 +117,7 @@
     }
 
     async function init() {
+        showLoading();
         try {
             const [events, scholars, greek] = await Promise.all([
                 fetchData('data/sub_events.json'),
@@ -104,9 +127,90 @@
             subEventsData = events;
             scholarsData = scholars.scholars;
             greekData = greek.philosophers;
-            loadEra(0);
+            
+            // Initialize mobile sidebar behavior
+            if (checkMobile()) {
+                initMobileSidebar();
+            }
+            
+            await loadEra(0);
+            hideLoading();
         } catch (e) {
             console.error("Initialization failed", e);
+            hideLoading();
+        }
+    }
+
+    // ============================================================
+    //  MOBILE SIDEBAR BEHAVIOR
+    // ============================================================
+
+    function initMobileSidebar() {
+        const sidebar = document.getElementById('contextPanel');
+        const sidebarHeader = sidebar?.querySelector('.sidebar-header');
+        
+        if (!sidebar || !sidebarHeader) return;
+
+        // Toggle sidebar on header tap
+        sidebarHeader.addEventListener('click', toggleSidebar);
+        
+        // Swipe to close/open
+        let startY = 0;
+        let currentY = 0;
+        let isDragging = false;
+
+        sidebarHeader.addEventListener('touchstart', (e) => {
+            startY = e.touches[0].clientY;
+            isDragging = true;
+        }, { passive: true });
+
+        sidebarHeader.addEventListener('touchmove', (e) => {
+            if (!isDragging) return;
+            currentY = e.touches[0].clientY;
+            const deltaY = currentY - startY;
+            
+            // Only allow dragging if swiping makes sense
+            if (sidebarExpanded && deltaY > 0) {
+                e.preventDefault();
+            } else if (!sidebarExpanded && deltaY < 0) {
+                e.preventDefault();
+            }
+        }, { passive: false });
+
+        sidebarHeader.addEventListener('touchend', (e) => {
+            if (!isDragging) return;
+            isDragging = false;
+            
+            const deltaY = currentY - startY;
+            const threshold = 50;
+            
+            if (sidebarExpanded && deltaY > threshold) {
+                toggleSidebar();
+            } else if (!sidebarExpanded && deltaY < -threshold) {
+                toggleSidebar();
+            }
+        }, { passive: true });
+
+        // Close sidebar when tapping outside (on map)
+        document.getElementById('mapSection')?.addEventListener('click', () => {
+            if (sidebarExpanded) {
+                toggleSidebar();
+            }
+        });
+    }
+
+    function toggleSidebar() {
+        const sidebar = document.getElementById('contextPanel');
+        const header = sidebar?.querySelector('.sidebar-header span');
+        if (!sidebar) return;
+        
+        sidebarExpanded = !sidebarExpanded;
+        if (sidebarExpanded) {
+            sidebar.classList.add('expanded');
+            if (header) header.textContent = '📚 Historical Context ▼';
+        } else {
+            sidebar.classList.remove('expanded');
+            if (header) header.textContent = '📚 Historical Context ▲';
         }
     }
 
@@ -216,6 +320,7 @@
     }
 
     window.loadEra = async function(index) {
+        showLoading();
         currentEraIndex = index;
         const items = document.querySelectorAll('.tl-item');
         items.forEach(i => i.classList.remove('active'));
@@ -263,32 +368,34 @@
             updateLegend(data.features);
             updateSidebar();
             map.flyTo(eraViews[index].center, eraViews[index].zoom, { duration: 1.2 });
-
+            
+            // On mobile, collapse sidebar after selecting era
+            if (checkMobile() && sidebarExpanded) {
+                setTimeout(() => toggleSidebar(), 300);
+            }
+            
+            hideLoading();
         } catch (e) {
             console.error("Era load failed", e);
+            hideLoading();
         }
     };
 
     window.addEventListener('resize', () => {
         map.invalidateSize();
+        const wasMobile = isMobile;
+        checkMobile();
+        
+        // Reinitialize mobile features if switching to mobile
+        if (!wasMobile && isMobile) {
+            initMobileSidebar();
+        }
+        
         keepActiveEraVisible();
     });
 
     // ============================================================
-    //  6. SCREENSHOT
-    // ============================================================
-
-    window.captureMap = function() {
-        html2canvas(document.querySelector('.card')).then(canvas => {
-            const link = document.createElement('a');
-            link.download = 'islamic-history-map.png';
-            link.href = canvas.toDataURL();
-            link.click();
-        });
-    };
-
-    // ============================================================
-    //  8. INITIALIZE
+    //  INITIALIZE
     // ============================================================
 
     init();

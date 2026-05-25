@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="assets/app.css" />
 </head>
 <body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+    
     <div class="card">
         <div class="card-header">
             <h1>Islamic History <small>Interactive Choropleth & Timeline</small></h1>
@@ -18,7 +23,6 @@
                     <button class="basemap-btn" data-map="neutral">🌍 Neutral</button>
                     <button class="basemap-btn" data-map="modern">📍 Modern</button>
                 </div>
-                <button class="primary screenshot-btn" onclick="captureMap()">📸 Screenshot</button>
             </div>
         </div>
 
@@ -102,13 +106,7 @@
             </div>
         </div>
     </div>
-    <nav class="mobile-dock" aria-label="Mobile sections">
-        <a href="#eraSelector">Eras</a>
-        <a href="#mapSection">Map</a>
-        <a href="#contextPanel">Context</a>
-    </nav>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
     <script src="assets/app.js"></script>
 </body>
