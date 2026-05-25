@@ -109,6 +109,8 @@
     let scholarsData = null;
     let greekData = null;
     let currentEraIndex = 0;
+    let selectedScholarId = null;
+    let scholarLayers = L.layerGroup();
     let currentTab = 'events';
 
     // ============================================================
@@ -285,6 +287,8 @@
             e.target.classList.add('active');
             e.target.setAttribute('aria-selected', 'true');
             currentTab = e.target.dataset.tab;
+            selectedScholarId = null;
+            scholarLayers.clearLayers();
 
             // Update tabpanel labelledby
             const content = document.getElementById('sidebarContent');
@@ -296,6 +300,7 @@
         });
     });
 
+
     function updateSidebar() {
         const content = document.getElementById('sidebarContent');
         
@@ -306,54 +311,254 @@
             if (!content) return;
             content.innerHTML = '';
             
-            if (currentTab === 'events') {
-            const events = subEventsData[currentEraIndex] || [];
-            events.forEach(ev => {
+            if (selectedScholarId && currentTab === 'scholars') {
+                renderScholarDetail(content);
+            } else if (currentTab === 'events') {
+                renderEvents(content);
+            } else if (currentTab === 'scholars') {
+                renderScholarsList(content);
+            } else if (currentTab === 'greek') {
+                renderGreekInfluence(content);
+            }
+            
+            content.scrollTop = 0;
+
+            // Fade in
+            setTimeout(() => {
+                content.style.opacity = '1';
+            }, 50);
+        }, 100);
+    }
+
+
+
+    function renderEvents(content) {
+        const events = subEventsData[currentEraIndex] || [];
+        if (events.length === 0) {
+            content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No major events recorded for this era.</div>';
+            return;
+        }
+        events.forEach(ev => {
+            const div = document.createElement('div');
+            div.className = 'sub-event';
+            div.style.cursor = ev.coords ? 'pointer' : 'default';
+            div.innerHTML = `<span class="se-year">${ev.year}</span><span class="se-title">${ev.title}</span><p class="se-desc">${ev.desc}</p>`;
+            if (ev.coords) {
+                div.addEventListener('click', () => {
+                    scholarLayers.clearLayers();
+                    const marker = L.marker(ev.coords).addTo(scholarLayers);
+                    marker.bindPopup(`<strong>${ev.title}</strong><br>${ev.year}<br>${ev.desc}`).openPopup();
+                    map.flyTo(ev.coords, 5, { duration: 1.5 });
+                });
+            }
+            content.appendChild(div);
+        });
+    }
+
+
+    function renderScholarsList(content) {
+        scholarLayers.clearLayers();
+        const eraYears = [
+            [-500, 500], [570, 632], [632, 661], [661, 1258], [900, 1600], [1400, 1922], [1900, 2026]
+        ];
+        const [start, end] = eraYears[currentEraIndex];
+        const relevantScholars = scholarsData.filter(s => s.born <= end && s.died >= start);
+
+        if (relevantScholars.length === 0) {
+            content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No major scholars recorded for this era.</div>';
+        } else {
+
+
+            relevantScholars.forEach(s => {
                 const div = document.createElement('div');
-                div.className = 'sub-event';
-                div.innerHTML = `<span class="se-year">${ev.year}</span><span class="se-title">${ev.title}</span><p class="se-desc">${ev.desc}</p>`;
+                div.className = 'scholar-card';
+                div.setAttribute('role', 'button');
+                div.setAttribute('tabindex', '0');
+                div.setAttribute('aria-label', `View details for ${s.name.en}`);
+                div.innerHTML = `
+                    <div class="scholar-initials" style="background:${s.colorBg}; color:${s.colorText}">${s.initials}</div>
+                    <div class="scholar-info">
+                        <span class="scholar-name">${s.name.en}</span>
+                        <span class="scholar-field">${s.born}–${s.died} CE</span>
+                        <div class="scholar-field">${s.field.en}</div>
+                    </div>`;
+
+                const selectHandler = () => {
+                    selectedScholarId = s.id;
+                    updateSidebar();
+                    showScholarOnMap(s);
+                };
+
+                div.addEventListener('click', selectHandler);
+                div.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        selectHandler();
+                    }
+                });
                 content.appendChild(div);
             });
-        } else if (currentTab === 'scholars') {
-            const eraYears = [
-                [-500, 500], [570, 632], [632, 661], [661, 1258], [900, 1600], [1400, 1922], [1900, 2026]
-            ];
-            const [start, end] = eraYears[currentEraIndex];
-            const relevantScholars = scholarsData.filter(s => s.born <= end && s.died >= start);
-            
-            if (relevantScholars.length === 0) {
-                content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No major scholars recorded for this era.</div>';
-            } else {
-                relevantScholars.forEach(s => {
-                    const div = document.createElement('div');
-                    div.className = 'scholar-card';
-                    div.innerHTML = `<span class="scholar-name">${s.name.en}</span>
-                                     <span class="scholar-field">${s.born}–${s.died} CE</span>
-                                     <div class="scholar-field">${s.field.en}</div>`;
-                    content.appendChild(div);
-                });
-            }
-        } else if (currentTab === 'greek') {
-            const relevantGreeks = greekData.filter(g => g.era === currentEraIndex);
-            if (relevantGreeks.length === 0) {
-                content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No notable Greek influences identified for this era.</div>';
-            } else {
-                relevantGreeks.forEach(g => {
-                    const div = document.createElement('div');
-                    div.className = 'scholar-card';
-                    div.innerHTML = `<span class="scholar-name">${g.name.en}</span><span class="scholar-field">${g.lifespan}</span><p class="se-desc">${g.summary.en}</p>`;
-                    content.appendChild(div);
-                });
-            }
+
         }
-        content.scrollTop = 0;
+    }
+
+    function renderScholarDetail(content) {
+        const s = scholarsData.find(sch => sch.id === selectedScholarId);
+        if (!s) return;
+
+        const detailDiv = document.createElement('div');
+        detailDiv.className = 'scholar-detail-view';
         
-        // Fade in
-        setTimeout(() => {
-            content.style.opacity = '1';
-        }, 50);
+        let worksHtml = s.works ? s.works.map(w => `
+            <div class="detail-work">
+                <strong>${w.title.en}</strong>
+                <p>${w.desc.en}</p>
+            </div>
+        `).join('') : '';
+
+        let journeysHtml = s.journeys ? s.journeys.map(j => `
+            <div class="detail-journey">
+                <strong>${j.place.en}</strong>
+                <p>${j.note.en}</p>
+            </div>
+        `).join('') : '';
+
         
-        }, 100);
+        detailDiv.innerHTML = `
+            <button class="back-btn" id="backToScholars">← Back to List</button>
+            <div class="detail-header">
+                <div class="detail-avatar" style="background:${s.colorBg}; color:${s.colorText}">${s.initials}</div>
+                <div>
+                    <h2 class="detail-name">${s.name.en}</h2>
+                    <div class="detail-arabic">${s.arabic || ''}</div>
+                </div>
+            </div>
+
+            <div class="detail-meta">
+                <span>📅 ${s.born}–${s.died} CE</span>
+                <span>⏳ ${s.lifespan_years || (s.died - s.born)} years</span>
+                <span>🎓 ${s.title?.en || ''}</span>
+            </div>
+            <div class="detail-meta" style="margin-top: -1rem; background: none; border: 1px solid #e9dfd3;">
+                <span>📚 Fields: ${s.field?.en || ''}</span>
+            </div>
+            <div class="detail-meta" style="margin-top: -1rem; background: none; border: 1px solid #e9dfd3;">
+
+                <span>📍 Born: ${s.birthplace?.en || ''}</span>
+                <span>🌍 Active: ${s.active?.en || ''}</span>
+            </div>
+            <p class="detail-summary">${s.summary.en}</p>
+
+            <h3>Notable Works</h3>
+            ${worksHtml || '<p>No works recorded.</p>'}
+
+            <h3>Life Journeys</h3>
+            ${journeysHtml || '<p>No major journeys recorded.</p>'}
+
+
+            <h3>Intellectual Connections</h3>
+            <div class="detail-connections">
+                ${s.connections ? s.connections.map(connId => {
+                    const conn = scholarsData.find(cs => cs.id === connId);
+                    if (conn) {
+                        return `<span class="connection-tag interactive" data-id="${conn.id}">${conn.name.en}</span>`;
+                    }
+                    return `<span class="connection-tag">${connId}</span>`;
+                }).join('') : 'None recorded'}
+            </div>
+        `;
+
+        content.appendChild(detailDiv);
+
+        // Add event listeners for connections
+
+        // Add event listeners for connections
+        detailDiv.querySelectorAll('.connection-tag.interactive').forEach(tag => {
+            tag.setAttribute('role', 'button');
+            tag.setAttribute('tabindex', '0');
+
+            const selectConnHandler = () => {
+                const connId = tag.dataset.id;
+                selectedScholarId = connId;
+                const conn = scholarsData.find(cs => cs.id === connId);
+                updateSidebar();
+                if (conn) showScholarOnMap(conn);
+            };
+
+            tag.addEventListener('click', selectConnHandler);
+            tag.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    selectConnHandler();
+                }
+            });
+        });
+
+
+        document.getElementById('backToScholars').addEventListener('click', () => {
+            selectedScholarId = null;
+            scholarLayers.clearLayers();
+            updateSidebar();
+        });
+    }
+
+    function renderGreekInfluence(content) {
+        const relevantGreeks = greekData.filter(g => g.era === currentEraIndex);
+        if (relevantGreeks.length === 0) {
+            content.innerHTML = '<div style="padding:1rem;color:#7a6f62;">No notable Greek influences identified for this era.</div>';
+        } else {
+            relevantGreeks.forEach(g => {
+                const div = document.createElement('div');
+                div.className = 'scholar-card';
+                div.innerHTML = `<span class="scholar-name">${g.name.en}</span><span class="scholar-field">${g.lifespan}</span><p class="se-desc">${g.summary.en}</p>`;
+                content.appendChild(div);
+            });
+        }
+    }
+
+    function showScholarOnMap(s) {
+        scholarLayers.clearLayers();
+        const points = [];
+
+        if (s.birthplace && s.birthplace.coords) {
+            const marker = L.circleMarker(s.birthplace.coords, {
+                radius: 8,
+                fillColor: s.color,
+                color: "#fff",
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+            }).bindPopup(`<strong>Birthplace: ${s.birthplace.en}</strong>`).addTo(scholarLayers);
+            points.push(s.birthplace.coords);
+        }
+
+        if (s.journeys) {
+            s.journeys.forEach(j => {
+                if (j.place && j.place.coords) {
+                    L.circleMarker(j.place.coords, {
+                        radius: 6,
+                        fillColor: s.color,
+                        color: "#fff",
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.6
+                    }).bindPopup(`<strong>Journey: ${j.place.en}</strong><br>${j.note.en}`).addTo(scholarLayers);
+                    points.push(j.place.coords);
+                }
+            });
+        }
+
+        if (points.length > 1) {
+            L.polyline(points, {
+                color: s.color,
+                weight: 3,
+                opacity: 0.6,
+                dashArray: '5, 10'
+            }).addTo(scholarLayers);
+            map.flyToBounds(points, { padding: [50, 50], duration: 1.5 });
+        } else if (points.length === 1) {
+            map.flyTo(points[0], 5, { duration: 1.5 });
+        }
     }
 
     // ============================================================
@@ -382,6 +587,8 @@
     }
 
     window.loadEra = async function(index) {
+        selectedScholarId = null;
+        scholarLayers.clearLayers();
         showLoading();
         currentEraIndex = index;
         const items = document.querySelectorAll('.tl-item');

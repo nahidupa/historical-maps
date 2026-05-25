@@ -1117,3 +1117,190 @@ body {\n    overscroll-behavior: none;\n}\n\n/* Leaflet popup customization */
         top: 154px;
     }
 }
+
+/* Scholar Cards & Detail View */
+.scholar-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #e9dfd3;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 0.75rem;
+}
+
+.scholar-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-color: #d8cabc;
+}
+
+.scholar-initials {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.scholar-info {
+    flex: 1;
+}
+
+.scholar-name {
+    display: block;
+    font-weight: 700;
+    color: #3d3a35;
+    font-size: 1rem;
+}
+
+.scholar-field {
+    font-size: 0.85rem;
+    color: #7a6f62;
+    margin-top: 0.1rem;
+}
+
+.scholar-detail-view {
+    padding: 0.5rem;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    color: #854F0B;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
+
+.detail-header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.detail-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.detail-name {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #3d3a35;
+}
+
+.detail-arabic {
+    font-family: serif;
+    font-size: 1.2rem;
+    color: #7a6f62;
+    margin-top: 0.25rem;
+}
+
+.detail-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: #5d554a;
+    background: #f5ede3;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.detail-summary {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #3d3a35;
+    margin-bottom: 2rem;
+}
+
+.scholar-detail-view h3 {
+    font-size: 1.1rem;
+    color: #854F0B;
+    border-bottom: 1px solid #e9dfd3;
+    padding-bottom: 0.5rem;
+    margin: 2rem 0 1rem;
+}
+
+.detail-work, .detail-journey {
+    background: #fff;
+    border: 1px solid #e9dfd3;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.detail-work strong, .detail-journey strong {
+    display: block;
+    color: #3d3a35;
+    margin-bottom: 0.25rem;
+}
+
+.detail-work p, .detail-journey p {
+    font-size: 0.9rem;
+    color: #7a6f62;
+    margin: 0;
+}
+
+.detail-connections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.connection-tag {
+    background: #fdfbf8;
+    border: 1px solid #d8cabc;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    color: #5d554a;
+}
+
+.connection-tag.interactive {
+    cursor: pointer;
+    background: #f5ede3;
+    transition: all 0.2s;
+}
+
+.connection-tag.interactive:hover {
+    background: #854F0B;
+    color: #fff;
+    border-color: #854F0B;
+}
+
+.scholar-card:focus-visible, .connection-tag:focus-visible, .back-btn:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px #854F0B !important;
+}
