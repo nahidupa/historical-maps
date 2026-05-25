@@ -94,7 +94,7 @@
 
     function localize(value) {
         if (!value || typeof value !== 'object') return value || '';
-        return value[currentLang] || value.en || value.bn || '';
+        return value[currentLang] || value.en || value.bn || Object.values(value)[0] || '';
     }
     
     function checkMobile() {
@@ -247,7 +247,7 @@
         document.querySelector('.tl-item.active')?.scrollIntoView({
             behavior: 'smooth',
             block: 'nearest',
-            inline: 'center'
+            inline: 'nearest', block: 'center'
         });
     }
 
@@ -542,7 +542,7 @@
         const content = document.getElementById('sidebarContent');
         
         // Fade out
-        content.style.opacity = '0';
+        content.style.opacity = '0'; content.style.transition = 'opacity 0.1s';
         
         setTimeout(() => {
             if (!content) return;

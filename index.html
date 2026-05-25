@@ -2,136 +2,127 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Islamic History Map</title>
-    <meta name="description" content="Interactive Islamic history map with era-based regions, events, scholars, and timeline context." />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="assets/app.css" />
 </head>
 <body>
-    <!-- Loading Overlay -->
-    <div class="loading-overlay" id="loadingOverlay" aria-hidden="true">
+    <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-spinner"></div>
     </div>
-    
-    <!-- Sidebar Backdrop -->
-    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
-    
+
     <div class="app-container">
         <header class="app-header">
             <div class="header-content">
                 <h1>
-                    <span data-i18n="appTitle">Islamic History</span>
-                    <small data-i18n="appSubtitle">Interactive Choropleth & Timeline</small>
-                    <span class="app-version" id="appVersion">v0.0.105</span>
+                    <span data-i18n="appTitle">Islamic History</span> <small data-i18n="appSubtitle" style="display:none">Interactive Choropleth & Timeline</small>
+                    <span class="app-version" id="appVersion">v0.0.107</span>
                 </h1>
 
-                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="headerControls">
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
                     <span class="menu-icon"></span>
                 </button>
 
                 <div class="header-controls" id="headerControls">
-                    <div class="map-toggle" role="group" aria-label="Base map selection">
-                        <button class="basemap-btn active" data-map="historical" aria-pressed="true">🗺️ <span data-i18n="historicalMap">Historical</span></button>
-                        <button class="basemap-btn" data-map="neutral" aria-pressed="false">🌍 <span data-i18n="neutralMap">Neutral</span></button>
-                        <button class="basemap-btn" data-map="modern" aria-pressed="false">📍 <span data-i18n="modernMap">Modern</span></button>
+                    <div class="map-toggle">
+                        <button class="basemap-btn active" data-map="historical">🗺️ <span data-i18n="historicalMap">Historical</span></button>
+                        <button class="basemap-btn" data-map="neutral">🌍 <span data-i18n="neutralMap">Neutral</span></button>
                     </div>
-                    <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch language">বাংলা</button>
+                    <button class="language-toggle" id="languageToggle">বাংলা</button>
                 </div>
             </div>
         </header>
 
         <main class="main-content">
-            <section class="map-section" id="mapSection">
-                <header class="section-header">
-                    <h2 class="map-title" id="mapTitle">Classical Period (-500 to 500 CE)</h2>
-                    <div class="mobile-era-control" id="eraSelector">
-                        <label for="mobileEraSelect" class="sr-only" data-i18n="era">Era</label>
+            <section class="map-section">
+                <div class="section-header">
+                    <h2 id="mapTitle">Classical Period</h2>
+                    <div class="mobile-era-selector">
                         <select id="mobileEraSelect">
-                            <option value="0">Classical Period (-500 to 500 CE)</option>
-                            <option value="1">Prophet Muhammad (570-632 CE)</option>
-                            <option value="2">Rashidun Caliphate (632-661 CE)</option>
-                            <option value="3">Umayyad & Abbasid (661-1258 CE)</option>
-                            <option value="4">Regional Dynasties (900-1600 CE)</option>
-                            <option value="5">Gunpowder Empires (1400-1922 CE)</option>
-                            <option value="6">Modern Era (1900-2026 CE)</option>
+                            <option value="0">Classical Period</option>
+                            <option value="1">Prophet Muhammad</option>
+                            <option value="2">Rashidun Caliphate</option>
+                            <option value="3">Umayyad & Abbasid</option>
+                            <option value="4">Regional Dynasties</option>
+                            <option value="5">Gunpowder Empires</option>
+                            <option value="6">Modern Era</option>
                         </select>
                     </div>
-                </header>
-
+                </div>
                 <div class="map-wrapper">
                     <div id="historyMap"></div>
-                </div>
-
-                <div id="mapLegend" class="legend">
-                    <h3>Regions</h3>
+                    <div id="mapLegend" class="legend"></div>
                 </div>
             </section>
 
             <aside class="sidebar" id="contextPanel">
-                <button class="sidebar-handle" id="sidebarHeader" aria-expanded="false" aria-controls="sidebarContent">
-                    <span>📚 <span data-i18n="historicalContext">Historical Context</span></span>
+                <button class="sidebar-handle" id="sidebarHeader" aria-expanded="false">
+                    <span class="handle-title">📚 <span data-i18n="historicalContext">Historical Context</span></span>
+                    <span class="close-hint">✕</span>
                 </button>
                 <div class="sidebar-inner">
-                    <div class="tabs" role="tablist" aria-label="Historical context categories">
-                        <button class="tab-btn active" data-tab="events" role="tab" aria-selected="true" aria-controls="sidebarContent" id="tab-events" data-i18n="events">Events</button>
-                        <button class="tab-btn" data-tab="scholars" role="tab" aria-selected="false" aria-controls="sidebarContent" id="tab-scholars" data-i18n="scholars">Scholars</button>
-                        <button class="tab-btn" data-tab="greek" role="tab" aria-selected="false" aria-controls="sidebarContent" id="tab-greek" data-i18n="greekInfluence">Greek Influence</button>
+                    <div class="tabs" role="tablist">
+                        <button class="tab-btn active" data-tab="events" role="tab" aria-selected="true" data-i18n="events">Events</button>
+                        <button class="tab-btn" data-tab="scholars" role="tab" aria-selected="false" data-i18n="scholars">Scholars</button>
+                        <button class="tab-btn" data-tab="greek" role="tab" aria-selected="false" data-i18n="greekInfluence">Greek</button>
                     </div>
-                    <div class="sidebar-content" id="sidebarContent" role="tabpanel" aria-labelledby="tab-events">
-                        <!-- Dynamic content -->
+                    <div class="sidebar-content" id="sidebarContent">
+                        <!-- Content injected by JS -->
                     </div>
                 </div>
             </aside>
         </main>
 
         <footer class="app-footer">
-            <nav class="timeline-viewport" id="timelinePanel">
-                <div class="timeline-container" id="timelineContainer" role="tablist" aria-label="Historical Eras">
-                    <div class="tl-item active" data-era="0" role="tab" aria-selected="true" tabindex="0" id="era-0" aria-controls="mapSection">
-                        <span class="tl-section-label">Classical Period <span class="accuracy-badge accuracy-medium">Medium Accuracy</span></span>
+            <nav class="timeline-viewport">
+                <div class="timeline-container" id="timelineContainer">
+                    <div class="tl-item active" data-era="0">
+                        <span class="tl-section-label">Classical Period</span>
                         <span class="tl-period">-500 to 500 CE</span>
-                        <span class="tl-summary">Greek philosophy, Roman expansion, rise of Christianity</span>
+                        <p class="tl-summary">Greek philosophy, Roman expansion</p>
                     </div>
-                    <div class="tl-item" data-era="1" role="tab" aria-selected="false" tabindex="0" id="era-1" aria-controls="mapSection">
-                        <span class="tl-section-label">Prophet Muhammad <span class="accuracy-badge accuracy-high">High Accuracy</span></span>
+                    <div class="tl-item" data-era="1">
+                        <span class="tl-section-label">Prophet Muhammad</span>
                         <span class="tl-period">570–632 CE</span>
-                        <span class="tl-summary">Birth of Islam, revelation of the Quran, unification of Arabia</span>
+                        <p class="tl-summary">Birth of Islam</p>
                     </div>
-                    <div class="tl-item" data-era="2" role="tab" aria-selected="false" tabindex="0" id="era-2" aria-controls="mapSection">
-                        <span class="tl-section-label">Rashidun Caliphate <span class="accuracy-badge accuracy-high">High Accuracy</span></span>
+                    <div class="tl-item" data-era="2">
+                        <span class="tl-section-label">Rashidun Caliphate</span>
                         <span class="tl-period">632–661 CE</span>
-                        <span class="tl-summary">First four Caliphs, rapid expansion into Persia and Byzantium</span>
+                        <p class="tl-summary">First four Caliphs</p>
                     </div>
-                    <div class="tl-item" data-era="3" role="tab" aria-selected="false" tabindex="0" id="era-3" aria-controls="mapSection">
-                        <span class="tl-section-label">Umayyad & Abbasid <span class="accuracy-badge accuracy-high">High Accuracy</span></span>
+                    <div class="tl-item" data-era="3">
+                        <span class="tl-section-label">Umayyad & Abbasid</span>
                         <span class="tl-period">661–1258 CE</span>
-                        <span class="tl-summary">Golden Age, House of Wisdom, scientific revolution</span>
+                        <p class="tl-summary">Golden Age, House of Wisdom</p>
                     </div>
-                    <div class="tl-item" data-era="4" role="tab" aria-selected="false" tabindex="0" id="era-4" aria-controls="mapSection">
-                        <span class="tl-section-label">Regional Dynasties <span class="accuracy-badge accuracy-medium">Medium Accuracy</span></span>
+                    <div class="tl-item" data-era="4">
+                        <span class="tl-section-label">Regional Dynasties</span>
                         <span class="tl-period">900–1600 CE</span>
-                        <span class="tl-summary">Fragmentation, Crusades, Mongol invasions, scholarly excellence</span>
+                        <p class="tl-summary">Fragmentation, Mongol invasions</p>
                     </div>
-                    <div class="tl-item" data-era="5" role="tab" aria-selected="false" tabindex="0" id="era-5" aria-controls="mapSection">
-                        <span class="tl-section-label">Gunpowder Empires <span class="accuracy-badge accuracy-high">High Accuracy</span></span>
+                    <div class="tl-item" data-era="5">
+                        <span class="tl-section-label">Gunpowder Empires</span>
                         <span class="tl-period">1400–1922 CE</span>
-                        <span class="tl-summary">Ottoman, Safavid, Mughal empires at their height</span>
+                        <p class="tl-summary">Ottoman, Safavid, Mughal</p>
                     </div>
-                    <div class="tl-item" data-era="6" role="tab" aria-selected="false" tabindex="0" id="era-6" aria-controls="mapSection">
-                        <span class="tl-section-label">Modern Era <span class="accuracy-badge accuracy-high">High Accuracy</span></span>
+                    <div class="tl-item" data-era="6">
+                        <span class="tl-section-label">Modern Era</span>
                         <span class="tl-period">1900–2026 CE</span>
-                        <span class="tl-summary">Colonial independence, nation-states, contemporary Islam</span>
+                        <p class="tl-summary">Nation-states, Contemporary</p>
                     </div>
                 </div>
             </nav>
         </footer>
     </div>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <div id="sidebarBackdrop" style="position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:2500; display:none;"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="assets/app.js"></script>
 </body>
 </html>
