@@ -10,10 +10,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hijaz (Mecca & Medina)",
+        "name": { "en": "Hijaz (Mecca & Medina)", "bn": "হিজাজ (মক্কা ও মদিনা)" },
         "era": 1,
         "color": "#5d8c5d",
-        "description": "The sacred lands of Islam, homeland of the Prophet Muhammad. Includes Mecca and Medina.",
+        "description": { "en": "The sacred lands of Islam, homeland of the Prophet Muhammad. Includes Mecca and Medina.", "bn": "ইসলামের পবিত্র ভূমি, নবী মুহাম্মদ (সা.)-এর জন্মভূমি। মক্কা ও মদিনা এর অন্তর্ভুক্ত।" },
         "capital": "Medina (622-632 CE)",
         "major_cities": "Mecca, Medina, Taif",
         "significance": "Birthplace of Islam, site of revelation"
@@ -33,10 +33,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Najd (Central Arabia)",
+        "name": { "en": "Najd (Central Arabia)", "bn": "নজদ (মধ্য আরব)" },
         "era": 1,
         "color": "#6b9b6b",
-        "description": "Central Arabian plateau. Allied tribes joined Islam after the conquest of Mecca (630 CE).",
+        "description": { "en": "Central Arabian plateau. Allied tribes joined Islam after the conquest of Mecca (630 CE).", "bn": "মধ্য আরবের মালভূমি। মক্কা বিজয়ের পর (৬৩০ খ্রি.) মিত্র গোত্রগুলো ইসলামে যোগ দেয়।" },
         "status": "Allied territory",
         "major_tribes": "Banu Tamim, Banu Hanifa",
         "unification": "628-632 CE"
@@ -57,10 +57,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Yemen & Southern Arabia",
+        "name": { "en": "Yemen & Southern Arabia", "bn": "ইয়েমেন ও দক্ষিণ আরব" },
         "era": 1,
         "color": "#7aaa7a",
-        "description": "Yemen submitted to Islam peacefully around 628 CE. Ancient land of Sheba.",
+        "description": { "en": "Yemen submitted to Islam peacefully around 628 CE. Ancient land of Sheba.", "bn": "৬২৮ খ্রিষ্টাব্দের দিকে ইয়েমেন শান্তিপূর্ণভাবে ইসলামের আনুগত্য স্বীকার করে। প্রাচীন সাবার ভূমি।" },
         "status": "Peaceful submission",
         "year": "628 CE",
         "major_cities": "Sana'a, Aden",
@@ -84,10 +84,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Eastern Arabia & Oman",
+        "name": { "en": "Eastern Arabia & Oman", "bn": "পূর্ব আরব ও ওমান" },
         "era": 1,
         "color": "#89b989",
-        "description": "Coastal regions along Persian Gulf. Submitted to Islamic authority 630-632 CE.",
+        "description": { "en": "Coastal regions along Persian Gulf. Submitted to Islamic authority 630-632 CE.", "bn": "পারস্য উপসাগরের উপকূলীয় অঞ্চল। ৬৩০-৬৩২ খ্রিষ্টাব্দে ইসলামি কর্তৃত্বের অধীনে আসে।" },
         "status": "Allied/Tributary",
         "major_cities": "Sohar, Muscat",
         "year": "630-632 CE"
@@ -110,10 +110,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Northern Tribes (Reach to Syria)",
+        "name": { "en": "Northern Tribes (Reach to Syria)", "bn": "উত্তরাঞ্চলীয় গোত্রসমূহ (সিরিয়া পর্যন্ত)" },
         "era": 1,
         "color": "#98c898",
-        "description": "Northern Arabian tribes allied with the Prophet. Participated in expeditions toward Byzantine borders.",
+        "description": { "en": "Northern Arabian tribes allied with the Prophet. Participated in expeditions toward Byzantine borders.", "bn": "নবীজির সাথে মিত্রতা করা উত্তর আরবের গোত্রসমূহ। বাইজেন্টাইন সীমান্তের দিকে অভিযানে অংশ নিয়েছিল।" },
         "status": "Allied tribes",
         "expedition": "Tabuk (630 CE)",
         "significance": "Buffer zone, Byzantine frontier"
