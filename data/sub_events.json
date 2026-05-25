@@ -1,43 +1,278 @@
 {
   "0": [
-    {"year": "5th Cent. BCE", "title": "Golden Age of Athens", "desc": "Socrates, Plato, and Aristotle establish the foundations of Western philosophy."},
-    {"year": "336–323 BCE", "title": "Alexander the Great", "desc": "His conquests spread Hellenistic culture across Egypt, Persia, and parts of India."},
-    {"year": "3rd Cent. BCE", "title": "Library of Alexandria", "desc": "Established as a major center for storing and translating knowledge from across the world."}
+    {
+      "year": "5th Cent. BCE",
+      "title": "Golden Age of Athens",
+      "desc": "Socrates, Plato, and Aristotle establish the foundations of Western philosophy.",
+      "coords": [
+        37.9838,
+        23.7275
+      ]
+    },
+    {
+      "year": "336–323 BCE",
+      "title": "Alexander the Great",
+      "desc": "His conquests spread Hellenistic culture across Egypt, Persia, and parts of India.",
+      "coords": [
+        40.75,
+        22.5
+      ]
+    },
+    {
+      "year": "3rd Cent. BCE",
+      "title": "Library of Alexandria",
+      "desc": "Established as a major center for storing and translating knowledge from across the world.",
+      "coords": [
+        31.2001,
+        29.9187
+      ]
+    }
   ],
   "1": [
-    {"year": "570 CE", "title": "Birth of Muhammad", "desc": "Born in Mecca into the Hashim clan of the Quraysh tribe."},
-    {"year": "610 CE", "title": "First Revelation", "desc": "Receives the first verses of the Quran at Mount Hira near Mecca."},
-    {"year": "622 CE", "title": "The Hijrah", "desc": "Migration from Mecca to Medina; marks the beginning of the Islamic (Hijri) calendar."},
-    {"year": "632 CE", "title": "Farewell Pilgrimage", "desc": "The Prophet's final pilgrimage and sermon; he passes away shortly after."}
+    {
+      "year": "570 CE",
+      "title": "Birth of Muhammad",
+      "desc": "Born in Mecca into the Hashim clan of the Quraysh tribe.",
+      "coords": [
+        21.4167,
+        39.8167
+      ]
+    },
+    {
+      "year": "610 CE",
+      "title": "First Revelation",
+      "desc": "Receives the first verses of the Quran at Mount Hira near Mecca.",
+      "coords": [
+        21.4167,
+        39.8167
+      ]
+    },
+    {
+      "year": "622 CE",
+      "title": "The Hijrah",
+      "desc": "Migration from Mecca to Medina; marks the beginning of the Islamic (Hijri) calendar.",
+      "coords": [
+        24.4667,
+        39.6
+      ]
+    },
+    {
+      "year": "632 CE",
+      "title": "Farewell Pilgrimage",
+      "desc": "The Prophet's final pilgrimage and sermon; he passes away shortly after.",
+      "coords": [
+        21.4167,
+        39.8167
+      ]
+    }
   ],
   "2": [
-    {"year": "632 CE", "title": "Election of Abu Bakr", "desc": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia."},
-    {"year": "636 CE", "title": "Battle of Yarmouk", "desc": "Decisive Muslim victory over the Byzantine Empire in the Levant."},
-    {"year": "637 CE", "title": "Capture of Jerusalem", "desc": "The city surrenders to Caliph Umar ibn al-Khattab."},
-    {"year": "661 CE", "title": "Assassination of Ali", "desc": "Marks the end of the Rashidun era."}
+    {
+      "year": "632 CE",
+      "title": "Election of Abu Bakr",
+      "desc": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
+      "coords": [
+        24.4667,
+        39.6
+      ]
+    },
+    {
+      "year": "636 CE",
+      "title": "Battle of Yarmouk",
+      "desc": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
+      "coords": [
+        32.8167,
+        35.95
+      ]
+    },
+    {
+      "year": "637 CE",
+      "title": "Capture of Jerusalem",
+      "desc": "The city surrenders to Caliph Umar ibn al-Khattab.",
+      "coords": [
+        31.7683,
+        35.2137
+      ]
+    },
+    {
+      "year": "661 CE",
+      "title": "Assassination of Ali",
+      "desc": "Marks the end of the Rashidun era.",
+      "coords": [
+        32.0333,
+        44.4
+      ]
+    }
   ],
   "3": [
-    {"year": "661 CE", "title": "Umayyad Dynasty begins", "desc": "Capital moves to Damascus; Muawiyah I establishes hereditary rule."},
-    {"year": "691 CE", "title": "Dome of the Rock", "desc": "Completed in Jerusalem under Caliph Abd al-Malik."},
-    {"year": "750 CE", "title": "Abbasid Revolution", "desc": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad."},
-    {"year": "830 CE", "title": "House of Wisdom", "desc": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation."}
+    {
+      "year": "661 CE",
+      "title": "Umayyad Dynasty begins",
+      "desc": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
+      "coords": [
+        33.5131,
+        36.2919
+      ]
+    },
+    {
+      "year": "691 CE",
+      "title": "Dome of the Rock",
+      "desc": "Completed in Jerusalem under Caliph Abd al-Malik.",
+      "coords": [
+        31.7683,
+        35.2137
+      ]
+    },
+    {
+      "year": "750 CE",
+      "title": "Abbasid Revolution",
+      "desc": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
+      "coords": [
+        32.0333,
+        44.4
+      ]
+    },
+    {
+      "year": "830 CE",
+      "title": "House of Wisdom",
+      "desc": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
+      "coords": [
+        33.3152,
+        44.3661
+      ]
+    },
+    {
+      "year": "762 CE",
+      "title": "Foundation of Baghdad",
+      "desc": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
+      "coords": [
+        33.3152,
+        44.3661
+      ]
+    },
+    {
+      "year": "832 CE",
+      "title": "House of Wisdom (Bayt al-Hikma)",
+      "desc": "Reached its peak under al-Ma'mun, becoming a global hub for translation and research."
+    }
   ],
   "4": [
-    {"year": "1071 CE", "title": "Battle of Manzikert", "desc": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement."},
-    {"year": "1187 CE", "title": "Saladin's Victory", "desc": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin."},
-    {"year": "1258 CE", "title": "Siege of Baghdad", "desc": "Mongols sack the city, ending the Abbasid Golden Age."},
-    {"year": "1354 CE", "title": "Ibn Battuta's Travels", "desc": "The world-renowned explorer completes his journeys."}
+    {
+      "year": "1071 CE",
+      "title": "Battle of Manzikert",
+      "desc": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
+      "coords": [
+        39.1458,
+        42.5397
+      ]
+    },
+    {
+      "year": "1187 CE",
+      "title": "Saladin's Victory",
+      "desc": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
+      "coords": [
+        32.8033,
+        35.4561
+      ]
+    },
+    {
+      "year": "1258 CE",
+      "title": "Siege of Baghdad",
+      "desc": "Mongols sack the city, ending the Abbasid Golden Age.",
+      "coords": [
+        33.3152,
+        44.3661
+      ]
+    },
+    {
+      "year": "1354 CE",
+      "title": "Ibn Battuta's Travels",
+      "desc": "The world-renowned explorer completes his journeys.",
+      "coords": [
+        35.7847,
+        -5.8125
+      ]
+    },
+    {
+      "year": "1005 CE",
+      "title": "Dar al-Ilm (House of Knowledge)",
+      "desc": "Established in Cairo by the Fatimid Caliph al-Hakim."
+    }
   ],
   "5": [
-    {"year": "1453 CE", "title": "Fall of Constantinople", "desc": "Mehmed the Conqueror takes the city, making it the Ottoman capital."},
-    {"year": "1501 CE", "title": "Safavid State founded", "desc": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism."},
-    {"year": "1526 CE", "title": "Mughal Empire founded", "desc": "Babur defeats the Delhi Sultanate at the First Battle of Panipat."},
-    {"year": "1648 CE", "title": "Completion of Taj Mahal", "desc": "Built by Mughal Emperor Shah Jahan."}
+    {
+      "year": "1453 CE",
+      "title": "Fall of Constantinople",
+      "desc": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
+      "coords": [
+        41.0082,
+        28.9784
+      ]
+    },
+    {
+      "year": "1501 CE",
+      "title": "Safavid State founded",
+      "desc": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
+      "coords": [
+        38.0766,
+        46.297
+      ]
+    },
+    {
+      "year": "1526 CE",
+      "title": "Mughal Empire founded",
+      "desc": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
+      "coords": [
+        29.3909,
+        76.9635
+      ]
+    },
+    {
+      "year": "1648 CE",
+      "title": "Completion of Taj Mahal",
+      "desc": "Built by Mughal Emperor Shah Jahan.",
+      "coords": [
+        27.1751,
+        78.0421
+      ]
+    }
   ],
   "6": [
-    {"year": "1947 CE", "title": "Independence of Pakistan", "desc": "Creation of a sovereign state for Muslims in South Asia."},
-    {"year": "1969 CE", "title": "Formation of the OIC", "desc": "Organization of Islamic Cooperation is established."},
-    {"year": "1979 CE", "title": "Iranian Revolution", "desc": "Establishment of the Islamic Republic of Iran."},
-    {"year": "2020s", "title": "Global Population", "desc": "Muslims reach over 1.9 billion worldwide."}
+    {
+      "year": "1947 CE",
+      "title": "Independence of Pakistan",
+      "desc": "Creation of a sovereign state for Muslims in South Asia.",
+      "coords": [
+        24.8607,
+        67.0011
+      ]
+    },
+    {
+      "year": "1969 CE",
+      "title": "Formation of the OIC",
+      "desc": "Organization of Islamic Cooperation is established.",
+      "coords": [
+        21.4167,
+        39.8167
+      ]
+    },
+    {
+      "year": "1979 CE",
+      "title": "Iranian Revolution",
+      "desc": "Establishment of the Islamic Republic of Iran.",
+      "coords": [
+        35.6892,
+        51.389
+      ]
+    },
+    {
+      "year": "2020s",
+      "title": "Global Population",
+      "desc": "Muslims reach over 1.9 billion worldwide.",
+      "coords": [
+        21.4167,
+        39.8167
+      ]
+    }
   ]
 }
