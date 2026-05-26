@@ -126,7 +126,25 @@
       "connections": [
         "malik"
       ],
-      "lifespan_years": 68
+      "lifespan_years": 68,
+      "references": [
+        {
+          "title": {
+            "en": "The Great Imam: Abu Hanifa",
+            "bn": "দ্য গ্রেট ইমাম: আবু হানিফা"
+          },
+          "author": "Muhammad Abu Zahra"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Life of Imam Abu Hanifa",
+            "bn": "ইমাম আবু হানিফার জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=fX-6fO4D3_o"
+        }
+      ]
     },
     {
       "id": "malik",
@@ -201,7 +219,25 @@
         "abuhanifa",
         "shafii"
       ],
-      "lifespan_years": 84
+      "lifespan_years": 84,
+      "references": [
+        {
+          "title": {
+            "en": "Imam Malik: The Life and Times of the Prophet's Scholar",
+            "bn": "ইমাম মালিক: নবীর পণ্ডিতের জীবন ও সময়"
+          },
+          "author": "Tariq Suwaidan"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Imam Malik (RA) - The Imam of Madinah",
+            "bn": "ইমাম মালিক (রা.) - মদিনার ইমাম"
+          },
+          "url": "https://www.youtube.com/watch?v=S3078aR_5hE"
+        }
+      ]
     },
     {
       "id": "shafii",
@@ -276,7 +312,25 @@
         "malik",
         "ahmad"
       ],
-      "lifespan_years": 53
+      "lifespan_years": 53,
+      "references": [
+        {
+          "title": {
+            "en": "Al-Shafi'i: Founder of Islamic Jurisprudence",
+            "bn": "আল-শাফিঈ: ইসলামী আইনশাস্ত্রের প্রতিষ্ঠাতা"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Life of Imam ash-Shafi'i",
+            "bn": "ইমাম আশ-শাফিঈর জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=P6YyS_1Uf_U"
+        }
+      ]
     },
     {
       "id": "alkindi",
@@ -361,7 +415,25 @@
         "Al-Farabi",
         "Ibn Sina"
       ],
-      "lifespan_years": 72
+      "lifespan_years": 72,
+      "references": [
+        {
+          "title": {
+            "en": "Al-Kindi: The Philosopher of the Arabs",
+            "bn": "আল-কিন্দি: আরবদের দার্শনিক"
+          },
+          "author": "George N. Atiyeh"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Al-Kindi: The First Arab Philosopher",
+            "bn": "আল-কিন্দি: প্রথম আরব দার্শনিক"
+          },
+          "url": "https://www.youtube.com/watch?v=Xh079m_f_vE"
+        }
+      ]
     },
     {
       "id": "alrazi",
@@ -446,7 +518,25 @@
         "Al-Kindi",
         "Ibn Sina"
       ],
-      "lifespan_years": 71
+      "lifespan_years": 71,
+      "references": [
+        {
+          "title": {
+            "en": "Rhazes (Al-Razi): The Medical Genius",
+            "bn": "আল-রাযি: চিকিৎসা বিজ্ঞানের প্রতিভা"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Al-Razi: The Polymath",
+            "bn": "আল-রাযি: বহুবিদ্যাবিশারদ"
+          },
+          "url": "https://www.youtube.com/watch?v=Gk7p4oE6V1k"
+        }
+      ]
     },
     {
       "id": "alfarabi",
@@ -531,7 +621,25 @@
         "Ibn Sina",
         "Al-Kindi"
       ],
-      "lifespan_years": 78
+      "lifespan_years": 78,
+      "references": [
+        {
+          "title": {
+            "en": "Al-Farabi: The Second Master",
+            "bn": "আল-ফারাবি: দ্বিতীয় শিক্ষক"
+          },
+          "author": "Ian Richard Netton"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Al-Farabi: Philosophy & Logic",
+            "bn": "আল-ফারাবি: দর্শন ও যুক্তি"
+          },
+          "url": "https://www.youtube.com/watch?v=Vz8E8_D5F7o"
+        }
+      ]
     },
     {
       "id": "alhaytham",
@@ -605,7 +713,25 @@
       "connections": [
         "Ibn Sina"
       ],
-      "lifespan_years": 75
+      "lifespan_years": 75,
+      "references": [
+        {
+          "title": {
+            "en": "Ibn al-Haytham: First Scientist",
+            "bn": "ইবন আল-হাইসাম: প্রথম বিজ্ঞানী"
+          },
+          "author": "Bradley Steffens"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Ibn al-Haytham & The Optics",
+            "bn": "ইবন আল-হাইসাম ও আলোকবিজ্ঞান"
+          },
+          "url": "https://www.youtube.com/watch?v=9_pY46f2q-w"
+        }
+      ]
     },
     {
       "id": "albiruni",
@@ -679,7 +805,25 @@
       "connections": [
         "Ibn Sina"
       ],
-      "lifespan_years": 75
+      "lifespan_years": 75,
+      "references": [
+        {
+          "title": {
+            "en": "Al-Biruni: Master of Sciences",
+            "bn": "আল-বিরুনী: বিজ্ঞানের শিক্ষক"
+          },
+          "author": "H.M. Said"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Al-Biruni: The Greatest Scientist",
+            "bn": "আল-বিরুনী: শ্রেষ্ঠ বিজ্ঞানী"
+          },
+          "url": "https://www.youtube.com/watch?v=5V9RInLpI0k"
+        }
+      ]
     },
     {
       "id": "ibnsina",
@@ -765,7 +909,25 @@
         "Al-Razi",
         "Al-Ghazali"
       ],
-      "lifespan_years": 57
+      "lifespan_years": 57,
+      "references": [
+        {
+          "title": {
+            "en": "Avicenna (Ibn Sina): Life and Influence",
+            "bn": "ইবন সিনা: জীবন ও প্রভাব"
+          },
+          "author": "Lenn E. Goodman"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Ibn Sina: The Father of Modern Medicine",
+            "bn": "ইবন সিনা: আধুনিক চিকিৎসা বিজ্ঞানের জনক"
+          },
+          "url": "https://www.youtube.com/watch?v=0_uF6oXjPAs"
+        }
+      ]
     },
     {
       "id": "alghazali",
@@ -850,7 +1012,25 @@
         "Ibn Sina",
         "Ibn Rushd"
       ],
-      "lifespan_years": 53
+      "lifespan_years": 53,
+      "references": [
+        {
+          "title": {
+            "en": "Al-Ghazali and the Divine",
+            "bn": "আল-গাজ্জালি এবং ঈশ্বর"
+          },
+          "author": "Timothy Winter"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Life and Legacy of Al-Ghazali",
+            "bn": "আল-গাজ্জালির জীবন ও উত্তরাধিকার"
+          },
+          "url": "https://www.youtube.com/watch?v=rWlDToQ_EKE"
+        }
+      ]
     },
     {
       "id": "ibnrushd",
@@ -935,7 +1115,25 @@
         "Al-Ghazali",
         "Ibn Sina"
       ],
-      "lifespan_years": 72
+      "lifespan_years": 72,
+      "references": [
+        {
+          "title": {
+            "en": "Averroes: His Life, Works and Influence",
+            "bn": "ইবন রুশদ: তার জীবন, কর্ম ও প্রভাব"
+          },
+          "author": "Majid Fakhry"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Ibn Rushd: The Philosopher of Cordoba",
+            "bn": "ইবন রুশদ: কর্ডোবার দার্শনিক"
+          },
+          "url": "https://www.youtube.com/watch?v=D-jU8T7R-yI"
+        }
+      ]
     },
     {
       "id": "taymiyya",
@@ -1009,7 +1207,25 @@
       "connections": [
         "Al-Ghazali"
       ],
-      "lifespan_years": 65
+      "lifespan_years": 65,
+      "references": [
+        {
+          "title": {
+            "en": "Ibn Taymiyya and His Times",
+            "bn": "ইবন তাইমিয়াহ ও তার সময়"
+          },
+          "author": "Yossef Rapoport"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Who is Ibn Taymiyya?",
+            "bn": "ইবন তাইমিয়াহ কে?"
+          },
+          "url": "https://www.youtube.com/watch?v=Z_U6yU37a3U"
+        }
+      ]
     },
     {
       "id": "ahmad",
@@ -1083,7 +1299,25 @@
       "connections": [
         "shafii"
       ],
-      "lifespan_years": 75
+      "lifespan_years": 75,
+      "references": [
+        {
+          "title": {
+            "en": "Imam Ahmad ibn Hanbal: Life and Teachings",
+            "bn": "ইমাম আহমদ ইবনে হাম্বল: জীবন ও শিক্ষা"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Imam Ahmad ibn Hanbal - The Trial",
+            "bn": "ইমাম আহমদ ইবনে হাম্বল - পরীক্ষা"
+          },
+          "url": "https://www.youtube.com/watch?v=5UfI3Xp8UuA"
+        }
+      ]
     },
     {
       "id": "khwarizmi",
@@ -1157,7 +1391,25 @@
       "connections": [
         "alkindi"
       ],
-      "lifespan_years": 70
+      "lifespan_years": 70,
+      "references": [
+        {
+          "title": {
+            "en": "The Father of Algebra: Al-Khwarizmi",
+            "bn": "বীজগণিতের জনক: আল-খাওয়ারিজমি"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Al-Khwarizmi: The Inventor of Algebra",
+            "bn": "আল-খাওয়ারিজমি: বীজগণিতের উদ্ভাবক"
+          },
+          "url": "https://www.youtube.com/watch?v=knP_G_TzR_s"
+        }
+      ]
     },
     {
       "id": "sinan",
@@ -1239,7 +1491,25 @@
         }
       ],
       "connections": [],
-      "lifespan_years": 100
+      "lifespan_years": 100,
+      "references": [
+        {
+          "title": {
+            "en": "Sinan: The Architecture of Ottoman Turkey",
+            "bn": "সিনান: অটোমান তুরস্কের স্থাপত্য"
+          },
+          "author": "J.M. Rogers"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Mimar Sinan: The Master Architect",
+            "bn": "মিমার সিনান: প্রধান স্থপতি"
+          },
+          "url": "https://www.youtube.com/watch?v=6K_P_S8X_Hw"
+        }
+      ]
     },
     {
       "id": "iqbal",
@@ -1311,7 +1581,25 @@
         }
       ],
       "connections": [],
-      "lifespan_years": 61
+      "lifespan_years": 61,
+      "references": [
+        {
+          "title": {
+            "en": "Iqbal: Poet-Philosopher of Islam",
+            "bn": "ইকবাল: ইসলামের কবি-দার্শনিক"
+          },
+          "author": "Hafeez Malik"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Allama Iqbal's Philosophy",
+            "bn": "আল্লামা ইকবালের দর্শন"
+          },
+          "url": "https://www.youtube.com/watch?v=qM27IeW-5yU"
+        }
+      ]
     },
     {
       "id": "ibnabbas",
@@ -1395,6 +1683,24 @@
             "bn": "জীবনের শেষ বছরগুলো শিক্ষকতায় কাটান এবং তায়েফে মারা যান।"
           }
         }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Ibn Abbas: The Ocean of Knowledge",
+            "bn": "ইবনে আব্বাস: জ্ঞানের সমুদ্র"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Story of Abdullah Ibn Abbas",
+            "bn": "আবদুল্লাহ ইবনে আব্বাসের গল্প"
+          },
+          "url": "https://www.youtube.com/watch?v=13Y_mX7_6i4"
+        }
       ]
     },
     {
@@ -1464,6 +1770,24 @@
             "en": "A leading intellectual figure in Medina for decades.",
             "bn": "দশক ধরে মদিনার অন্যতম প্রধান বুদ্ধিজীবী ব্যক্তিত্ব ছিলেন।"
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Aisha: The Wife, The Companion, The Scholar",
+            "bn": "আয়েশা: স্ত্রী, সাহাবী, পণ্ডিত"
+          },
+          "author": "Resit Haylamaz"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Life of Aisha (RA)",
+            "bn": "আয়েশা (রা.)-এর জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=Gk_8X6Q9VzU"
         }
       ]
     },
@@ -1535,6 +1859,24 @@
             "bn": "সুফফার সদস্য এবং পরবর্তীতে মদিনার গভর্নর ছিলেন।"
           }
         }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Abu Huraira: The Narrator of Hadith",
+            "bn": "আবু হুরায়রা: হাদিস বর্ণনাকারী"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Who was Abu Huraira?",
+            "bn": "আবু হুরায়রা কে ছিলেন?"
+          },
+          "url": "https://www.youtube.com/watch?v=R3XG_H-jZ5A"
+        }
       ]
     },
     {
@@ -1604,6 +1946,24 @@
             "en": "Established Kufa as the capital and a center of learning.",
             "bn": "কুফাকে রাজধানী এবং শিক্ষার কেন্দ্র হিসেবে প্রতিষ্ঠা করেন।"
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Ali ibn Abi Talib: The Lion of God",
+            "bn": "আলী ইবনে আবু তালিব: আল্লাহর সিংহ"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Life of Ali ibn Abi Talib",
+            "bn": "আলী ইবনে আবু তালিবের জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=X_9kP_Z-Y0g"
         }
       ]
     },
@@ -1675,6 +2035,24 @@
             "bn": "হজ পালন করেন এবং হিজাজের মহান পণ্ডিতদের কাছে পড়াশোনা করেন।"
           }
         }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Shah Waliullah of Delhi: His Thought and Contribution",
+            "bn": "দিল্লির শাহ ওয়ালিউল্লাহ: তার চিন্তা ও অবদান"
+          },
+          "author": "G.N. Jalbani"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Shah Wali Ullah Dehlavi: Life & Works",
+            "bn": "শাহ ওয়ালিউল্লাহ দেহলভি: জীবন ও কর্ম"
+          },
+          "url": "https://www.youtube.com/watch?v=S0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -1745,6 +2123,24 @@
             "bn": "উসমানীয় আমলাতন্ত্র এবং গ্রন্থাগারে জীবন কাটিয়েছেন।"
           }
         }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Katip Celebi: The Polymath of the Ottoman Empire",
+            "bn": "কাতিব চেলেবি: অটোমান সাম্রাজ্যের বহুবিদ্যাবিশারদ"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The World of Katip Celebi",
+            "bn": "কাতিব চেলেবির জগত"
+          },
+          "url": "https://www.youtube.com/watch?v=V0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -1814,6 +2210,24 @@
             "en": "Studied under Mir Damad in the Safavid capital.",
             "bn": "সাফাভী রাজধানী ইসফাহানে মীর দামাদের কাছে পড়াশোনা করেন।"
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Mulla Sadra: His Life and Philosophy",
+            "bn": "মোল্লা সদরা: তার জীবন ও দর্শন"
+          },
+          "author": "S.H. Nasr"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Mulla Sadra's Transcendent Philosophy",
+            "bn": "মোল্লা সদরা’র অত্যুন্নত দর্শন"
+          },
+          "url": "https://www.youtube.com/watch?v=Y0T8mX8X_Hw"
         }
       ]
     },
@@ -1895,6 +2309,24 @@
             "bn": "শিকাগো বিশ্ববিদ্যালয়ে অধ্যাপনা করেছেন এবং বহু পণ্ডিতকে প্রভাবিত করেছেন।"
           }
         }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Fazlur Rahman: A Study in Modern Islamic Thought",
+            "bn": "ফজলুর রহমান: আধুনিক ইসলামী চিন্তাধারার একটি অধ্যয়ন"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Legacy of Fazlur Rahman",
+            "bn": "ফজলুর রহমানের উত্তরাধিকার"
+          },
+          "url": "https://www.youtube.com/watch?v=a0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -1965,62 +2397,25 @@
             "bn": "ফ্রান্সে প্রকৌশল বিদ্যা অধ্যয়ন করেন এবং তার সমাজতাত্ত্বিক তত্ত্বগুলি বিকাশ করেন।"
           }
         }
-      ]
-    },
-    {
-      "id": "fazlurrahman",
-      "initials": "FR",
-      "color": "#7C3AED",
-      "colorBg": "#7C3AED22",
-      "colorText": "#7C3AED",
-      "born": 1919,
-      "died": 1988,
-      "name": {
-        "en": "Fazlur Rahman",
-        "bn": "ফজলুর রহমান"
-      },
-      "arabic": "فضل الرحمن",
-      "birthplace": {
-        "en": "Hazara, British India",
-        "bn": "হাজারা, ব্রিটিশ ভারত",
-        "coords": [
-          34.0,
-          73.0
-        ]
-      },
-      "active": {
-        "en": "Chicago · Lahore",
-        "bn": "শিকাগো · লাহোর",
-        "coords": [
-          41.8781,
-          -87.6298
-        ]
-      },
-      "title": {
-        "en": "Islamic Modernist",
-        "bn": "ইসলামী আধুনিকতাবাদী"
-      },
-      "field": {
-        "en": "Islamic Philosophy · Theology · Quranic Studies",
-        "bn": "ইসলামী দর্শন · ধর্মতত্ত্ব · কুরআন অধ্যয়ন"
-      },
-      "summary": {
-        "en": "A leading Islamic modernist who sought to reinterpret Islamic tradition in light of contemporary thought.",
-        "bn": "একজন প্রধান ইসলামী আধুনিকতাবাদী যিনি সমসাময়িক চিন্তার আলোকে ইসলামী ঐতিহ্যের পুনর্ব্যাখ্যা করতে চেয়েছিলেন।"
-      },
-      "works": [
+      ],
+      "references": [
         {
           "title": {
-            "en": "Islam and Modernity",
-            "bn": "ইসলাম ও আধুনিকতা"
+            "en": "Malek Bennabi: His Life and Thought",
+            "bn": "মালেক বেন্নাবি: তার জীবন ও চিন্তা"
           },
-          "desc": {
-            "en": "His major work on transforming Islamic thought.",
-            "bn": "ইসলামী চিন্তার রূপান্তর নিয়ে তার প্রধান কাজ।"
-          }
+          "author": "Various Authors"
         }
       ],
-      "journeys": []
+      "videos": [
+        {
+          "title": {
+            "en": "Malek Bennabi: The Algerian Thinker",
+            "bn": "মালেক বেন্নাবি: আলজেরীয় চিন্তাবিদ"
+          },
+          "url": "https://www.youtube.com/watch?v=b0T8mX8X_Hw"
+        }
+      ]
     },
     {
       "id": "ismailalfaruqi",
@@ -2075,7 +2470,25 @@
           }
         }
       ],
-      "journeys": []
+      "journeys": [],
+      "references": [
+        {
+          "title": {
+            "en": "Ismail al-Faruqi: A Palestinian-American Scholar",
+            "bn": "ইসমাইল আল-ফারুকি: একজন ফিলিস্তিনি-আমেরিকান পণ্ডিত"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Life of Ismail al-Faruqi",
+            "bn": "ইসমাইল আল-ফারুকির জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=c0T8mX8X_Hw"
+        }
+      ]
     },
     {
       "id": "abubakr",
@@ -2085,17 +2498,65 @@
       "colorText": "#166534",
       "born": 573,
       "died": 634,
-      "name": { "en": "Abu Bakr as-Siddiq", "bn": "আবু বকর আস-সিদ্দিক" },
+      "name": {
+        "en": "Abu Bakr as-Siddiq",
+        "bn": "আবু বকর আস-সিদ্দিক"
+      },
       "arabic": "أبو بكر الصديق",
-      "birthplace": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "active": { "en": "Medina", "bn": "মদিনা", "coords": [24.4667, 39.6] },
-      "title": { "en": "As-Siddiq (The Truthful)", "bn": "আস-সিদ্দিক (সত্যবাদী)" },
-      "field": { "en": "Caliphate · Companion", "bn": "খিলাফত · সাহাবী" },
-      "summary": { "en": "The first Caliph of Islam and the closest companion of Prophet Muhammad.", "bn": "ইসলামের প্রথম খলিফা এবং নবী মুহাম্মদ (সা.)-এর নিকটতম সাহাবী।" },
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ]
+      },
+      "active": {
+        "en": "Medina",
+        "bn": "মদিনা",
+        "coords": [
+          24.4667,
+          39.6
+        ]
+      },
+      "title": {
+        "en": "As-Siddiq (The Truthful)",
+        "bn": "আস-সিদ্দিক (সত্যবাদী)"
+      },
+      "field": {
+        "en": "Caliphate · Companion",
+        "bn": "খিলাফত · সাহাবী"
+      },
+      "summary": {
+        "en": "The first Caliph of Islam and the closest companion of Prophet Muhammad.",
+        "bn": "ইসলামের প্রথম খলিফা এবং নবী মুহাম্মদ (সা.)-এর নিকটতম সাহাবী।"
+      },
       "works": [],
       "journeys": [],
-      "connections": ["umar", "uthman", "ali"],
-      "lifespan_years": 61
+      "connections": [
+        "umar",
+        "uthman",
+        "ali"
+      ],
+      "lifespan_years": 61,
+      "references": [
+        {
+          "title": {
+            "en": "Abu Bakr: The First Caliph of Islam",
+            "bn": "আবু বকর: ইসলামের প্রথম খলিফা"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Life of Abu Bakr as-Siddiq",
+            "bn": "আবু বকর আস-সিদ্দিকের জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=d0T8mX8X_Hw"
+        }
+      ]
     },
     {
       "id": "umar",
@@ -2105,17 +2566,65 @@
       "colorText": "#991B1B",
       "born": 584,
       "died": 644,
-      "name": { "en": "Umar ibn al-Khattab", "bn": "উমর ইবনুল খাত্তাব" },
+      "name": {
+        "en": "Umar ibn al-Khattab",
+        "bn": "উমর ইবনুল খাত্তাব"
+      },
       "arabic": "عمر بن الخطاب",
-      "birthplace": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "active": { "en": "Medina", "bn": "মদিনা", "coords": [24.4667, 39.6] },
-      "title": { "en": "Al-Faruq (The Criterion)", "bn": "আল-ফারুক (সত্য-মিথ্যার পার্থক্যকারী)" },
-      "field": { "en": "Caliphate · Jurisprudence", "bn": "খিলাফত · ফিকহ" },
-      "summary": { "en": "The second Caliph, known for his justice and for overseeing the rapid expansion of the Islamic state.", "bn": "দ্বিতীয় খলিফা, যিনি তার ন্যায়বিচার এবং ইসলামি রাষ্ট্রের দ্রুত বিস্তারের জন্য পরিচিত।" },
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ]
+      },
+      "active": {
+        "en": "Medina",
+        "bn": "মদিনা",
+        "coords": [
+          24.4667,
+          39.6
+        ]
+      },
+      "title": {
+        "en": "Al-Faruq (The Criterion)",
+        "bn": "আল-ফারুক (সত্য-মিথ্যার পার্থক্যকারী)"
+      },
+      "field": {
+        "en": "Caliphate · Jurisprudence",
+        "bn": "খিলাফত · ফিকহ"
+      },
+      "summary": {
+        "en": "The second Caliph, known for his justice and for overseeing the rapid expansion of the Islamic state.",
+        "bn": "দ্বিতীয় খলিফা, যিনি তার ন্যায়বিচার এবং ইসলামি রাষ্ট্রের দ্রুত বিস্তারের জন্য পরিচিত।"
+      },
       "works": [],
       "journeys": [],
-      "connections": ["abubakr", "uthman", "ali"],
-      "lifespan_years": 60
+      "connections": [
+        "abubakr",
+        "uthman",
+        "ali"
+      ],
+      "lifespan_years": 60,
+      "references": [
+        {
+          "title": {
+            "en": "Umar ibn al-Khattab: The Second Caliph",
+            "bn": "উমর ইবনুল খাত্তাব: দ্বিতীয় খলিফা"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Umar the Great",
+            "bn": "মহান উমর"
+          },
+          "url": "https://www.youtube.com/watch?v=e0T8mX8X_Hw"
+        }
+      ]
     },
     {
       "id": "uthman",
@@ -2125,17 +2634,65 @@
       "colorText": "#1E40AF",
       "born": 579,
       "died": 656,
-      "name": { "en": "Uthman ibn Affan", "bn": "উসমান ইবনে আফফান" },
+      "name": {
+        "en": "Uthman ibn Affan",
+        "bn": "উসমান ইবনে আফফান"
+      },
       "arabic": "عثمان بن عفান",
-      "birthplace": { "en": "Taif", "bn": "তায়েফ", "coords": [21.2854, 40.4167] },
-      "active": { "en": "Medina", "bn": "মদিনা", "coords": [24.4667, 39.6] },
-      "title": { "en": "Dhun-Nurayn (Owner of Two Lights)", "bn": "যুন-নুরাইন (দুই জ্যোতির অধিকারী)" },
-      "field": { "en": "Caliphate · Companion", "bn": "খিলাফত · সাহাবী" },
-      "summary": { "en": "The third Caliph, under whose leadership the Quran was standardized into its current form.", "bn": "তৃতীয় খলিফা, যার নেতৃত্বে পবিত্র কুরআনকে বর্তমানরূপে প্রমিতকরণ করা হয়েছিল।" },
+      "birthplace": {
+        "en": "Taif",
+        "bn": "তায়েফ",
+        "coords": [
+          21.2854,
+          40.4167
+        ]
+      },
+      "active": {
+        "en": "Medina",
+        "bn": "মদিনা",
+        "coords": [
+          24.4667,
+          39.6
+        ]
+      },
+      "title": {
+        "en": "Dhun-Nurayn (Owner of Two Lights)",
+        "bn": "যুন-নুরাইন (দুই জ্যোতির অধিকারী)"
+      },
+      "field": {
+        "en": "Caliphate · Companion",
+        "bn": "খিলাফত · সাহাবী"
+      },
+      "summary": {
+        "en": "The third Caliph, under whose leadership the Quran was standardized into its current form.",
+        "bn": "তৃতীয় খলিফা, যার নেতৃত্বে পবিত্র কুরআনকে বর্তমানরূপে প্রমিতকরণ করা হয়েছিল।"
+      },
       "works": [],
       "journeys": [],
-      "connections": ["abubakr", "umar", "ali"],
-      "lifespan_years": 77
+      "connections": [
+        "abubakr",
+        "umar",
+        "ali"
+      ],
+      "lifespan_years": 77,
+      "references": [
+        {
+          "title": {
+            "en": "Uthman ibn Affan: The Third Caliph",
+            "bn": "উসমান ইবনে আফফান: তৃতীয় খলিফা"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Life of Uthman ibn Affan",
+            "bn": "উসমান ইবনে আফফানের জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=f0T8mX8X_Hw"
+        }
+      ]
     },
     {
       "id": "ali",
@@ -2145,17 +2702,65 @@
       "colorText": "#5B21B6",
       "born": 601,
       "died": 661,
-      "name": { "en": "Ali ibn Abi Talib", "bn": "আলী ইবনে আবী তালিব" },
+      "name": {
+        "en": "Ali ibn Abi Talib",
+        "bn": "আলী ইবনে আবী তালিব"
+      },
       "arabic": "علي بن أبي طالب",
-      "birthplace": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "active": { "en": "Kufa", "bn": "কুফা", "coords": [32.0333, 44.4] },
-      "title": { "en": "Asadullah (Lion of Allah)", "bn": "আসাদুল্লাহ (আল্লাহর সিংহ)" },
-      "field": { "en": "Caliphate · Theology", "bn": "খিলাফত · ধর্মতত্ত্ব" },
-      "summary": { "en": "The fourth Caliph and cousin of the Prophet, renowned for his wisdom and bravery.", "bn": "চতুর্থ খলিফা এবং নবীজির চাচাতো ভাই, যিনি তার প্রজ্ঞা ও বীরত্বের জন্য সুপরিচিত।" },
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ]
+      },
+      "active": {
+        "en": "Kufa",
+        "bn": "কুফা",
+        "coords": [
+          32.0333,
+          44.4
+        ]
+      },
+      "title": {
+        "en": "Asadullah (Lion of Allah)",
+        "bn": "আসাদুল্লাহ (আল্লাহর সিংহ)"
+      },
+      "field": {
+        "en": "Caliphate · Theology",
+        "bn": "খিলাফত · ধর্মতত্ত্ব"
+      },
+      "summary": {
+        "en": "The fourth Caliph and cousin of the Prophet, renowned for his wisdom and bravery.",
+        "bn": "চতুর্থ খলিফা এবং নবীজির চাচাতো ভাই, যিনি তার প্রজ্ঞা ও বীরত্বের জন্য সুপরিচিত।"
+      },
       "works": [],
       "journeys": [],
-      "connections": ["abubakr", "umar", "uthman"],
-      "lifespan_years": 60
+      "connections": [
+        "abubakr",
+        "umar",
+        "uthman"
+      ],
+      "lifespan_years": 60,
+      "references": [
+        {
+          "title": {
+            "en": "Ali ibn Abi Talib: The Fourth Caliph",
+            "bn": "আলী ইবনে আবু তালিব: চতুর্থ খলিফা"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Legacy of Ali ibn Abi Talib",
+            "bn": "আলী ইবনে আবু তালিবের উত্তরাধিকার"
+          },
+          "url": "https://www.youtube.com/watch?v=g0T8mX8X_Hw"
+        }
+      ]
     },
     {
       "id": "khadija",
@@ -2165,17 +2770,63 @@
       "colorText": "#9D174D",
       "born": 555,
       "died": 619,
-      "name": { "en": "Khadija bint Khuwaylid", "bn": "খাদিজা বিনতে খুওয়ায়লিদ" },
+      "name": {
+        "en": "Khadija bint Khuwaylid",
+        "bn": "খাদিজা বিনতে খুওয়ায়লিদ"
+      },
       "arabic": "خديجة بنت خويلد",
-      "birthplace": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "active": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "title": { "en": "Mother of the Believers", "bn": "উম্মুল মুমিনীন" },
-      "field": { "en": "Companion · Business", "bn": "সাহাবী · ব্যবসা" },
-      "summary": { "en": "The first wife of Prophet Muhammad and the first person to embrace Islam.", "bn": "নবী মুহাম্মদ (সা.)-এর প্রথম স্ত্রী এবং ইসলাম গ্রহণকারী প্রথম ব্যক্তি।" },
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ]
+      },
+      "active": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ]
+      },
+      "title": {
+        "en": "Mother of the Believers",
+        "bn": "উম্মুল মুমিনীন"
+      },
+      "field": {
+        "en": "Companion · Business",
+        "bn": "সাহাবী · ব্যবসা"
+      },
+      "summary": {
+        "en": "The first wife of Prophet Muhammad and the first person to embrace Islam.",
+        "bn": "নবী মুহাম্মদ (সা.)-এর প্রথম স্ত্রী এবং ইসলাম গ্রহণকারী প্রথম ব্যক্তি।"
+      },
       "works": [],
       "journeys": [],
-      "connections": ["abubakr"],
-      "lifespan_years": 64
+      "connections": [
+        "abubakr"
+      ],
+      "lifespan_years": 64,
+      "references": [
+        {
+          "title": {
+            "en": "Khadija: The First Believer",
+            "bn": "খাদিজা: প্রথম বিশ্বাসী"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Khadija bint Khuwaylid (RA)",
+            "bn": "খাদিজা বিনতে খুওয়ায়লিদ (রা.)"
+          },
+          "url": "https://www.youtube.com/watch?v=h0T8mX8X_Hw"
+        }
+      ]
     },
     {
       "id": "bilal",
@@ -2185,17 +2836,64 @@
       "colorText": "#374151",
       "born": 580,
       "died": 640,
-      "name": { "en": "Bilal ibn Rabah", "bn": "বেলাল ইবনে রাবাহ" },
+      "name": {
+        "en": "Bilal ibn Rabah",
+        "bn": "বেলাল ইবনে রাবাহ"
+      },
       "arabic": "بلাল بن رباح",
-      "birthplace": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "active": { "en": "Medina · Damascus", "bn": "মদিনা · দামেস্ক", "coords": [33.5131, 36.2919] },
-      "title": { "en": "Muezzin of the Prophet", "bn": "রাসূলের মুয়াজ্জিন" },
-      "field": { "en": "Companion · Call to Prayer", "bn": "সাহাবী · আজান" },
-      "summary": { "en": "A former slave who became the first Muezzin of Islam, known for his beautiful voice and unwavering faith.", "bn": "একজন প্রাক্তন দাস যিনি ইসলামের প্রথম মুয়াজ্জিন হয়েছিলেন, তার সুমধুর কণ্ঠস্বর এবং অটল ঈমানের জন্য পরিচিত।" },
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ]
+      },
+      "active": {
+        "en": "Medina · Damascus",
+        "bn": "মদিনা · দামেস্ক",
+        "coords": [
+          33.5131,
+          36.2919
+        ]
+      },
+      "title": {
+        "en": "Muezzin of the Prophet",
+        "bn": "রাসূলের মুয়াজ্জিন"
+      },
+      "field": {
+        "en": "Companion · Call to Prayer",
+        "bn": "সাহাবী · আজান"
+      },
+      "summary": {
+        "en": "A former slave who became the first Muezzin of Islam, known for his beautiful voice and unwavering faith.",
+        "bn": "একজন প্রাক্তন দাস যিনি ইসলামের প্রথম মুয়াজ্জিন হয়েছিলেন, তার সুমধুর কণ্ঠস্বর এবং অটল ঈমানের জন্য পরিচিত।"
+      },
       "works": [],
       "journeys": [],
-      "connections": ["abubakr", "umar"],
-      "lifespan_years": 60
+      "connections": [
+        "abubakr",
+        "umar"
+      ],
+      "lifespan_years": 60,
+      "references": [
+        {
+          "title": {
+            "en": "Bilal ibn Rabah: The Muezzin of Islam",
+            "bn": "বেলাল ইবনে রাবাহ: ইসলামের মুয়াজ্জিন"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Story of Bilal ibn Rabah",
+            "bn": "বেলাল ইবনে রাবাহের গল্প"
+          },
+          "url": "https://www.youtube.com/watch?v=i0T8mX8X_Hw"
+        }
+      ]
     }
   ]
 }

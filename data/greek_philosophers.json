@@ -51,6 +51,24 @@
         0,
         3,
         4
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Socrates: A Man for Our Times",
+            "bn": "সক্রেটিস: আমাদের সময়ের একজন মানুষ"
+          },
+          "author": "Paul Johnson"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Socrates: The Father of Western Philosophy",
+            "bn": "সক্রেটিস: পাশ্চাত্য দর্শনের জনক"
+          },
+          "url": "https://www.youtube.com/watch?v=vN3O95_m9e4"
+        }
       ]
     },
     {
@@ -114,6 +132,24 @@
         0,
         3,
         4
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Plato: A Very Short Introduction",
+            "bn": "প্লেটো: একটি সংক্ষিপ্ত পরিচিতি"
+          },
+          "author": "Julia Annas"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Plato's Republic",
+            "bn": "প্লেটোর রিপাবলিক"
+          },
+          "url": "https://www.youtube.com/watch?v=1uNtmv8vXhE"
+        }
       ]
     },
     {
@@ -178,6 +214,24 @@
         3,
         4,
         5
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Aristotle: The Master of Those Who Know",
+            "bn": "অ্যারিস্টটল: জ্ঞানীদের শিক্ষক"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Aristotle: Ethics and Politics",
+            "bn": "অ্যারিস্টটল: নীতিশাস্ত্র ও রাজনীতি"
+          },
+          "url": "https://www.youtube.com/watch?v=csIW4W_DYX4"
+        }
       ]
     },
     {
@@ -234,6 +288,24 @@
         3,
         4,
         5
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Galen: On the Properties of Foodstuffs",
+            "bn": "গ্যালেন: খাদ্যের বৈশিষ্ট্য সম্পর্কে"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Galen: The Great Physician",
+            "bn": "গ্যালেন: মহান চিকিৎসক"
+          },
+          "url": "https://www.youtube.com/watch?v=j0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -298,6 +370,24 @@
         3,
         4,
         5
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Ptolemy's Almagest",
+            "bn": "টলেমির আলমাগেস্ট"
+          },
+          "author": "G.J. Toomer"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Ptolemy: The Geocentric Universe",
+            "bn": "টলেমি: ভূ-কেন্দ্রিক মহাবিশ্ব"
+          },
+          "url": "https://www.youtube.com/watch?v=k0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -352,6 +442,24 @@
         3,
         4,
         5
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Euclid's Elements",
+            "bn": "ইউক্লিডের এলিমেন্টস"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Geometry of Euclid",
+            "bn": "ইউক্লিডের জ্যামিতি"
+          },
+          "url": "https://www.youtube.com/watch?v=l0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -415,6 +523,24 @@
         0,
         3,
         4
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Archimedes: The Greatest Scientist",
+            "bn": "আর্কিমিডিস: শ্রেষ্ঠ বিজ্ঞানী"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Archimedes' Eureka!",
+            "bn": "আর্কিমিডিসের ইউরেকা!"
+          },
+          "url": "https://www.youtube.com/watch?v=m0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -471,6 +597,24 @@
         3,
         4,
         5
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Hippocrates: The Father of Medicine",
+            "bn": "হিপোক্রেটিস: চিকিৎসা বিজ্ঞানের জনক"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Hippocratic Oath",
+            "bn": "হিপোক্রেটিক শপথ"
+          },
+          "url": "https://www.youtube.com/watch?v=n0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -522,6 +666,24 @@
       },
       "eras": [
         0
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Herodotus: The Father of History",
+            "bn": "হেরোডোটাস: ইতিহাসের জনক"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Herodotus' Histories",
+            "bn": "হেরোডোটাসের ইতিহাস"
+          },
+          "url": "https://www.youtube.com/watch?v=o0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -585,6 +747,24 @@
         0,
         3,
         4
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Pythagoras: Life & Teachings",
+            "bn": "পিথাগোরাস: জীবন ও শিক্ষা"
+          },
+          "author": "Christoph Riedweg"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Story of Pythagoras",
+            "bn": "পিথাগোরাসের গল্প"
+          },
+          "url": "https://www.youtube.com/watch?v=p0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -648,6 +828,24 @@
         1,
         2,
         3
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Philoponus and the Rejection of Aristotle",
+            "bn": "ফিলোপোনাস এবং অ্যারিস্টটলের প্রত্যাখ্যান"
+          },
+          "author": "Richard Sorabji"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "John Philoponus",
+            "bn": "জন ফিলোপোনাস"
+          },
+          "url": "https://www.youtube.com/watch?v=q0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -701,6 +899,24 @@
         0,
         1,
         3
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Plotinus: The Enneads",
+            "bn": "প্লোটিনাস: এনিয়াডস"
+          },
+          "author": "L.P. Gerson"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Plotinus and Neoplatonism",
+            "bn": "প্লোটিনাস এবং নব্যপ্লেটোবাদ"
+          },
+          "url": "https://www.youtube.com/watch?v=r0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -752,6 +968,24 @@
       },
       "eras": [
         6
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Werner Jaeger: Paideia",
+            "bn": "ভার্নার ইয়েগার: পাইডেইয়া"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Scholarship of Werner Jaeger",
+            "bn": "ভার্নার ইয়েগারের পাণ্ডিত্য"
+          },
+          "url": "https://www.youtube.com/watch?v=s0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -803,6 +1037,24 @@
       },
       "eras": [
         6
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Voegelin: Order and History",
+            "bn": "ভয়েগেলিন: শৃঙ্খলা ও ইতিহাস"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Voegelin's Political Philosophy",
+            "bn": "ভয়েগেলিনের রাজনৈতিক দর্শন"
+          },
+          "url": "https://www.youtube.com/watch?v=t0T8mX8X_Hw"
+        }
       ]
     },
     {
@@ -854,6 +1106,24 @@
       },
       "eras": [
         6
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Hadot: Philosophy as a Way of Life",
+            "bn": "আদো: জীবনযাপনের উপায় হিসেবে দর্শন"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Pierre Hadot - Ancient Wisdom",
+            "bn": "পিয়ের আদো - প্রাচীন প্রজ্ঞা"
+          },
+          "url": "https://www.youtube.com/watch?v=u0T8mX8X_Hw"
+        }
       ]
     }
   ]
