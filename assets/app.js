@@ -677,10 +677,10 @@
         detailDiv.innerHTML = `
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
                 <button class="back-btn" id="backToScholars">← ${t('backToList')}</button>
-                <button class="map-action-btn" id="viewScholarOnMap" style="background: ${s.color}; flex: 1;">🗺️ ${t('viewOnMap')}</button>
+                <button class="map-action-btn" id="viewScholarOnMap">🗺️ ${t('viewOnMap')}</button>
             </div>
             <div class="detail-header">
-                <div class="detail-avatar" style="background:${s.colorBg}; color:${s.colorText}">${s.initials}</div>
+                <div class="detail-avatar" style="background:${s.color}; color:${s.colorText}">${s.initials}</div>
                 <div>
                     <h2 class="detail-name">${localize(s.name)}</h2>
                     <div class="detail-arabic">${s.arabic || ''}</div>
@@ -813,7 +813,7 @@
         detailDiv.innerHTML = `
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
                 <button class="back-btn" id="backToGreeks">← ${t('backToList')}</button>
-                <button class="map-action-btn" id="viewGreekOnMap" style="background: #3b82f6; flex: 1;">🗺️ ${t('viewOnMap')}</button>
+                <button class="map-action-btn" id="viewGreekOnMap">🗺️ ${t('viewOnMap')}</button>
             </div>
             <div class="detail-header">
                 <div>
