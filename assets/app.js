@@ -100,6 +100,16 @@
         if (!value || typeof value !== 'object') return value || '';
         return value[currentLang] || value.en || value.bn || '';
     }
+
+    function getYoutubeEmbedUrl(url) {
+        if (!url) return '';
+        const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+        const match = url.match(regExp);
+        if (match && match[2].length === 11) {
+            return `https://www.youtube.com/embed/${match[2]}`;
+        }
+        return url;
+    }
     
     function checkMobile() {
         isMobile = window.matchMedia('(max-width: 767px)').matches;
@@ -686,9 +696,16 @@
 
         const vidsHtml = s.videos ? s.videos.map(v => `
             <div class="detail-video">
-                <a href="${v.url}" target="_blank" rel="noopener noreferrer">
-                    ${localize(v.title)}
-                </a>
+                <div class="video-container">
+                    <iframe 
+                        src="${getYoutubeEmbedUrl(v.url)}" 
+                        title="${localize(v.title)}" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-caption">${localize(v.title)}</div>
             </div>
         `).join('') : '';
 
@@ -835,9 +852,16 @@
 
         const vidsHtml = g.videos ? g.videos.map(v => `
             <div class="detail-video">
-                <a href="${v.url}" target="_blank" rel="noopener noreferrer">
-                    ${localize(v.title)}
-                </a>
+                <div class="video-container">
+                    <iframe 
+                        src="${getYoutubeEmbedUrl(v.url)}" 
+                        title="${localize(v.title)}" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-caption">${localize(v.title)}</div>
             </div>
         `).join('') : '';
 
