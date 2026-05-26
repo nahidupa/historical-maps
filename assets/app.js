@@ -47,7 +47,11 @@
         accuracyLow: { en: 'Low Accuracy', bn: 'কম নির্ভুলতা' },
         historicalRegion: { en: 'Historical Region', bn: 'ঐতিহাসিক অঞ্চল' },
         hoverRegion: { en: 'Hover over a region', bn: 'অঞ্চলের ওপর স্পর্শ করুন' },
-        regions: { en: 'Regions', bn: 'অঞ্চল' }
+        regions: { en: 'Regions', bn: 'অঞ্চল' },
+        recommendedReading: { en: 'Recommended Reading', bn: 'প্রস্তাবিত পাঠ' },
+        watchLearn: { en: 'Watch & Learn', bn: 'দেখুন ও শিখুন' },
+        noReferences: { en: 'No references recorded.', bn: 'কোনো তথ্যসূত্র যুক্ত করা হয়নি।' },
+        noVideos: { en: 'No videos recorded.', bn: 'কোনো ভিডিও যুক্ত করা হয়নি।' }
     };
 
     const eraMeta = [
@@ -95,6 +99,16 @@
     function localize(value) {
         if (!value || typeof value !== 'object') return value || '';
         return value[currentLang] || value.en || value.bn || '';
+    }
+
+    function getYoutubeEmbedUrl(url) {
+        if (!url) return '';
+        const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+        const match = url.match(regExp);
+        if (match && match[2].length === 11) {
+            return `https://www.youtube.com/embed/${match[2]}`;
+        }
+        return url;
     }
     
     function checkMobile() {
@@ -659,21 +673,42 @@
         const detailDiv = document.createElement('div');
         detailDiv.className = 'scholar-detail-view';
         
-        let worksHtml = s.works ? s.works.map(w => `
+        const worksHtml = s.works ? s.works.map(w => `
             <div class="detail-work">
                 <strong>${localize(w.title)}</strong>
                 <p>${localize(w.desc)}</p>
             </div>
         `).join('') : '';
 
-        let journeysHtml = s.journeys ? s.journeys.map(j => `
+        const journeysHtml = s.journeys ? s.journeys.map(j => `
             <div class="detail-journey">
                 <strong>${localize(j.place)}</strong>
                 <p>${localize(j.note)}</p>
             </div>
         `).join('') : '';
 
-        
+        const refsHtml = s.references ? s.references.map(r => `
+            <div class="detail-reference">
+                <strong>${localize(r.title)}</strong>
+                <span>${r.author || ''}</span>
+            </div>
+        `).join('') : '';
+
+        const vidsHtml = s.videos ? s.videos.map(v => `
+            <div class="detail-video">
+                <div class="video-container">
+                    <iframe 
+                        src="${getYoutubeEmbedUrl(v.url)}" 
+                        title="${localize(v.title)}" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-caption">${localize(v.title)}</div>
+            </div>
+        `).join('') : '';
+
         detailDiv.innerHTML = `
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
                 <button class="back-btn" id="backToScholars">← ${t('backToList')}</button>
@@ -696,7 +731,6 @@
                 <span>📚 ${t('fields')}: ${localize(s.field)}</span>
             </div>
             <div class="detail-meta" style="margin-top: -1rem; background: none; border: 1px solid #e9dfd3;">
-
                 <span>📍 ${t('born')}: ${localize(s.birthplace)}</span>
                 <span>🌍 ${t('active')}: ${localize(s.active)}</span>
             </div>
@@ -708,6 +742,11 @@
             <h3>${t('lifeJourneys')}</h3>
             ${journeysHtml || `<p>${t('noJourneys')}</p>`}
 
+            <h3>${t('recommendedReading')}</h3>
+            ${refsHtml || `<p>${t('noReferences')}</p>`}
+
+            <h3>${t('watchLearn')}</h3>
+            ${vidsHtml || `<p>${t('noVideos')}</p>`}
 
             <h3>${t('intellectualConnections')}</h3>
             <div class="detail-connections">
@@ -723,9 +762,6 @@
 
         content.appendChild(detailDiv);
 
-        // Add event listeners for connections
-
-        // Add event listeners for connections
         detailDiv.querySelectorAll('.connection-tag.interactive').forEach(tag => {
             tag.setAttribute('role', 'button');
             tag.setAttribute('tabindex', '0');
@@ -746,7 +782,6 @@
                 }
             });
         });
-
 
         document.getElementById('backToScholars').addEventListener('click', () => {
             selectedScholarId = null;
@@ -808,6 +843,28 @@
             </div>
         `).join('') : '';
 
+        const refsHtml = g.references ? g.references.map(r => `
+            <div class="detail-reference">
+                <strong>${localize(r.title)}</strong>
+                <span>${r.author || ''}</span>
+            </div>
+        `).join('') : '';
+
+        const vidsHtml = g.videos ? g.videos.map(v => `
+            <div class="detail-video">
+                <div class="video-container">
+                    <iframe 
+                        src="${getYoutubeEmbedUrl(v.url)}" 
+                        title="${localize(v.title)}" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-caption">${localize(v.title)}</div>
+            </div>
+        `).join('') : '';
+
         const detailDiv = document.createElement('div');
         detailDiv.className = 'scholar-detail-view';
         detailDiv.innerHTML = `
@@ -831,6 +888,12 @@
             ${worksHtml || `<p>${t('noWorks')}</p>`}
             <h3>${t('influence')}</h3>
             <p>${localize(g.influence)}</p>
+
+            <h3>${t('recommendedReading')}</h3>
+            ${refsHtml || `<p>${t('noReferences')}</p>`}
+
+            <h3>${t('watchLearn')}</h3>
+            ${vidsHtml || `<p>${t('noVideos')}</p>`}
         `;
 
         content.appendChild(detailDiv);
