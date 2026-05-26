@@ -323,6 +323,7 @@
             }
             
             await loadEra(0);
+            map.invalidateSize();
             hideLoading();
         } catch (e) {
             console.error("Initialization failed", e);
