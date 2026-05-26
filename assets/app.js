@@ -137,14 +137,6 @@
             languageToggle.setAttribute('aria-label', currentLang === 'en' ? 'Switch to Bengali' : 'Switch to English');
         }
 
-        const mobileEraSelect = document.getElementById('mobileEraSelect');
-        if (mobileEraSelect) {
-            eraMeta.forEach((era, index) => {
-                const option = mobileEraSelect.options[index];
-                if (option) option.textContent = `${localize(era.name)} (${localize(era.period)})`;
-            });
-        }
-
         document.querySelectorAll('.tl-item').forEach((item, index) => {
             const era = eraMeta[index];
             if (!era) return;
@@ -222,11 +214,6 @@
                 geojsonLayer.bringToFront();
             }
         });
-    });
-
-    const mobileEraSelect = document.getElementById('mobileEraSelect');
-    mobileEraSelect?.addEventListener('change', (e) => {
-        loadEra(Number(e.target.value));
     });
 
     document.getElementById('languageToggle')?.addEventListener('click', () => {
@@ -1012,9 +999,6 @@
             i.setAttribute('aria-selected', idx === index ? 'true' : 'false');
         });
         items[index].classList.add('active');
-        if (mobileEraSelect) {
-            mobileEraSelect.value = String(index);
-        }
         keepActiveEraVisible();
         
         updateMapTitle();
