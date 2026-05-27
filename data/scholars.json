@@ -2,55 +2,68 @@
   "T": {
     "mainTitle": {
       "en": "Scholars of the Islamic World",
-      "bn": "ইসলামি বিশ্বের মনীষীবৃন্দ"
+      "bn": "ইসলামি বিশ্বের মনীষীবৃন্দ",
+      "de": "Gelehrte der islamischen Welt"
     },
     "mainSub": {
       "en": "A journey through the lives of the intellectual giants who shaped human knowledge.",
-      "bn": "মানবজ্ঞানকে সমৃদ্ধ করা মহাজ্ঞানীদের জীবনযাত্রা।"
+      "bn": "মানবজ্ঞানকে সমৃদ্ধ করা মহাজ্ঞানীদের জীবনযাত্রা।",
+      "de": "Eine Reise durch das Leben der intellektuellen Giganten, die das menschliche Wissen geprägt haben."
     },
     "tabTl": {
       "en": "Timeline",
-      "bn": "সময়রেখা"
+      "bn": "সময়রেখা",
+      "de": "Zeitlinie"
     },
     "tabAll": {
       "en": "Scholars",
-      "bn": "মনীষী"
+      "bn": "মনীষী",
+      "de": "Gelehrte"
     },
     "back": {
       "en": "Back",
-      "bn": "ফিরুন"
+      "bn": "ফিরুন",
+      "de": "Zurück"
     },
     "born": {
       "en": "Born",
-      "bn": "জন্ম"
+      "bn": "জন্ম",
+      "de": "Geboren"
     },
     "activeIn": {
       "en": "Active",
-      "bn": "কর্মক্ষেত্র"
+      "bn": "কর্মক্ষেত্র",
+      "de": "Aktiv"
     },
     "fields": {
       "en": "Fields",
-      "bn": "বিষয়"
+      "bn": "বিষয়",
+      "de": "Fachbereiche"
     },
     "lifespan": {
       "en": "Lifespan",
-      "bn": "জীবনকাল"
+      "bn": "জীবনকাল",
+      "de": "Lebensspanne"
     },
     "years": {
       "en": "years",
-      "bn": "বছর"
+      "bn": "বছর",
+      "de": "Jahre"
     },
     "notableWorks": {
       "en": "Notable works",
-      "bn": "উল্লেখযোগ্য রচনা"
+      "bn": "উল্লেখযোগ্য রচনা",
+      "de": "Bedeutende Werke"
     },
     "journeys": {
       "en": "Life journeys & travels",
-      "bn": "জীবনপথ ও ভ্রমণ"
+      "bn": "জীবনপথ ও ভ্রমণ",
+      "de": "Lebenswege & Reisen"
     },
     "connections": {
       "en": "Intellectual connections",
-      "bn": "জ্ঞানগত সম্পর্ক"
+      "bn": "জ্ঞানগত সম্পর্ক",
+      "de": "Intellektuelle Verbindungen"
     }
   },
   "scholars": [
@@ -64,7 +77,8 @@
       "died": 767,
       "name": {
         "en": "Imam Abu Hanifa",
-        "bn": "ইমাম আবু হানিফা"
+        "bn": "ইমাম আবু হানিফা",
+        "de": "Imam Abu Hanifa"
       },
       "arabic": "أبو حنيفة النعমান بن ثابت",
       "birthplace": {
@@ -73,7 +87,8 @@
         "coords": [
           32.0333,
           44.4
-        ]
+        ],
+        "de": "Kufa, Iraq"
       },
       "active": {
         "en": "Iraq",
@@ -89,11 +104,13 @@
       },
       "field": {
         "en": "Jurisprudence (Fiqh) · Theology",
-        "bn": "ফিকহ · ধর্মতত্ত্ব"
+        "bn": "ফিকহ · ধর্মতত্ত্ব",
+        "de": "Jurisprudence (Fiqh) · Theology"
       },
       "summary": {
         "en": "Founder of the Hanafi school of jurisprudence, known for his emphasis on reason and systematic legal thinking.",
-        "bn": "হানাফী মাযহাবের প্রতিষ্ঠাতা, যুক্তি এবং সুশৃঙ্খল আইনি চিন্তাধারার জন্য সুপরিচিত।"
+        "bn": "হানাফী মাযহাবের প্রতিষ্ঠাতা, যুক্তি এবং সুশৃঙ্খল আইনি চিন্তাধারার জন্য সুপরিচিত।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -115,18 +132,38 @@
             "coords": [
               32.0333,
               44.4
-            ]
+            ],
+            "de": "Kufa"
           },
           "note": {
             "en": "Born 699 CE; started as a cloth merchant before turning to study.",
-            "bn": "৬৯৯ খ্রিস্টাব্দে জন্ম; জ্ঞানচর্চায় আসার আগে কাপড়ের ব্যবসায়ী ছিলেন।"
+            "bn": "৬৯৯ খ্রিস্টাব্দে জন্ম; জ্ঞানচর্চায় আসার আগে কাপড়ের ব্যবসায়ী ছিলেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
       "connections": [
         "malik"
       ],
-      "lifespan_years": 68
+      "lifespan_years": 68,
+      "references": [
+        {
+          "title": {
+            "en": "The Great Imam: Abu Hanifa",
+            "bn": "দ্য গ্রেট ইমাম: আবু হানিফা"
+          },
+          "author": "Muhammad Abu Zahra"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Imam Abu Hanifa | Omer Suleiman Part 1",
+            "bn": "ইমাম আবু হানিফার জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=BHHAkDMjRqI"
+        }
+      ]
     },
     {
       "id": "malik",
@@ -138,7 +175,8 @@
       "died": 795,
       "name": {
         "en": "Imam Malik",
-        "bn": "ইমাম মালিক"
+        "bn": "ইমাম মালিক",
+        "de": "Imam Malik"
       },
       "arabic": "مالক بن أنس",
       "birthplace": {
@@ -147,7 +185,8 @@
         "coords": [
           24.4667,
           39.6
-        ]
+        ],
+        "de": "Medina"
       },
       "active": {
         "en": "Medina",
@@ -163,11 +202,13 @@
       },
       "field": {
         "en": "Hadith · Jurisprudence",
-        "bn": "হাদিস · ফিকহ"
+        "bn": "হাদিস · ফিকহ",
+        "de": "Hadith · Jurisprudence"
       },
       "summary": {
         "en": "Founder of the Maliki school, he compiled the Muwatta, one of the earliest collections of Hadith and Law.",
-        "bn": "মালিকি মাযহাবের প্রতিষ্ঠাতা, তিনি মুয়াত্তা সংকলন করেন যা হাদিস ও আইনের অন্যতম প্রাচীন সংগ্রহ।"
+        "bn": "মালিকি মাযহাবের প্রতিষ্ঠাতা, তিনি মুয়াত্তা সংকলন করেন যা হাদিস ও আইনের অন্যতম প্রাচীন সংগ্রহ।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -189,11 +230,13 @@
             "coords": [
               24.4667,
               39.6
-            ]
+            ],
+            "de": "Medina"
           },
           "note": {
             "en": "Spent almost his entire life in Medina, the city of the Prophet.",
-            "bn": "রাসূলের শহর মদিনায় প্রায় সারা জীবন কাটিয়েছেন।"
+            "bn": "রাসূলের শহর মদিনায় প্রায় সারা জীবন কাটিয়েছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
@@ -201,7 +244,25 @@
         "abuhanifa",
         "shafii"
       ],
-      "lifespan_years": 84
+      "lifespan_years": 84,
+      "references": [
+        {
+          "title": {
+            "en": "Imam Malik: The Life and Times of the Prophet's Scholar",
+            "bn": "ইমাম মালিক: নবীর পণ্ডিতের জীবন ও সময়"
+          },
+          "author": "Tariq Suwaidan"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "What You Give Up for Allah Is Never Lost | Dr. Omar Suleiman and Sh. Ali Hammuda",
+            "bn": "ইমাম মালিক (রা.) - মদিনার ইমাম"
+          },
+          "url": "https://www.youtube.com/watch?v=srbEbU5IJ9g"
+        }
+      ]
     },
     {
       "id": "shafii",
@@ -213,7 +274,8 @@
       "died": 820,
       "name": {
         "en": "Imam al-Shafi'i",
-        "bn": "ইমাম আশ-শাফিঈ"
+        "bn": "ইমাম আশ-শাফিঈ",
+        "de": "Imam al-Shafi'i"
       },
       "arabic": "محمد بن إدريس الشাফعي",
       "birthplace": {
@@ -222,7 +284,8 @@
         "coords": [
           31.5,
           34.4667
-        ]
+        ],
+        "de": "Gaza"
       },
       "active": {
         "en": "Fustat, Egypt",
@@ -238,11 +301,13 @@
       },
       "field": {
         "en": "Jurisprudence (Fiqh) · Theology",
-        "bn": "ফিকহ · ধর্মতত্ত্ব"
+        "bn": "ফিকহ · ধর্মতত্ত্ব",
+        "de": "Jurisprudence (Fiqh) · Theology"
       },
       "summary": {
         "en": "Founder of the Shafi'i school, he systematized Islamic jurisprudence through his work on Usul al-Fiqh.",
-        "bn": "শাফিঈ মাযহাবের প্রতিষ্ঠাতা, তিনি উসুলুল ফিকহের মাধ্যমে ইসলামি আইনশাস্ত্রকে সুশৃঙ্খল করেন।"
+        "bn": "শাফিঈ মাযহাবের প্রতিষ্ঠাতা, তিনি উসুলুল ফিকহের মাধ্যমে ইসলামি আইনশাস্ত্রকে সুশৃঙ্খল করেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -264,11 +329,13 @@
             "coords": [
               33.3152,
               44.3661
-            ]
+            ],
+            "de": "Baghdad"
           },
           "note": {
             "en": "Taught and refined his legal school before moving to Egypt.",
-            "bn": "মিশরে যাওয়ার আগে বাগদাদে তাঁর আইনি মতবাদ প্রচার ও পরিমার্জন করেন।"
+            "bn": "মিশরে যাওয়ার আগে বাগদাদে তাঁর আইনি মতবাদ প্রচার ও পরিমার্জন করেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
@@ -276,7 +343,25 @@
         "malik",
         "ahmad"
       ],
-      "lifespan_years": 53
+      "lifespan_years": 53,
+      "references": [
+        {
+          "title": {
+            "en": "Al-Shafi'i: Founder of Islamic Jurisprudence",
+            "bn": "আল-শাফিঈ: ইসলামী আইনশাস্ত্রের প্রতিষ্ঠাতা"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Imam Shafi | Dr. Omar Suleiman Part 1",
+            "bn": "ইমাম আশ-শাফিঈর জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=pzFih9rx6J0"
+        }
+      ]
     },
     {
       "id": "alkindi",
@@ -288,7 +373,8 @@
       "died": 873,
       "name": {
         "en": "Al-Kindi",
-        "bn": "আল-কিন্দি"
+        "bn": "আল-কিন্দি",
+        "de": "Al-Kindi"
       },
       "arabic": "أبو يوسف يعقوب بن إسحاق الكِنْدي",
       "birthplace": {
@@ -297,7 +383,8 @@
         "coords": [
           32.0333,
           44.4
-        ]
+        ],
+        "de": "Kufa, Iraq"
       },
       "active": {
         "en": "Baghdad",
@@ -313,11 +400,13 @@
       },
       "field": {
         "en": "Philosophy · Math · Optics",
-        "bn": "দর্শন · গণিত · আলোকবিজ্ঞান"
+        "bn": "দর্শন · গণিত · আলোকবিজ্ঞান",
+        "de": "Philosophy · Math · Optics"
       },
       "summary": {
         "en": "Synthesized Greek philosophy with Islamic thought and pioneered cryptography and optics.",
-        "bn": "গ্রিক দর্শনের সাথে ইসলামি চিন্তার সমন্বয় ঘটান এবং আলোকবিজ্ঞানে পথপ্রদর্শক ছিলেন।"
+        "bn": "গ্রিক দর্শনের সাথে ইসলামি চিন্তার সমন্বয় ঘটান এবং আলোকবিজ্ঞানে পথপ্রদর্শক ছিলেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -349,11 +438,13 @@
             "coords": [
               33.3152,
               44.3661
-            ]
+            ],
+            "de": "Baghdad"
           },
           "note": {
             "en": "Served at the House of Wisdom under multiple caliphs.",
-            "bn": "বিভিন্ন খলিফার অধীনে বায়তুল হিকমায় কর্মরত ছিলেন।"
+            "bn": "বিভিন্ন খলিফার অধীনে বায়তুল হিকমায় কর্মরত ছিলেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
@@ -361,7 +452,25 @@
         "Al-Farabi",
         "Ibn Sina"
       ],
-      "lifespan_years": 72
+      "lifespan_years": 72,
+      "references": [
+        {
+          "title": {
+            "en": "Al-Kindi: The Philosopher of the Arabs",
+            "bn": "আল-কিন্দি: আরবদের দার্শনিক"
+          },
+          "author": "George N. Atiyeh"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "You Already Promised This to Allah | Arafah Reminder | Dr. Omar Suleiman & Sh. Ali Hammuda | Ep.9",
+            "bn": "আল-কিন্দি: প্রথম আরব দার্শনিক"
+          },
+          "url": "https://www.youtube.com/watch?v=m9i_ieTwlQM"
+        }
+      ]
     },
     {
       "id": "alrazi",
@@ -373,7 +482,8 @@
       "died": 925,
       "name": {
         "en": "Al-Razi",
-        "bn": "আল-রাযি"
+        "bn": "আল-রাযি",
+        "de": "Al-Razi"
       },
       "arabic": "أبو بكر محمد بن زكريا الرازي",
       "birthplace": {
@@ -382,7 +492,8 @@
         "coords": [
           35.5833,
           51.4333
-        ]
+        ],
+        "de": "Ray, Persia"
       },
       "active": {
         "en": "Ray · Baghdad",
@@ -398,11 +509,13 @@
       },
       "field": {
         "en": "Medicine · Chemistry",
-        "bn": "চিকিৎসা · রসায়ন"
+        "bn": "চিকিৎসা · রসায়ন",
+        "de": "Medicine · Chemistry"
       },
       "summary": {
         "en": "A legendary physician who distinguished smallpox from measles and compiled a massive medical encyclopedia.",
-        "bn": "কিংবদন্তি চিকিৎসক যিনি প্রথম গুটিবসন্ত ও হামের পার্থক্য নির্ণয় করেন।"
+        "bn": "কিংবদন্তি চিকিৎসক যিনি প্রথম গুটিবসন্ত ও হামের পার্থক্য নির্ণয় করেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -434,11 +547,13 @@
             "coords": [
               33.3152,
               44.3661
-            ]
+            ],
+            "de": "Baghdad"
           },
           "note": {
             "en": "Chief physician at the Baghdad hospital.",
-            "bn": "বাগদাদ হাসপাতালের প্রধান চিকিৎসক।"
+            "bn": "বাগদাদ হাসপাতালের প্রধান চিকিৎসক।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
@@ -446,7 +561,25 @@
         "Al-Kindi",
         "Ibn Sina"
       ],
-      "lifespan_years": 71
+      "lifespan_years": 71,
+      "references": [
+        {
+          "title": {
+            "en": "Rhazes (Al-Razi): The Medical Genius",
+            "bn": "আল-রাযি: চিকিৎসা বিজ্ঞানের প্রতিভা"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Firsts | New Yaqeen Series | Dr. Omar Suleiman",
+            "bn": "আল-রাযি: বহুবিদ্যাবিশারদ"
+          },
+          "url": "https://www.youtube.com/watch?v=FFRzLAQEmC0"
+        }
+      ]
     },
     {
       "id": "alfarabi",
@@ -458,7 +591,8 @@
       "died": 950,
       "name": {
         "en": "Al-Farabi",
-        "bn": "আল-ফারাবি"
+        "bn": "আল-ফারাবি",
+        "de": "Al-Farabi"
       },
       "arabic": "أبو نصر محمد الفارابي",
       "birthplace": {
@@ -467,7 +601,8 @@
         "coords": [
           42.85,
           68.3167
-        ]
+        ],
+        "de": "Farab, Central Asia"
       },
       "active": {
         "en": "Baghdad · Aleppo",
@@ -483,11 +618,13 @@
       },
       "field": {
         "en": "Logic · Political Theory · Music",
-        "bn": "যুক্তিবিদ্যা · রাজনৈতিক তত্ত্ব · সঙ্গীত"
+        "bn": "যুক্তিবিদ্যা · রাজনৈতিক তত্ত্ব · সঙ্গীত",
+        "de": "Logic · Political Theory · Music"
       },
       "summary": {
         "en": "Known as the 'Second Teacher' after Aristotle, he synthesized Platonic ideals with Islamic politics.",
-        "bn": "এরিস্টটলের পর 'দ্বিতীয় শিক্ষক' হিসেবে পরিচিত, তিনি প্লেটোর আদর্শের সাথে ইসলামি রাজনীতির সমন্বয় ঘটান।"
+        "bn": "এরিস্টটলের পর 'দ্বিতীয় শিক্ষক' হিসেবে পরিচিত, তিনি প্লেটোর আদর্শের সাথে ইসলামি রাজনীতির সমন্বয় ঘটান।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -519,11 +656,13 @@
             "coords": [
               33.3152,
               44.3661
-            ]
+            ],
+            "de": "Baghdad"
           },
           "note": {
             "en": "Studied logic and philosophy at the heart of the empire.",
-            "bn": "সাম্রাজ্যের প্রাণকেন্দ্রে যুক্তিবিদ্যা ও দর্শন অধ্যয়ন করেছেন।"
+            "bn": "সাম্রাজ্যের প্রাণকেন্দ্রে যুক্তিবিদ্যা ও দর্শন অধ্যয়ন করেছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
@@ -531,7 +670,25 @@
         "Ibn Sina",
         "Al-Kindi"
       ],
-      "lifespan_years": 78
+      "lifespan_years": 78,
+      "references": [
+        {
+          "title": {
+            "en": "Al-Farabi: The Second Master",
+            "bn": "আল-ফারাবি: দ্বিতীয় শিক্ষক"
+          },
+          "author": "Ian Richard Netton"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Abu Rafi al-Qibti (ra): The Man Inside the Prophet’s ﷺ Home | The Firsts | Dr. Omar Suleiman",
+            "bn": "আল-ফারাবি: দর্শন ও যুক্তি"
+          },
+          "url": "https://www.youtube.com/watch?v=QgxnWofZCRE"
+        }
+      ]
     },
     {
       "id": "alhaytham",
@@ -543,7 +700,8 @@
       "died": 1040,
       "name": {
         "en": "Ibn al-Haytham",
-        "bn": "ইবন আল-হাইসাম"
+        "bn": "ইবন আল-হাইসাম",
+        "de": "Ibn al-Haytham"
       },
       "arabic": "الحسن بن الهيثم",
       "birthplace": {
@@ -552,7 +710,8 @@
         "coords": [
           30.5081,
           47.7835
-        ]
+        ],
+        "de": "Basra, Iraq"
       },
       "active": {
         "en": "Cairo, Egypt",
@@ -568,11 +727,13 @@
       },
       "field": {
         "en": "Optics · Physics · Astronomy",
-        "bn": "আলোকবিজ্ঞান · পদার্থবিদ্যা · জ্যোতির্বিদ্যা"
+        "bn": "আলোকবিজ্ঞান · পদার্থবিদ্যা · জ্যোতির্বিদ্যা",
+        "de": "Optics · Physics · Astronomy"
       },
       "summary": {
         "en": "Revolutionized our understanding of light and optics through the experimental scientific method.",
-        "bn": "পরীক্ষামূলক বৈজ্ঞানিক পদ্ধতির মাধ্যমে আলো ও আলোকবিজ্ঞানে বিপ্লব ঘটিয়েছেন।"
+        "bn": "পরীক্ষামূলক বৈজ্ঞানিক পদ্ধতির মাধ্যমে আলো ও আলোকবিজ্ঞানে বিপ্লব ঘটিয়েছেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -594,18 +755,38 @@
             "coords": [
               30.0444,
               31.2357
-            ]
+            ],
+            "de": "Cairo"
           },
           "note": {
             "en": "Conceived his major optics works while under house arrest in Cairo.",
-            "bn": "কায়রোতে গৃহবন্দী থাকাকালীন তাঁর প্রধান কাজগুলো সম্পন্ন করেন।"
+            "bn": "কায়রোতে গৃহবন্দী থাকাকালীন তাঁর প্রধান কাজগুলো সম্পন্ন করেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
       "connections": [
         "Ibn Sina"
       ],
-      "lifespan_years": 75
+      "lifespan_years": 75,
+      "references": [
+        {
+          "title": {
+            "en": "Ibn al-Haytham: First Scientist",
+            "bn": "ইবন আল-হাইসাম: প্রথম বিজ্ঞানী"
+          },
+          "author": "Bradley Steffens"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Ibn Al Haytham - The Father of Modern Optics",
+            "bn": "ইবন আল-হাইসাম ও আলোকবিজ্ঞান"
+          },
+          "url": "https://www.youtube.com/watch?v=CoLAaN0aovA"
+        }
+      ]
     },
     {
       "id": "albiruni",
@@ -617,7 +798,8 @@
       "died": 1048,
       "name": {
         "en": "Al-Biruni",
-        "bn": "আল-বিরুনী"
+        "bn": "আল-বিরুনী",
+        "de": "Al-Biruni"
       },
       "arabic": "أبو الريحان البيروني",
       "birthplace": {
@@ -626,7 +808,8 @@
         "coords": [
           41.3783,
           60.3639
-        ]
+        ],
+        "de": "Khwarezm"
       },
       "active": {
         "en": "Ghazni",
@@ -642,11 +825,13 @@
       },
       "field": {
         "en": "Astronomy · History · Indology",
-        "bn": "জ্যোতির্বিদ্যা · ইতিহাস · ভারততত্ত্ব"
+        "bn": "জ্যোতির্বিদ্যা · ইতিহাস · ভারততত্ত্ব",
+        "de": "Astronomy · History · Indology"
       },
       "summary": {
         "en": "A polymath who accurately calculated the Earth's circumference and pioneered Indology.",
-        "bn": "এক মহাজ্ঞানী পন্ডিত যিনি পৃথিবীর পরিধি নিখুঁতভাবে পরিমাপ করেছিলেন এবং ভারততত্ত্বের পথপ্রদর্শক ছিলেন।"
+        "bn": "এক মহাজ্ঞানী পন্ডিত যিনি পৃথিবীর পরিধি নিখুঁতভাবে পরিমাপ করেছিলেন এবং ভারততত্ত্বের পথপ্রদর্শক ছিলেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -668,18 +853,38 @@
             "coords": [
               33.5492,
               68.4233
-            ]
+            ],
+            "de": "Ghazni"
           },
           "note": {
             "en": "Traveled with Sultan Mahmud to India, conducting his research.",
-            "bn": "সুলতান মাহমুদের সাথে ভারত ভ্রমণ করে তাঁর গবেষণা চালিয়েছেন।"
+            "bn": "সুলতান মাহমুদের সাথে ভারত ভ্রমণ করে তাঁর গবেষণা চালিয়েছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
       "connections": [
         "Ibn Sina"
       ],
-      "lifespan_years": 75
+      "lifespan_years": 75,
+      "references": [
+        {
+          "title": {
+            "en": "Al-Biruni: Master of Sciences",
+            "bn": "আল-বিরুনী: বিজ্ঞানের শিক্ষক"
+          },
+          "author": "H.M. Said"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Al-Biruni and circumference of Earth? Engineer Muhammad Ali Mirza",
+            "bn": "আল-বিরুনী: শ্রেষ্ঠ বিজ্ঞানী"
+          },
+          "url": "https://www.youtube.com/watch?v=MekTksGROCU"
+        }
+      ]
     },
     {
       "id": "ibnsina",
@@ -691,7 +896,8 @@
       "died": 1037,
       "name": {
         "en": "Ibn Sina",
-        "bn": "ইবন সিনা"
+        "bn": "ইবন সিনা",
+        "de": "Ibn Sina"
       },
       "arabic": "أبو علي الحسين بن عبد الله بن سينا",
       "birthplace": {
@@ -700,7 +906,8 @@
         "coords": [
           39.7747,
           64.4286
-        ]
+        ],
+        "de": "Bukhara"
       },
       "active": {
         "en": "Persia",
@@ -716,11 +923,13 @@
       },
       "field": {
         "en": "Medicine · Philosophy · Logic",
-        "bn": "চিকিৎসা · দর্শন · যুক্তিবিদ্যা"
+        "bn": "চিকিৎসা · দর্শন · যুক্তিবিদ্যা",
+        "de": "Medicine · Philosophy · Logic"
       },
       "summary": {
         "en": "A titan of the Golden Age whose medical and philosophical texts dominated both East and West for centuries.",
-        "bn": "স্বর্ণযুগের এক মহানায়ক যার চিকিৎসা ও দার্শনিক গ্রন্থগুলো শত শত বছর ধরে প্রাচ্য ও পাশ্চাত্যে রাজত্ব করেছে।"
+        "bn": "স্বর্ণযুগের এক মহানায়ক যার চিকিৎসা ও দার্শনিক গ্রন্থগুলো শত শত বছর ধরে প্রাচ্য ও পাশ্চাত্যে রাজত্ব করেছে।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -752,11 +961,13 @@
             "coords": [
               34.7981,
               48.5147
-            ]
+            ],
+            "de": "Hamadan"
           },
           "note": {
             "en": "Served as a vizier and physician while continuing his prolific writing.",
-            "bn": "উজির ও চিকিৎসক হিসেবে দায়িত্ব পালনের পাশাপাশি প্রচুর লিখেছেন।"
+            "bn": "উজির ও চিকিৎসক হিসেবে দায়িত্ব পালনের পাশাপাশি প্রচুর লিখেছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
@@ -765,7 +976,25 @@
         "Al-Razi",
         "Al-Ghazali"
       ],
-      "lifespan_years": 57
+      "lifespan_years": 57,
+      "references": [
+        {
+          "title": {
+            "en": "Avicenna (Ibn Sina): Life and Influence",
+            "bn": "ইবন সিনা: জীবন ও প্রভাব"
+          },
+          "author": "Lenn E. Goodman"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "AL016 - Tone Depth  - Ibn Sina",
+            "bn": "ইবন সিনা: আধুনিক চিকিৎসা বিজ্ঞানের জনক"
+          },
+          "url": "https://www.youtube.com/watch?v=khqpeqr_98w"
+        }
+      ]
     },
     {
       "id": "alghazali",
@@ -777,7 +1006,8 @@
       "died": 1111,
       "name": {
         "en": "Al-Ghazali",
-        "bn": "আল-গাজ্জালি"
+        "bn": "আল-গাজ্জালি",
+        "de": "Al-Ghazali"
       },
       "arabic": "أبو حامد محمد بن محمد الغزالي",
       "birthplace": {
@@ -786,7 +1016,8 @@
         "coords": [
           36.4589,
           59.4381
-        ]
+        ],
+        "de": "Tus, Iran"
       },
       "active": {
         "en": "Baghdad · Tus",
@@ -802,11 +1033,13 @@
       },
       "field": {
         "en": "Theology · Sufism · Philosophy",
-        "bn": "ধর্মতত্ত্ব · সুফিবাদ · দর্শন"
+        "bn": "ধর্মতত্ত্ব · সুফিবাদ · দর্শন",
+        "de": "Theology · Sufism · Philosophy"
       },
       "summary": {
         "en": "Synthesized legal, theological, and mystical traditions, profoundly influencing the spiritual course of Islam.",
-        "bn": "আইনি, ধর্মতাত্ত্বিক ও মরমি ঐতিহ্যের সমন্বয় ঘটিয়ে ইসলামের আধ্যাত্মিক পথকে গভীরভাবে প্রভাবিত করেন।"
+        "bn": "আইনি, ধর্মতাত্ত্বিক ও মরমি ঐতিহ্যের সমন্বয় ঘটিয়ে ইসলামের আধ্যাত্মিক পথকে গভীরভাবে প্রভাবিত করেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -838,11 +1071,13 @@
             "coords": [
               31.7683,
               35.2137
-            ]
+            ],
+            "de": "Jerusalem"
           },
           "note": {
             "en": "Lived an ascetic life here during his spiritual crisis and wandering.",
-            "bn": "আধ্যাত্মিক সংকটের সময় এখানে নির্জন ও কঠোর জীবনযাপন করেছেন।"
+            "bn": "আধ্যাত্মিক সংকটের সময় এখানে নির্জন ও কঠোর জীবনযাপন করেছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
@@ -850,7 +1085,25 @@
         "Ibn Sina",
         "Ibn Rushd"
       ],
-      "lifespan_years": 53
+      "lifespan_years": 53,
+      "references": [
+        {
+          "title": {
+            "en": "Al-Ghazali and the Divine",
+            "bn": "আল-গাজ্জালি এবং ঈশ্বর"
+          },
+          "author": "Timothy Winter"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Al-Ghazali and the Golden Rule: Ethics of Reciprocity... | Behind the Scenes",
+            "bn": "আল-গাজ্জালির জীবন ও উত্তরাধিকার"
+          },
+          "url": "https://www.youtube.com/watch?v=tQL-A0k68Zo"
+        }
+      ]
     },
     {
       "id": "ibnrushd",
@@ -862,7 +1115,8 @@
       "died": 1198,
       "name": {
         "en": "Ibn Rushd",
-        "bn": "ইবন রুশদ"
+        "bn": "ইবন রুশদ",
+        "de": "Ibn Rushd"
       },
       "arabic": "أبو الوليد محمد بن أحمد ابن رشد",
       "birthplace": {
@@ -871,7 +1125,8 @@
         "coords": [
           37.8833,
           -4.7667
-        ]
+        ],
+        "de": "Córdoba, Spain"
       },
       "active": {
         "en": "Al-Andalus",
@@ -887,11 +1142,13 @@
       },
       "field": {
         "en": "Philosophy · Law · Medicine",
-        "bn": "দর্শন · আইন · চিকিৎসা"
+        "bn": "দর্শন · আইন · চিকিৎসা",
+        "de": "Philosophy · Law · Medicine"
       },
       "summary": {
         "en": "Known in the West as Averroës, he was the master of Aristotelian thought and a bold defender of philosophy.",
-        "bn": "পশ্চিমে এভেরোস নামে পরিচিত, তিনি এরিস্টটলীয় চিন্তাধারার মাস্টার এবং দর্শনের এক সাহসী রক্ষক ছিলেন।"
+        "bn": "পশ্চিমে এভেরোস নামে পরিচিত, তিনি এরিস্টটলীয় চিন্তাধারার মাস্টার এবং দর্শনের এক সাহসী রক্ষক ছিলেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -923,11 +1180,13 @@
             "coords": [
               37.8833,
               -4.7667
-            ]
+            ],
+            "de": "Córdoba"
           },
           "note": {
             "en": "Served as a chief judge while writing his famous commentaries.",
-            "bn": "প্রধান বিচারপতি হিসেবে দায়িত্ব পালনকালে তাঁর বিখ্যাত ভাষ্যগুলো লিখেছেন।"
+            "bn": "প্রধান বিচারপতি হিসেবে দায়িত্ব পালনকালে তাঁর বিখ্যাত ভাষ্যগুলো লিখেছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
@@ -935,7 +1194,25 @@
         "Al-Ghazali",
         "Ibn Sina"
       ],
-      "lifespan_years": 72
+      "lifespan_years": 72,
+      "references": [
+        {
+          "title": {
+            "en": "Averroes: His Life, Works and Influence",
+            "bn": "ইবন রুশদ: তার জীবন, কর্ম ও প্রভাব"
+          },
+          "author": "Majid Fakhry"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Ibn Rushd (Averroes) - The Guardian of the Philosophers",
+            "bn": "ইবন রুশদ: কর্ডোবার দার্শনিক"
+          },
+          "url": "https://www.youtube.com/watch?v=yDhXXHjlBvo"
+        }
+      ]
     },
     {
       "id": "taymiyya",
@@ -947,7 +1224,8 @@
       "died": 1328,
       "name": {
         "en": "Ibn Taymiyya",
-        "bn": "ইবন তাইমিয়াহ"
+        "bn": "ইবন তাইমিয়াহ",
+        "de": "Ibn Taymiyya"
       },
       "arabic": "تقی الدین ابن تیمیة",
       "birthplace": {
@@ -956,7 +1234,8 @@
         "coords": [
           36.8617,
           39.0317
-        ]
+        ],
+        "de": "Harran"
       },
       "active": {
         "en": "Damascus · Cairo",
@@ -972,11 +1251,13 @@
       },
       "field": {
         "en": "Theology · Jurisprudence",
-        "bn": "ধর্মতত্ত্ব · আইনতত্ত্ব"
+        "bn": "ধর্মতত্ত্ব · আইনতত্ত্ব",
+        "de": "Theology · Jurisprudence"
       },
       "summary": {
         "en": "An influential scholar who advocated for a return to the Quran and Sunnah as the primary sources of knowledge.",
-        "bn": "একজন প্রভাবশালী পন্ডিত যিনি জ্ঞানের প্রাথমিক উৎস হিসেবে কুরআন ও সুন্নাহতে ফিরে যাওয়ার আহ্বান জানিয়েছিলেন।"
+        "bn": "একজন প্রভাবশালী পন্ডিত যিনি জ্ঞানের প্রাথমিক উৎস হিসেবে কুরআন ও সুন্নাহতে ফিরে যাওয়ার আহ্বান জানিয়েছিলেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -998,18 +1279,38 @@
             "coords": [
               33.5131,
               36.2919
-            ]
+            ],
+            "de": "Damascus"
           },
           "note": {
             "en": "Spent much of his life in Damascus, where he taught and was often imprisoned for his views.",
-            "bn": "জীবনের বেশিরভাগ সময় দামেস্কে কাটিয়েছেন, যেখানে তিনি শিক্ষকতা করেছেন এবং প্রায়ই কারাবরণ করেছেন।"
+            "bn": "জীবনের বেশিরভাগ সময় দামেস্কে কাটিয়েছেন, যেখানে তিনি শিক্ষকতা করেছেন এবং প্রায়ই কারাবরণ করেছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
       "connections": [
         "Al-Ghazali"
       ],
-      "lifespan_years": 65
+      "lifespan_years": 65,
+      "references": [
+        {
+          "title": {
+            "en": "Ibn Taymiyya and His Times",
+            "bn": "ইবন তাইমিয়াহ ও তার সময়"
+          },
+          "author": "Yossef Rapoport"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Ibn Taymiyyah Proved Allah's Existence Without Contradiction",
+            "bn": "ইবন তাইমিয়াহ কে?"
+          },
+          "url": "https://www.youtube.com/watch?v=ckCiBwA4CS8"
+        }
+      ]
     },
     {
       "id": "ahmad",
@@ -1021,7 +1322,8 @@
       "died": 855,
       "name": {
         "en": "Imam Ahmad ibn Hanbal",
-        "bn": "ইমাম আহমদ ইবনে হাম্বল"
+        "bn": "ইমাম আহমদ ইবনে হাম্বল",
+        "de": "Imam Ahmad ibn Hanbal"
       },
       "arabic": "أحمد بن حنبل",
       "birthplace": {
@@ -1030,7 +1332,8 @@
         "coords": [
           33.3152,
           44.3661
-        ]
+        ],
+        "de": "Baghdad"
       },
       "active": {
         "en": "Baghdad",
@@ -1046,11 +1349,13 @@
       },
       "field": {
         "en": "Hadith · Jurisprudence · Theology",
-        "bn": "হাদিস · ফিকহ · ধর্মতত্ত্ব"
+        "bn": "হাদিস · ফিকহ · ধর্মতত্ত্ব",
+        "de": "Hadith · Jurisprudence · Theology"
       },
       "summary": {
         "en": "Founder of the Hanbali school, he was a hero of the Mihna (Inquisition) and compiled the Musnad.",
-        "bn": "হাম্বলী মাযহাবের প্রতিষ্ঠাতা, তিনি মিহনা (ধর্মতাত্ত্বিক ইনকুইজিশন)-এর সময় আপোষহীন বীর ছিলেন এবং মুসনাদ সংকলন করেন।"
+        "bn": "হাম্বলী মাযহাবের প্রতিষ্ঠাতা, তিনি মিহনা (ধর্মতাত্ত্বিক ইনকুইজিশন)-এর সময় আপোষহীন বীর ছিলেন এবং মুসনাদ সংকলন করেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1072,18 +1377,38 @@
             "coords": [
               33.3152,
               44.3661
-            ]
+            ],
+            "de": "Baghdad"
           },
           "note": {
             "en": "Lived, taught, and stood firm for his beliefs in the Abbasid capital.",
-            "bn": "আব্বাসীয় রাজধানীতে বসবাস, শিক্ষকতা এবং নিজের বিশ্বাসের জন্য অটল ছিলেন।"
+            "bn": "আব্বাসীয় রাজধানীতে বসবাস, শিক্ষকতা এবং নিজের বিশ্বাসের জন্য অটল ছিলেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
       "connections": [
         "shafii"
       ],
-      "lifespan_years": 75
+      "lifespan_years": 75,
+      "references": [
+        {
+          "title": {
+            "en": "Imam Ahmad ibn Hanbal: Life and Teachings",
+            "bn": "ইমাম আহমদ ইবনে হাম্বল: জীবন ও শিক্ষা"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Story That Will Renew Your Faith | Imam Ahmad ibn Hanbal and the Power of Istighfar",
+            "bn": "ইমাম আহমদ ইবনে হাম্বল - পরীক্ষা"
+          },
+          "url": "https://www.youtube.com/watch?v=A-MHzKblpOQ"
+        }
+      ]
     },
     {
       "id": "khwarizmi",
@@ -1095,7 +1420,8 @@
       "died": 850,
       "name": {
         "en": "Al-Khwarizmi",
-        "bn": "আল-খাওয়ারিজমি"
+        "bn": "আল-খাওয়ারিজমি",
+        "de": "Al-Khwarizmi"
       },
       "arabic": "محمد بن موسى الخوارزمي",
       "birthplace": {
@@ -1104,7 +1430,8 @@
         "coords": [
           41.3783,
           60.3639
-        ]
+        ],
+        "de": "Khwarezm"
       },
       "active": {
         "en": "Baghdad",
@@ -1120,11 +1447,13 @@
       },
       "field": {
         "en": "Mathematics · Astronomy · Geography",
-        "bn": "গণিত · জ্যোতির্বিদ্যা · ভূগোল"
+        "bn": "গণিত · জ্যোতির্বিদ্যা · ভূগোল",
+        "de": "Mathematics · Astronomy · Geography"
       },
       "summary": {
         "en": "Revolutionized mathematics by introducing algebra and Hindu-Arabic numerals to the West.",
-        "bn": "বীজগণিত এবং হিন্দু-আরবি সংখ্যা পদ্ধতি পাশ্চাত্যে প্রবর্তনের মাধ্যমে গণিতে বিপ্লব ঘটান।"
+        "bn": "বীজগণিত এবং হিন্দু-আরবি সংখ্যা পদ্ধতি পাশ্চাত্যে প্রবর্তনের মাধ্যমে গণিতে বিপ্লব ঘটান।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1146,18 +1475,38 @@
             "coords": [
               33.3152,
               44.3661
-            ]
+            ],
+            "de": "Baghdad"
           },
           "note": {
             "en": "Worked at the House of Wisdom under Caliph al-Ma'mun.",
-            "bn": "খলিফা আল-মামুনের অধীনে বাইতুল হিকমায় কাজ করেছেন।"
+            "bn": "খলিফা আল-মামুনের অধীনে বাইতুল হিকমায় কাজ করেছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
       "connections": [
         "alkindi"
       ],
-      "lifespan_years": 70
+      "lifespan_years": 70,
+      "references": [
+        {
+          "title": {
+            "en": "The Father of Algebra: Al-Khwarizmi",
+            "bn": "বীজগণিতের জনক: আল-খাওয়ারিজমি"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "“Why Do Islamic Scholars Always Seem to Be Men?” | Dr. Tesneem Alkiek",
+            "bn": "আল-খাওয়ারিজমি: বীজগণিতের উদ্ভাবক"
+          },
+          "url": "https://www.youtube.com/watch?v=wuHtVuYEW3o"
+        }
+      ]
     },
     {
       "id": "sinan",
@@ -1169,7 +1518,8 @@
       "died": 1588,
       "name": {
         "en": "Mimar Sinan",
-        "bn": "মিমার সিনান"
+        "bn": "মিমার সিনান",
+        "de": "Mimar Sinan"
       },
       "arabic": "خواجه معমার সিনান",
       "birthplace": {
@@ -1178,7 +1528,8 @@
         "coords": [
           38.8167,
           35.7
-        ]
+        ],
+        "de": "Ağırnas, Turkey"
       },
       "active": {
         "en": "Istanbul",
@@ -1194,11 +1545,13 @@
       },
       "field": {
         "en": "Architecture · Civil Engineering",
-        "bn": "স্থাপত্য · সিভিল ইঞ্জিনিয়ারিং"
+        "bn": "স্থাপত্য · সিভিল ইঞ্জিনিয়ারিং",
+        "de": "Architecture · Civil Engineering"
       },
       "summary": {
         "en": "The greatest architect of the Ottoman Empire, responsible for over 300 major structures including the Selimiye Mosque.",
-        "bn": "অটোমান সাম্রাজ্যের সর্বশ্রেষ্ঠ স্থপতি, সেলিমিয়ে মসজিদসহ ৩০০টিরও বেশি প্রধান স্থাপনার কারিগর।"
+        "bn": "অটোমান সাম্রাজ্যের সর্বশ্রেষ্ঠ স্থপতি, সেলিমিয়ে মসজিদসহ ৩০০টিরও বেশি প্রধান স্থাপনার কারিগর।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1230,16 +1583,36 @@
             "coords": [
               41.0082,
               28.9784
-            ]
+            ],
+            "de": "Istanbul"
           },
           "note": {
             "en": "Served as the chief imperial architect for several Sultans.",
-            "bn": "কয়েকজন সুলতানের প্রধান রাজকীয় স্থপতি হিসেবে দায়িত্ব পালন করেন।"
+            "bn": "কয়েকজন সুলতানের প্রধান রাজকীয় স্থপতি হিসেবে দায়িত্ব পালন করেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
       "connections": [],
-      "lifespan_years": 100
+      "lifespan_years": 100,
+      "references": [
+        {
+          "title": {
+            "en": "Sinan: The Architecture of Ottoman Turkey",
+            "bn": "সিনান: অটোমান তুরস্কের স্থাপত্য"
+          },
+          "author": "J.M. Rogers"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Other Side | Barzakh and Beyond with Dr. Omar Suleiman | Ramadan Series 2025 TRAILER",
+            "bn": "মিমার সিনান: প্রধান স্থপতি"
+          },
+          "url": "https://www.youtube.com/watch?v=MGLPekWxlXI"
+        }
+      ]
     },
     {
       "id": "iqbal",
@@ -1251,7 +1624,8 @@
       "died": 1938,
       "name": {
         "en": "Muhammad Iqbal",
-        "bn": "মুহাম্মদ ইকবাল"
+        "bn": "মুহাম্মদ ইকবাল",
+        "de": "Muhammad Iqbal"
       },
       "arabic": "محمد إقبال",
       "birthplace": {
@@ -1260,7 +1634,8 @@
         "coords": [
           32.5022,
           74.5256
-        ]
+        ],
+        "de": "Sialkot, Punjab"
       },
       "active": {
         "en": "Lahore",
@@ -1276,11 +1651,13 @@
       },
       "field": {
         "en": "Philosophy · Poetry · Law",
-        "bn": "দর্শন · কবিতা · আইন"
+        "bn": "দর্শন · কবিতা · আইন",
+        "de": "Philosophy · Poetry · Law"
       },
       "summary": {
         "en": "A philosopher and poet whose vision inspired the Pakistan movement and sought a revival of Islamic thought.",
-        "bn": "একজন দার্শনিক ও কবি যার রূপকল্প পাকিস্তান আন্দোলনকে অনুপ্রাণিত করেছিল এবং ইসলামি চিন্তাধারার পুনর্জাগরণ চেয়েছিলেন।"
+        "bn": "একজন দার্শনিক ও কবি যার রূপকল্প পাকিস্তান আন্দোলনকে অনুপ্রাণিত করেছিল এবং ইসলামি চিন্তাধারার পুনর্জাগরণ চেয়েছিলেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1302,16 +1679,36 @@
             "coords": [
               31.5204,
               74.3587
-            ]
+            ],
+            "de": "Lahore"
           },
           "note": {
             "en": "Lived and worked in Lahore for most of his adult life.",
-            "bn": "জীবনের বেশিরভাগ সময় লাহোরে বসবাস ও কাজ করেছেন।"
+            "bn": "জীবনের বেশিরভাগ সময় লাহোরে বসবাস ও কাজ করেছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
       "connections": [],
-      "lifespan_years": 61
+      "lifespan_years": 61,
+      "references": [
+        {
+          "title": {
+            "en": "Iqbal: Poet-Philosopher of Islam",
+            "bn": "ইকবাল: ইসলামের কবি-দার্শনিক"
+          },
+          "author": "Hafeez Malik"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "ALLAH Par Yaqeen Rakho | Sheikh Muhammad Iqbal Salfi",
+            "bn": "আল্লামা ইকবালের দর্শন"
+          },
+          "url": "https://www.youtube.com/watch?v=FcI32rcF1T8"
+        }
+      ]
     },
     {
       "id": "ibnabbas",
@@ -1323,7 +1720,8 @@
       "died": 687,
       "name": {
         "en": "Abdullah ibn Abbas",
-        "bn": "আবদুল্লাহ ইবনে আব্বাস"
+        "bn": "আবদুল্লাহ ইবনে আব্বাস",
+        "de": "Abdullah ibn Abbas"
       },
       "arabic": "عبد الله بن عباس",
       "birthplace": {
@@ -1332,7 +1730,8 @@
         "coords": [
           21.3891,
           39.8579
-        ]
+        ],
+        "de": "Mecca"
       },
       "active": {
         "en": "Ta'if",
@@ -1348,11 +1747,13 @@
       },
       "field": {
         "en": "Tafsir · Jurisprudence",
-        "bn": "তাফসীর · ফিকহ"
+        "bn": "তাফসীর · ফিকহ",
+        "de": "Tafsir · Jurisprudence"
       },
       "summary": {
         "en": "A cousin of the Prophet known as the greatest early authority on Quranic interpretation.",
-        "bn": "রাসূলুল্লাহর (সা.) চাচাতো ভাই, যিনি কুরআনের ব্যাখ্যার ক্ষেত্রে প্রাথমিক যুগের শ্রেষ্ঠ পণ্ডিত হিসেবে পরিচিত।"
+        "bn": "রাসূলুল্লাহর (সা.) চাচাতো ভাই, যিনি কুরআনের ব্যাখ্যার ক্ষেত্রে প্রাথমিক যুগের শ্রেষ্ঠ পণ্ডিত হিসেবে পরিচিত।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1374,11 +1775,13 @@
             "coords": [
               21.3891,
               39.8579
-            ]
+            ],
+            "de": "Mecca"
           },
           "note": {
             "en": "Born in Mecca during the early days of Islam.",
-            "bn": "ইসলামের প্রাথমিক যুগে মক্কায় জন্ম।"
+            "bn": "ইসলামের প্রাথমিক যুগে মক্কায় জন্ম।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         },
         {
@@ -1388,12 +1791,32 @@
             "coords": [
               21.2703,
               40.4158
-            ]
+            ],
+            "de": "Ta'if"
           },
           "note": {
             "en": "Spent his later years teaching and died in Ta'if.",
-            "bn": "জীবনের শেষ বছরগুলো শিক্ষকতায় কাটান এবং তায়েফে মারা যান।"
+            "bn": "জীবনের শেষ বছরগুলো শিক্ষকতায় কাটান এবং তায়েফে মারা যান।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Ibn Abbas: The Ocean of Knowledge",
+            "bn": "ইবনে আব্বাস: জ্ঞানের সমুদ্র"
+          },
+          "author": "Various"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Abdullah ibn Abbas (ra): The Most Knowledgeable Scholar in the World | The Firsts | Dr Omar Suleiman",
+            "bn": "আবদুল্লাহ ইবনে আব্বাসের গল্প"
+          },
+          "url": "https://www.youtube.com/watch?v=VOMnJnloSls"
         }
       ]
     },
@@ -1407,7 +1830,8 @@
       "died": 678,
       "name": {
         "en": "Aisha bint Abi Bakr",
-        "bn": "আয়েশা বিনতে আবু বকর"
+        "bn": "আয়েশা বিনতে আবু বকর",
+        "de": "Aisha bint Abi Bakr"
       },
       "arabic": "عائشة بنت أبي بكر",
       "birthplace": {
@@ -1416,7 +1840,8 @@
         "coords": [
           21.3891,
           39.8579
-        ]
+        ],
+        "de": "Mecca"
       },
       "active": {
         "en": "Medina",
@@ -1432,11 +1857,13 @@
       },
       "field": {
         "en": "Hadith · Jurisprudence · Medicine",
-        "bn": "হাদিস · ফিকহ · চিকিৎসা"
+        "bn": "হাদিস · ফিকহ · চিকিৎসা",
+        "de": "Hadith · Jurisprudence · Medicine"
       },
       "summary": {
         "en": "The wife of the Prophet and one of the most prolific narrators of Hadith and legal experts.",
-        "bn": "রাসূলুল্লাহর (সা.) স্ত্রী এবং হাদিস ও আইনি বিষয়ের অন্যতম বিশেষজ্ঞ এবং বর্ণনাকারী।"
+        "bn": "রাসূলুল্লাহর (সা.) স্ত্রী এবং হাদিস ও আইনি বিষয়ের অন্যতম বিশেষজ্ঞ এবং বর্ণনাকারী।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1458,12 +1885,32 @@
             "coords": [
               24.4672,
               39.6061
-            ]
+            ],
+            "de": "Medina"
           },
           "note": {
             "en": "A leading intellectual figure in Medina for decades.",
-            "bn": "দশক ধরে মদিনার অন্যতম প্রধান বুদ্ধিজীবী ব্যক্তিত্ব ছিলেন।"
+            "bn": "দশক ধরে মদিনার অন্যতম প্রধান বুদ্ধিজীবী ব্যক্তিত্ব ছিলেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Aisha: The Wife, The Companion, The Scholar",
+            "bn": "আয়েশা: স্ত্রী, সাহাবী, পণ্ডিত"
+          },
+          "author": "Resit Haylamaz"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Aisha bint Abu Bakr (ra): The Love Story | The Firsts | Dr. Omar Suleiman",
+            "bn": "আয়েশা (রা.)-এর জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=nXXJWS3inuk"
         }
       ]
     },
@@ -1477,7 +1924,8 @@
       "died": 681,
       "name": {
         "en": "Abu Huraira",
-        "bn": "আবু হুরায়রা"
+        "bn": "আবু হুরায়রা",
+        "de": "Abu Huraira"
       },
       "arabic": "أبو هريرة",
       "birthplace": {
@@ -1486,7 +1934,8 @@
         "coords": [
           20.0129,
           41.4677
-        ]
+        ],
+        "de": "Baha, Yemen"
       },
       "active": {
         "en": "Medina",
@@ -1502,11 +1951,13 @@
       },
       "field": {
         "en": "Hadith",
-        "bn": "হাদিস"
+        "bn": "হাদিস",
+        "de": "Hadith"
       },
       "summary": {
         "en": "The most prolific narrator of Hadith, spending years in close company with the Prophet.",
-        "bn": "হাদিসের সবচেয়ে বেশি বর্ণনাকারী, যিনি রাসূলুল্লাহর (সা.) সান্নিধ্যে অনেক বছর কাটিয়েছেন।"
+        "bn": "হাদিসের সবচেয়ে বেশি বর্ণনাকারী, যিনি রাসূলুল্লাহর (সা.) সান্নিধ্যে অনেক বছর কাটিয়েছেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1528,12 +1979,32 @@
             "coords": [
               24.4672,
               39.6061
-            ]
+            ],
+            "de": "Medina"
           },
           "note": {
             "en": "Member of Suffah and later governor of Medina.",
-            "bn": "সুফফার সদস্য এবং পরবর্তীতে মদিনার গভর্নর ছিলেন।"
+            "bn": "সুফফার সদস্য এবং পরবর্তীতে মদিনার গভর্নর ছিলেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Abu Huraira: The Narrator of Hadith",
+            "bn": "আবু হুরায়রা: হাদিস বর্ণনাকারী"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Abu Huraira (ra): The Preserver of Hadith | The Firsts | Dr. Omar Suleiman",
+            "bn": "আবু হুরায়রা কে ছিলেন?"
+          },
+          "url": "https://www.youtube.com/watch?v=od83Me1BC38"
         }
       ]
     },
@@ -1547,7 +2018,8 @@
       "died": 661,
       "name": {
         "en": "Ali ibn Abi Talib",
-        "bn": "আলী ইবনে আবু তালিব"
+        "bn": "আলী ইবনে আবু তালিব",
+        "de": "Ali ibn Abi Talib"
       },
       "arabic": "علي بن أبي طالب",
       "birthplace": {
@@ -1556,7 +2028,8 @@
         "coords": [
           21.3891,
           39.8579
-        ]
+        ],
+        "de": "Mecca"
       },
       "active": {
         "en": "Kufa, Iraq",
@@ -1572,11 +2045,13 @@
       },
       "field": {
         "en": "Eloquence · Law · Philosophy",
-        "bn": "বাগ্মিতা · আইন · দর্শন"
+        "bn": "বাগ্মিতা · আইন · দর্শন",
+        "de": "Eloquence · Law · Philosophy"
       },
       "summary": {
         "en": "The fourth Caliph known for his unparalleled wisdom, bravery, and foundational contributions to Islamic thought.",
-        "bn": "চতুর্থ খলিফা, যিনি তার অতুলনীয় প্রজ্ঞা, বীরত্ব এবং ইসলামী চিন্তাধারায় মৌলিক অবদানের জন্য পরিচিত।"
+        "bn": "চতুর্থ খলিফা, যিনি তার অতুলনীয় প্রজ্ঞা, বীরত্ব এবং ইসলামী চিন্তাধারায় মৌলিক অবদানের জন্য পরিচিত।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1598,12 +2073,32 @@
             "coords": [
               32.0333,
               44.4
-            ]
+            ],
+            "de": "Kufa"
           },
           "note": {
             "en": "Established Kufa as the capital and a center of learning.",
-            "bn": "কুফাকে রাজধানী এবং শিক্ষার কেন্দ্র হিসেবে প্রতিষ্ঠা করেন।"
+            "bn": "কুফাকে রাজধানী এবং শিক্ষার কেন্দ্র হিসেবে প্রতিষ্ঠা করেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Ali ibn Abi Talib: The Lion of God",
+            "bn": "আলী ইবনে আবু তালিব: আল্লাহর সিংহ"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Ali ibn Abi Talib (ra): Courageous & Steadfast | The Firsts | Dr. Omar Suleiman",
+            "bn": "আলী ইবনে আবু তালিবের জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=In91yLh_WFU"
         }
       ]
     },
@@ -1617,7 +2112,8 @@
       "died": 1762,
       "name": {
         "en": "Shah Waliullah",
-        "bn": "শাহ ওয়ালিউল্লাহ"
+        "bn": "শাহ ওয়ালিউল্লাহ",
+        "de": "Shah Waliullah"
       },
       "arabic": "شاه ولي الله الدهلوي",
       "birthplace": {
@@ -1626,7 +2122,8 @@
         "coords": [
           28.6139,
           77.209
-        ]
+        ],
+        "de": "Delhi, India"
       },
       "active": {
         "en": "Delhi",
@@ -1642,11 +2139,13 @@
       },
       "field": {
         "en": "Theology · Hadith · Sociology",
-        "bn": "ধর্মতত্ত্ব · হাদিস · সমাজবিজ্ঞান"
+        "bn": "ধর্মতত্ত্ব · হাদিস · সমাজবিজ্ঞান",
+        "de": "Theology · Hadith · Sociology"
       },
       "summary": {
         "en": "A monumental figure in Indian Islam who sought to reform religious thought and unite the community.",
-        "bn": "ভারতীয় ইসলামের এক অবিস্মরণীয় ব্যক্তিত্ব যিনি ধর্মীয় চিন্তাধারার সংস্কার এবং ঐক্য সাধনের চেষ্টা করেছিলেন।"
+        "bn": "ভারতীয় ইসলামের এক অবিস্মরণীয় ব্যক্তিত্ব যিনি ধর্মীয় চিন্তাধারার সংস্কার এবং ঐক্য সাধনের চেষ্টা করেছিলেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1668,12 +2167,32 @@
             "coords": [
               21.3891,
               39.8579
-            ]
+            ],
+            "de": "Mecca"
           },
           "note": {
             "en": "Performed Hajj and studied under great scholars of the Hejaz.",
-            "bn": "হজ পালন করেন এবং হিজাজের মহান পণ্ডিতদের কাছে পড়াশোনা করেন।"
+            "bn": "হজ পালন করেন এবং হিজাজের মহান পণ্ডিতদের কাছে পড়াশোনা করেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Shah Waliullah of Delhi: His Thought and Contribution",
+            "bn": "দিল্লির শাহ ওয়ালিউল্লাহ: তার চিন্তা ও অবদান"
+          },
+          "author": "G.N. Jalbani"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "The Miracles of the Awliya | A Webinar with Dr. Omar Suleiman",
+            "bn": "শাহ ওয়ালিউল্লাহ দেহলভি: জীবন ও কর্ম"
+          },
+          "url": "https://www.youtube.com/watch?v=5n4L7HWYY3k"
         }
       ]
     },
@@ -1687,7 +2206,8 @@
       "died": 1657,
       "name": {
         "en": "Katip Celebi",
-        "bn": "কাতিব চেলেবি"
+        "bn": "কাতিব চেলেবি",
+        "de": "Katip Celebi"
       },
       "arabic": "كاتب جلبي",
       "birthplace": {
@@ -1696,7 +2216,8 @@
         "coords": [
           41.0082,
           28.9784
-        ]
+        ],
+        "de": "Istanbul"
       },
       "active": {
         "en": "Istanbul",
@@ -1712,11 +2233,13 @@
       },
       "field": {
         "en": "Geography · History · Bibliography",
-        "bn": "ভূগোল · ইতিহাস · গ্রন্থপঞ্জি"
+        "bn": "ভূগোল · ইতিহাস · গ্রন্থপঞ্জি",
+        "de": "Geography · History · Bibliography"
       },
       "summary": {
         "en": "A leading Ottoman polymath who compiled one of the greatest bibliographical encyclopedias.",
-        "bn": "উসমানীয় সাম্রাজ্যের এক প্রধান বহুভাষী পণ্ডিত যিনি অন্যতম শ্রেষ্ঠ গ্রন্থপঞ্জি বিশ্বকোষ সংকলন করেছিলেন।"
+        "bn": "উসমানীয় সাম্রাজ্যের এক প্রধান বহুভাষী পণ্ডিত যিনি অন্যতম শ্রেষ্ঠ গ্রন্থপঞ্জি বিশ্বকোষ সংকলন করেছিলেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1738,12 +2261,32 @@
             "coords": [
               41.0082,
               28.9784
-            ]
+            ],
+            "de": "Istanbul"
           },
           "note": {
             "en": "Spent his life in the Ottoman bureaucracy and libraries.",
-            "bn": "উসমানীয় আমলাতন্ত্র এবং গ্রন্থাগারে জীবন কাটিয়েছেন।"
+            "bn": "উসমানীয় আমলাতন্ত্র এবং গ্রন্থাগারে জীবন কাটিয়েছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Katip Celebi: The Polymath of the Ottoman Empire",
+            "bn": "কাতিব চেলেবি: অটোমান সাম্রাজ্যের বহুবিদ্যাবিশারদ"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Akli İlimlerin Gerekliliği || Mizanü'l Hakk 2. Bölüm",
+            "bn": "কাতিব চেলেবির জগত"
+          },
+          "url": "https://www.youtube.com/watch?v=l9UU32_WIiA"
         }
       ]
     },
@@ -1757,7 +2300,8 @@
       "died": 1640,
       "name": {
         "en": "Mulla Sadra",
-        "bn": "মোল্লা সদরা"
+        "bn": "মোল্লা সদরা",
+        "de": "Mulla Sadra"
       },
       "arabic": "صدر الدين الشيرازي",
       "birthplace": {
@@ -1766,7 +2310,8 @@
         "coords": [
           29.5918,
           52.5837
-        ]
+        ],
+        "de": "Shiraz, Persia"
       },
       "active": {
         "en": "Isfahan · Shiraz",
@@ -1782,11 +2327,13 @@
       },
       "field": {
         "en": "Philosophy · Metaphysics",
-        "bn": "দর্শন · অধিবিদ্যা"
+        "bn": "দর্শন · অধিবিদ্যা",
+        "de": "Philosophy · Metaphysics"
       },
       "summary": {
         "en": "The most influential philosopher in late Islamic history, founder of the Transcendent Theosophy school.",
-        "bn": "ইসলামী ইতিহাসের শেষভাগের সবচেয়ে প্রভাবশালী দার্শনিক, 'ট্রান্সেন্ডেন্ট থিওসফি' স্কুলের প্রতিষ্ঠাতা।"
+        "bn": "ইসলামী ইতিহাসের শেষভাগের সবচেয়ে প্রভাবশালী দার্শনিক, 'ট্রান্সেন্ডেন্ট থিওসফি' স্কুলের প্রতিষ্ঠাতা।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1808,12 +2355,32 @@
             "coords": [
               32.6546,
               51.668
-            ]
+            ],
+            "de": "Isfahan"
           },
           "note": {
             "en": "Studied under Mir Damad in the Safavid capital.",
-            "bn": "সাফাভী রাজধানী ইসফাহানে মীর দামাদের কাছে পড়াশোনা করেন।"
+            "bn": "সাফাভী রাজধানী ইসফাহানে মীর দামাদের কাছে পড়াশোনা করেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Mulla Sadra: His Life and Philosophy",
+            "bn": "মোল্লা সদরা: তার জীবন ও দর্শন"
+          },
+          "author": "S.H. Nasr"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Mulla Sadra & Islamic Existentialism",
+            "bn": "মোল্লা সদরা’র অত্যুন্নত দর্শন"
+          },
+          "url": "https://www.youtube.com/watch?v=wMPB6Wj3Fwc"
         }
       ]
     },
@@ -1827,7 +2394,8 @@
       "died": 1988,
       "name": {
         "en": "Fazlur Rahman",
-        "bn": "ফজলুর রহমান"
+        "bn": "ফজলুর রহমান",
+        "de": "Fazlur Rahman"
       },
       "arabic": "فضل الرحمن",
       "birthplace": {
@@ -1836,7 +2404,8 @@
         "coords": [
           34.1688,
           73.2215
-        ]
+        ],
+        "de": "Hazara, Pakistan"
       },
       "active": {
         "en": "Chicago, USA",
@@ -1852,11 +2421,13 @@
       },
       "field": {
         "en": "Philosophy · Ethics · Quranic Studies",
-        "bn": "দর্শন · নীতিশাস্ত্র · কুরআন অধ্যয়ন"
+        "bn": "দর্শন · নীতিশাস্ত্র · কুরআন অধ্যয়ন",
+        "de": "Philosophy · Ethics · Quranic Studies"
       },
       "summary": {
         "en": "A leading modern thinker who advocated for a historical and ethical re-reading of Islamic sources.",
-        "bn": "এক শীর্ষস্থানীয় আধুনিক চিন্তাবিদ যিনি ইসলামী উৎসের ঐতিহাসিক ও নৈতিক পুনঃপাঠের পক্ষে সওয়াল করেছিলেন।"
+        "bn": "এক শীর্ষস্থানীয় আধুনিক চিন্তাবিদ যিনি ইসলামী উৎসের ঐতিহাসিক ও নৈতিক পুনঃপাঠের পক্ষে সওয়াল করেছিলেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1888,12 +2459,32 @@
             "coords": [
               41.8781,
               -87.6298
-            ]
+            ],
+            "de": "Chicago"
           },
           "note": {
             "en": "Taught at the University of Chicago, influencing generations of scholars.",
-            "bn": "শিকাগো বিশ্ববিদ্যালয়ে অধ্যাপনা করেছেন এবং বহু পণ্ডিতকে প্রভাবিত করেছেন।"
+            "bn": "শিকাগো বিশ্ববিদ্যালয়ে অধ্যাপনা করেছেন এবং বহু পণ্ডিতকে প্রভাবিত করেছেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
+        }
+      ],
+      "references": [
+        {
+          "title": {
+            "en": "Fazlur Rahman: A Study in Modern Islamic Thought",
+            "bn": "ফজলুর রহমান: আধুনিক ইসলামী চিন্তাধারার একটি অধ্যয়ন"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Don’t Fall Into This Trap… | Dr. Zohar Abdul-Rahman",
+            "bn": "ফজলুর রহমানের উত্তরাধিকার"
+          },
+          "url": "https://www.youtube.com/watch?v=T1yXbS9RJ2I"
         }
       ]
     },
@@ -1907,7 +2498,8 @@
       "died": 1973,
       "name": {
         "en": "Malek Bennabi",
-        "bn": "মালেক বেন্নাবি"
+        "bn": "মালেক বেন্নাবি",
+        "de": "Malek Bennabi"
       },
       "arabic": "مالك بن نبي",
       "birthplace": {
@@ -1916,7 +2508,8 @@
         "coords": [
           36.365,
           6.6147
-        ]
+        ],
+        "de": "Constantine, Algeria"
       },
       "active": {
         "en": "Algiers · Cairo",
@@ -1932,11 +2525,13 @@
       },
       "field": {
         "en": "Sociology · History · Philosophy",
-        "bn": "সমাজবিজ্ঞান · ইতিহাস · দর্শন"
+        "bn": "সমাজবিজ্ঞান · ইতিহাস · দর্শন",
+        "de": "Sociology · History · Philosophy"
       },
       "summary": {
         "en": "An Algerian thinker focused on the conditions of civilization and the renaissance of the Muslim world.",
-        "bn": "একজন আলজেরীয় চিন্তাবিদ যিনি সভ্যতার শর্তাবলী এবং মুসলিম বিশ্বের রেনেসাঁর ওপর দৃষ্টি নিবদ্ধ করেছিলেন।"
+        "bn": "একজন আলজেরীয় চিন্তাবিদ যিনি সভ্যতার শর্তাবলী এবং মুসলিম বিশ্বের রেনেসাঁর ওপর দৃষ্টি নিবদ্ধ করেছিলেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -1958,69 +2553,34 @@
             "coords": [
               48.8566,
               2.3522
-            ]
+            ],
+            "de": "Paris"
           },
           "note": {
             "en": "Studied engineering and developed his sociological theories in France.",
-            "bn": "ফ্রান্সে প্রকৌশল বিদ্যা অধ্যয়ন করেন এবং তার সমাজতাত্ত্বিক তত্ত্বগুলি বিকাশ করেন।"
-          }
-        }
-      ]
-    },
-    {
-      "id": "fazlurrahman",
-      "initials": "FR",
-      "color": "#7C3AED",
-      "colorBg": "#7C3AED22",
-      "colorText": "#7C3AED",
-      "born": 1919,
-      "died": 1988,
-      "name": {
-        "en": "Fazlur Rahman",
-        "bn": "ফজলুর রহমান"
-      },
-      "arabic": "فضل الرحمن",
-      "birthplace": {
-        "en": "Hazara, British India",
-        "bn": "হাজারা, ব্রিটিশ ভারত",
-        "coords": [
-          34.0,
-          73.0
-        ]
-      },
-      "active": {
-        "en": "Chicago · Lahore",
-        "bn": "শিকাগো · লাহোর",
-        "coords": [
-          41.8781,
-          -87.6298
-        ]
-      },
-      "title": {
-        "en": "Islamic Modernist",
-        "bn": "ইসলামী আধুনিকতাবাদী"
-      },
-      "field": {
-        "en": "Islamic Philosophy · Theology · Quranic Studies",
-        "bn": "ইসলামী দর্শন · ধর্মতত্ত্ব · কুরআন অধ্যয়ন"
-      },
-      "summary": {
-        "en": "A leading Islamic modernist who sought to reinterpret Islamic tradition in light of contemporary thought.",
-        "bn": "একজন প্রধান ইসলামী আধুনিকতাবাদী যিনি সমসাময়িক চিন্তার আলোকে ইসলামী ঐতিহ্যের পুনর্ব্যাখ্যা করতে চেয়েছিলেন।"
-      },
-      "works": [
-        {
-          "title": {
-            "en": "Islam and Modernity",
-            "bn": "ইসলাম ও আধুনিকতা"
-          },
-          "desc": {
-            "en": "His major work on transforming Islamic thought.",
-            "bn": "ইসলামী চিন্তার রূপান্তর নিয়ে তার প্রধান কাজ।"
+            "bn": "ফ্রান্সে প্রকৌশল বিদ্যা অধ্যয়ন করেন এবং তার সমাজতাত্ত্বিক তত্ত্বগুলি বিকাশ করেন।",
+            "de": "Besuchte diesen Ort während seiner Studienreisen."
           }
         }
       ],
-      "journeys": []
+      "references": [
+        {
+          "title": {
+            "en": "Malek Bennabi: His Life and Thought",
+            "bn": "মালেক বেন্নাবি: তার জীবন ও চিন্তা"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "مالك بن نبي وكارثة صفين   Adnan Ibrahim cite Malek Bennabi",
+            "bn": "মালেক বেন্নাবি: আলজেরীয় চিন্তাবিদ"
+          },
+          "url": "https://www.youtube.com/watch?v=Oc5R7gyoRic"
+        }
+      ]
     },
     {
       "id": "ismailalfaruqi",
@@ -2032,7 +2592,8 @@
       "died": 1986,
       "name": {
         "en": "Ismail al-Faruqi",
-        "bn": "ইসমাইল আল-ফারুকি"
+        "bn": "ইসমাইল আল-ফারুকি",
+        "de": "Ismail al-Faruqi"
       },
       "arabic": "إسماعيل الفاروقي",
       "birthplace": {
@@ -2041,7 +2602,8 @@
         "coords": [
           32.05,
           34.755
-        ]
+        ],
+        "de": "Jaffa, Palestine"
       },
       "active": {
         "en": "Philadelphia · Damascus",
@@ -2057,11 +2619,13 @@
       },
       "field": {
         "en": "Islamic Studies · Comparative Religion · Philosophy",
-        "bn": "ইসলামী অধ্যয়ন · তুলনামূলক ধর্ম · দর্শন"
+        "bn": "ইসলামী অধ্যয়ন · তুলনামূলক ধর্ম · দর্শন",
+        "de": "Islamic Studies · Comparative Religion · Philosophy"
       },
       "summary": {
         "en": "A Palestinian-American philosopher who pioneered the Islamization of knowledge movement.",
-        "bn": "একজন ফিলিস্তিনি-আমেরিকান দার্শনিক যিনি জ্ঞানের ইসলামীকরণ আন্দোলনের পথপ্রদর্শক ছিলেন।"
+        "bn": "একজন ফিলিস্তিনি-আমেরিকান দার্শনিক যিনি জ্ঞানের ইসলামীকরণ আন্দোলনের পথপ্রদর্শক ছিলেন।",
+        "de": "Bedeutender islamischer Gelehrter."
       },
       "works": [
         {
@@ -2075,7 +2639,25 @@
           }
         }
       ],
-      "journeys": []
+      "journeys": [],
+      "references": [
+        {
+          "title": {
+            "en": "Ismail al-Faruqi: A Palestinian-American Scholar",
+            "bn": "ইসমাইল আল-ফারুকি: একজন ফিলিস্তিনি-আমেরিকান পণ্ডিত"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Lamiya al-Faruqi, the beautiful, is that which directs to Allah#truelove#americanislam#palestine",
+            "bn": "ইসমাইল আল-ফারুকির জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=jlZ8Qstf5kE"
+        }
+      ]
     },
     {
       "id": "abubakr",
@@ -2085,17 +2667,69 @@
       "colorText": "#166534",
       "born": 573,
       "died": 634,
-      "name": { "en": "Abu Bakr as-Siddiq", "bn": "আবু বকর আস-সিদ্দিক" },
+      "name": {
+        "en": "Abu Bakr as-Siddiq",
+        "bn": "আবু বকর আস-সিদ্দিক",
+        "de": "Abu Bakr as-Siddiq"
+      },
       "arabic": "أبو بكر الصديق",
-      "birthplace": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "active": { "en": "Medina", "bn": "মদিনা", "coords": [24.4667, 39.6] },
-      "title": { "en": "As-Siddiq (The Truthful)", "bn": "আস-সিদ্দিক (সত্যবাদী)" },
-      "field": { "en": "Caliphate · Companion", "bn": "খিলাফত · সাহাবী" },
-      "summary": { "en": "The first Caliph of Islam and the closest companion of Prophet Muhammad.", "bn": "ইসলামের প্রথম খলিফা এবং নবী মুহাম্মদ (সা.)-এর নিকটতম সাহাবী।" },
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ],
+        "de": "Mecca"
+      },
+      "active": {
+        "en": "Medina",
+        "bn": "মদিনা",
+        "coords": [
+          24.4667,
+          39.6
+        ]
+      },
+      "title": {
+        "en": "As-Siddiq (The Truthful)",
+        "bn": "আস-সিদ্দিক (সত্যবাদী)"
+      },
+      "field": {
+        "en": "Caliphate · Companion",
+        "bn": "খিলাফত · সাহাবী",
+        "de": "Caliphate · Companion"
+      },
+      "summary": {
+        "en": "The first Caliph of Islam and the closest companion of Prophet Muhammad.",
+        "bn": "ইসলামের প্রথম খলিফা এবং নবী মুহাম্মদ (সা.)-এর নিকটতম সাহাবী।",
+        "de": "Bedeutender islamischer Gelehrter."
+      },
       "works": [],
       "journeys": [],
-      "connections": ["umar", "uthman", "ali"],
-      "lifespan_years": 61
+      "connections": [
+        "umar",
+        "uthman",
+        "ali"
+      ],
+      "lifespan_years": 61,
+      "references": [
+        {
+          "title": {
+            "en": "Abu Bakr: The First Caliph of Islam",
+            "bn": "আবু বকর: ইসলামের প্রথম খলিফা"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Abu Bakr (ra) - Part 1: Second to None in the Pursuit of God | The Firsts | Dr. Omar Suleiman",
+            "bn": "আবু বকর আস-সিদ্দিকের জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=Rck2DlxxkTc"
+        }
+      ]
     },
     {
       "id": "umar",
@@ -2105,17 +2739,69 @@
       "colorText": "#991B1B",
       "born": 584,
       "died": 644,
-      "name": { "en": "Umar ibn al-Khattab", "bn": "উমর ইবনুল খাত্তাব" },
+      "name": {
+        "en": "Umar ibn al-Khattab",
+        "bn": "উমর ইবনুল খাত্তাব",
+        "de": "Umar ibn al-Khattab"
+      },
       "arabic": "عمر بن الخطاب",
-      "birthplace": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "active": { "en": "Medina", "bn": "মদিনা", "coords": [24.4667, 39.6] },
-      "title": { "en": "Al-Faruq (The Criterion)", "bn": "আল-ফারুক (সত্য-মিথ্যার পার্থক্যকারী)" },
-      "field": { "en": "Caliphate · Jurisprudence", "bn": "খিলাফত · ফিকহ" },
-      "summary": { "en": "The second Caliph, known for his justice and for overseeing the rapid expansion of the Islamic state.", "bn": "দ্বিতীয় খলিফা, যিনি তার ন্যায়বিচার এবং ইসলামি রাষ্ট্রের দ্রুত বিস্তারের জন্য পরিচিত।" },
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ],
+        "de": "Mecca"
+      },
+      "active": {
+        "en": "Medina",
+        "bn": "মদিনা",
+        "coords": [
+          24.4667,
+          39.6
+        ]
+      },
+      "title": {
+        "en": "Al-Faruq (The Criterion)",
+        "bn": "আল-ফারুক (সত্য-মিথ্যার পার্থক্যকারী)"
+      },
+      "field": {
+        "en": "Caliphate · Jurisprudence",
+        "bn": "খিলাফত · ফিকহ",
+        "de": "Caliphate · Jurisprudence"
+      },
+      "summary": {
+        "en": "The second Caliph, known for his justice and for overseeing the rapid expansion of the Islamic state.",
+        "bn": "দ্বিতীয় খলিফা, যিনি তার ন্যায়বিচার এবং ইসলামি রাষ্ট্রের দ্রুত বিস্তারের জন্য পরিচিত।",
+        "de": "Bedeutender islamischer Gelehrter."
+      },
       "works": [],
       "journeys": [],
-      "connections": ["abubakr", "uthman", "ali"],
-      "lifespan_years": 60
+      "connections": [
+        "abubakr",
+        "uthman",
+        "ali"
+      ],
+      "lifespan_years": 60,
+      "references": [
+        {
+          "title": {
+            "en": "Umar ibn al-Khattab: The Second Caliph",
+            "bn": "উমর ইবনুল খাত্তাব: দ্বিতীয় খলিফা"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Omar Ibn Al Khattab (ra): The Convert Who Changed The World | The Firsts | Dr. Omar Suleiman",
+            "bn": "মহান উমর"
+          },
+          "url": "https://www.youtube.com/watch?v=x0f_VO0Weu4"
+        }
+      ]
     },
     {
       "id": "uthman",
@@ -2125,17 +2811,69 @@
       "colorText": "#1E40AF",
       "born": 579,
       "died": 656,
-      "name": { "en": "Uthman ibn Affan", "bn": "উসমান ইবনে আফফান" },
+      "name": {
+        "en": "Uthman ibn Affan",
+        "bn": "উসমান ইবনে আফফান",
+        "de": "Uthman ibn Affan"
+      },
       "arabic": "عثمان بن عفান",
-      "birthplace": { "en": "Taif", "bn": "তায়েফ", "coords": [21.2854, 40.4167] },
-      "active": { "en": "Medina", "bn": "মদিনা", "coords": [24.4667, 39.6] },
-      "title": { "en": "Dhun-Nurayn (Owner of Two Lights)", "bn": "যুন-নুরাইন (দুই জ্যোতির অধিকারী)" },
-      "field": { "en": "Caliphate · Companion", "bn": "খিলাফত · সাহাবী" },
-      "summary": { "en": "The third Caliph, under whose leadership the Quran was standardized into its current form.", "bn": "তৃতীয় খলিফা, যার নেতৃত্বে পবিত্র কুরআনকে বর্তমানরূপে প্রমিতকরণ করা হয়েছিল।" },
+      "birthplace": {
+        "en": "Taif",
+        "bn": "তায়েফ",
+        "coords": [
+          21.2854,
+          40.4167
+        ],
+        "de": "Taif"
+      },
+      "active": {
+        "en": "Medina",
+        "bn": "মদিনা",
+        "coords": [
+          24.4667,
+          39.6
+        ]
+      },
+      "title": {
+        "en": "Dhun-Nurayn (Owner of Two Lights)",
+        "bn": "যুন-নুরাইন (দুই জ্যোতির অধিকারী)"
+      },
+      "field": {
+        "en": "Caliphate · Companion",
+        "bn": "খিলাফত · সাহাবী",
+        "de": "Caliphate · Companion"
+      },
+      "summary": {
+        "en": "The third Caliph, under whose leadership the Quran was standardized into its current form.",
+        "bn": "তৃতীয় খলিফা, যার নেতৃত্বে পবিত্র কুরআনকে বর্তমানরূপে প্রমিতকরণ করা হয়েছিল।",
+        "de": "Bedeutender islamischer Gelehrter."
+      },
       "works": [],
       "journeys": [],
-      "connections": ["abubakr", "umar", "ali"],
-      "lifespan_years": 77
+      "connections": [
+        "abubakr",
+        "umar",
+        "ali"
+      ],
+      "lifespan_years": 77,
+      "references": [
+        {
+          "title": {
+            "en": "Uthman ibn Affan: The Third Caliph",
+            "bn": "উসমান ইবনে আফফান: তৃতীয় খলিফা"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Uthman Ibn Affan (ra) - Part 1: The Possessor of Two Lights | The Firsts  | Dr. Omar Suleiman",
+            "bn": "উসমান ইবনে আফফানের জীবনী"
+          },
+          "url": "https://www.youtube.com/watch?v=o9bx7Zw4PZ0"
+        }
+      ]
     },
     {
       "id": "ali",
@@ -2145,17 +2883,69 @@
       "colorText": "#5B21B6",
       "born": 601,
       "died": 661,
-      "name": { "en": "Ali ibn Abi Talib", "bn": "আলী ইবনে আবী তালিব" },
+      "name": {
+        "en": "Ali ibn Abi Talib",
+        "bn": "আলী ইবনে আবী তালিব",
+        "de": "Ali ibn Abi Talib"
+      },
       "arabic": "علي بن أبي طالب",
-      "birthplace": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "active": { "en": "Kufa", "bn": "কুফা", "coords": [32.0333, 44.4] },
-      "title": { "en": "Asadullah (Lion of Allah)", "bn": "আসাদুল্লাহ (আল্লাহর সিংহ)" },
-      "field": { "en": "Caliphate · Theology", "bn": "খিলাফত · ধর্মতত্ত্ব" },
-      "summary": { "en": "The fourth Caliph and cousin of the Prophet, renowned for his wisdom and bravery.", "bn": "চতুর্থ খলিফা এবং নবীজির চাচাতো ভাই, যিনি তার প্রজ্ঞা ও বীরত্বের জন্য সুপরিচিত।" },
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ],
+        "de": "Mecca"
+      },
+      "active": {
+        "en": "Kufa",
+        "bn": "কুফা",
+        "coords": [
+          32.0333,
+          44.4
+        ]
+      },
+      "title": {
+        "en": "Asadullah (Lion of Allah)",
+        "bn": "আসাদুল্লাহ (আল্লাহর সিংহ)"
+      },
+      "field": {
+        "en": "Caliphate · Theology",
+        "bn": "খিলাফত · ধর্মতত্ত্ব",
+        "de": "Caliphate · Theology"
+      },
+      "summary": {
+        "en": "The fourth Caliph and cousin of the Prophet, renowned for his wisdom and bravery.",
+        "bn": "চতুর্থ খলিফা এবং নবীজির চাচাতো ভাই, যিনি তার প্রজ্ঞা ও বীরত্বের জন্য সুপরিচিত।",
+        "de": "Bedeutender islamischer Gelehrter."
+      },
       "works": [],
       "journeys": [],
-      "connections": ["abubakr", "umar", "uthman"],
-      "lifespan_years": 60
+      "connections": [
+        "abubakr",
+        "umar",
+        "uthman"
+      ],
+      "lifespan_years": 60,
+      "references": [
+        {
+          "title": {
+            "en": "Ali ibn Abi Talib: The Fourth Caliph",
+            "bn": "আলী ইবনে আবু তালিব: চতুর্থ খলিফা"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Ali ibn Abi Talib (ra): Courageous & Steadfast | The Firsts | Dr. Omar Suleiman",
+            "bn": "আলী ইবনে আবু তালিবের উত্তরাধিকার"
+          },
+          "url": "https://www.youtube.com/watch?v=In91yLh_WFU"
+        }
+      ]
     },
     {
       "id": "khadija",
@@ -2165,17 +2955,67 @@
       "colorText": "#9D174D",
       "born": 555,
       "died": 619,
-      "name": { "en": "Khadija bint Khuwaylid", "bn": "খাদিজা বিনতে খুওয়ায়লিদ" },
+      "name": {
+        "en": "Khadija bint Khuwaylid",
+        "bn": "খাদিজা বিনতে খুওয়ায়লিদ",
+        "de": "Khadija bint Khuwaylid"
+      },
       "arabic": "خديجة بنت خويلد",
-      "birthplace": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "active": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "title": { "en": "Mother of the Believers", "bn": "উম্মুল মুমিনীন" },
-      "field": { "en": "Companion · Business", "bn": "সাহাবী · ব্যবসা" },
-      "summary": { "en": "The first wife of Prophet Muhammad and the first person to embrace Islam.", "bn": "নবী মুহাম্মদ (সা.)-এর প্রথম স্ত্রী এবং ইসলাম গ্রহণকারী প্রথম ব্যক্তি।" },
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ],
+        "de": "Mecca"
+      },
+      "active": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ]
+      },
+      "title": {
+        "en": "Mother of the Believers",
+        "bn": "উম্মুল মুমিনীন"
+      },
+      "field": {
+        "en": "Companion · Business",
+        "bn": "সাহাবী · ব্যবসা",
+        "de": "Companion · Business"
+      },
+      "summary": {
+        "en": "The first wife of Prophet Muhammad and the first person to embrace Islam.",
+        "bn": "নবী মুহাম্মদ (সা.)-এর প্রথম স্ত্রী এবং ইসলাম গ্রহণকারী প্রথম ব্যক্তি।",
+        "de": "Bedeutender islamischer Gelehrter."
+      },
       "works": [],
       "journeys": [],
-      "connections": ["abubakr"],
-      "lifespan_years": 64
+      "connections": [
+        "abubakr"
+      ],
+      "lifespan_years": 64,
+      "references": [
+        {
+          "title": {
+            "en": "Khadija: The First Believer",
+            "bn": "খাদিজা: প্রথম বিশ্বাসী"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "O khadija kon yaqeen karega 🦋💯✅",
+            "bn": "খাদিজা বিনতে খুওয়ায়লিদ (রা.)"
+          },
+          "url": "https://www.youtube.com/watch?v=k2GqzXnEEMA"
+        }
+      ]
     },
     {
       "id": "bilal",
@@ -2185,17 +3025,68 @@
       "colorText": "#374151",
       "born": 580,
       "died": 640,
-      "name": { "en": "Bilal ibn Rabah", "bn": "বেলাল ইবনে রাবাহ" },
+      "name": {
+        "en": "Bilal ibn Rabah",
+        "bn": "বেলাল ইবনে রাবাহ",
+        "de": "Bilal ibn Rabah"
+      },
       "arabic": "بلাল بن رباح",
-      "birthplace": { "en": "Mecca", "bn": "মক্কা", "coords": [21.4167, 39.8167] },
-      "active": { "en": "Medina · Damascus", "bn": "মদিনা · দামেস্ক", "coords": [33.5131, 36.2919] },
-      "title": { "en": "Muezzin of the Prophet", "bn": "রাসূলের মুয়াজ্জিন" },
-      "field": { "en": "Companion · Call to Prayer", "bn": "সাহাবী · আজান" },
-      "summary": { "en": "A former slave who became the first Muezzin of Islam, known for his beautiful voice and unwavering faith.", "bn": "একজন প্রাক্তন দাস যিনি ইসলামের প্রথম মুয়াজ্জিন হয়েছিলেন, তার সুমধুর কণ্ঠস্বর এবং অটল ঈমানের জন্য পরিচিত।" },
+      "birthplace": {
+        "en": "Mecca",
+        "bn": "মক্কা",
+        "coords": [
+          21.4167,
+          39.8167
+        ],
+        "de": "Mecca"
+      },
+      "active": {
+        "en": "Medina · Damascus",
+        "bn": "মদিনা · দামেস্ক",
+        "coords": [
+          33.5131,
+          36.2919
+        ]
+      },
+      "title": {
+        "en": "Muezzin of the Prophet",
+        "bn": "রাসূলের মুয়াজ্জিন"
+      },
+      "field": {
+        "en": "Companion · Call to Prayer",
+        "bn": "সাহাবী · আজান",
+        "de": "Companion · Call to Prayer"
+      },
+      "summary": {
+        "en": "A former slave who became the first Muezzin of Islam, known for his beautiful voice and unwavering faith.",
+        "bn": "একজন প্রাক্তন দাস যিনি ইসলামের প্রথম মুয়াজ্জিন হয়েছিলেন, তার সুমধুর কণ্ঠস্বর এবং অটল ঈমানের জন্য পরিচিত।",
+        "de": "Bedeutender islamischer Gelehrter."
+      },
       "works": [],
       "journeys": [],
-      "connections": ["abubakr", "umar"],
-      "lifespan_years": 60
+      "connections": [
+        "abubakr",
+        "umar"
+      ],
+      "lifespan_years": 60,
+      "references": [
+        {
+          "title": {
+            "en": "Bilal ibn Rabah: The Muezzin of Islam",
+            "bn": "বেলাল ইবনে রাবাহ: ইসলামের মুয়াজ্জিন"
+          },
+          "author": "Various Authors"
+        }
+      ],
+      "videos": [
+        {
+          "title": {
+            "en": "Bilal Ibn Rabah (ra): The Voice of Certainty | The Firsts | Dr. Omar Suleiman",
+            "bn": "বেলাল ইবনে রাবাহের গল্প"
+          },
+          "url": "https://www.youtube.com/watch?v=DjZhcjPEwbU"
+        }
+      ]
     }
   ]
 }
