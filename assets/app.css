@@ -388,6 +388,7 @@ small { font-size: 0.875rem; font-weight: 500; color: var(--text-muted); }
     overflow-y: auto;
     padding: 1rem;
     -webkit-overflow-scrolling: touch;
+    transition: opacity 0.15s ease-in-out;
 }
 
 /* Timeline (now positioned above map) */
@@ -743,11 +744,17 @@ small { font-size: 0.875rem; font-weight: 500; color: var(--text-muted); }
     cursor: pointer;
 }
 
-.sub-event:hover, .scholar-card:hover {
+.sub-event:hover, .scholar-card:hover,
+.sub-event.selected {
     border-color: var(--primary-color);
     background: var(--card-bg);
     box-shadow: var(--shadow-sm);
     transform: translateY(-2px);
+}
+
+.sub-event.selected {
+    background: var(--primary-light);
+    border-width: 2px;
 }
 
 .sub-event:focus, .scholar-card:focus,

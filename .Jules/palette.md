@@ -5,3 +5,7 @@
 ## 2024-05-24 - Interactive Scholar Details & Map Navigation
 **Learning:** In data-rich applications, transitioning from a list to a detail view within a sidebar can disorient users if not handled with clear navigation cues. Interactive elements on a map should be synchronized with the sidebar content to provide a cohesive "spatial" understanding of historical data.
 **Action:** Implemented a "Back to List" button in the scholar detail view and added high-contrast `focus-visible` styles (3px box-shadow) to all interactive elements. Synchronized map markers and paths with the selected scholar to visualize their life journeys.
+
+## 2024-05-25 - Smooth Sidebar Transitions and Selection Feedback
+**Learning:** Instant content swaps in a sidebar can feel jarring and break the user's flow. Introducing a brief fade transition (e.g., 150ms) provides a subtle visual cue that the content is changing, making the interface feel more polished and responsive. Additionally, visual selection feedback in lists (like events) is crucial for maintaining the connection between the selected list item and its representation on a map.
+**Action:** Implemented opacity transitions for sidebar content updates and added a ".selected" state for event items to provide immediate visual feedback.

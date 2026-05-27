@@ -528,12 +528,15 @@
 
     function updateSidebar() {
         const content = document.getElementById('sidebarContent');
+        if (!content) return;
+
+        // Ensure visible initially if it was hidden
+        if (content.style.opacity === '') content.style.opacity = '1';
         
         // Fade out
         content.style.opacity = '0';
         
         setTimeout(() => {
-            if (!content) return;
             content.innerHTML = '';
             
             if (selectedScholarId && currentTab === 'scholars') {
@@ -551,10 +554,10 @@
             content.scrollTop = 0;
 
             // Fade in
-            setTimeout(() => {
+            requestAnimationFrame(() => {
                 content.style.opacity = '1';
-            }, 50);
-        }, 100);
+            });
+        }, 150);
     }
 
 
@@ -571,6 +574,8 @@
             div.style.cursor = ev.coords ? 'pointer' : 'default';
             div.innerHTML = `<span class="se-year">${localize(ev.year)}</span><span class="se-title">${localize(ev.title)}</span><p class="se-desc">${localize(ev.desc)}</p>`;
             if (ev.coords) {
+                div.setAttribute('role', 'button');
+                div.setAttribute('tabindex', '0');
                 div.addEventListener('click', () => {
                     clearMapHighlights();
                     document.querySelectorAll('.sub-event.selected').forEach(item => item.classList.remove('selected'));
@@ -588,6 +593,12 @@
                     marker.bindPopup(makeEventPopup(ev)).openPopup();
                     marker.on('click', () => marker.openPopup());
                     map.flyTo(ev.coords, 5, { duration: 1.5 });
+                });
+                div.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        div.click();
+                    }
                 });
             }
             content.appendChild(div);
