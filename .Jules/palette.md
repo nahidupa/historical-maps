@@ -5,3 +5,7 @@
 ## 2024-05-24 - Interactive Scholar Details & Map Navigation
 **Learning:** In data-rich applications, transitioning from a list to a detail view within a sidebar can disorient users if not handled with clear navigation cues. Interactive elements on a map should be synchronized with the sidebar content to provide a cohesive "spatial" understanding of historical data.
 **Action:** Implemented a "Back to List" button in the scholar detail view and added high-contrast `focus-visible` styles (3px box-shadow) to all interactive elements. Synchronized map markers and paths with the selected scholar to visualize their life journeys.
+
+## 2026-05-27 - German Localization Support
+**Learning:** Multi-language support in vanilla JS apps requires careful management of state and consistent update of all UI elements (timeline, map, sidebar).
+**Action:** Implemented a cycling language toggle (En -> Bn -> De) and updated all data fetch/display logic to use a centralized `localize` function.

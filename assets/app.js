@@ -12,83 +12,83 @@
     let currentLang = 'en';
 
     const uiText = {
-        appTitle: { en: 'Islamic History', bn: 'ইসলামের ইতিহাস' },
-        appSubtitle: { en: 'Interactive Choropleth & Timeline', bn: 'ইন্টারঅ্যাকটিভ মানচিত্র ও সময়রেখা' },
-        historicalMap: { en: 'Historical', bn: 'ঐতিহাসিক' },
-        neutralMap: { en: 'Neutral', bn: 'নিরপেক্ষ' },
-        modernMap: { en: 'Modern', bn: 'আধুনিক' },
-        era: { en: 'Era', bn: 'যুগ' },
-        historicalContext: { en: 'Historical Context', bn: 'ঐতিহাসিক প্রেক্ষাপট' },
-        events: { en: 'Events', bn: 'ঘটনা' },
-        scholars: { en: 'Scholars', bn: 'মনীষী' },
-        greekInfluence: { en: 'Greek Influence', bn: 'গ্রিক প্রভাব' },
-        noEvents: { en: 'No major events recorded for this era.', bn: 'এই যুগের জন্য বড় কোনো ঘটনা যুক্ত করা হয়নি।' },
-        noScholars: { en: 'No major scholars recorded for this era.', bn: 'এই যুগের জন্য বড় কোনো মনীষী যুক্ত করা হয়নি।' },
-        noGreek: { en: 'No notable Greek influences identified for this era.', bn: 'এই যুগের জন্য উল্লেখযোগ্য গ্রিক প্রভাব যুক্ত করা হয়নি।' },
-        backToList: { en: 'Back to List', bn: 'তালিকায় ফিরুন' },
-        years: { en: 'years', bn: 'বছর' },
-        fields: { en: 'Fields', bn: 'বিষয়' },
-        born: { en: 'Born', bn: 'জন্ম' },
-        active: { en: 'Active', bn: 'কর্মক্ষেত্র' },
-        notableWorks: { en: 'Notable Works', bn: 'উল্লেখযোগ্য রচনা' },
-        lifeJourneys: { en: 'Life Journeys', bn: 'জীবনপথ' },
-        intellectualConnections: { en: 'Intellectual Connections', bn: 'জ্ঞানগত সম্পর্ক' },
-        noWorks: { en: 'No works recorded.', bn: 'কোনো রচনা যুক্ত করা হয়নি।' },
-        noJourneys: { en: 'No major journeys recorded.', bn: 'কোনো প্রধান জীবনপথ যুক্ত করা হয়নি।' },
-        noneRecorded: { en: 'None recorded', bn: 'কিছু যুক্ত করা হয়নি' },
-        birthplace: { en: 'Birthplace', bn: 'জন্মস্থান' },
-        journey: { en: 'Journey', bn: 'জীবনপথ' },
-        activePlace: { en: 'Active', bn: 'কর্মক্ষেত্র' },
-        influence: { en: 'Influence', bn: 'প্রভাব' },
-        viewDetails: { en: 'View details for', bn: 'বিস্তারিত দেখুন' },
-        viewOnMap: { en: 'View on Map', bn: 'মানচিত্রে দেখুন' },
-        accuracyHigh: { en: 'High Accuracy', bn: 'উচ্চ নির্ভুলতা' },
-        accuracyMedium: { en: 'Medium Accuracy', bn: 'মাঝারি নির্ভুলতা' },
-        accuracyLow: { en: 'Low Accuracy', bn: 'কম নির্ভুলতা' },
-        historicalRegion: { en: 'Historical Region', bn: 'ঐতিহাসিক অঞ্চল' },
-        hoverRegion: { en: 'Hover over a region', bn: 'অঞ্চলের ওপর স্পর্শ করুন' },
-        regions: { en: 'Regions', bn: 'অঞ্চল' },
-        recommendedReading: { en: 'Recommended Reading', bn: 'প্রস্তাবিত পাঠ' },
-        watchLearn: { en: 'Watch & Learn', bn: 'দেখুন ও শিখুন' },
-        noReferences: { en: 'No references recorded.', bn: 'কোনো তথ্যসূত্র যুক্ত করা হয়নি।' },
-        noVideos: { en: 'No videos recorded.', bn: 'কোনো ভিডিও যুক্ত করা হয়নি।' }
+        appTitle: { en: 'Islamic History', bn: 'ইসলামের ইতিহাস', de: 'Islamische Geschichte' },
+        appSubtitle: { en: 'Interactive Choropleth & Timeline', bn: 'ইন্টারঅ্যাকটিভ মানচিত্র ও সময়রেখা', de: 'Interaktive Choroplethenkarte & Zeitlinie' },
+        historicalMap: { en: 'Historical', bn: 'ঐতিহাসিক', de: 'Historisch' },
+        neutralMap: { en: 'Neutral', bn: 'নিরপেক্ষ', de: 'Neutral' },
+        modernMap: { en: 'Modern', bn: 'আধুনিক', de: 'Modern' },
+        era: { en: 'Era', bn: 'যুগ', de: 'Epoche' },
+        historicalContext: { en: 'Historical Context', bn: 'ঐতিহাসিক প্রেক্ষাপট', de: 'Historischer Kontext' },
+        events: { en: 'Events', bn: 'ঘটনা', de: 'Ereignisse' },
+        scholars: { en: 'Scholars', bn: 'মনীষী', de: 'Gelehrte' },
+        greekInfluence: { en: 'Greek Influence', bn: 'গ্রিক প্রভাব', de: 'Griechischer Einfluss' },
+        noEvents: { en: 'No major events recorded for this era.', bn: 'এই যুগের জন্য বড় কোনো ঘটনা যুক্ত করা হয়নি।', de: 'Keine größeren Ereignisse für diese Epoche aufgezeichnet.' },
+        noScholars: { en: 'No major scholars recorded for this era.', bn: 'এই যুগের জন্য বড় কোনো মনীষী যুক্ত করা হয়নি।', de: 'Keine bedeutenden Gelehrten für diese Epoche aufgezeichnet.' },
+        noGreek: { en: 'No notable Greek influences identified for this era.', bn: 'এই যুগের জন্য উল্লেখযোগ্য গ্রিক প্রভাব যুক্ত করা হয়নি।', de: 'Keine nennenswerten griechischen Einflüsse für diese Epoche identifiziert.' },
+        backToList: { en: 'Back to List', bn: 'তালিকায় ফিরুন', de: 'Zurück zur Liste' },
+        years: { en: 'years', bn: 'বছর', de: 'Jahre' },
+        fields: { en: 'Fields', bn: 'বিষয়', de: 'Fachbereiche' },
+        born: { en: 'Born', bn: 'জন্ম', de: 'Geboren' },
+        active: { en: 'Active', bn: 'কর্মক্ষেত্র', de: 'Aktiv' },
+        notableWorks: { en: 'Notable Works', bn: 'উল্লেখযোগ্য রচনা', de: 'Bedeutende Werke' },
+        lifeJourneys: { en: 'Life Journeys', bn: 'জীবনপথ', de: 'Lebenswege' },
+        intellectualConnections: { en: 'Intellectual Connections', bn: 'জ্ঞানগত সম্পর্ক', de: 'Intellektuelle Verbindungen' },
+        noWorks: { en: 'No works recorded.', bn: 'কোনো রচনা যুক্ত করা হয়নি।', de: 'Keine Werke aufgezeichnet.' },
+        noJourneys: { en: 'No major journeys recorded.', bn: 'কোনো প্রধান জীবনপথ যুক্ত করা হয়নি।', de: 'Keine größeren Reisen aufgezeichnet.' },
+        noneRecorded: { en: 'None recorded', bn: 'কিছু যুক্ত করা হয়নি', de: 'Nichts aufgezeichnet' },
+        birthplace: { en: 'Birthplace', bn: 'জন্মস্থান', de: 'Geburtsort' },
+        journey: { en: 'Journey', bn: 'জীবনপথ', de: 'Reise' },
+        activePlace: { en: 'Active', bn: 'কর্মক্ষেত্র', de: 'Aktivitätsort' },
+        influence: { en: 'Influence', bn: 'প্রভাব', de: 'Einfluss' },
+        viewDetails: { en: 'View details for', bn: 'বিস্তারিত দেখুন', de: 'Details anzeigen für' },
+        viewOnMap: { en: 'View on Map', bn: 'মানচিত্রে দেখুন', de: 'Auf der Karte anzeigen' },
+        accuracyHigh: { en: 'High Accuracy', bn: 'উচ্চ নির্ভুলতা', de: 'Hohe Genauigkeit' },
+        accuracyMedium: { en: 'Medium Accuracy', bn: 'মাঝারি নির্ভুলতা', de: 'Mittlere Genauigkeit' },
+        accuracyLow: { en: 'Low Accuracy', bn: 'কম নির্ভুলতা', de: 'Geringe Genauigkeit' },
+        historicalRegion: { en: 'Historical Region', bn: 'ঐতিহাসিক অঞ্চল', de: 'Historische Region' },
+        hoverRegion: { en: 'Hover over a region', bn: 'অঞ্চলের ওপর স্পর্শ করুন', de: 'Bewegen Sie den Mauszeiger über eine Region' },
+        regions: { en: 'Regions', bn: 'অঞ্চল', de: 'Regionen' },
+        recommendedReading: { en: 'Recommended Reading', bn: 'প্রস্তাবিত পাঠ', de: 'Leseempfehlungen' },
+        watchLearn: { en: 'Watch & Learn', bn: 'দেখুন ও শিখুন', de: 'Ansehen & Lernen' },
+        noReferences: { en: 'No references recorded.', bn: 'কোনো তথ্যসূত্র যুক্ত করা হয়নি।', de: 'Keine Referenzen aufgezeichnet.' },
+        noVideos: { en: 'No videos recorded.', bn: 'কোনো ভিডিও যুক্ত করা হয়নি।', de: 'Keine Videos aufgezeichnet.' }
     };
 
-    const eraMeta = [
+        const eraMeta = [
         {
-            name: { en: 'Classical Period', bn: 'ধ্রুপদী যুগ' },
-            period: { en: '-500 to 500 CE', bn: '৫০০ খ্রিষ্টপূর্বাব্দ - ৫০০ খ্রিষ্টাব্দ' },
-            summary: { en: 'Greek philosophy, Roman expansion, rise of Christianity', bn: 'গ্রিক দর্শন, রোমান বিস্তার ও খ্রিস্টধর্মের উত্থান' }
+            name: { en: 'Classical Period', bn: 'ধ্রুপদী যুগ', de: 'Antike' },
+            period: { en: '-500 to 500 CE', bn: '৫০০ খ্রিষ্টপূর্বাব্দ - ৫০০ খ্রিষ্টাব্দ', de: '-500 bis 500 CE' },
+            summary: { en: 'Greek philosophy, Roman expansion, rise of Christianity', bn: 'গ্রিক দর্শন, রোমান বিস্তার ও খ্রিস্টধর্মের উত্থান', de: 'Griechische Philosophie, römische Expansion, Aufstieg des Christentums' }
         },
         {
-            name: { en: 'Prophet Muhammad', bn: 'নবী মুহাম্মদ' },
-            period: { en: '570-632 CE', bn: '৫৭০-৬৩২ খ্রিষ্টাব্দ' },
-            summary: { en: 'Birth of Islam, revelation of the Quran, unification of Arabia', bn: 'ইসলামের জন্ম, কুরআন অবতরণ ও আরবের ঐক্য' }
+            name: { en: 'Prophet Muhammad', bn: 'নবী মুহাম্মদ', de: 'Prophet Mohammed' },
+            period: { en: '570-632 CE', bn: '৫৭০-৬৩২ খ্রিষ্টাব্দ', de: '570-632 CE' },
+            summary: { en: 'Birth of Islam, revelation of the Quran, unification of Arabia', bn: 'ইসলামের জন্ম, কুরআন অবতরণ ও আরবের ঐক্য', de: 'Geburt des Islams, Offenbarung des Korans, Vereinigung Arabiens' }
         },
         {
-            name: { en: 'Rashidun Caliphate', bn: 'রাশিদুন খিলাফত' },
-            period: { en: '632-661 CE', bn: '৬৩২-৬৬১ খ্রিষ্টাব্দ' },
-            summary: { en: 'First four Caliphs, rapid expansion into Persia and Byzantium', bn: 'প্রথম চার খলিফা এবং পারস্য ও বাইজেন্টাইনে দ্রুত বিস্তার' }
+            name: { en: 'Rashidun Caliphate', bn: 'রাশিদুন খিলাফত', de: 'Rechtgeleitetes Kalifat' },
+            period: { en: '632-661 CE', bn: '৬৩২-৬৬১ খ্রিষ্টাব্দ', de: '632-661 CE' },
+            summary: { en: 'First four Caliphs, rapid expansion into Persia and Byzantium', bn: 'প্রথম চার খলিফা এবং পারস্য ও বাইজেন্টাইনে দ্রুত বিস্তার', de: 'Die ersten vier Kalifen, schnelle Expansion nach Persien und Byzanz' }
         },
         {
-            name: { en: 'Umayyad & Abbasid', bn: 'উমাইয়া ও আব্বাসীয়' },
-            period: { en: '661-1258 CE', bn: '৬৬১-১২৫৮ খ্রিষ্টাব্দ' },
-            summary: { en: 'Golden Age, House of Wisdom, scientific revolution', bn: 'স্বর্ণযুগ, বাইতুল হিকমা ও বৈজ্ঞানিক অগ্রগতি' }
+            name: { en: 'Umayyad & Abbasid', bn: 'উমাইয়া ও আব্বাসীয়', de: 'Umayyaden & Abbasiden' },
+            period: { en: '661-1258 CE', bn: '৬৬১-১২৫৮ খ্রিষ্টাব্দ', de: '661-1258 CE' },
+            summary: { en: 'Golden Age, House of Wisdom, scientific revolution', bn: 'স্বর্ণযুগ, বাইতুল হিকমা ও বৈজ্ঞানিক অগ্রগতি', de: 'Goldenes Zeitalter, Haus der Weisheit, wissenschaftliche Revolution' }
         },
         {
-            name: { en: 'Regional Dynasties', bn: 'আঞ্চলিক রাজবংশ' },
-            period: { en: '900-1600 CE', bn: '৯০০-১৬০০ খ্রিষ্টাব্দ' },
-            summary: { en: 'Fragmentation, Crusades, Mongol invasions, scholarly excellence', bn: 'আঞ্চলিক শক্তি, ক্রুসেড, মঙ্গোল আক্রমণ ও জ্ঞানচর্চা' }
+            name: { en: 'Regional Dynasties', bn: 'আঞ্চলিক রাজবংশ', de: 'Regionale Dynastien' },
+            period: { en: '900-1600 CE', bn: '৯০০-১৬০০ খ্রিষ্টাব্দ', de: '900-1600 CE' },
+            summary: { en: 'Fragmentation, Crusades, Mongol invasions, scholarly excellence', bn: 'আঞ্চলিক শক্তি, ক্রুসেড, মঙ্গোল আক্রমণ ও জ্ঞানচর্চা', de: 'Fragmentierung, Kreuzzüge, Mongoleninvasionen, wissenschaftliche Exzellenz' }
         },
         {
-            name: { en: 'Gunpowder Empires', bn: 'গানপাউডার সাম্রাজ্য' },
-            period: { en: '1400-1922 CE', bn: '১৪০০-১৯২২ খ্রিষ্টাব্দ' },
-            summary: { en: 'Ottoman, Safavid, Mughal empires at their height', bn: 'অটোমান, সাফাভি ও মুঘল সাম্রাজ্যের উৎকর্ষ' }
+            name: { en: 'Gunpowder Empires', bn: 'গানপাউডার সাম্রাজ্য', de: 'Pulverreiche' },
+            period: { en: '1400-1922 CE', bn: '১৪০০-১৯২২ খ্রিষ্টাব্দ', de: '1400-1922 CE' },
+            summary: { en: 'Ottoman, Safavid, Mughal empires at their height', bn: 'অটোমান, সাফাভি ও মুঘল সাম্রাজ্যের উৎকর্ষ', de: 'Osmanisches, Safawidisches und Mogulreich auf ihrem Höhepunkt' }
         },
         {
-            name: { en: 'Modern Era', bn: 'আধুনিক যুগ' },
-            period: { en: '1900-2026 CE', bn: '১৯০০-২০২৬ খ্রিষ্টাব্দ' },
-            summary: { en: 'Colonial independence, nation-states, contemporary Islam', bn: 'উপনিবেশ-পরবর্তী স্বাধীনতা, জাতিরাষ্ট্র ও সমকালীন ইসলাম' }
+            name: { en: 'Modern Era', bn: 'আধুনিক যুগ', de: 'Moderne Ära' },
+            period: { en: '1900-2026 CE', bn: '১৯০০-২০২৬ খ্রিষ্টাব্দ', de: '1900-2026 CE' },
+            summary: { en: 'Colonial independence, nation-states, contemporary Islam', bn: 'উপনিবেশ-পরবর্তী স্বাধীনতা, জাতিরাষ্ট্র ও সমকালীন ইসলাম', de: 'Koloniale Unabhängigkeit, Nationalstaaten, zeitgenössischer Islam' }
         }
     ];
 
@@ -138,17 +138,26 @@
     }
 
     function updateLanguageUI() {
-        document.documentElement.lang = currentLang === 'bn' ? 'bn' : 'en';
+        document.documentElement.lang = currentLang;
         document.body.classList.toggle('lang-bn', currentLang === 'bn');
+        document.body.classList.toggle('lang-de', currentLang === 'de');
 
         document.querySelectorAll('[data-i18n]').forEach(el => {
             el.textContent = t(el.dataset.i18n);
         });
 
-        const languageToggle = document.getElementById('languageToggle');
+                const languageToggle = document.getElementById('languageToggle');
         if (languageToggle) {
-            languageToggle.textContent = currentLang === 'en' ? 'বাংলা' : 'English';
-            languageToggle.setAttribute('aria-label', currentLang === 'en' ? 'Switch to Bengali' : 'Switch to English');
+            if (currentLang === 'en') {
+                languageToggle.textContent = 'বাংলা';
+                languageToggle.setAttribute('aria-label', 'Switch to Bengali');
+            } else if (currentLang === 'bn') {
+                languageToggle.textContent = 'Deutsch';
+                languageToggle.setAttribute('aria-label', 'Switch to German');
+            } else {
+                languageToggle.textContent = 'English';
+                languageToggle.setAttribute('aria-label', 'Switch to English');
+            }
         }
 
         document.querySelectorAll('.tl-item').forEach((item, index) => {
@@ -231,7 +240,7 @@
     });
 
     document.getElementById('languageToggle')?.addEventListener('click', () => {
-        currentLang = currentLang === 'en' ? 'bn' : 'en';
+        currentLang = currentLang === 'en' ? 'bn' : (currentLang === 'bn' ? 'de' : 'en');
         updateLanguageUI();
         if (subEventsData && scholarsData && greekData) {
             updateSidebar();
@@ -1092,8 +1101,9 @@
                             info.update();
                         },
                         click: (e) => {
-                            const description = f.properties.description || '';
-                            l.bindPopup(`<strong>${f.properties.name}</strong><br>${description}`).openPopup(e.latlng);
+                            const name = localize(f.properties.name);
+                            const description = localize(f.properties.description) || '';
+                            l.bindPopup(`<strong>${name}</strong><br>${description}`).openPopup(e.latlng);
                         }
                     });
                 }

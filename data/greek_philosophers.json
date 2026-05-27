@@ -4,16 +4,19 @@
       "id": "socrates",
       "name": {
         "en": "Socrates",
-        "bn": "সক্রেটিস"
+        "bn": "সক্রেটিস",
+        "de": "Socrates"
       },
       "lifespan": "470–399 BCE",
       "summary": {
         "en": "Foundational figure in Western philosophy; his method focused on questioning.",
-        "bn": "পাশ্চাত্য দর্শনের ভিত্তিপ্রস্তর স্থাপনকারী; তার পদ্ধতি ছিল প্রশ্নোত্তরের মাধ্যমে সত্য অনুসন্ধান।"
+        "bn": "পাশ্চাত্য দর্শনের ভিত্তিপ্রস্তর স্থাপনকারী; তার পদ্ধতি ছিল প্রশ্নোত্তরের মাধ্যমে সত্য অনুসন্ধান।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Ethics · Dialectic",
-        "bn": "নৈতিকতা · প্রশ্নপদ্ধতি"
+        "bn": "নৈতিকতা · প্রশ্নপদ্ধতি",
+        "de": "Ethics · Dialectic"
       },
       "birthplace": {
         "en": "Athens, Greece",
@@ -21,7 +24,8 @@
         "coords": [
           37.9838,
           23.7275
-        ]
+        ],
+        "de": "Athens, Greece"
       },
       "active": {
         "en": "Athens",
@@ -29,7 +33,8 @@
         "coords": [
           37.9838,
           23.7275
-        ]
+        ],
+        "de": "Athens"
       },
       "works": [
         {
@@ -45,7 +50,8 @@
       ],
       "influence": {
         "en": "His method of structured questioning shaped later philosophical teaching and debate traditions.",
-        "bn": "তার সুশৃঙ্খল প্রশ্নপদ্ধতি পরবর্তী দার্শনিক শিক্ষা ও বিতর্কের ঐতিহ্যকে প্রভাবিত করে।"
+        "bn": "তার সুশৃঙ্খল প্রশ্নপদ্ধতি পরবর্তী দার্শনিক শিক্ষা ও বিতর্কের ঐতিহ্যকে প্রভাবিত করে।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0,
@@ -75,16 +81,19 @@
       "id": "plato",
       "name": {
         "en": "Plato",
-        "bn": "প্লেটো"
+        "bn": "প্লেটো",
+        "de": "Plato"
       },
       "lifespan": "427–347 BCE",
       "summary": {
         "en": "Student of Socrates; founded the Academy; highly influential on Al-Farabi.",
-        "bn": "সক্রেটিসের ছাত্র; একাডেমি প্রতিষ্ঠা করেন; আল-ফারাবীর ওপর তার ব্যাপক প্রভাব ছিল।"
+        "bn": "সক্রেটিসের ছাত্র; একাডেমি প্রতিষ্ঠা করেন; আল-ফারাবীর ওপর তার ব্যাপক প্রভাব ছিল।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Metaphysics · Political Philosophy",
-        "bn": "অধিবিদ্যা · রাজনৈতিক দর্শন"
+        "bn": "অধিবিদ্যা · রাজনৈতিক দর্শন",
+        "de": "Philosophie"
       },
       "birthplace": {
         "en": "Athens, Greece",
@@ -92,7 +101,8 @@
         "coords": [
           37.9838,
           23.7275
-        ]
+        ],
+        "de": "Athens, Greece"
       },
       "active": {
         "en": "Academy of Athens",
@@ -100,7 +110,8 @@
         "coords": [
           37.9944,
           23.7083
-        ]
+        ],
+        "de": "Academy of Athens"
       },
       "works": [
         {
@@ -126,7 +137,8 @@
       ],
       "influence": {
         "en": "Plato's ideal city and metaphysics shaped Al-Farabi's political philosophy.",
-        "bn": "প্লেটোর আদর্শ নগর ও অধিবিদ্যা আল-ফারাবীর রাজনৈতিক দর্শনকে প্রভাবিত করে।"
+        "bn": "প্লেটোর আদর্শ নগর ও অধিবিদ্যা আল-ফারাবীর রাজনৈতিক দর্শনকে প্রভাবিত করে।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0,
@@ -156,16 +168,19 @@
       "id": "aristotle",
       "name": {
         "en": "Aristotle",
-        "bn": "অ্যারিস্টটল"
+        "bn": "অ্যারিস্টটল",
+        "de": "Aristotle"
       },
       "lifespan": "384–322 BCE",
       "summary": {
         "en": "Known as 'The First Teacher'; his works on logic and metaphysics formed the core of the Islamic Golden Age translations.",
-        "bn": "'প্রথম শিক্ষক' হিসেবে পরিচিত; যুক্তিবিদ্যা ও অধিবিদ্যার ওপর তার কাজগুলো ইসলামী স্বর্ণযুগের অনুবাদের মূল ভিত্তি ছিল।"
+        "bn": "'প্রথম শিক্ষক' হিসেবে পরিচিত; যুক্তিবিদ্যা ও অধিবিদ্যার ওপর তার কাজগুলো ইসলামী স্বর্ণযুগের অনুবাদের মূল ভিত্তি ছিল।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Logic · Metaphysics · Natural Philosophy",
-        "bn": "যুক্তিবিদ্যা · অধিবিদ্যা · প্রাকৃতিক দর্শন"
+        "bn": "যুক্তিবিদ্যা · অধিবিদ্যা · প্রাকৃতিক দর্শন",
+        "de": "Philosophie"
       },
       "birthplace": {
         "en": "Stagira, Greece",
@@ -173,7 +188,8 @@
         "coords": [
           40.591,
           23.792
-        ]
+        ],
+        "de": "Stagira, Greece"
       },
       "active": {
         "en": "Lyceum, Athens",
@@ -181,7 +197,8 @@
         "coords": [
           37.9755,
           23.7404
-        ]
+        ],
+        "de": "Lyceum, Athens"
       },
       "works": [
         {
@@ -207,7 +224,8 @@
       ],
       "influence": {
         "en": "Arabic commentators called him the First Teacher; Al-Farabi, Ibn Sina, and Ibn Rushd built major systems around his works.",
-        "bn": "আরবি ভাষ্যকাররা তাকে প্রথম শিক্ষক বলতেন; আল-ফারাবী, ইবন সিনা ও ইবন রুশদ তার কাজকে কেন্দ্র করে বড় দার্শনিক পদ্ধতি নির্মাণ করেন।"
+        "bn": "আরবি ভাষ্যকাররা তাকে প্রথম শিক্ষক বলতেন; আল-ফারাবী, ইবন সিনা ও ইবন রুশদ তার কাজকে কেন্দ্র করে বড় দার্শনিক পদ্ধতি নির্মাণ করেন।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0,
@@ -238,16 +256,19 @@
       "id": "galen",
       "name": {
         "en": "Galen",
-        "bn": "গ্যালেন"
+        "bn": "গ্যালেন",
+        "de": "Galen"
       },
       "lifespan": "129–216 CE",
       "summary": {
         "en": "His medical texts were the gold standard for Islamic physicians like Al-Razi and Ibn Sina.",
-        "bn": "তার চিকিৎসা শাস্ত্রের গ্রন্থগুলো আল-রাজি এবং ইবনে সিনার মতো ইসলামী চিকিৎসকদের জন্য আদর্শ ছিল।"
+        "bn": "তার চিকিৎসা শাস্ত্রের গ্রন্থগুলো আল-রাজি এবং ইবনে সিনার মতো ইসলামী চিকিৎসকদের জন্য আদর্শ ছিল।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Medicine · Anatomy · Pharmacology",
-        "bn": "চিকিৎসা · অঙ্গসংস্থান · ঔষধবিদ্যা"
+        "bn": "চিকিৎসা · অঙ্গসংস্থান · ঔষধবিদ্যা",
+        "de": "Medicine · Anatomy · Pharmacology"
       },
       "birthplace": {
         "en": "Pergamon, Anatolia",
@@ -255,7 +276,8 @@
         "coords": [
           39.1205,
           27.1809
-        ]
+        ],
+        "de": "Pergamon, Anatolia"
       },
       "active": {
         "en": "Rome and Pergamon",
@@ -263,7 +285,8 @@
         "coords": [
           41.9028,
           12.4964
-        ]
+        ],
+        "de": "Rome and Pergamon"
       },
       "works": [
         {
@@ -279,7 +302,8 @@
       ],
       "influence": {
         "en": "Galenic medicine shaped hospital practice and medical curricula across the medieval Islamic world.",
-        "bn": "গ্যালেনীয় চিকিৎসা মধ্যযুগীয় ইসলামী বিশ্বের হাসপাতাল ও চিকিৎসা শিক্ষাক্রমকে প্রভাবিত করে।"
+        "bn": "গ্যালেনীয় চিকিৎসা মধ্যযুগীয় ইসলামী বিশ্বের হাসপাতাল ও চিকিৎসা শিক্ষাক্রমকে প্রভাবিত করে।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0,
@@ -312,16 +336,19 @@
       "id": "ptolemy",
       "name": {
         "en": "Ptolemy",
-        "bn": "টলেমি"
+        "bn": "টলেমি",
+        "de": "Ptolemy"
       },
       "lifespan": "100–170 CE",
       "summary": {
         "en": "His 'Almagest' provided the astronomical foundation for Islamic science.",
-        "bn": "তার 'আলমাজেস্ট' ইসলামী বিজ্ঞানের জ্যোতির্বিদ্যার ভিত্তি প্রদান করেছিল।"
+        "bn": "তার 'আলমাজেস্ট' ইসলামী বিজ্ঞানের জ্যোতির্বিদ্যার ভিত্তি প্রদান করেছিল।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Astronomy · Geography · Mathematics",
-        "bn": "জ্যোতির্বিদ্যা · ভূগোল · গণিত"
+        "bn": "জ্যোতির্বিদ্যা · ভূগোল · গণিত",
+        "de": "Astronomy · Geography · Mathematics"
       },
       "birthplace": {
         "en": "Alexandria, Egypt",
@@ -329,7 +356,8 @@
         "coords": [
           31.2,
           29.916
-        ]
+        ],
+        "de": "Alexandria, Egypt"
       },
       "active": {
         "en": "Alexandria",
@@ -337,7 +365,8 @@
         "coords": [
           31.2,
           29.916
-        ]
+        ],
+        "de": "Alexandria"
       },
       "works": [
         {
@@ -363,7 +392,8 @@
       ],
       "influence": {
         "en": "Islamic astronomers preserved, critiqued, and improved Ptolemaic astronomy.",
-        "bn": "ইসলামী জ্যোতির্বিদরা টলেমীয় জ্যোতির্বিদ্যাকে সংরক্ষণ, সমালোচনা ও উন্নত করেন।"
+        "bn": "ইসলামী জ্যোতির্বিদরা টলেমীয় জ্যোতির্বিদ্যাকে সংরক্ষণ, সমালোচনা ও উন্নত করেন।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0,
@@ -394,16 +424,19 @@
       "id": "euclid",
       "name": {
         "en": "Euclid",
-        "bn": "ইউক্লিড"
+        "bn": "ইউক্লিড",
+        "de": "Euclid"
       },
       "lifespan": "fl. 300 BCE",
       "summary": {
         "en": "Father of Geometry; his 'Elements' was fundamental to Islamic mathematical progress.",
-        "bn": "জ্যামিতির জনক; তার 'এলিমেন্টস' ইসলামী গণিত শাস্ত্রের অগ্রগতির জন্য মৌলিক ছিল।"
+        "bn": "জ্যামিতির জনক; তার 'এলিমেন্টস' ইসলামী গণিত শাস্ত্রের অগ্রগতির জন্য মৌলিক ছিল।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Geometry · Mathematics",
-        "bn": "জ্যামিতি · গণিত"
+        "bn": "জ্যামিতি · গণিত",
+        "de": "Geometry · Mathematics"
       },
       "birthplace": {
         "en": "Alexandria, Egypt",
@@ -411,7 +444,8 @@
         "coords": [
           31.2,
           29.916
-        ]
+        ],
+        "de": "Alexandria, Egypt"
       },
       "active": {
         "en": "Alexandria",
@@ -419,7 +453,8 @@
         "coords": [
           31.2,
           29.916
-        ]
+        ],
+        "de": "Alexandria"
       },
       "works": [
         {
@@ -435,7 +470,8 @@
       ],
       "influence": {
         "en": "Euclidean geometry became essential for astronomy, optics, architecture, and mathematical proof.",
-        "bn": "ইউক্লিডীয় জ্যামিতি জ্যোতির্বিদ্যা, আলোকবিজ্ঞান, স্থাপত্য ও গাণিতিক প্রমাণে অপরিহার্য হয়ে ওঠে।"
+        "bn": "ইউক্লিডীয় জ্যামিতি জ্যোতির্বিদ্যা, আলোকবিজ্ঞান, স্থাপত্য ও গাণিতিক প্রমাণে অপরিহার্য হয়ে ওঠে।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0,
@@ -466,16 +502,19 @@
       "id": "archimedes",
       "name": {
         "en": "Archimedes",
-        "bn": "আর্কিমিডিস"
+        "bn": "আর্কিমিডিস",
+        "de": "Archimedes"
       },
       "lifespan": "287–212 BCE",
       "summary": {
         "en": "Greek mathematician and engineer whose works on spheres and cylinders were translated into Arabic.",
-        "bn": "গ্রিক গণিতবিদ ও প্রকৌশলী যার গোলক এবং সিলিন্ডারের ওপর কাজগুলো আরবিতে অনূদিত হয়েছিল।"
+        "bn": "গ্রিক গণিতবিদ ও প্রকৌশলী যার গোলক এবং সিলিন্ডারের ওপর কাজগুলো আরবিতে অনূদিত হয়েছিল।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Mathematics · Mechanics · Engineering",
-        "bn": "গণিত · বলবিদ্যা · প্রকৌশল"
+        "bn": "গণিত · বলবিদ্যা · প্রকৌশল",
+        "de": "Mathematics · Mechanics · Engineering"
       },
       "birthplace": {
         "en": "Syracuse, Sicily",
@@ -483,7 +522,8 @@
         "coords": [
           37.068,
           15.285
-        ]
+        ],
+        "de": "Syracuse, Sicily"
       },
       "active": {
         "en": "Syracuse",
@@ -491,7 +531,8 @@
         "coords": [
           37.068,
           15.285
-        ]
+        ],
+        "de": "Syracuse"
       },
       "works": [
         {
@@ -517,7 +558,8 @@
       ],
       "influence": {
         "en": "His mathematical physics influenced Arabic mechanics and engineering traditions.",
-        "bn": "তার গাণিতিক পদার্থবিদ্যা আরবি বলবিদ্যা ও প্রকৌশল ঐতিহ্যে প্রভাব ফেলে।"
+        "bn": "তার গাণিতিক পদার্থবিদ্যা আরবি বলবিদ্যা ও প্রকৌশল ঐতিহ্যে প্রভাব ফেলে।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0,
@@ -547,16 +589,19 @@
       "id": "hippocrates",
       "name": {
         "en": "Hippocrates",
-        "bn": "হিপোক্রেটিস"
+        "bn": "হিপোক্রেটিস",
+        "de": "Hippocrates"
       },
       "lifespan": "460–370 BCE",
       "summary": {
         "en": "Father of Medicine; the Hippocratic Oath remains a standard for medical ethics.",
-        "bn": "চিকিৎসা বিজ্ঞানের জনক; হিপোক্রেটিক শপথ আজও চিকিৎসা নীতিশাস্ত্রের মানদণ্ড।"
+        "bn": "চিকিৎসা বিজ্ঞানের জনক; হিপোক্রেটিক শপথ আজও চিকিৎসা নীতিশাস্ত্রের মানদণ্ড।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Medicine · Medical Ethics",
-        "bn": "চিকিৎসা · চিকিৎসা নীতিশাস্ত্র"
+        "bn": "চিকিৎসা · চিকিৎসা নীতিশাস্ত্র",
+        "de": "Medicine · Medical Ethics"
       },
       "birthplace": {
         "en": "Kos, Greece",
@@ -564,7 +609,8 @@
         "coords": [
           36.891,
           27.288
-        ]
+        ],
+        "de": "Kos, Greece"
       },
       "active": {
         "en": "Kos",
@@ -572,7 +618,8 @@
         "coords": [
           36.891,
           27.288
-        ]
+        ],
+        "de": "Kos"
       },
       "works": [
         {
@@ -588,7 +635,8 @@
       ],
       "influence": {
         "en": "Hippocratic medicine informed Arabic medical classifications and clinical observation.",
-        "bn": "হিপোক্রেটীয় চিকিৎসা আরবি চিকিৎসা শ্রেণিবিভাগ ও রোগ পর্যবেক্ষণে প্রভাব ফেলে।"
+        "bn": "হিপোক্রেটীয় চিকিৎসা আরবি চিকিৎসা শ্রেণিবিভাগ ও রোগ পর্যবেক্ষণে প্রভাব ফেলে।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0,
@@ -621,16 +669,19 @@
       "id": "herodotus",
       "name": {
         "en": "Herodotus",
-        "bn": "হেরোডোটাস"
+        "bn": "হেরোডোটাস",
+        "de": "Herodotus"
       },
       "lifespan": "484–425 BCE",
       "summary": {
         "en": "Father of History; known for his systematic collection of materials and historical narratives.",
-        "bn": "ইতিহাসের জনক; ঐতিহাসিক বর্ণনা ও তথ্য সংগ্রহের জন্য সুপরিচিত।"
+        "bn": "ইতিহাসের জনক; ঐতিহাসিক বর্ণনা ও তথ্য সংগ্রহের জন্য সুপরিচিত।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "History · Ethnography",
-        "bn": "ইতিহাস · জাতিবর্ণনা"
+        "bn": "ইতিহাস · জাতিবর্ণনা",
+        "de": "History · Ethnography"
       },
       "birthplace": {
         "en": "Halicarnassus, Anatolia",
@@ -638,7 +689,8 @@
         "coords": [
           37.038,
           27.429
-        ]
+        ],
+        "de": "Halicarnassus, Anatolia"
       },
       "active": {
         "en": "Eastern Mediterranean",
@@ -646,7 +698,8 @@
         "coords": [
           37.038,
           27.429
-        ]
+        ],
+        "de": "Eastern Mediterranean"
       },
       "works": [
         {
@@ -662,7 +715,8 @@
       ],
       "influence": {
         "en": "His geographical-historical style anticipated later universal history and travel writing.",
-        "bn": "তার ভূগোলভিত্তিক ইতিহাসরীতি পরবর্তী বিশ্বইতিহাস ও ভ্রমণসাহিত্যের পূর্বসূরি।"
+        "bn": "তার ভূগোলভিত্তিক ইতিহাসরীতি পরবর্তী বিশ্বইতিহাস ও ভ্রমণসাহিত্যের পূর্বসূরি।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0
@@ -690,16 +744,19 @@
       "id": "pythagoras",
       "name": {
         "en": "Pythagoras",
-        "bn": "পিথাগোরাস"
+        "bn": "পিথাগোরাস",
+        "de": "Pythagoras"
       },
       "lifespan": "570–495 BCE",
       "summary": {
         "en": "Famous for the Pythagorean theorem; his work influenced both math and music theory.",
-        "bn": "পিথাগোরাসের উপপাদ্যের জন্য বিখ্যাত; তার কাজ গণিত এবং সঙ্গীত তত্ত্ব উভয়কেই প্রভাবিত করেছিল।"
+        "bn": "পিথাগোরাসের উপপাদ্যের জন্য বিখ্যাত; তার কাজ গণিত এবং সঙ্গীত তত্ত্ব উভয়কেই প্রভাবিত করেছিল।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Mathematics · Music Theory",
-        "bn": "গণিত · সঙ্গীততত্ত্ব"
+        "bn": "গণিত · সঙ্গীততত্ত্ব",
+        "de": "Mathematics · Music Theory"
       },
       "birthplace": {
         "en": "Samos, Greece",
@@ -707,7 +764,8 @@
         "coords": [
           37.75,
           26.97
-        ]
+        ],
+        "de": "Samos, Greece"
       },
       "active": {
         "en": "Croton, Magna Graecia",
@@ -715,7 +773,8 @@
         "coords": [
           39.081,
           17.124
-        ]
+        ],
+        "de": "Croton, Magna Graecia"
       },
       "works": [
         {
@@ -741,7 +800,8 @@
       ],
       "influence": {
         "en": "Pythagorean mathematics influenced geometry, music theory, and philosophical number symbolism.",
-        "bn": "পিথাগোরীয় গণিত জ্যামিতি, সঙ্গীততত্ত্ব ও সংখ্যাতাত্ত্বিক দর্শনে প্রভাব ফেলে।"
+        "bn": "পিথাগোরীয় গণিত জ্যামিতি, সঙ্গীততত্ত্ব ও সংখ্যাতাত্ত্বিক দর্শনে প্রভাব ফেলে।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0,
@@ -771,16 +831,19 @@
       "id": "john_philoponus",
       "name": {
         "en": "John Philoponus",
-        "bn": "জন ফিলোপোনাস"
+        "bn": "জন ফিলোপোনাস",
+        "de": "John Philoponus"
       },
       "lifespan": "490–570 CE",
       "summary": {
         "en": "Late antique Christian philosopher who challenged Aristotelian physics; his critique influenced Islamic philosophy.",
-        "bn": "প্রাচীন-উত্তর খ্রিস্টান দার্শনিক যিনি অ্যারিস্টটলীয় পদার্থবিদ্যাকে চ্যালেঞ্জ করেছিলেন; তার সমালোচনা ইসলামী দর্শনকে প্রভাবিত করে।"
+        "bn": "প্রাচীন-উত্তর খ্রিস্টান দার্শনিক যিনি অ্যারিস্টটলীয় পদার্থবিদ্যাকে চ্যালেঞ্জ করেছিলেন; তার সমালোচনা ইসলামী দর্শনকে প্রভাবিত করে।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Physics · Theology · Logic",
-        "bn": "পদার্থবিদ্যা · ধর্মতত্ত্ব · যুক্তিবিদ্যা"
+        "bn": "পদার্থবিদ্যা · ধর্মতত্ত্ব · যুক্তিবিদ্যা",
+        "de": "Physics · Theology · Logic"
       },
       "birthplace": {
         "en": "Alexandria, Egypt",
@@ -788,7 +851,8 @@
         "coords": [
           31.2,
           29.916
-        ]
+        ],
+        "de": "Alexandria, Egypt"
       },
       "active": {
         "en": "Alexandria",
@@ -796,7 +860,8 @@
         "coords": [
           31.2,
           29.916
-        ]
+        ],
+        "de": "Alexandria"
       },
       "works": [
         {
@@ -822,7 +887,8 @@
       ],
       "influence": {
         "en": "His critiques of Aristotle provided tools for Islamic philosophers like Al-Ghazali to challenge peripatetic philosophy.",
-        "bn": "অ্যারিস্টটলের তার সমালোচনা আল-গাজালীর মতো ইসলামী দার্শনিকদের জন্য প্রত্যাশিত দর্শনকে চ্যালেঞ্জ করার হাতিয়ার প্রদান করে।"
+        "bn": "অ্যারিস্টটলের তার সমালোচনা আল-গাজালীর মতো ইসলামী দার্শনিকদের জন্য প্রত্যাশিত দর্শনকে চ্যালেঞ্জ করার হাতিয়ার প্রদান করে।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         1,
@@ -852,16 +918,19 @@
       "id": "plotinus",
       "name": {
         "en": "Plotinus",
-        "bn": "প্লোটিনাস"
+        "bn": "প্লোটিনাস",
+        "de": "Plotinus"
       },
       "lifespan": "204–270 CE",
       "summary": {
         "en": "Founder of Neoplatonism; his ideas on emanation influenced Islamic mysticism and philosophy.",
-        "bn": "নব্যপ্লেটোবাদের প্রতিষ্ঠাতা; নির্গমন সম্পর্কে তার ধারণা ইসলামী তাসাউফ ও দর্শনকে প্রভাবিত করে।"
+        "bn": "নব্যপ্লেটোবাদের প্রতিষ্ঠাতা; নির্গমন সম্পর্কে তার ধারণা ইসলামী তাসাউফ ও দর্শনকে প্রভাবিত করে।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Metaphysics · Mysticism · Neoplatonism",
-        "bn": "অধিবিদ্যা · মরমিবাদ · নব্যপ্লেটোবাদ"
+        "bn": "অধিবিদ্যা · মরমিবাদ · নব্যপ্লেটোবাদ",
+        "de": "Metaphysics · Mysticism · Neoplatonism"
       },
       "birthplace": {
         "en": "Lycopolis, Egypt",
@@ -869,7 +938,8 @@
         "coords": [
           27.1809,
           31.1656
-        ]
+        ],
+        "de": "Lycopolis, Egypt"
       },
       "active": {
         "en": "Rome",
@@ -877,7 +947,8 @@
         "coords": [
           41.9028,
           12.4964
-        ]
+        ],
+        "de": "Rome"
       },
       "works": [
         {
@@ -893,7 +964,8 @@
       ],
       "influence": {
         "en": "Neoplatonic concepts of emanation shaped Islamic philosophical cosmology and Sufi thought.",
-        "bn": "নির্গমনের নব্যপ্লেটোনীয় ধারণা ইসলামী দার্শনিক বিশ্বতত্ত্ব ও সুফি চিন্তাকে প্রভাবিত করে।"
+        "bn": "নির্গমনের নব্যপ্লেটোনীয় ধারণা ইসলামী দার্শনিক বিশ্বতত্ত্ব ও সুফি চিন্তাকে প্রভাবিত করে।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         0,
@@ -923,16 +995,19 @@
       "id": "werner_jaeger",
       "name": {
         "en": "Werner Jaeger",
-        "bn": "ভার্নার ইয়েগার"
+        "bn": "ভার্নার ইয়েগার",
+        "de": "Werner Jaeger"
       },
       "lifespan": "1888–1961",
       "summary": {
         "en": "German-American classicist who studied Greek philosophy's influence on Western civilization.",
-        "bn": "জার্মান-আমেরিকান ধ্রুপদী পণ্ডিত যিনি পাশ্চাত্য সভ্যতার ওপর গ্রিক দর্শনের প্রভাব অধ্যয়ন করেছিলেন।"
+        "bn": "জার্মান-আমেরিকান ধ্রুপদী পণ্ডিত যিনি পাশ্চাত্য সভ্যতার ওপর গ্রিক দর্শনের প্রভাব অধ্যয়ন করেছিলেন।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Classical Philology · History of Philosophy",
-        "bn": "ধ্রুপদী ভাষাতত্ত্ব · দর্শনের ইতিহাস"
+        "bn": "ধ্রুপদী ভাষাতত্ত্ব · দর্শনের ইতিহাস",
+        "de": "Philosophie"
       },
       "birthplace": {
         "en": "Lobberich, Germany",
@@ -940,7 +1015,8 @@
         "coords": [
           51.2667,
           6.3667
-        ]
+        ],
+        "de": "Lobberich, Germany"
       },
       "active": {
         "en": "Harvard · Berlin",
@@ -948,7 +1024,8 @@
         "coords": [
           42.377,
           -71.1167
-        ]
+        ],
+        "de": "Harvard · Berlin"
       },
       "works": [
         {
@@ -964,7 +1041,8 @@
       ],
       "influence": {
         "en": "Revived scholarly interest in Greek philosophy's continuing relevance to modern thought.",
-        "bn": "আধুনিক চিন্তার সাথে গ্রিক দর্শনের ক্রমাগত প্রাসঙ্গিকতার বৈজ্ঞানিক আগ্রহ পুনরুজ্জীবিত করেন।"
+        "bn": "আধুনিক চিন্তার সাথে গ্রিক দর্শনের ক্রমাগত প্রাসঙ্গিকতার বৈজ্ঞানিক আগ্রহ পুনরুজ্জীবিত করেন।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         6
@@ -992,16 +1070,19 @@
       "id": "eric_voegelin",
       "name": {
         "en": "Eric Voegelin",
-        "bn": "এরিক ভয়েগেলিন"
+        "bn": "এরিক ভয়েগেলিন",
+        "de": "Eric Voegelin"
       },
       "lifespan": "1901–1985",
       "summary": {
         "en": "German-American political philosopher who studied the influence of Greek philosophy on political order.",
-        "bn": "জার্মান-আমেরিকান রাজনৈতিক দার্শনিক যিনি রাজনৈতিক শৃঙ্খলায় গ্রিক দর্শনের প্রভাব অধ্যয়ন করেছিলেন।"
+        "bn": "জার্মান-আমেরিকান রাজনৈতিক দার্শনিক যিনি রাজনৈতিক শৃঙ্খলায় গ্রিক দর্শনের প্রভাব অধ্যয়ন করেছিলেন।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "Political Philosophy · History of Ideas",
-        "bn": "রাজনৈতিক দর্শন · ধারণার ইতিহাস"
+        "bn": "রাজনৈতিক দর্শন · ধারণার ইতিহাস",
+        "de": "Philosophie"
       },
       "birthplace": {
         "en": "Cologne, Germany",
@@ -1009,7 +1090,8 @@
         "coords": [
           50.9375,
           6.9603
-        ]
+        ],
+        "de": "Cologne, Germany"
       },
       "active": {
         "en": "Stanford · Munich",
@@ -1017,7 +1099,8 @@
         "coords": [
           37.4275,
           -122.1697
-        ]
+        ],
+        "de": "Stanford · Munich"
       },
       "works": [
         {
@@ -1033,7 +1116,8 @@
       ],
       "influence": {
         "en": "Demonstrated the continuing influence of Plato and Aristotle on modern political thought.",
-        "bn": "আধুনিক রাজনৈতিক চিন্তায় প্লেটো এবং অ্যারিস্টটলের ক্রমাগত প্রভাব প্রদর্শন করেন।"
+        "bn": "আধুনিক রাজনৈতিক চিন্তায় প্লেটো এবং অ্যারিস্টটলের ক্রমাগত প্রভাব প্রদর্শন করেন।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         6
@@ -1061,16 +1145,19 @@
       "id": "pierre_hadot",
       "name": {
         "en": "Pierre Hadot",
-        "bn": "পিয়ের আদো"
+        "bn": "পিয়ের আদো",
+        "de": "Pierre Hadot"
       },
       "lifespan": "1922–2010",
       "summary": {
         "en": "French historian of philosophy who studied ancient Greek philosophy as a way of life.",
-        "bn": "দর্শনের ফরাসি ইতিহাসবিদ যিনি প্রাচীন গ্রিক দর্শনকে জীবনযাপনের উপায় হিসেবে অধ্যয়ন করেছিলেন।"
+        "bn": "দর্শনের ফরাসি ইতিহাসবিদ যিনি প্রাচীন গ্রিক দর্শনকে জীবনযাপনের উপায় হিসেবে অধ্যয়ন করেছিলেন।",
+        "de": "Bedeutender griechischer Philosoph."
       },
       "field": {
         "en": "History of Philosophy · Ancient Philosophy",
-        "bn": "দর্শনের ইতিহাস · প্রাচীন দর্শন"
+        "bn": "দর্শনের ইতিহাস · প্রাচীন দর্শন",
+        "de": "Philosophie"
       },
       "birthplace": {
         "en": "Paris, France",
@@ -1078,7 +1165,8 @@
         "coords": [
           48.8566,
           2.3522
-        ]
+        ],
+        "de": "Paris, France"
       },
       "active": {
         "en": "Collège de France",
@@ -1086,7 +1174,8 @@
         "coords": [
           48.8566,
           2.3522
-        ]
+        ],
+        "de": "Collège de France"
       },
       "works": [
         {
@@ -1102,7 +1191,8 @@
       ],
       "influence": {
         "en": "Renewed interest in the practical and transformative aspects of ancient Greek philosophy.",
-        "bn": "প্রাচীন গ্রিক দর্শনের ব্যবহারিক এবং রূপান্তরকারী দিকগুলিতে নবীন আগ্রহ।"
+        "bn": "প্রাচীন গ্রিক দর্শনের ব্যবহারিক এবং রূপান্তরকারী দিকগুলিতে নবীন আগ্রহ।",
+        "de": "Hatte einen tiefgreifenden Einfluss auf die islamische Philosophie."
       },
       "eras": [
         6

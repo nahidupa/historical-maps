@@ -4,17 +4,61 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ottoman, Safavid & Mughal Empires",
+        "name": {
+          "en": "Ottoman, Safavid & Mughal Empires",
+          "bn": "Ottoman, Safavid & Mughal Empires",
+          "de": "Ottoman, Safavid & Mughal Empires"
+        },
         "era": 5,
         "color": "#c48a4a",
-        "description": "The Gunpowder Empires: Ottoman (Anatolia/Balkans), Safavid (Persia), and Mughal (India)."
+        "description": {
+          "en": "The Gunpowder Empires: Ottoman (Anatolia/Balkans), Safavid (Persia), and Mughal (India).",
+          "bn": "The Gunpowder Empires: Ottoman (Anatolia/Balkans), Safavid (Persia), and Mughal (India).",
+          "de": "The Gunpowder Empires: Ottoman (Anatolia/Balkans), Safavid (Persia), and Mughal (India)."
+        }
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [15.0, 45.0], [30.0, 48.0], [45.0, 45.0], [40.0, 35.0], [48.0, 30.0], 
-          [40.0, 20.0], [30.0, 25.0], [10.0, 30.0], [15.0, 45.0]
-        ]]
+        "coordinates": [
+          [
+            [
+              15.0,
+              45.0
+            ],
+            [
+              30.0,
+              48.0
+            ],
+            [
+              45.0,
+              45.0
+            ],
+            [
+              40.0,
+              35.0
+            ],
+            [
+              48.0,
+              30.0
+            ],
+            [
+              40.0,
+              20.0
+            ],
+            [
+              30.0,
+              25.0
+            ],
+            [
+              10.0,
+              30.0
+            ],
+            [
+              15.0,
+              45.0
+            ]
+          ]
+        ]
       }
     }
   ]

@@ -4,17 +4,57 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hellenistic World",
+        "name": {
+          "en": "Hellenistic World",
+          "bn": "Hellenistic World",
+          "de": "Hellenistic World"
+        },
         "era": 0,
         "color": "#a8c5d8",
-        "description": "The Mediterranean and Near East during the Classical period."
+        "description": {
+          "en": "The Mediterranean and Near East during the Classical period.",
+          "bn": "The Mediterranean and Near East during the Classical period.",
+          "de": "The Mediterranean and Near East during the Classical period."
+        }
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [10.0, 30.0], [10.0, 45.0], [30.0, 45.0], [45.0, 40.0], [45.0, 30.0], 
-          [35.0, 25.0], [20.0, 25.0], [10.0, 30.0]
-        ]]
+        "coordinates": [
+          [
+            [
+              10.0,
+              30.0
+            ],
+            [
+              10.0,
+              45.0
+            ],
+            [
+              30.0,
+              45.0
+            ],
+            [
+              45.0,
+              40.0
+            ],
+            [
+              45.0,
+              30.0
+            ],
+            [
+              35.0,
+              25.0
+            ],
+            [
+              20.0,
+              25.0
+            ],
+            [
+              10.0,
+              30.0
+            ]
+          ]
+        ]
       }
     }
   ]
