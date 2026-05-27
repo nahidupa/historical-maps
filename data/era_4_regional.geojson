@@ -4,17 +4,57 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Fatimid & Seljuk Realms",
+        "name": {
+          "en": "Fatimid & Seljuk Realms",
+          "bn": "Fatimid & Seljuk Realms",
+          "de": "Fatimid & Seljuk Realms"
+        },
         "era": 4,
         "color": "#8a8a5a",
-        "description": "The divided regional powers of the middle period, from Egypt to Anatolia."
+        "description": {
+          "en": "The divided regional powers of the middle period, from Egypt to Anatolia.",
+          "bn": "The divided regional powers of the middle period, from Egypt to Anatolia.",
+          "de": "The divided regional powers of the middle period, from Egypt to Anatolia."
+        }
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [10.0, 30.0], [20.0, 32.0], [30.0, 32.0], [35.0, 35.0], [35.0, 25.0], 
-          [25.0, 20.0], [15.0, 22.0], [10.0, 30.0]
-        ]]
+        "coordinates": [
+          [
+            [
+              10.0,
+              30.0
+            ],
+            [
+              20.0,
+              32.0
+            ],
+            [
+              30.0,
+              32.0
+            ],
+            [
+              35.0,
+              35.0
+            ],
+            [
+              35.0,
+              25.0
+            ],
+            [
+              25.0,
+              20.0
+            ],
+            [
+              15.0,
+              22.0
+            ],
+            [
+              10.0,
+              30.0
+            ]
+          ]
+        ]
       }
     }
   ]
