@@ -727,7 +727,7 @@
         const refsHtml = s.references ? s.references.map(r => `
             <div class="detail-reference">
                 <strong>${localize(r.title)}</strong>
-                <span>${r.author || ''}</span>
+                <span>${typeof r.author === 'string' ? r.author : (r.author ? localize(r.author) : '')}</span>
             </div>
         `).join('') : '';
 
@@ -883,7 +883,7 @@
         const refsHtml = g.references ? g.references.map(r => `
             <div class="detail-reference">
                 <strong>${localize(r.title)}</strong>
-                <span>${r.author || ''}</span>
+                <span>${typeof r.author === 'string' ? r.author : (r.author ? localize(r.author) : '')}</span>
             </div>
         `).join('') : '';
 
