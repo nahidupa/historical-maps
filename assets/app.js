@@ -93,12 +93,29 @@
     ];
 
     function t(key) {
-        return uiText[key]?.[currentLang] || uiText[key]?.en || key;
+        if (!uiText[key]) return key;
+        return localize(uiText[key]);
     }
 
     function localize(value) {
-        if (!value || typeof value !== 'object') return value || '';
-        return value[currentLang] || value.en || value.bn || '';
+        if (!value) return '';
+        if (typeof value !== 'object') return value;
+
+        let localized = value[currentLang];
+        if (localized === undefined) {
+            localized = value.en;
+        }
+        if (localized === undefined) {
+            localized = value.bn;
+        }
+        if (localized === undefined) {
+            return '';
+        }
+
+        if (typeof localized === 'object' && localized !== null) {
+            return localize(localized);
+        }
+        return localized;
     }
 
     function getYoutubeEmbedUrl(url) {

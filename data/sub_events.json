@@ -2,41 +2,17 @@
   "0": [
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "5th Cent. BCE",
-            "bn": "খ্রিস্টপূর্ব ৫ম শতাব্দী",
-            "de": "5. Jh. v. Chr."
-          },
-          "bn": "খ্রিস্টপূর্ব ৫ম শতাব্দী",
-          "de": "5. Jh. v. Chr."
-        },
+        "en": "5th Cent. BCE",
         "bn": "খ্রিস্টপূর্ব ৫ম শতাব্দী",
         "de": "5. Jh. v. Chr."
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Golden Age of Athens",
-            "bn": "আথেন্সের স্বর্ণযুগ",
-            "de": "Goldenes Zeitalter von Athen"
-          },
-          "bn": "আথেন্সের স্বর্ণযুগ",
-          "de": "Goldenes Zeitalter von Athen"
-        },
+        "en": "Golden Age of Athens",
         "bn": "আথেন্সের স্বর্ণযুগ",
         "de": "Goldenes Zeitalter von Athen"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Socrates, Plato, and Aristotle establish the foundations of Western philosophy.",
-            "bn": "সক্রেটিস, প্লেটো এবং অ্যারিস্টটল পশ্চিমা দর্শনের ভিত্তি স্থাপন করেন।",
-            "de": "Sokrates, Platon und Aristoteles legen die Grundlagen der westlichen Philosophie."
-          },
-          "bn": "সক্রেটিস, প্লেটো এবং অ্যারিস্টটল পশ্চিমা দর্শনের ভিত্তি স্থাপন করেন।",
-          "de": "Sokrates, Platon und Aristoteles legen die Grundlagen der westlichen Philosophie."
-        },
+        "en": "Socrates, Plato, and Aristotle establish the foundations of Western philosophy.",
         "bn": "সক্রেটিস, প্লেটো এবং অ্যারিস্টটল পশ্চিমা দর্শনের ভিত্তি স্থাপন করেন।",
         "de": "Sokrates, Platon und Aristoteles legen die Grundlagen der westlichen Philosophie."
       },
@@ -47,41 +23,17 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "336–323 BCE",
-            "bn": "খ্রিস্টপূর্ব ৩৩৬-৩২৩",
-            "de": "336–323 v. Chr."
-          },
-          "bn": "খ্রিস্টপূর্ব ৩৩৬-৩২৩",
-          "de": "336–323 v. Chr."
-        },
+        "en": "336–323 BCE",
         "bn": "খ্রিস্টপূর্ব ৩৩৬-৩২৩",
         "de": "336–323 v. Chr."
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Alexander the Great",
-            "bn": "আলেকজান্ডার দ্য গ্রেট",
-            "de": "Alexander der Große"
-          },
-          "bn": "আলেকজান্ডার দ্য গ্রেট",
-          "de": "Alexander der Große"
-        },
+        "en": "Alexander the Great",
         "bn": "আলেকজান্ডার দ্য গ্রেট",
         "de": "Alexander der Große"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "His conquests spread Hellenistic culture across Egypt, Persia, and parts of India.",
-            "bn": "তার বিজয় মিশর, পারস্য এবং ভারতের কিছু অংশে হেলেনীয় সংস্কৃতি ছড়িয়ে দেয়।",
-            "de": "Seine Eroberungen verbreiten die hellenistische Kultur in Ägypten, Persien und Teilen Indiens."
-          },
-          "bn": "তার বিজয় মিশর, পারস্য এবং ভারতের কিছু অংশে হেলেনীয় সংস্কৃতি ছড়িয়ে দেয়।",
-          "de": "Seine Eroberungen verbreiten die hellenistische Kultur in Ägypten, Persien und Teilen Indiens."
-        },
+        "en": "His conquests spread Hellenistic culture across Egypt, Persia, and parts of India.",
         "bn": "তার বিজয় মিশর, পারস্য এবং ভারতের কিছু অংশে হেলেনীয় সংস্কৃতি ছড়িয়ে দেয়।",
         "de": "Seine Eroberungen verbreiten die hellenistische Kultur in Ägypten, Persien und Teilen Indiens."
       },
@@ -92,41 +44,17 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "3rd Cent. BCE",
-            "bn": "খ্রিস্টপূর্ব ৩য় শতাব্দী",
-            "de": "3. Jh. v. Chr."
-          },
-          "bn": "খ্রিস্টপূর্ব ৩য় শতাব্দী",
-          "de": "3. Jh. v. Chr."
-        },
+        "en": "3rd Cent. BCE",
         "bn": "খ্রিস্টপূর্ব ৩য় শতাব্দী",
         "de": "3. Jh. v. Chr."
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Library of Alexandria",
-            "bn": "আলেকজান্দ্রিয়া গ্রন্থাগার",
-            "de": "Bibliothek von Alexandria"
-          },
-          "bn": "আলেকজান্দ্রিয়া গ্রন্থাগার",
-          "de": "Bibliothek von Alexandria"
-        },
+        "en": "Library of Alexandria",
         "bn": "আলেকজান্দ্রিয়া গ্রন্থাগার",
         "de": "Bibliothek von Alexandria"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Established as a major center for storing and translating knowledge from across the world.",
-            "bn": "সারা বিশ্বের জ্ঞান সংরক্ষণ ও অনুবাদের জন্য একটি প্রধান কেন্দ্র হিসেবে প্রতিষ্ঠিত।",
-            "de": "Gegründet als bedeutendes Zentrum zur Speicherung und Übersetzung von Wissen aus der ganzen Welt."
-          },
-          "bn": "সারা বিশ্বের জ্ঞান সংরক্ষণ ও অনুবাদের জন্য একটি প্রধান কেন্দ্র হিসেবে প্রতিষ্ঠিত।",
-          "de": "Gegründet als bedeutendes Zentrum zur Speicherung und Übersetzung von Wissen aus der ganzen Welt."
-        },
+        "en": "Established as a major center for storing and translating knowledge from across the world.",
         "bn": "সারা বিশ্বের জ্ঞান সংরক্ষণ ও অনুবাদের জন্য একটি প্রধান কেন্দ্র হিসেবে প্রতিষ্ঠিত।",
         "de": "Gegründet als bedeutendes Zentrum zur Speicherung und Übersetzung von Wissen aus der ganzen Welt."
       },
@@ -225,90 +153,18 @@
   "2": [
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "632 CE",
-            "bn": "632 CE",
-            "de": "632–634 CE"
-          },
-          "bn": {
-            "en": "632 CE",
-            "bn": "632 CE",
-            "de": "632–634 CE"
-          },
-          "de": "632–634 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "632 CE",
-            "bn": "632 CE",
-            "de": "632–634 CE"
-          },
-          "bn": {
-            "en": "632 CE",
-            "bn": "632 CE",
-            "de": "632–634 CE"
-          },
-          "de": "632–634 CE"
-        },
+        "en": "632 CE",
+        "bn": "632 CE",
         "de": "632–634 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Election of Abu Bakr",
-            "bn": "Election of Abu Bakr",
-            "de": "Kalifat von Abu Bakr"
-          },
-          "bn": {
-            "en": "Election of Abu Bakr",
-            "bn": "Election of Abu Bakr",
-            "de": "Kalifat von Abu Bakr"
-          },
-          "de": "Kalifat von Abu Bakr"
-        },
-        "bn": {
-          "en": {
-            "en": "Election of Abu Bakr",
-            "bn": "Election of Abu Bakr",
-            "de": "Kalifat von Abu Bakr"
-          },
-          "bn": {
-            "en": "Election of Abu Bakr",
-            "bn": "Election of Abu Bakr",
-            "de": "Kalifat von Abu Bakr"
-          },
-          "de": "Kalifat von Abu Bakr"
-        },
+        "en": "Election of Abu Bakr",
+        "bn": "Election of Abu Bakr",
         "de": "Kalifat von Abu Bakr"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
-            "bn": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
-            "de": "Konsolidierung des muslimischen Staates nach dem Tod des Propheten."
-          },
-          "bn": {
-            "en": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
-            "bn": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
-            "de": "Konsolidierung des muslimischen Staates nach dem Tod des Propheten."
-          },
-          "de": "Konsolidierung des muslimischen Staates nach dem Tod des Propheten."
-        },
-        "bn": {
-          "en": {
-            "en": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
-            "bn": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
-            "de": "Konsolidierung des muslimischen Staates nach dem Tod des Propheten."
-          },
-          "bn": {
-            "en": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
-            "bn": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
-            "de": "Konsolidierung des muslimischen Staates nach dem Tod des Propheten."
-          },
-          "de": "Konsolidierung des muslimischen Staates nach dem Tod des Propheten."
-        },
+        "en": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
+        "bn": "Becomes the first Caliph; suppresses the Ridda (Apostasy) wars to unify Arabia.",
         "de": "Konsolidierung des muslimischen Staates nach dem Tod des Propheten."
       },
       "coords": [
@@ -318,90 +174,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "636 CE",
-            "bn": "636 CE",
-            "de": "634–644 CE"
-          },
-          "bn": {
-            "en": "636 CE",
-            "bn": "636 CE",
-            "de": "634–644 CE"
-          },
-          "de": "634–644 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "636 CE",
-            "bn": "636 CE",
-            "de": "634–644 CE"
-          },
-          "bn": {
-            "en": "636 CE",
-            "bn": "636 CE",
-            "de": "634–644 CE"
-          },
-          "de": "634–644 CE"
-        },
+        "en": "636 CE",
+        "bn": "636 CE",
         "de": "634–644 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Battle of Yarmouk",
-            "bn": "Battle of Yarmouk",
-            "de": "Kalifat von Umar"
-          },
-          "bn": {
-            "en": "Battle of Yarmouk",
-            "bn": "Battle of Yarmouk",
-            "de": "Kalifat von Umar"
-          },
-          "de": "Kalifat von Umar"
-        },
-        "bn": {
-          "en": {
-            "en": "Battle of Yarmouk",
-            "bn": "Battle of Yarmouk",
-            "de": "Kalifat von Umar"
-          },
-          "bn": {
-            "en": "Battle of Yarmouk",
-            "bn": "Battle of Yarmouk",
-            "de": "Kalifat von Umar"
-          },
-          "de": "Kalifat von Umar"
-        },
+        "en": "Battle of Yarmouk",
+        "bn": "Battle of Yarmouk",
         "de": "Kalifat von Umar"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
-            "bn": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
-            "de": "Große Expansion nach Syrien, Ägypten und in das Sassanidenreich."
-          },
-          "bn": {
-            "en": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
-            "bn": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
-            "de": "Große Expansion nach Syrien, Ägypten und in das Sassanidenreich."
-          },
-          "de": "Große Expansion nach Syrien, Ägypten und in das Sassanidenreich."
-        },
-        "bn": {
-          "en": {
-            "en": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
-            "bn": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
-            "de": "Große Expansion nach Syrien, Ägypten und in das Sassanidenreich."
-          },
-          "bn": {
-            "en": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
-            "bn": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
-            "de": "Große Expansion nach Syrien, Ägypten und in das Sassanidenreich."
-          },
-          "de": "Große Expansion nach Syrien, Ägypten und in das Sassanidenreich."
-        },
+        "en": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
+        "bn": "Decisive Muslim victory over the Byzantine Empire in the Levant.",
         "de": "Große Expansion nach Syrien, Ägypten und in das Sassanidenreich."
       },
       "coords": [
@@ -411,90 +195,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "637 CE",
-            "bn": "637 CE",
-            "de": "637 CE"
-          },
-          "bn": {
-            "en": "637 CE",
-            "bn": "637 CE",
-            "de": "637 CE"
-          },
-          "de": "637 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "637 CE",
-            "bn": "637 CE",
-            "de": "637 CE"
-          },
-          "bn": {
-            "en": "637 CE",
-            "bn": "637 CE",
-            "de": "637 CE"
-          },
-          "de": "637 CE"
-        },
+        "en": "637 CE",
+        "bn": "637 CE",
         "de": "637 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Capture of Jerusalem",
-            "bn": "Capture of Jerusalem",
-            "de": "Eroberung von Jerusalem"
-          },
-          "bn": {
-            "en": "Capture of Jerusalem",
-            "bn": "Capture of Jerusalem",
-            "de": "Eroberung von Jerusalem"
-          },
-          "de": "Eroberung von Jerusalem"
-        },
-        "bn": {
-          "en": {
-            "en": "Capture of Jerusalem",
-            "bn": "Capture of Jerusalem",
-            "de": "Eroberung von Jerusalem"
-          },
-          "bn": {
-            "en": "Capture of Jerusalem",
-            "bn": "Capture of Jerusalem",
-            "de": "Eroberung von Jerusalem"
-          },
-          "de": "Eroberung von Jerusalem"
-        },
+        "en": "Capture of Jerusalem",
+        "bn": "Capture of Jerusalem",
         "de": "Eroberung von Jerusalem"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "The city surrenders to Caliph Umar ibn al-Khattab.",
-            "bn": "The city surrenders to Caliph Umar ibn al-Khattab.",
-            "de": "Die Stadt kapituliert vor den Muslimen unter Kalif Umar."
-          },
-          "bn": {
-            "en": "The city surrenders to Caliph Umar ibn al-Khattab.",
-            "bn": "The city surrenders to Caliph Umar ibn al-Khattab.",
-            "de": "Die Stadt kapituliert vor den Muslimen unter Kalif Umar."
-          },
-          "de": "Die Stadt kapituliert vor den Muslimen unter Kalif Umar."
-        },
-        "bn": {
-          "en": {
-            "en": "The city surrenders to Caliph Umar ibn al-Khattab.",
-            "bn": "The city surrenders to Caliph Umar ibn al-Khattab.",
-            "de": "Die Stadt kapituliert vor den Muslimen unter Kalif Umar."
-          },
-          "bn": {
-            "en": "The city surrenders to Caliph Umar ibn al-Khattab.",
-            "bn": "The city surrenders to Caliph Umar ibn al-Khattab.",
-            "de": "Die Stadt kapituliert vor den Muslimen unter Kalif Umar."
-          },
-          "de": "Die Stadt kapituliert vor den Muslimen unter Kalif Umar."
-        },
+        "en": "The city surrenders to Caliph Umar ibn al-Khattab.",
+        "bn": "The city surrenders to Caliph Umar ibn al-Khattab.",
         "de": "Die Stadt kapituliert vor den Muslimen unter Kalif Umar."
       },
       "coords": [
@@ -504,90 +216,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "661 CE",
-            "bn": "661 CE",
-            "de": "644–656 CE"
-          },
-          "bn": {
-            "en": "661 CE",
-            "bn": "661 CE",
-            "de": "644–656 CE"
-          },
-          "de": "644–656 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "661 CE",
-            "bn": "661 CE",
-            "de": "644–656 CE"
-          },
-          "bn": {
-            "en": "661 CE",
-            "bn": "661 CE",
-            "de": "644–656 CE"
-          },
-          "de": "644–656 CE"
-        },
+        "en": "661 CE",
+        "bn": "661 CE",
         "de": "644–656 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Assassination of Ali",
-            "bn": "Assassination of Ali",
-            "de": "Kalifat von Uthman"
-          },
-          "bn": {
-            "en": "Assassination of Ali",
-            "bn": "Assassination of Ali",
-            "de": "Kalifat von Uthman"
-          },
-          "de": "Kalifat von Uthman"
-        },
-        "bn": {
-          "en": {
-            "en": "Assassination of Ali",
-            "bn": "Assassination of Ali",
-            "de": "Kalifat von Uthman"
-          },
-          "bn": {
-            "en": "Assassination of Ali",
-            "bn": "Assassination of Ali",
-            "de": "Kalifat von Uthman"
-          },
-          "de": "Kalifat von Uthman"
-        },
+        "en": "Assassination of Ali",
+        "bn": "Assassination of Ali",
         "de": "Kalifat von Uthman"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Marks the end of the Rashidun era.",
-            "bn": "Marks the end of the Rashidun era.",
-            "de": "Standardisierung des Korans in einem einzigen Text."
-          },
-          "bn": {
-            "en": "Marks the end of the Rashidun era.",
-            "bn": "Marks the end of the Rashidun era.",
-            "de": "Standardisierung des Korans in einem einzigen Text."
-          },
-          "de": "Standardisierung des Korans in einem einzigen Text."
-        },
-        "bn": {
-          "en": {
-            "en": "Marks the end of the Rashidun era.",
-            "bn": "Marks the end of the Rashidun era.",
-            "de": "Standardisierung des Korans in einem einzigen Text."
-          },
-          "bn": {
-            "en": "Marks the end of the Rashidun era.",
-            "bn": "Marks the end of the Rashidun era.",
-            "de": "Standardisierung des Korans in einem einzigen Text."
-          },
-          "de": "Standardisierung des Korans in einem einzigen Text."
-        },
+        "en": "Marks the end of the Rashidun era.",
+        "bn": "Marks the end of the Rashidun era.",
         "de": "Standardisierung des Korans in einem einzigen Text."
       },
       "coords": [
@@ -599,90 +239,18 @@
   "3": [
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "661 CE",
-            "bn": "661 CE",
-            "de": "750 CE"
-          },
-          "bn": {
-            "en": "661 CE",
-            "bn": "661 CE",
-            "de": "750 CE"
-          },
-          "de": "750 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "661 CE",
-            "bn": "661 CE",
-            "de": "750 CE"
-          },
-          "bn": {
-            "en": "661 CE",
-            "bn": "661 CE",
-            "de": "750 CE"
-          },
-          "de": "750 CE"
-        },
+        "en": "661 CE",
+        "bn": "661 CE",
         "de": "750 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Umayyad Dynasty begins",
-            "bn": "Umayyad Dynasty begins",
-            "de": "Abbasidische Revolution"
-          },
-          "bn": {
-            "en": "Umayyad Dynasty begins",
-            "bn": "Umayyad Dynasty begins",
-            "de": "Abbasidische Revolution"
-          },
-          "de": "Abbasidische Revolution"
-        },
-        "bn": {
-          "en": {
-            "en": "Umayyad Dynasty begins",
-            "bn": "Umayyad Dynasty begins",
-            "de": "Abbasidische Revolution"
-          },
-          "bn": {
-            "en": "Umayyad Dynasty begins",
-            "bn": "Umayyad Dynasty begins",
-            "de": "Abbasidische Revolution"
-          },
-          "de": "Abbasidische Revolution"
-        },
+        "en": "Umayyad Dynasty begins",
+        "bn": "Umayyad Dynasty begins",
         "de": "Abbasidische Revolution"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
-            "bn": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
-            "de": "Die Abbasiden stürzen die Umayyaden und verlegen die Hauptstadt nach Bagdad."
-          },
-          "bn": {
-            "en": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
-            "bn": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
-            "de": "Die Abbasiden stürzen die Umayyaden und verlegen die Hauptstadt nach Bagdad."
-          },
-          "de": "Die Abbasiden stürzen die Umayyaden und verlegen die Hauptstadt nach Bagdad."
-        },
-        "bn": {
-          "en": {
-            "en": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
-            "bn": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
-            "de": "Die Abbasiden stürzen die Umayyaden und verlegen die Hauptstadt nach Bagdad."
-          },
-          "bn": {
-            "en": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
-            "bn": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
-            "de": "Die Abbasiden stürzen die Umayyaden und verlegen die Hauptstadt nach Bagdad."
-          },
-          "de": "Die Abbasiden stürzen die Umayyaden und verlegen die Hauptstadt nach Bagdad."
-        },
+        "en": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
+        "bn": "Capital moves to Damascus; Muawiyah I establishes hereditary rule.",
         "de": "Die Abbasiden stürzen die Umayyaden und verlegen die Hauptstadt nach Bagdad."
       },
       "coords": [
@@ -692,90 +260,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "691 CE",
-            "bn": "691 CE",
-            "de": "786–809 CE"
-          },
-          "bn": {
-            "en": "691 CE",
-            "bn": "691 CE",
-            "de": "786–809 CE"
-          },
-          "de": "786–809 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "691 CE",
-            "bn": "691 CE",
-            "de": "786–809 CE"
-          },
-          "bn": {
-            "en": "691 CE",
-            "bn": "691 CE",
-            "de": "786–809 CE"
-          },
-          "de": "786–809 CE"
-        },
+        "en": "691 CE",
+        "bn": "691 CE",
         "de": "786–809 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Dome of the Rock",
-            "bn": "Dome of the Rock",
-            "de": "Harun al-Rashid"
-          },
-          "bn": {
-            "en": "Dome of the Rock",
-            "bn": "Dome of the Rock",
-            "de": "Harun al-Rashid"
-          },
-          "de": "Harun al-Rashid"
-        },
-        "bn": {
-          "en": {
-            "en": "Dome of the Rock",
-            "bn": "Dome of the Rock",
-            "de": "Harun al-Rashid"
-          },
-          "bn": {
-            "en": "Dome of the Rock",
-            "bn": "Dome of the Rock",
-            "de": "Harun al-Rashid"
-          },
-          "de": "Harun al-Rashid"
-        },
+        "en": "Dome of the Rock",
+        "bn": "Dome of the Rock",
         "de": "Harun al-Rashid"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Completed in Jerusalem under Caliph Abd al-Malik.",
-            "bn": "Completed in Jerusalem under Caliph Abd al-Malik.",
-            "de": "Blütezeit des Goldenen Zeitalters und Gründung des Hauses der Weisheit."
-          },
-          "bn": {
-            "en": "Completed in Jerusalem under Caliph Abd al-Malik.",
-            "bn": "Completed in Jerusalem under Caliph Abd al-Malik.",
-            "de": "Blütezeit des Goldenen Zeitalters und Gründung des Hauses der Weisheit."
-          },
-          "de": "Blütezeit des Goldenen Zeitalters und Gründung des Hauses der Weisheit."
-        },
-        "bn": {
-          "en": {
-            "en": "Completed in Jerusalem under Caliph Abd al-Malik.",
-            "bn": "Completed in Jerusalem under Caliph Abd al-Malik.",
-            "de": "Blütezeit des Goldenen Zeitalters und Gründung des Hauses der Weisheit."
-          },
-          "bn": {
-            "en": "Completed in Jerusalem under Caliph Abd al-Malik.",
-            "bn": "Completed in Jerusalem under Caliph Abd al-Malik.",
-            "de": "Blütezeit des Goldenen Zeitalters und Gründung des Hauses der Weisheit."
-          },
-          "de": "Blütezeit des Goldenen Zeitalters und Gründung des Hauses der Weisheit."
-        },
+        "en": "Completed in Jerusalem under Caliph Abd al-Malik.",
+        "bn": "Completed in Jerusalem under Caliph Abd al-Malik.",
         "de": "Blütezeit des Goldenen Zeitalters und Gründung des Hauses der Weisheit."
       },
       "coords": [
@@ -785,90 +281,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "750 CE",
-            "bn": "750 CE",
-            "de": "830 CE"
-          },
-          "bn": {
-            "en": "750 CE",
-            "bn": "750 CE",
-            "de": "830 CE"
-          },
-          "de": "830 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "750 CE",
-            "bn": "750 CE",
-            "de": "830 CE"
-          },
-          "bn": {
-            "en": "750 CE",
-            "bn": "750 CE",
-            "de": "830 CE"
-          },
-          "de": "830 CE"
-        },
+        "en": "750 CE",
+        "bn": "750 CE",
         "de": "830 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Abbasid Revolution",
-            "bn": "Abbasid Revolution",
-            "de": "Haus der Weisheit"
-          },
-          "bn": {
-            "en": "Abbasid Revolution",
-            "bn": "Abbasid Revolution",
-            "de": "Haus der Weisheit"
-          },
-          "de": "Haus der Weisheit"
-        },
-        "bn": {
-          "en": {
-            "en": "Abbasid Revolution",
-            "bn": "Abbasid Revolution",
-            "de": "Haus der Weisheit"
-          },
-          "bn": {
-            "en": "Abbasid Revolution",
-            "bn": "Abbasid Revolution",
-            "de": "Haus der Weisheit"
-          },
-          "de": "Haus der Weisheit"
-        },
+        "en": "Abbasid Revolution",
+        "bn": "Abbasid Revolution",
         "de": "Haus der Weisheit"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
-            "bn": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
-            "de": "Ein bedeutendes intellektuelles Zentrum für Übersetzungen und wissenschaftliche Forschung."
-          },
-          "bn": {
-            "en": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
-            "bn": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
-            "de": "Ein bedeutendes intellektuelles Zentrum für Übersetzungen und wissenschaftliche Forschung."
-          },
-          "de": "Ein bedeutendes intellektuelles Zentrum für Übersetzungen und wissenschaftliche Forschung."
-        },
-        "bn": {
-          "en": {
-            "en": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
-            "bn": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
-            "de": "Ein bedeutendes intellektuelles Zentrum für Übersetzungen und wissenschaftliche Forschung."
-          },
-          "bn": {
-            "en": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
-            "bn": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
-            "de": "Ein bedeutendes intellektuelles Zentrum für Übersetzungen und wissenschaftliche Forschung."
-          },
-          "de": "Ein bedeutendes intellektuelles Zentrum für Übersetzungen und wissenschaftliche Forschung."
-        },
+        "en": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
+        "bn": "The Abbasids overthrow the Umayyads, shifting focus to Baghdad.",
         "de": "Ein bedeutendes intellektuelles Zentrum für Übersetzungen und wissenschaftliche Forschung."
       },
       "coords": [
@@ -878,90 +302,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "830 CE",
-            "bn": "830 CE",
-            "de": "1067 CE"
-          },
-          "bn": {
-            "en": "830 CE",
-            "bn": "830 CE",
-            "de": "1067 CE"
-          },
-          "de": "1067 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "830 CE",
-            "bn": "830 CE",
-            "de": "1067 CE"
-          },
-          "bn": {
-            "en": "830 CE",
-            "bn": "830 CE",
-            "de": "1067 CE"
-          },
-          "de": "1067 CE"
-        },
+        "en": "830 CE",
+        "bn": "830 CE",
         "de": "1067 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "House of Wisdom",
-            "bn": "House of Wisdom",
-            "de": "Nizamiyya-Schulen"
-          },
-          "bn": {
-            "en": "House of Wisdom",
-            "bn": "House of Wisdom",
-            "de": "Nizamiyya-Schulen"
-          },
-          "de": "Nizamiyya-Schulen"
-        },
-        "bn": {
-          "en": {
-            "en": "House of Wisdom",
-            "bn": "House of Wisdom",
-            "de": "Nizamiyya-Schulen"
-          },
-          "bn": {
-            "en": "House of Wisdom",
-            "bn": "House of Wisdom",
-            "de": "Nizamiyya-Schulen"
-          },
-          "de": "Nizamiyya-Schulen"
-        },
+        "en": "House of Wisdom",
+        "bn": "House of Wisdom",
         "de": "Nizamiyya-Schulen"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
-            "bn": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
-            "de": "Gründung höherer Bildungseinrichtungen im gesamten Seldschukenreich."
-          },
-          "bn": {
-            "en": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
-            "bn": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
-            "de": "Gründung höherer Bildungseinrichtungen im gesamten Seldschukenreich."
-          },
-          "de": "Gründung höherer Bildungseinrichtungen im gesamten Seldschukenreich."
-        },
-        "bn": {
-          "en": {
-            "en": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
-            "bn": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
-            "de": "Gründung höherer Bildungseinrichtungen im gesamten Seldschukenreich."
-          },
-          "bn": {
-            "en": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
-            "bn": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
-            "de": "Gründung höherer Bildungseinrichtungen im gesamten Seldschukenreich."
-          },
-          "de": "Gründung höherer Bildungseinrichtungen im gesamten Seldschukenreich."
-        },
+        "en": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
+        "bn": "Al-Ma'mun expands the Bayt al-Hikma for scientific translation.",
         "de": "Gründung höherer Bildungseinrichtungen im gesamten Seldschukenreich."
       },
       "coords": [
@@ -971,90 +323,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "762 CE",
-            "bn": "762 CE",
-            "de": "1258 CE"
-          },
-          "bn": {
-            "en": "762 CE",
-            "bn": "762 CE",
-            "de": "1258 CE"
-          },
-          "de": "1258 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "762 CE",
-            "bn": "762 CE",
-            "de": "1258 CE"
-          },
-          "bn": {
-            "en": "762 CE",
-            "bn": "762 CE",
-            "de": "1258 CE"
-          },
-          "de": "1258 CE"
-        },
+        "en": "762 CE",
+        "bn": "762 CE",
         "de": "1258 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Foundation of Baghdad",
-            "bn": "Foundation of Baghdad",
-            "de": "Belagerung von Bagdad"
-          },
-          "bn": {
-            "en": "Foundation of Baghdad",
-            "bn": "Foundation of Baghdad",
-            "de": "Belagerung von Bagdad"
-          },
-          "de": "Belagerung von Bagdad"
-        },
-        "bn": {
-          "en": {
-            "en": "Foundation of Baghdad",
-            "bn": "Foundation of Baghdad",
-            "de": "Belagerung von Bagdad"
-          },
-          "bn": {
-            "en": "Foundation of Baghdad",
-            "bn": "Foundation of Baghdad",
-            "de": "Belagerung von Bagdad"
-          },
-          "de": "Belagerung von Bagdad"
-        },
+        "en": "Foundation of Baghdad",
+        "bn": "Foundation of Baghdad",
         "de": "Belagerung von Bagdad"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
-            "bn": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
-            "de": "Die Mongolen zerstören Bagdad und beenden das abbasidische Kalifat."
-          },
-          "bn": {
-            "en": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
-            "bn": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
-            "de": "Die Mongolen zerstören Bagdad und beenden das abbasidische Kalifat."
-          },
-          "de": "Die Mongolen zerstören Bagdad und beenden das abbasidische Kalifat."
-        },
-        "bn": {
-          "en": {
-            "en": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
-            "bn": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
-            "de": "Die Mongolen zerstören Bagdad und beenden das abbasidische Kalifat."
-          },
-          "bn": {
-            "en": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
-            "bn": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
-            "de": "Die Mongolen zerstören Bagdad und beenden das abbasidische Kalifat."
-          },
-          "de": "Die Mongolen zerstören Bagdad und beenden das abbasidische Kalifat."
-        },
+        "en": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
+        "bn": "Caliph al-Mansur founds the 'Round City' as the new Abbasid capital.",
         "de": "Die Mongolen zerstören Bagdad und beenden das abbasidische Kalifat."
       },
       "coords": [
@@ -1071,90 +351,18 @@
   "4": [
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1071 CE",
-            "bn": "1071 CE",
-            "de": "1095–1291 CE"
-          },
-          "bn": {
-            "en": "1071 CE",
-            "bn": "1071 CE",
-            "de": "1095–1291 CE"
-          },
-          "de": "1095–1291 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1071 CE",
-            "bn": "1071 CE",
-            "de": "1095–1291 CE"
-          },
-          "bn": {
-            "en": "1071 CE",
-            "bn": "1071 CE",
-            "de": "1095–1291 CE"
-          },
-          "de": "1095–1291 CE"
-        },
+        "en": "1071 CE",
+        "bn": "1071 CE",
         "de": "1095–1291 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Battle of Manzikert",
-            "bn": "Battle of Manzikert",
-            "de": "Die Kreuzzüge"
-          },
-          "bn": {
-            "en": "Battle of Manzikert",
-            "bn": "Battle of Manzikert",
-            "de": "Die Kreuzzüge"
-          },
-          "de": "Die Kreuzzüge"
-        },
-        "bn": {
-          "en": {
-            "en": "Battle of Manzikert",
-            "bn": "Battle of Manzikert",
-            "de": "Die Kreuzzüge"
-          },
-          "bn": {
-            "en": "Battle of Manzikert",
-            "bn": "Battle of Manzikert",
-            "de": "Die Kreuzzüge"
-          },
-          "de": "Die Kreuzzüge"
-        },
+        "en": "Battle of Manzikert",
+        "bn": "Battle of Manzikert",
         "de": "Die Kreuzzüge"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
-            "bn": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
-            "de": "Religiöse Kriege zwischen Lateineuropa und Muslimen um die Kontrolle über die Levante."
-          },
-          "bn": {
-            "en": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
-            "bn": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
-            "de": "Religiöse Kriege zwischen Lateineuropa und Muslimen um die Kontrolle über die Levante."
-          },
-          "de": "Religiöse Kriege zwischen Lateineuropa und Muslimen um die Kontrolle über die Levante."
-        },
-        "bn": {
-          "en": {
-            "en": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
-            "bn": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
-            "de": "Religiöse Kriege zwischen Lateineuropa und Muslimen um die Kontrolle über die Levante."
-          },
-          "bn": {
-            "en": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
-            "bn": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
-            "de": "Religiöse Kriege zwischen Lateineuropa und Muslimen um die Kontrolle über die Levante."
-          },
-          "de": "Religiöse Kriege zwischen Lateineuropa und Muslimen um die Kontrolle über die Levante."
-        },
+        "en": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
+        "bn": "Seljuk Turks defeat the Byzantines, opening Anatolia to settlement.",
         "de": "Religiöse Kriege zwischen Lateineuropa und Muslimen um die Kontrolle über die Levante."
       },
       "coords": [
@@ -1164,90 +372,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1187 CE",
-            "bn": "1187 CE",
-            "de": "1187 CE"
-          },
-          "bn": {
-            "en": "1187 CE",
-            "bn": "1187 CE",
-            "de": "1187 CE"
-          },
-          "de": "1187 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1187 CE",
-            "bn": "1187 CE",
-            "de": "1187 CE"
-          },
-          "bn": {
-            "en": "1187 CE",
-            "bn": "1187 CE",
-            "de": "1187 CE"
-          },
-          "de": "1187 CE"
-        },
+        "en": "1187 CE",
+        "bn": "1187 CE",
         "de": "1187 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Saladin's Victory",
-            "bn": "Saladin's Victory",
-            "de": "Sieg von Saladin"
-          },
-          "bn": {
-            "en": "Saladin's Victory",
-            "bn": "Saladin's Victory",
-            "de": "Sieg von Saladin"
-          },
-          "de": "Sieg von Saladin"
-        },
-        "bn": {
-          "en": {
-            "en": "Saladin's Victory",
-            "bn": "Saladin's Victory",
-            "de": "Sieg von Saladin"
-          },
-          "bn": {
-            "en": "Saladin's Victory",
-            "bn": "Saladin's Victory",
-            "de": "Sieg von Saladin"
-          },
-          "de": "Sieg von Saladin"
-        },
+        "en": "Saladin's Victory",
+        "bn": "Saladin's Victory",
         "de": "Sieg von Saladin"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
-            "bn": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
-            "de": "Rückeroberung Jerusalems von den Kreuzfahrern nach der Schlacht bei Hattin."
-          },
-          "bn": {
-            "en": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
-            "bn": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
-            "de": "Rückeroberung Jerusalems von den Kreuzfahrern nach der Schlacht bei Hattin."
-          },
-          "de": "Rückeroberung Jerusalems von den Kreuzfahrern nach der Schlacht bei Hattin."
-        },
-        "bn": {
-          "en": {
-            "en": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
-            "bn": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
-            "de": "Rückeroberung Jerusalems von den Kreuzfahrern nach der Schlacht bei Hattin."
-          },
-          "bn": {
-            "en": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
-            "bn": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
-            "de": "Rückeroberung Jerusalems von den Kreuzfahrern nach der Schlacht bei Hattin."
-          },
-          "de": "Rückeroberung Jerusalems von den Kreuzfahrern nach der Schlacht bei Hattin."
-        },
+        "en": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
+        "bn": "Ayyubid Sultan Saladin recaptures Jerusalem after the Battle of Hattin.",
         "de": "Rückeroberung Jerusalems von den Kreuzfahrern nach der Schlacht bei Hattin."
       },
       "coords": [
@@ -1257,90 +393,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1258 CE",
-            "bn": "1258 CE",
-            "de": "1260 CE"
-          },
-          "bn": {
-            "en": "1258 CE",
-            "bn": "1258 CE",
-            "de": "1260 CE"
-          },
-          "de": "1260 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1258 CE",
-            "bn": "1258 CE",
-            "de": "1260 CE"
-          },
-          "bn": {
-            "en": "1258 CE",
-            "bn": "1258 CE",
-            "de": "1260 CE"
-          },
-          "de": "1260 CE"
-        },
+        "en": "1258 CE",
+        "bn": "1258 CE",
         "de": "1260 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Siege of Baghdad",
-            "bn": "Siege of Baghdad",
-            "de": "Schlacht von Ain Dschalut"
-          },
-          "bn": {
-            "en": "Siege of Baghdad",
-            "bn": "Siege of Baghdad",
-            "de": "Schlacht von Ain Dschalut"
-          },
-          "de": "Schlacht von Ain Dschalut"
-        },
-        "bn": {
-          "en": {
-            "en": "Siege of Baghdad",
-            "bn": "Siege of Baghdad",
-            "de": "Schlacht von Ain Dschalut"
-          },
-          "bn": {
-            "en": "Siege of Baghdad",
-            "bn": "Siege of Baghdad",
-            "de": "Schlacht von Ain Dschalut"
-          },
-          "de": "Schlacht von Ain Dschalut"
-        },
+        "en": "Siege of Baghdad",
+        "bn": "Siege of Baghdad",
         "de": "Schlacht von Ain Dschalut"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Mongols sack the city, ending the Abbasid Golden Age.",
-            "bn": "Mongols sack the city, ending the Abbasid Golden Age.",
-            "de": "Die Mamluken stoppen den Vormarsch der Mongolen in den Nahen Osten."
-          },
-          "bn": {
-            "en": "Mongols sack the city, ending the Abbasid Golden Age.",
-            "bn": "Mongols sack the city, ending the Abbasid Golden Age.",
-            "de": "Die Mamluken stoppen den Vormarsch der Mongolen in den Nahen Osten."
-          },
-          "de": "Die Mamluken stoppen den Vormarsch der Mongolen in den Nahen Osten."
-        },
-        "bn": {
-          "en": {
-            "en": "Mongols sack the city, ending the Abbasid Golden Age.",
-            "bn": "Mongols sack the city, ending the Abbasid Golden Age.",
-            "de": "Die Mamluken stoppen den Vormarsch der Mongolen in den Nahen Osten."
-          },
-          "bn": {
-            "en": "Mongols sack the city, ending the Abbasid Golden Age.",
-            "bn": "Mongols sack the city, ending the Abbasid Golden Age.",
-            "de": "Die Mamluken stoppen den Vormarsch der Mongolen in den Nahen Osten."
-          },
-          "de": "Die Mamluken stoppen den Vormarsch der Mongolen in den Nahen Osten."
-        },
+        "en": "Mongols sack the city, ending the Abbasid Golden Age.",
+        "bn": "Mongols sack the city, ending the Abbasid Golden Age.",
         "de": "Die Mamluken stoppen den Vormarsch der Mongolen in den Nahen Osten."
       },
       "coords": [
@@ -1350,90 +414,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1354 CE",
-            "bn": "1354 CE",
-            "de": "1325–1354 CE"
-          },
-          "bn": {
-            "en": "1354 CE",
-            "bn": "1354 CE",
-            "de": "1325–1354 CE"
-          },
-          "de": "1325–1354 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1354 CE",
-            "bn": "1354 CE",
-            "de": "1325–1354 CE"
-          },
-          "bn": {
-            "en": "1354 CE",
-            "bn": "1354 CE",
-            "de": "1325–1354 CE"
-          },
-          "de": "1325–1354 CE"
-        },
+        "en": "1354 CE",
+        "bn": "1354 CE",
         "de": "1325–1354 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Ibn Battuta's Travels",
-            "bn": "Ibn Battuta's Travels",
-            "de": "Reisen von Ibn Battuta"
-          },
-          "bn": {
-            "en": "Ibn Battuta's Travels",
-            "bn": "Ibn Battuta's Travels",
-            "de": "Reisen von Ibn Battuta"
-          },
-          "de": "Reisen von Ibn Battuta"
-        },
-        "bn": {
-          "en": {
-            "en": "Ibn Battuta's Travels",
-            "bn": "Ibn Battuta's Travels",
-            "de": "Reisen von Ibn Battuta"
-          },
-          "bn": {
-            "en": "Ibn Battuta's Travels",
-            "bn": "Ibn Battuta's Travels",
-            "de": "Reisen von Ibn Battuta"
-          },
-          "de": "Reisen von Ibn Battuta"
-        },
+        "en": "Ibn Battuta's Travels",
+        "bn": "Ibn Battuta's Travels",
         "de": "Reisen von Ibn Battuta"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "The world-renowned explorer completes his journeys.",
-            "bn": "The world-renowned explorer completes his journeys.",
-            "de": "Umfangreiche Reisen durch Afrika, Asien und Europa."
-          },
-          "bn": {
-            "en": "The world-renowned explorer completes his journeys.",
-            "bn": "The world-renowned explorer completes his journeys.",
-            "de": "Umfangreiche Reisen durch Afrika, Asien und Europa."
-          },
-          "de": "Umfangreiche Reisen durch Afrika, Asien und Europa."
-        },
-        "bn": {
-          "en": {
-            "en": "The world-renowned explorer completes his journeys.",
-            "bn": "The world-renowned explorer completes his journeys.",
-            "de": "Umfangreiche Reisen durch Afrika, Asien und Europa."
-          },
-          "bn": {
-            "en": "The world-renowned explorer completes his journeys.",
-            "bn": "The world-renowned explorer completes his journeys.",
-            "de": "Umfangreiche Reisen durch Afrika, Asien und Europa."
-          },
-          "de": "Umfangreiche Reisen durch Afrika, Asien und Europa."
-        },
+        "en": "The world-renowned explorer completes his journeys.",
+        "bn": "The world-renowned explorer completes his journeys.",
         "de": "Umfangreiche Reisen durch Afrika, Asien und Europa."
       },
       "coords": [
@@ -1443,90 +435,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1005 CE",
-            "bn": "1005 CE",
-            "de": "1453 CE"
-          },
-          "bn": {
-            "en": "1005 CE",
-            "bn": "1005 CE",
-            "de": "1453 CE"
-          },
-          "de": "1453 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1005 CE",
-            "bn": "1005 CE",
-            "de": "1453 CE"
-          },
-          "bn": {
-            "en": "1005 CE",
-            "bn": "1005 CE",
-            "de": "1453 CE"
-          },
-          "de": "1453 CE"
-        },
+        "en": "1005 CE",
+        "bn": "1005 CE",
         "de": "1453 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Dar al-Ilm (House of Knowledge)",
-            "bn": "Dar al-Ilm (House of Knowledge)",
-            "de": "Fall von Konstantinopel"
-          },
-          "bn": {
-            "en": "Dar al-Ilm (House of Knowledge)",
-            "bn": "Dar al-Ilm (House of Knowledge)",
-            "de": "Fall von Konstantinopel"
-          },
-          "de": "Fall von Konstantinopel"
-        },
-        "bn": {
-          "en": {
-            "en": "Dar al-Ilm (House of Knowledge)",
-            "bn": "Dar al-Ilm (House of Knowledge)",
-            "de": "Fall von Konstantinopel"
-          },
-          "bn": {
-            "en": "Dar al-Ilm (House of Knowledge)",
-            "bn": "Dar al-Ilm (House of Knowledge)",
-            "de": "Fall von Konstantinopel"
-          },
-          "de": "Fall von Konstantinopel"
-        },
+        "en": "Dar al-Ilm (House of Knowledge)",
+        "bn": "Dar al-Ilm (House of Knowledge)",
         "de": "Fall von Konstantinopel"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Established in Cairo by the Fatimid Caliph al-Hakim.",
-            "bn": "Established in Cairo by the Fatimid Caliph al-Hakim.",
-            "de": "Mehmed der Eroberer nimmt die Stadt ein und macht sie zur osmanischen Hauptstadt."
-          },
-          "bn": {
-            "en": "Established in Cairo by the Fatimid Caliph al-Hakim.",
-            "bn": "Established in Cairo by the Fatimid Caliph al-Hakim.",
-            "de": "Mehmed der Eroberer nimmt die Stadt ein und macht sie zur osmanischen Hauptstadt."
-          },
-          "de": "Mehmed der Eroberer nimmt die Stadt ein und macht sie zur osmanischen Hauptstadt."
-        },
-        "bn": {
-          "en": {
-            "en": "Established in Cairo by the Fatimid Caliph al-Hakim.",
-            "bn": "Established in Cairo by the Fatimid Caliph al-Hakim.",
-            "de": "Mehmed der Eroberer nimmt die Stadt ein und macht sie zur osmanischen Hauptstadt."
-          },
-          "bn": {
-            "en": "Established in Cairo by the Fatimid Caliph al-Hakim.",
-            "bn": "Established in Cairo by the Fatimid Caliph al-Hakim.",
-            "de": "Mehmed der Eroberer nimmt die Stadt ein und macht sie zur osmanischen Hauptstadt."
-          },
-          "de": "Mehmed der Eroberer nimmt die Stadt ein und macht sie zur osmanischen Hauptstadt."
-        },
+        "en": "Established in Cairo by the Fatimid Caliph al-Hakim.",
+        "bn": "Established in Cairo by the Fatimid Caliph al-Hakim.",
         "de": "Mehmed der Eroberer nimmt die Stadt ein und macht sie zur osmanischen Hauptstadt."
       }
     }
@@ -1534,90 +454,18 @@
   "5": [
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1453 CE",
-            "bn": "1453 CE",
-            "de": "1520–1566 CE"
-          },
-          "bn": {
-            "en": "1453 CE",
-            "bn": "1453 CE",
-            "de": "1520–1566 CE"
-          },
-          "de": "1520–1566 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1453 CE",
-            "bn": "1453 CE",
-            "de": "1520–1566 CE"
-          },
-          "bn": {
-            "en": "1453 CE",
-            "bn": "1453 CE",
-            "de": "1520–1566 CE"
-          },
-          "de": "1520–1566 CE"
-        },
+        "en": "1453 CE",
+        "bn": "1453 CE",
         "de": "1520–1566 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Fall of Constantinople",
-            "bn": "Fall of Constantinople",
-            "de": "Süleyman der Prächtige"
-          },
-          "bn": {
-            "en": "Fall of Constantinople",
-            "bn": "Fall of Constantinople",
-            "de": "Süleyman der Prächtige"
-          },
-          "de": "Süleyman der Prächtige"
-        },
-        "bn": {
-          "en": {
-            "en": "Fall of Constantinople",
-            "bn": "Fall of Constantinople",
-            "de": "Süleyman der Prächtige"
-          },
-          "bn": {
-            "en": "Fall of Constantinople",
-            "bn": "Fall of Constantinople",
-            "de": "Süleyman der Prächtige"
-          },
-          "de": "Süleyman der Prächtige"
-        },
+        "en": "Fall of Constantinople",
+        "bn": "Fall of Constantinople",
         "de": "Süleyman der Prächtige"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
-            "bn": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
-            "de": "Höhepunkt der osmanischen Macht, Kultur und territorialen Ausdehnung."
-          },
-          "bn": {
-            "en": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
-            "bn": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
-            "de": "Höhepunkt der osmanischen Macht, Kultur und territorialen Ausdehnung."
-          },
-          "de": "Höhepunkt der osmanischen Macht, Kultur und territorialen Ausdehnung."
-        },
-        "bn": {
-          "en": {
-            "en": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
-            "bn": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
-            "de": "Höhepunkt der osmanischen Macht, Kultur und territorialen Ausdehnung."
-          },
-          "bn": {
-            "en": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
-            "bn": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
-            "de": "Höhepunkt der osmanischen Macht, Kultur und territorialen Ausdehnung."
-          },
-          "de": "Höhepunkt der osmanischen Macht, Kultur und territorialen Ausdehnung."
-        },
+        "en": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
+        "bn": "Mehmed the Conqueror takes the city, making it the Ottoman capital.",
         "de": "Höhepunkt der osmanischen Macht, Kultur und territorialen Ausdehnung."
       },
       "coords": [
@@ -1627,90 +475,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1501 CE",
-            "bn": "1501 CE",
-            "de": "1526 CE"
-          },
-          "bn": {
-            "en": "1501 CE",
-            "bn": "1501 CE",
-            "de": "1526 CE"
-          },
-          "de": "1526 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1501 CE",
-            "bn": "1501 CE",
-            "de": "1526 CE"
-          },
-          "bn": {
-            "en": "1501 CE",
-            "bn": "1501 CE",
-            "de": "1526 CE"
-          },
-          "de": "1526 CE"
-        },
+        "en": "1501 CE",
+        "bn": "1501 CE",
         "de": "1526 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Safavid State founded",
-            "bn": "Safavid State founded",
-            "de": "Schlacht von Panipat"
-          },
-          "bn": {
-            "en": "Safavid State founded",
-            "bn": "Safavid State founded",
-            "de": "Schlacht von Panipat"
-          },
-          "de": "Schlacht von Panipat"
-        },
-        "bn": {
-          "en": {
-            "en": "Safavid State founded",
-            "bn": "Safavid State founded",
-            "de": "Schlacht von Panipat"
-          },
-          "bn": {
-            "en": "Safavid State founded",
-            "bn": "Safavid State founded",
-            "de": "Schlacht von Panipat"
-          },
-          "de": "Schlacht von Panipat"
-        },
+        "en": "Safavid State founded",
+        "bn": "Safavid State founded",
         "de": "Schlacht von Panipat"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
-            "bn": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
-            "de": "Babur gründet das Mogulreich in Indien."
-          },
-          "bn": {
-            "en": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
-            "bn": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
-            "de": "Babur gründet das Mogulreich in Indien."
-          },
-          "de": "Babur gründet das Mogulreich in Indien."
-        },
-        "bn": {
-          "en": {
-            "en": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
-            "bn": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
-            "de": "Babur gründet das Mogulreich in Indien."
-          },
-          "bn": {
-            "en": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
-            "bn": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
-            "de": "Babur gründet das Mogulreich in Indien."
-          },
-          "de": "Babur gründet das Mogulreich in Indien."
-        },
+        "en": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
+        "bn": "Shah Ismail I establishes the Safavid Empire with Twelver Shi'ism.",
         "de": "Babur gründet das Mogulreich in Indien."
       },
       "coords": [
@@ -1720,90 +496,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1526 CE",
-            "bn": "1526 CE",
-            "de": "1588–1629 CE"
-          },
-          "bn": {
-            "en": "1526 CE",
-            "bn": "1526 CE",
-            "de": "1588–1629 CE"
-          },
-          "de": "1588–1629 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1526 CE",
-            "bn": "1526 CE",
-            "de": "1588–1629 CE"
-          },
-          "bn": {
-            "en": "1526 CE",
-            "bn": "1526 CE",
-            "de": "1588–1629 CE"
-          },
-          "de": "1588–1629 CE"
-        },
+        "en": "1526 CE",
+        "bn": "1526 CE",
         "de": "1588–1629 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Mughal Empire founded",
-            "bn": "Mughal Empire founded",
-            "de": "Schah Abbas der Große"
-          },
-          "bn": {
-            "en": "Mughal Empire founded",
-            "bn": "Mughal Empire founded",
-            "de": "Schah Abbas der Große"
-          },
-          "de": "Schah Abbas der Große"
-        },
-        "bn": {
-          "en": {
-            "en": "Mughal Empire founded",
-            "bn": "Mughal Empire founded",
-            "de": "Schah Abbas der Große"
-          },
-          "bn": {
-            "en": "Mughal Empire founded",
-            "bn": "Mughal Empire founded",
-            "de": "Schah Abbas der Große"
-          },
-          "de": "Schah Abbas der Große"
-        },
+        "en": "Mughal Empire founded",
+        "bn": "Mughal Empire founded",
         "de": "Schah Abbas der Große"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
-            "bn": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
-            "de": "Wiederbelebung der safawidischen Macht und Kunst in Persien."
-          },
-          "bn": {
-            "en": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
-            "bn": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
-            "de": "Wiederbelebung der safawidischen Macht und Kunst in Persien."
-          },
-          "de": "Wiederbelebung der safawidischen Macht und Kunst in Persien."
-        },
-        "bn": {
-          "en": {
-            "en": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
-            "bn": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
-            "de": "Wiederbelebung der safawidischen Macht und Kunst in Persien."
-          },
-          "bn": {
-            "en": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
-            "bn": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
-            "de": "Wiederbelebung der safawidischen Macht und Kunst in Persien."
-          },
-          "de": "Wiederbelebung der safawidischen Macht und Kunst in Persien."
-        },
+        "en": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
+        "bn": "Babur defeats the Delhi Sultanate at the First Battle of Panipat.",
         "de": "Wiederbelebung der safawidischen Macht und Kunst in Persien."
       },
       "coords": [
@@ -1813,90 +517,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1648 CE",
-            "bn": "1648 CE",
-            "de": "1632–1653 CE"
-          },
-          "bn": {
-            "en": "1648 CE",
-            "bn": "1648 CE",
-            "de": "1632–1653 CE"
-          },
-          "de": "1632–1653 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1648 CE",
-            "bn": "1648 CE",
-            "de": "1632–1653 CE"
-          },
-          "bn": {
-            "en": "1648 CE",
-            "bn": "1648 CE",
-            "de": "1632–1653 CE"
-          },
-          "de": "1632–1653 CE"
-        },
+        "en": "1648 CE",
+        "bn": "1648 CE",
         "de": "1632–1653 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Completion of Taj Mahal",
-            "bn": "Completion of Taj Mahal",
-            "de": "Bau des Taj Mahal"
-          },
-          "bn": {
-            "en": "Completion of Taj Mahal",
-            "bn": "Completion of Taj Mahal",
-            "de": "Bau des Taj Mahal"
-          },
-          "de": "Bau des Taj Mahal"
-        },
-        "bn": {
-          "en": {
-            "en": "Completion of Taj Mahal",
-            "bn": "Completion of Taj Mahal",
-            "de": "Bau des Taj Mahal"
-          },
-          "bn": {
-            "en": "Completion of Taj Mahal",
-            "bn": "Completion of Taj Mahal",
-            "de": "Bau des Taj Mahal"
-          },
-          "de": "Bau des Taj Mahal"
-        },
+        "en": "Completion of Taj Mahal",
+        "bn": "Completion of Taj Mahal",
         "de": "Bau des Taj Mahal"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Built by Mughal Emperor Shah Jahan.",
-            "bn": "Built by Mughal Emperor Shah Jahan.",
-            "de": "Mogulkaiser Schah Jahan baut das Mausoleum für seine Frau."
-          },
-          "bn": {
-            "en": "Built by Mughal Emperor Shah Jahan.",
-            "bn": "Built by Mughal Emperor Shah Jahan.",
-            "de": "Mogulkaiser Schah Jahan baut das Mausoleum für seine Frau."
-          },
-          "de": "Mogulkaiser Schah Jahan baut das Mausoleum für seine Frau."
-        },
-        "bn": {
-          "en": {
-            "en": "Built by Mughal Emperor Shah Jahan.",
-            "bn": "Built by Mughal Emperor Shah Jahan.",
-            "de": "Mogulkaiser Schah Jahan baut das Mausoleum für seine Frau."
-          },
-          "bn": {
-            "en": "Built by Mughal Emperor Shah Jahan.",
-            "bn": "Built by Mughal Emperor Shah Jahan.",
-            "de": "Mogulkaiser Schah Jahan baut das Mausoleum für seine Frau."
-          },
-          "de": "Mogulkaiser Schah Jahan baut das Mausoleum für seine Frau."
-        },
+        "en": "Built by Mughal Emperor Shah Jahan.",
+        "bn": "Built by Mughal Emperor Shah Jahan.",
         "de": "Mogulkaiser Schah Jahan baut das Mausoleum für seine Frau."
       },
       "coords": [
@@ -1908,90 +540,18 @@
   "6": [
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1947 CE",
-            "bn": "1947 CE",
-            "de": "1924 CE"
-          },
-          "bn": {
-            "en": "1947 CE",
-            "bn": "1947 CE",
-            "de": "1924 CE"
-          },
-          "de": "1924 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1947 CE",
-            "bn": "1947 CE",
-            "de": "1924 CE"
-          },
-          "bn": {
-            "en": "1947 CE",
-            "bn": "1947 CE",
-            "de": "1924 CE"
-          },
-          "de": "1924 CE"
-        },
+        "en": "1947 CE",
+        "bn": "1947 CE",
         "de": "1924 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Independence of Pakistan",
-            "bn": "Independence of Pakistan",
-            "de": "Abschaffung des Kalifats"
-          },
-          "bn": {
-            "en": "Independence of Pakistan",
-            "bn": "Independence of Pakistan",
-            "de": "Abschaffung des Kalifats"
-          },
-          "de": "Abschaffung des Kalifats"
-        },
-        "bn": {
-          "en": {
-            "en": "Independence of Pakistan",
-            "bn": "Independence of Pakistan",
-            "de": "Abschaffung des Kalifats"
-          },
-          "bn": {
-            "en": "Independence of Pakistan",
-            "bn": "Independence of Pakistan",
-            "de": "Abschaffung des Kalifats"
-          },
-          "de": "Abschaffung des Kalifats"
-        },
+        "en": "Independence of Pakistan",
+        "bn": "Independence of Pakistan",
         "de": "Abschaffung des Kalifats"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Creation of a sovereign state for Muslims in South Asia.",
-            "bn": "Creation of a sovereign state for Muslims in South Asia.",
-            "de": "Die Türkische Republik unter Atatürk schafft das osmanische Kalifat ab."
-          },
-          "bn": {
-            "en": "Creation of a sovereign state for Muslims in South Asia.",
-            "bn": "Creation of a sovereign state for Muslims in South Asia.",
-            "de": "Die Türkische Republik unter Atatürk schafft das osmanische Kalifat ab."
-          },
-          "de": "Die Türkische Republik unter Atatürk schafft das osmanische Kalifat ab."
-        },
-        "bn": {
-          "en": {
-            "en": "Creation of a sovereign state for Muslims in South Asia.",
-            "bn": "Creation of a sovereign state for Muslims in South Asia.",
-            "de": "Die Türkische Republik unter Atatürk schafft das osmanische Kalifat ab."
-          },
-          "bn": {
-            "en": "Creation of a sovereign state for Muslims in South Asia.",
-            "bn": "Creation of a sovereign state for Muslims in South Asia.",
-            "de": "Die Türkische Republik unter Atatürk schafft das osmanische Kalifat ab."
-          },
-          "de": "Die Türkische Republik unter Atatürk schafft das osmanische Kalifat ab."
-        },
+        "en": "Creation of a sovereign state for Muslims in South Asia.",
+        "bn": "Creation of a sovereign state for Muslims in South Asia.",
         "de": "Die Türkische Republik unter Atatürk schafft das osmanische Kalifat ab."
       },
       "coords": [
@@ -2001,90 +561,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1969 CE",
-            "bn": "1969 CE",
-            "de": "1947 CE"
-          },
-          "bn": {
-            "en": "1969 CE",
-            "bn": "1969 CE",
-            "de": "1947 CE"
-          },
-          "de": "1947 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1969 CE",
-            "bn": "1969 CE",
-            "de": "1947 CE"
-          },
-          "bn": {
-            "en": "1969 CE",
-            "bn": "1969 CE",
-            "de": "1947 CE"
-          },
-          "de": "1947 CE"
-        },
+        "en": "1969 CE",
+        "bn": "1969 CE",
         "de": "1947 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Formation of the OIC",
-            "bn": "Formation of the OIC",
-            "de": "Teilung Indiens"
-          },
-          "bn": {
-            "en": "Formation of the OIC",
-            "bn": "Formation of the OIC",
-            "de": "Teilung Indiens"
-          },
-          "de": "Teilung Indiens"
-        },
-        "bn": {
-          "en": {
-            "en": "Formation of the OIC",
-            "bn": "Formation of the OIC",
-            "de": "Teilung Indiens"
-          },
-          "bn": {
-            "en": "Formation of the OIC",
-            "bn": "Formation of the OIC",
-            "de": "Teilung Indiens"
-          },
-          "de": "Teilung Indiens"
-        },
+        "en": "Formation of the OIC",
+        "bn": "Formation of the OIC",
         "de": "Teilung Indiens"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Organization of Islamic Cooperation is established.",
-            "bn": "Organization of Islamic Cooperation is established.",
-            "de": "Gründung Pakistans als separater Staat für Muslime."
-          },
-          "bn": {
-            "en": "Organization of Islamic Cooperation is established.",
-            "bn": "Organization of Islamic Cooperation is established.",
-            "de": "Gründung Pakistans als separater Staat für Muslime."
-          },
-          "de": "Gründung Pakistans als separater Staat für Muslime."
-        },
-        "bn": {
-          "en": {
-            "en": "Organization of Islamic Cooperation is established.",
-            "bn": "Organization of Islamic Cooperation is established.",
-            "de": "Gründung Pakistans als separater Staat für Muslime."
-          },
-          "bn": {
-            "en": "Organization of Islamic Cooperation is established.",
-            "bn": "Organization of Islamic Cooperation is established.",
-            "de": "Gründung Pakistans als separater Staat für Muslime."
-          },
-          "de": "Gründung Pakistans als separater Staat für Muslime."
-        },
+        "en": "Organization of Islamic Cooperation is established.",
+        "bn": "Organization of Islamic Cooperation is established.",
         "de": "Gründung Pakistans als separater Staat für Muslime."
       },
       "coords": [
@@ -2094,90 +582,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "1979 CE",
-            "bn": "1979 CE",
-            "de": "1979 CE"
-          },
-          "bn": {
-            "en": "1979 CE",
-            "bn": "1979 CE",
-            "de": "1979 CE"
-          },
-          "de": "1979 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "1979 CE",
-            "bn": "1979 CE",
-            "de": "1979 CE"
-          },
-          "bn": {
-            "en": "1979 CE",
-            "bn": "1979 CE",
-            "de": "1979 CE"
-          },
-          "de": "1979 CE"
-        },
+        "en": "1979 CE",
+        "bn": "1979 CE",
         "de": "1979 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Iranian Revolution",
-            "bn": "Iranian Revolution",
-            "de": "Islamische Revolution in Iran"
-          },
-          "bn": {
-            "en": "Iranian Revolution",
-            "bn": "Iranian Revolution",
-            "de": "Islamische Revolution in Iran"
-          },
-          "de": "Islamische Revolution in Iran"
-        },
-        "bn": {
-          "en": {
-            "en": "Iranian Revolution",
-            "bn": "Iranian Revolution",
-            "de": "Islamische Revolution in Iran"
-          },
-          "bn": {
-            "en": "Iranian Revolution",
-            "bn": "Iranian Revolution",
-            "de": "Islamische Revolution in Iran"
-          },
-          "de": "Islamische Revolution in Iran"
-        },
+        "en": "Iranian Revolution",
+        "bn": "Iranian Revolution",
         "de": "Islamische Revolution in Iran"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Establishment of the Islamic Republic of Iran.",
-            "bn": "Establishment of the Islamic Republic of Iran.",
-            "de": "Sturz der Monarchie und Gründung einer islamischen Republik."
-          },
-          "bn": {
-            "en": "Establishment of the Islamic Republic of Iran.",
-            "bn": "Establishment of the Islamic Republic of Iran.",
-            "de": "Sturz der Monarchie und Gründung einer islamischen Republik."
-          },
-          "de": "Sturz der Monarchie und Gründung einer islamischen Republik."
-        },
-        "bn": {
-          "en": {
-            "en": "Establishment of the Islamic Republic of Iran.",
-            "bn": "Establishment of the Islamic Republic of Iran.",
-            "de": "Sturz der Monarchie und Gründung einer islamischen Republik."
-          },
-          "bn": {
-            "en": "Establishment of the Islamic Republic of Iran.",
-            "bn": "Establishment of the Islamic Republic of Iran.",
-            "de": "Sturz der Monarchie und Gründung einer islamischen Republik."
-          },
-          "de": "Sturz der Monarchie und Gründung einer islamischen Republik."
-        },
+        "en": "Establishment of the Islamic Republic of Iran.",
+        "bn": "Establishment of the Islamic Republic of Iran.",
         "de": "Sturz der Monarchie und Gründung einer islamischen Republik."
       },
       "coords": [
@@ -2187,90 +603,18 @@
     },
     {
       "year": {
-        "en": {
-          "en": {
-            "en": "2020s",
-            "bn": "2020s",
-            "de": "2010–2012 CE"
-          },
-          "bn": {
-            "en": "2020s",
-            "bn": "2020s",
-            "de": "2010–2012 CE"
-          },
-          "de": "2010–2012 CE"
-        },
-        "bn": {
-          "en": {
-            "en": "2020s",
-            "bn": "2020s",
-            "de": "2010–2012 CE"
-          },
-          "bn": {
-            "en": "2020s",
-            "bn": "2020s",
-            "de": "2010–2012 CE"
-          },
-          "de": "2010–2012 CE"
-        },
+        "en": "2020s",
+        "bn": "2020s",
         "de": "2010–2012 CE"
       },
       "title": {
-        "en": {
-          "en": {
-            "en": "Global Population",
-            "bn": "Global Population",
-            "de": "Arabischer Frühling"
-          },
-          "bn": {
-            "en": "Global Population",
-            "bn": "Global Population",
-            "de": "Arabischer Frühling"
-          },
-          "de": "Arabischer Frühling"
-        },
-        "bn": {
-          "en": {
-            "en": "Global Population",
-            "bn": "Global Population",
-            "de": "Arabischer Frühling"
-          },
-          "bn": {
-            "en": "Global Population",
-            "bn": "Global Population",
-            "de": "Arabischer Frühling"
-          },
-          "de": "Arabischer Frühling"
-        },
+        "en": "Global Population",
+        "bn": "Global Population",
         "de": "Arabischer Frühling"
       },
       "desc": {
-        "en": {
-          "en": {
-            "en": "Muslims reach over 1.9 billion worldwide.",
-            "bn": "Muslims reach over 1.9 billion worldwide.",
-            "de": "Eine Welle von Protesten und Revolutionen in der gesamten arabischen Welt."
-          },
-          "bn": {
-            "en": "Muslims reach over 1.9 billion worldwide.",
-            "bn": "Muslims reach over 1.9 billion worldwide.",
-            "de": "Eine Welle von Protesten und Revolutionen in der gesamten arabischen Welt."
-          },
-          "de": "Eine Welle von Protesten und Revolutionen in der gesamten arabischen Welt."
-        },
-        "bn": {
-          "en": {
-            "en": "Muslims reach over 1.9 billion worldwide.",
-            "bn": "Muslims reach over 1.9 billion worldwide.",
-            "de": "Eine Welle von Protesten und Revolutionen in der gesamten arabischen Welt."
-          },
-          "bn": {
-            "en": "Muslims reach over 1.9 billion worldwide.",
-            "bn": "Muslims reach over 1.9 billion worldwide.",
-            "de": "Eine Welle von Protesten und Revolutionen in der gesamten arabischen Welt."
-          },
-          "de": "Eine Welle von Protesten und Revolutionen in der gesamten arabischen Welt."
-        },
+        "en": "Muslims reach over 1.9 billion worldwide.",
+        "bn": "Muslims reach over 1.9 billion worldwide.",
         "de": "Eine Welle von Protesten und Revolutionen in der gesamten arabischen Welt."
       },
       "coords": [
