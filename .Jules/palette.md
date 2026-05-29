@@ -9,3 +9,7 @@
 ## 2026-05-27 - German Localization Support
 **Learning:** Multi-language support in vanilla JS apps requires careful management of state and consistent update of all UI elements (timeline, map, sidebar).
 **Action:** Implemented a cycling language toggle (En -> Bn -> De) and updated all data fetch/display logic to use a centralized `localize` function.
+
+## 2024-05-25 - Smooth Sidebar Transitions and Selection Feedback
+**Learning:** Instant content swaps in a sidebar can feel jarring and break the user's flow. Introducing a brief fade transition (e.g., 150ms) provides a subtle visual cue that the content is changing, making the interface feel more polished and responsive. Additionally, visual selection feedback in lists (like events) is crucial for maintaining the connection between the selected list item and its representation on a map.
+**Action:** Implemented opacity transitions for sidebar content updates and added a ".selected" state for event items to provide immediate visual feedback.
