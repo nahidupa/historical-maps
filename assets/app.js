@@ -717,11 +717,11 @@
         const vidsHtml = s.videos ? s.videos.map(v => `
             <div class="detail-video">
                 <div class="video-container">
-                    <iframe
-                        src="${getYoutubeEmbedUrl(v.url)}"
-                        title="${localize(v.title)}"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    <iframe 
+                        src="${getYoutubeEmbedUrl(v.url)}" 
+                        title="${localize(v.title)}" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
                     </iframe>
                 </div>
@@ -873,11 +873,11 @@
         const vidsHtml = g.videos ? g.videos.map(v => `
             <div class="detail-video">
                 <div class="video-container">
-                    <iframe
-                        src="${getYoutubeEmbedUrl(v.url)}"
-                        title="${localize(v.title)}"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    <iframe 
+                        src="${getYoutubeEmbedUrl(v.url)}" 
+                        title="${localize(v.title)}" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
                     </iframe>
                 </div>
